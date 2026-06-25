@@ -1,21 +1,112 @@
+import os
+import sys
 import streamlit as st
+
+# Make app/ importable so ui_components resolves correctly
+sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
+from ui_components import inject_css, render_section_label
 
 st.set_page_config(
     page_title="CropGuardian AI",
     page_icon="🌿",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="expanded",
 )
+inject_css()
 
-st.title("🌿 CropGuardian AI")
+# ─── Sidebar ─────────────────────────────────────────────────────────────────
+with st.sidebar:
+    st.markdown("### 🌿 CropGuardian AI")
+    st.caption("AI-powered crop disease diagnosis platform")
+    st.divider()
+    st.markdown("**Navigate**")
+    st.page_link("pages/1_Disease_Detection.py", label="Disease Detection",  icon="🔍")
+    st.page_link("pages/2_Feedback.py",          label="Submit Feedback",    icon="📝")
+    st.page_link("pages/3_History.py",           label="Prediction History", icon="📜")
+    st.page_link("pages/4_Model_Insights.py",    label="Model Insights",     icon="📊")
+
+# ─── Hero Section ─────────────────────────────────────────────────────────────
 st.markdown("""
-Welcome to the **CropGuardian AI** end-to-end MVP.
+<div style="padding: 2rem 0 1rem 0;">
+    <div style="font-size:0.78rem;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:#4ade80;margin-bottom:12px;">
+        AI-Powered Agricultural Intelligence
+    </div>
+    <div style="font-size:2.6rem;font-weight:800;letter-spacing:-0.03em;color:#f1f5f9;line-height:1.15;margin-bottom:16px;">
+        Instant Crop Disease<br>Diagnosis & Advisory
+    </div>
+    <div style="font-size:1.05rem;color:#9ba3b2;max-width:580px;line-height:1.7;margin-bottom:28px;">
+        Upload a photo of any crop leaf. CropGuardian AI detects the disease,
+        evaluates environmental risk using real-time weather, and generates
+        expert-level treatment plans — powered by MobileNetV2 and Gemini AI.
+    </div>
+</div>
+""", unsafe_allow_html=True)
 
-Use the sidebar to navigate between:
-* **Disease Detection:** Upload an image for real-time predictions and immediate feedback.
-* **Feedback:** Submit manual misclassification reports to improve the model.
-* **History:** View past predictions securely logged in the system.
-* **Model Insights:** View comprehensive analytics from the Evaluation Pipeline.
+col_cta1, col_cta2, _ = st.columns([1, 1, 3])
+with col_cta1:
+    st.page_link("pages/1_Disease_Detection.py", label="→ Start Diagnosis", icon="🔍")
+with col_cta2:
+    st.page_link("pages/4_Model_Insights.py", label="View Model Stats", icon="📊")
 
-👈 Select a page from the sidebar to get started!
-""")
+st.divider()
+
+# ─── How It Works ─────────────────────────────────────────────────────────────
+render_section_label("How It Works")
+st.markdown("")
+
+steps = [
+    ("📷", "Upload Image",        "Take or upload a photo of an affected crop leaf — JPG or PNG."),
+    ("🤖", "AI Detection",        "MobileNetV2 classifies the disease across 38 crop-disease classes with confidence scoring."),
+    ("🌤", "Weather Intelligence", "Real-time weather (temp, humidity, rain, wind) is fetched for your farm location via Open-Meteo."),
+    ("⚠️",  "Risk Assessment",    "Environmental risk is calculated: fungal, bacterial, and heat-stress likelihood scores."),
+    ("💊", "Gemini Advisory",     "Gemini 2.5 Flash generates a tailored treatment plan, prevention steps, and fertilizer guidance."),
+]
+
+cols = st.columns(5, gap="medium")
+for col, (icon, title, desc) in zip(cols, steps):
+    with col:
+        with st.container(border=True):
+            st.markdown(f'<div class="cg-step-icon">{icon}</div>', unsafe_allow_html=True)
+            st.markdown(f'<div class="cg-step-title">{title}</div>', unsafe_allow_html=True)
+            st.markdown(f'<div class="cg-step-desc">{desc}</div>', unsafe_allow_html=True)
+
+st.divider()
+
+# ─── Key Stats ────────────────────────────────────────────────────────────────
+render_section_label("Platform Capabilities")
+st.markdown("")
+
+sc1, sc2, sc3, sc4 = st.columns(4)
+
+with sc1:
+    with st.container(border=True):
+        st.markdown('<div class="cg-stat-num">38</div><div class="cg-stat-lbl">Disease Classes</div>', unsafe_allow_html=True)
+with sc2:
+    with st.container(border=True):
+        st.markdown('<div class="cg-stat-num">14</div><div class="cg-stat-lbl">Crop Species</div>', unsafe_allow_html=True)
+with sc3:
+    with st.container(border=True):
+        st.markdown('<div class="cg-stat-num">5</div><div class="cg-stat-lbl">AI Agents</div>', unsafe_allow_html=True)
+with sc4:
+    with st.container(border=True):
+        st.markdown('<div class="cg-stat-num">2</div><div class="cg-stat-lbl">Orchestration Engines</div>', unsafe_allow_html=True)
+
+st.divider()
+
+# ─── Architecture Note ────────────────────────────────────────────────────────
+render_section_label("Multi-Agent Architecture")
+
+arch_col1, arch_col2 = st.columns([2, 1], gap="large")
+with arch_col1:
+    st.markdown("""
+    The system runs a **sequential multi-agent pipeline** orchestrated by either the
+    **Google ADK Workflow** (Gemini-powered agents) or the **Legacy Coordinator** (deterministic Python).
+
+    Both engines produce identical output schemas. The ADK engine automatically falls back to
+    the Legacy Coordinator if the Gemini API is unavailable — ensuring zero downtime.
+    """)
+with arch_col2:
+    with st.container(border=True):
+        st.caption("**Pipeline Trace**")
+        for step in ["DiseaseDetectionAgent", "WeatherAgent", "SeverityAgent", "EnvironmentalRiskAgent", "AdvisoryAgent"]:
+            st.markdown(f"`{step}`")
