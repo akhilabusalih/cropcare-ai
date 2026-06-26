@@ -1,8 +1,13 @@
 import os
 import sys
+import uuid
 import streamlit as st
+from dotenv import load_dotenv
+from src.utils.logger import log_environment_snapshot, log_config_snapshot, cleanup_temp_files
+from src.services.knowledge_base.kb_manager import KnowledgeBaseManager
 
 # Make app/ importable so ui_components resolves correctly
+load_dotenv()
 sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
 from ui_components import inject_css, render_section_label
 
@@ -14,6 +19,10 @@ st.set_page_config(
 )
 inject_css()
 
+# Session Management
+if "session_id" not in st.session_state:
+    st.session_state["session_id"] = str(uuid.uuid4())
+
 # ─── Sidebar ─────────────────────────────────────────────────────────────────
 with st.sidebar:
     st.markdown("### 🌿 CropGuardian AI")
@@ -24,6 +33,22 @@ with st.sidebar:
     st.page_link("pages/2_Feedback.py",          label="Submit Feedback",    icon="📝")
     st.page_link("pages/3_History.py",           label="Prediction History", icon="📜")
     st.page_link("pages/4_Model_Insights.py",    label="Model Insights",     icon="📊")
+
+    st.divider()
+    st.markdown("**🛠️ Developer Mode**")
+    st.session_state["dev_mode"] = st.toggle("Enable Developer Mode", value=st.session_state.get("dev_mode", False))
+
+# Log Environment on startup and cleanup temp files
+log_environment_snapshot()
+cleanup_temp_files(max_age_hours=24)
+
+# Initialize and validate Knowledge Base on application startup
+if "kb_manager" not in st.session_state:
+    try:
+        st.session_state["kb_manager"] = KnowledgeBaseManager(validate_on_startup=True)
+    except Exception as e:
+        st.error(f"Critical Error: Failed to initialize Knowledge Base. {e}")
+        st.stop()
 
 # ─── Hero Section ─────────────────────────────────────────────────────────────
 st.markdown("""

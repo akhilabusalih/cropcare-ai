@@ -1,8 +1,0 @@
-timestamp,image_name,predicted_class,confidence,confidence_level,model_version
-2026-06-24T16:41:03,00f1cdb1-82bb-4924-b5cb-768621f07187___RS_HL 5960.JPG,Soybean___healthy,93.75,High,crop_disease_mobilenetv2_v1
-2026-06-24T16:42:44,0b351ad3-5a0c-4a62-b803-9f17fed7d3ea___FAM_B.Msls 1106_final_masked.jpg,Grape___Esca_(Black_Measles),100.0,High,crop_disease_mobilenetv2_v1
-2026-06-24T22:41:06,0a42f1ea-8c85-458b-bc8f-c17621515a66___MD_Powd.M 0098.JPG,Grape___Leaf_blight_(Isariopsis_Leaf_Spot),70.74,Medium,crop_disease_mobilenetv2_v1
-2026-06-24T22:43:24,0a42f1ea-8c85-458b-bc8f-c17621515a66___MD_Powd.M 0098.JPG,Grape___Leaf_blight_(Isariopsis_Leaf_Spot),70.74,Medium,crop_disease_mobilenetv2_v1
-2026-06-24T22:45:07,0d8daec1-3344-4554-9cfc-04131411be2f___UMD_Powd.M 0207.JPG,Squash___Powdery_mildew,68.84,Low,crop_disease_mobilenetv2_v1
-2026-06-25T12:13:25,0a818f22-929b-4ef8-bcdb-ac86e909ba26___RS_HL 5438.JPG,Blueberry___healthy,100.0,High,crop_disease_mobilenetv2_v1
-2026-06-25T12:21:51,0c7c7992-fb1c-444b-b226-69de186cea14___JR_FrgE.S 8627.JPG,Apple___Black_rot,100.0,High,crop_disease_mobilenetv2_v1

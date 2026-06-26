@@ -30,7 +30,7 @@ class TestAdvisoryAgent(unittest.TestCase):
         result = agent.generate_advice("Tomato___healthy", "None")
         
         self.assertEqual(result["source"], "Fallback Knowledge Base")
-        self.assertIn("No treatment required.", result["treatment"])
+        self.assertEqual(result["treatment"], [])
 
     @patch('os.getenv', return_value="FAKE_KEY")
     @patch('agents.advisory_agent.advisory_agent.GENAI_AVAILABLE', True)
@@ -50,7 +50,10 @@ class TestAdvisoryAgent(unittest.TestCase):
             "treatment": ["Mocked treatment"],
             "prevention": ["Mocked prevention"],
             "fertilizer_recommendations": ["Mocked fert"],
-            "expert_consultation": "Mocked consultation"
+            "weather_based_warnings": "Mocked warnings",
+            "immediate_actions": "Mocked actions",
+            "expert_consultation": "Mocked consultation",
+            "source": "Gemini 2.5 Flash"
         })
         mock_client.models.generate_content.return_value = mock_response
         

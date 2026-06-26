@@ -1,0 +1,1190 @@
+[
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Intermediate"
+    },
+    "disease_id": "GRAPE_001",
+    "disease_name": "Grape_Black_Rot",
+    "common_name": "Black Rot",
+    "scientific_name": "Guignardia bidwellii",
+    "crop": "Grape",
+    "disease_type": "Fungal",
+    "pathogen_type": "Fungus",
+    "overview": {
+      "description": "Black Rot is one of the most economically devastating fungal diseases of grapes in warm, humid climates. It attacks all green parts of the vine but is most destructive to the fruit, causing berries to rot, shrivel, and turn into hard black mummies.",
+      "importance": "Critical. Unmanaged, Black Rot can destroy an entire vineyard's crop within a matter of days under favorable weather conditions.",
+      "affected_parts": [
+        "Berries",
+        "Leaves",
+        "Shoots",
+        "Tendrils"
+      ],
+      "host_plants": [
+        "Cultivated Grape (Vitis vinifera, V. labrusca)",
+        "Wild Grape"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Small (2-10 mm), circular, tan spots with dark brown margins appear on leaves in the spring.",
+        "Tiny black pimples (pycnidia) form in a ring inside the tan leaf spots.",
+        "Small, round, light brown spots appear on developing green berries."
+      ],
+      "moderate": [
+        "Berry spots expand rapidly, sinking in and turning the entire grape brown.",
+        "Elliptical, sunken black cankers form on young shoots and tendrils."
+      ],
+      "severe": [
+        "Infected berries shrivel within days into hard, black, raisin-like 'mummies' that remain firmly attached to the bunch.",
+        "Mummies are completely covered in tiny black spore-producing pimples."
+      ],
+      "leaf": [
+        "Tan, circular spots with dark borders and tiny black pimples in the center."
+      ],
+      "stem": [
+        "Sunken black cankers on green shoots and tendrils."
+      ],
+      "fruit": [
+        "Rapid brown rot turning into hard, black, shriveled mummies attached to the stem."
+      ],
+      "flower": [
+        "Blossoms can be infected and blight, but it is less common than fruit infection."
+      ],
+      "root": []
+    },
+    "causes": {
+      "primary_cause": "Ascospores splashing from overwintered mummies during spring rains onto vulnerable new growth.",
+      "pathogen": "Guignardia bidwellii",
+      "survival_mechanism": "Overwinters inside mummified berries left on the trellis or on the ground, and in cane cankers.",
+      "infection_process": "Spring rains trigger spore release. Spores land on green tissue and require specific durations of leaf wetness and temperature to germinate and penetrate. Berries are highly susceptible from bloom until about 4-5 weeks after bloom."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Overwintering in mummies.",
+        "Primary infection: Spring rains release ascospores causing leaf spots.",
+        "Secondary infection: Leaf spots and cane cankers release conidia during summer rains, washing onto developing berries.",
+        "Berries mummify and act as the overwintering source for next year."
+      ],
+      "spread_cycle": "Polycyclic. Multiple generations occur throughout the early summer as long as rains continue."
+    },
+    "transmission": {
+      "methods": [
+        "Rain splash",
+        "Wind-driven rain"
+      ],
+      "vectors": [],
+      "common_sources": [
+        "Mummified grapes left in the canopy from the previous year (the highest risk source).",
+        "Wild grapes nearby."
+      ]
+    },
+    "risk_factors": {
+      "humidity": "High",
+      "rainfall": "Extreme",
+      "poor_airflow": "High",
+      "overhead_irrigation": "Extreme",
+      "dense_canopy": "Medium"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "21°C - 27°C (70°F - 80°F)",
+        "notes": "At 27°C (80°F), only 6 hours of leaf wetness are required for infection."
+      },
+      "humidity": {
+        "optimal_range": "80% - 100%",
+        "notes": "High humidity keeps the canopy wet longer, facilitating infection."
+      },
+      "rainfall": "Rain is absolutely essential for spore release and dispersal.",
+      "wind": "Spreads spores to neighboring vines.",
+      "soil_conditions": "Not applicable.",
+      "leaf_wetness": "Critical. Follows a specific temperature/wetness curve. (e.g., 6 hours at 80°F, or 24 hours at 50°F)."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 10,
+        "max": 32
+      },
+      "humidity": {
+        "min": 80,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 6
+    },
+    "weather_influence": {
+      "high_humidity": "Extends the wetness period, ensuring spore germination.",
+      "rain": "The trigger for the entire disease cycle. No rain = no Black Rot.",
+      "high_temperature": "Accelerates the rotting of berries. A berry can mummify in 3 days at 85°F.",
+      "low_temperature": "Slows infection, but it can still occur if leaves stay wet for 24+ hours.",
+      "wind": "Dries out the canopy, ending the infection window.",
+      "dry_conditions": "Halts the disease. Berries become naturally immune about 5 weeks post-bloom, even if it rains."
+    },
+    "severity_levels": {
+      "low": "A few leaf spots appearing in spring. Good opportunity for early control.",
+      "medium": "Leaf spots common; occasional berry showing brown rot. Immediate spray required.",
+      "high": "Widespread berry rot occurring across bunches. Spreading rapidly.",
+      "critical": "Total bunch destruction. Berries mummified. Complete crop loss."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "If you see leaf spots and the grapes have just bloomed, apply a systemic fungicide immediately before the next rain."
+      ],
+      "within_24_hours": [
+        "Walk the vineyard and physically drop any remaining mummies from the trellis to the ground."
+      ],
+      "within_one_week": [
+        "Execute canopy management (shoot positioning, leaf pulling) around the fruiting zone to drastically improve airflow and drying times."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Myclobutanil, Tebuconazole (Sterol inhibitors - excellent curative reach up to 72 hours post-infection).",
+        "Mancozeb, Captan, Ziram (Excellent preventative protectants).",
+        "Azoxystrobin (Strobilurins - highly effective but prone to resistance)."
+      ],
+      "biological": [
+        "Not highly effective under high disease pressure."
+      ],
+      "organic": [
+        "Copper formulations (Effective, but repeated use can stunt vines).",
+        "Strict vineyard sanitation is the most effective organic tool."
+      ],
+      "integrated_management": [
+        "Apply protectants from 2 weeks pre-bloom through 4 weeks post-bloom. This is the critical window. Once berries begin changing color (veraison), they are immune to Black Rot."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "MUMMY REMOVAL: Removing mummies from the vines during winter pruning eliminates 95% of the primary inoculum.",
+        "Cultivate the soil in early spring to bury fallen mummies."
+      ],
+      "irrigation": [
+        "Use drip irrigation. Never use overhead sprinklers."
+      ],
+      "crop_rotation": [
+        "Not applicable."
+      ],
+      "air_circulation": [
+        "Pull leaves around the fruiting zone immediately after bloom to allow rapid drying of bunches."
+      ],
+      "resistant_varieties": [
+        "Vitis vinifera (Chardonnay, Cabernet, etc.) is highly susceptible. Some American hybrids (Concord, Norton) show moderate resistance."
+      ],
+      "seasonal_practices": [
+        "Focus all spraying efforts in the 6-week window surrounding bloom."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Avoid excess vigor. Dense, shaded canopies take hours to dry, inviting infection.",
+      "phosphorus": "Standard.",
+      "potassium": "Standard.",
+      "calcium": "Adequate calcium helps toughen berry skins, slightly delaying infection.",
+      "magnesium": "Standard.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Spring rains cause leaf spots.",
+        "Spores from leaf spots wash onto newly formed berries.",
+        "Berries rot and turn into hard black mummies.",
+        "Crop is entirely lost and mummies prepare to infect next year's crop."
+      ],
+      "treated": [
+        "Fungicides applied around bloom protect the berries.",
+        "Berries mature past the 5-week susceptibility window.",
+        "Crop is harvested clean and healthy."
+      ]
+    },
+    "recovery_indicators": [
+      "No new leaf spots form on new growth.",
+      "Berries remain green, firm, and continue to size up without browning.",
+      "Berries reach veraison (color change), at which point they are naturally immune."
+    ],
+    "recovery": {
+      "estimated_days": "7-14 (for protective window to close)",
+      "success_rate": "High",
+      "depends_on": [
+        "Pre-Bloom Fungicide Timing",
+        "Sanitation",
+        "Weather"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Easily 80% to 100% in warm, wet regions if the bloom-time spray window is missed.",
+      "quality_loss": "Mummified clusters cannot be mechanically harvested or processed for wine/juice.",
+      "financial_impact": "Total loss of revenue for the season."
+    },
+    "monitoring": {
+      "inspection_frequency": "Weekly starting at bud break. Daily during the 2 weeks pre-bloom and 4 weeks post-bloom.",
+      "warning_signs": [
+        "Frequent thunderstorms during bloom.",
+        "Finding mummified grapes still hanging on the wires from last year."
+      ],
+      "recovery_signs": [
+        "Grapes reaching the 'pea-size' stage clean and firm."
+      ]
+    },
+    "faq": [
+      {
+        "question": "Can I spray something to cure the black, shriveled grapes?",
+        "answer": "No. Once a grape begins to rot and mummify, it is dead and cannot be saved. Fungicides only protect the healthy grapes from becoming infected."
+      },
+      {
+        "question": "Why did my grapes rot right before I was going to pick them?",
+        "answer": "If they rotted right before harvest, it was likely Botrytis (Bunch Rot) or Sour Rot, NOT Black Rot. Black Rot infects green berries early in the season and shrivels them weeks before harvest."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "Mummies left hanging on the trellis release spores much later into the summer than mummies on the ground, making them significantly more dangerous to the fruit."
+      ],
+      "similar_diseases": [
+        "Phomopsis Cane and Leaf Spot",
+        "Botrytis Bunch Rot"
+      ],
+      "differential_diagnosis": [
+        "Phomopsis causes tiny black spots with yellow halos on leaves, not the larger tan spots with black pimples. Botrytis rots ripening fruit and produces fuzzy gray mold, while Black Rot attacks green fruit and produces hard black mummies."
+      ],
+      "long_term_management": [
+        "Meticulous winter pruning and mummy removal combined with precise canopy management."
+      ]
+    },
+    "ai_context": {
+      "summary": "Black Rot is a severe fungal disease of grapes causing brown leaf spots and hard, black mummified berries. Infection strictly requires rain and occurs mostly around bloom.",
+      "key_points": [
+        "Mummified berries are the primary source.",
+        "Attacks green berries; mature berries are immune.",
+        "Rain is required for spread.",
+        "Crucial spray window is bloom to 4-weeks post-bloom."
+      ],
+      "high_priority_actions": [
+        "Demand that user removes mummies hanging on the vine.",
+        "Advise fungicide applications IMMEDIATELY if rain is expected near bloom.",
+        "Suggest leaf pulling for airflow."
+      ],
+      "weather_considerations": [
+        "Extreme Risk: Rain forecasted during the 2 weeks following grape bloom with temps 21-27°C."
+      ],
+      "common_mistakes": [
+        "Spraying too late in the summer (grapes are already immune).",
+        "Leaving mummies on the trellis during winter pruning."
+      ],
+      "follow_up_recommendations": [
+        "Ask if they have pulled leaves in the fruiting zone yet.",
+        "Remind them that once berries change color, Black Rot is no longer a threat."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user that {disease_name} destroys green berries, turning them into hard {symptoms.severe}. Emphasize that the disease comes directly from last year's leftover grapes.",
+      "weather_analysis": "The upcoming rain combined with temps around {temperature_data} creates a massive risk for {disease_name}. Calculate if the vines are in the critical bloom window to recommend immediate action.",
+      "treatment_plan": "Develop a rapid response plan. Instruct the user to apply {treatment.chemical} before the next rain event, and emphasize the physical removal of any remaining mummies from the vine.",
+      "followup": "Ask the user to check the bunches: are the berries still green and hard, or have they started to soften and change color? (This determines if they still need to spray)."
+    },
+    "references": [
+      "Cornell University: Black Rot of Grape",
+      "Ohio State University Extension: Managing Black Rot"
+    ],
+    "model_mapping": {
+      "cnn_class": "Grape___Black_Rot",
+      "aliases": [
+        "Grape Black Rot",
+        "Grape Grape Black Rot"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Advanced"
+    },
+    "disease_id": "GRAPE_002",
+    "disease_name": "Grape_Esca",
+    "common_name": "Esca (Black Measles)",
+    "scientific_name": "Phaeomoniella chlamydospora, Phaeoacremonium aleophilum, Fomitiporia spp.",
+    "crop": "Grape",
+    "disease_type": "Fungal",
+    "pathogen_type": "Fungus",
+    "overview": {
+      "description": "Esca, also known as Black Measles, is a complex, destructive Grapevine Trunk Disease (GTD). Multiple fungi infect the wood through pruning wounds, slowly rotting the vine from the inside out. Symptoms often suddenly appear in mid-summer, causing striking leaf discoloration, spotted berries, or sudden vine death.",
+      "importance": "Critical. Esca drastically reduces vineyard lifespan. Because it destroys the internal vascular system, there is no chemical cure once a vine is infected. Replanting or trunk-renewal are the only options.",
+      "affected_parts": [
+        "Trunk",
+        "Cordons (Arms)",
+        "Leaves",
+        "Berries"
+      ],
+      "host_plants": [
+        "Grape (Vitis vinifera)"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Light green or chlorotic patches appear between the veins of older leaves.",
+        "Small, dark, purplish-black spots ('measles') may appear on the skin of white or green berries."
+      ],
+      "moderate": [
+        "Leaf patches expand and dry out, creating a distinct 'tiger-stripe' pattern (green veins surrounded by yellow/red borders with dead brown centers).",
+        "Berry spots enlarge, sometimes causing the berry to split or shrivel.",
+        "Cross-sections of the trunk reveal dark, tar-like spots or white, spongy, rotted wood."
+      ],
+      "severe": [
+        "Apoplexy (Sudden Death): The entire vine, or one arm of it, suddenly wilts, turns brown, and dies within a few days during the heat of summer.",
+        "Bunches on apoplectic vines shrivel and dry up completely."
+      ],
+      "leaf": [
+        "Classic 'tiger-stripe' interveinal chlorosis and necrosis. Leaves look scorched between the veins."
+      ],
+      "stem": [
+        "Internal wood shows dark streaking, V-shaped necrosis, or white spongy rot. Outer bark may appear normal until apoplexy occurs."
+      ],
+      "fruit": [
+        "'Black Measles': Purplish-brown spots on the skin. Severe infections cause total shriveling."
+      ],
+      "flower": [
+        "Not directly affected."
+      ],
+      "root": []
+    },
+    "causes": {
+      "primary_cause": "Fungal spores entering the vine through fresh pruning wounds during wet winter weather.",
+      "pathogen": "A complex of fungi including P. chlamydospora and F. mediterranea.",
+      "survival_mechanism": "Survives deep inside the woody tissue of infected vines, and on dead wood left in the vineyard.",
+      "infection_process": "During rain events in the dormant season, spores are splashed or blown onto fresh pruning cuts. The fungi slowly colonize the vascular tissue, releasing toxins that travel up to the leaves and fruit, causing the 'tiger-stripe' and 'measles' symptoms years later."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Winter: Spores enter through pruning wounds.",
+        "Years 1-5: Fungi slowly rot the internal wood (often asymptomatic).",
+        "Summer: Toxins produced by the fungi reach the leaves under heat/water stress, causing tiger-striping.",
+        "Late Stage: Vascular system collapses completely, causing sudden vine apoplexy."
+      ],
+      "spread_cycle": "Very slow but progressive. Spreads vine-to-vine via pruning tools and airborne spores over many years."
+    },
+    "transmission": {
+      "methods": [
+        "Contaminated pruning shears",
+        "Windborne spores entering wounds",
+        "Rain splash onto wounds"
+      ],
+      "vectors": [],
+      "common_sources": [
+        "Older infected vines in the same vineyard",
+        "Infected nursery stock (sometimes called 'Petri disease' in young vines)"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "Medium",
+      "rainfall": "High (During dormant pruning season)",
+      "poor_airflow": "Low",
+      "vine_age": "Extreme (Older vines are at higher risk)",
+      "water_stress": "Extreme (Triggers summer symptoms)",
+      "pruning_practices": "Extreme"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "Variable",
+        "notes": "Infection happens in cool, wet winters. Symptom expression happens in hot, dry summers."
+      },
+      "humidity": {
+        "optimal_range": "Variable",
+        "notes": "Not a primary driver of leaf symptoms."
+      },
+      "rainfall": "Rain during the dormant pruning season is the primary transmission event. Pruning during rain is highly dangerous.",
+      "wind": "Spreads spores to fresh pruning cuts.",
+      "soil_conditions": "Poor soils leading to water stress often trigger the sudden apoplexy.",
+      "leaf_wetness": "Not applicable."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 5,
+        "max": 40
+      },
+      "humidity": {
+        "min": 0,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 0
+    },
+    "weather_influence": {
+      "high_humidity": "Promotes spore release from old dead wood in winter.",
+      "rain": "Washes spores into fresh pruning wounds. Pruning should never be done within 3 days of rain.",
+      "high_temperature": "Hot summer days impose high transpiration demands. If the vascular tissue is compromised by Esca, the vine suddenly collapses (apoplexy).",
+      "low_temperature": "Winter is when the infection occurs.",
+      "wind": "Disperses spores across the vineyard.",
+      "dry_conditions": "Summer droughts trigger the physical symptoms in previously infected vines."
+    },
+    "severity_levels": {
+      "low": "Occasional tiger-stripe leaves on a few vines. Vine remains productive.",
+      "medium": "Measles appearing on fruit; clusters failing to ripen properly. Trunk renewal should be planned.",
+      "high": "Significant portions of the cordon are dead. Yield drops dramatically.",
+      "critical": "Sudden apoplexy (death) of vines mid-summer. Major vineyard gaps forming."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "If a vine shows sudden apoplexy (wilted brown leaves hanging on the vine), flag it with tape immediately so it can be managed during winter dormancy."
+      ],
+      "within_24_hours": [
+        "Do not attempt to cure the vine with sprays; foliar fungicides cannot reach the fungi deep inside the trunk."
+      ],
+      "within_one_week": [
+        "Sanitize all pruning tools. If making summer cuts on infected vines, use a 10% bleach solution or 70% alcohol between every vine."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "There is no chemical cure for an infected vine.",
+        "Thiophanate-methyl (Topsin M) or Mastic pastes can be applied as a protectant PAINT to fresh pruning wounds to prevent spores from entering."
+      ],
+      "biological": [
+        "Trichoderma spp. (e.g., Vintec) applied to fresh pruning wounds act as a biological shield, colonizing the wound before the pathogens can."
+      ],
+      "organic": [
+        "Boric acid pastes or physical pruning wound sealants (paints)."
+      ],
+      "integrated_management": [
+        "Management is entirely preventative and surgical. Use 'Double Pruning' (pre-pruning in winter, final pruning in late spring when wounds heal faster) and apply wound protectants."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Remove and burn all dead, infected trunks and cordons from the vineyard. Do not chip them back into the soil."
+      ],
+      "irrigation": [
+        "Maintain adequate summer irrigation to reduce the water stress that triggers apoplexy."
+      ],
+      "crop_rotation": [
+        "Not applicable."
+      ],
+      "air_circulation": [
+        "Not a factor."
+      ],
+      "resistant_varieties": [
+        "No varieties are immune. Cabernet Sauvignon, Sauvignon Blanc, and Sangiovese are notoriously highly susceptible."
+      ],
+      "seasonal_practices": [
+        "Avoid pruning during or immediately after rain events. Prune late in the dormant season if possible."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Standard.",
+      "phosphorus": "Standard.",
+      "potassium": "Standard.",
+      "calcium": "Standard.",
+      "magnesium": "Sometimes tiger-striping is confused with magnesium deficiency. Ensure soil Mg is adequate to rule this out.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Spores enter winter pruning wound.",
+        "Fungus eats internal wood for 3-7 years.",
+        "Toxins cause tiger-stripe leaves and spotted fruit.",
+        "Vascular system fails; vine dies suddenly in July/August."
+      ],
+      "treated": [
+        "Trunk renewal surgery: Trunk is sawed off near the ground below the internal stain.",
+        "A healthy sucker is trained up to become a new trunk.",
+        "Vine returns to full production in 2 years without replanting."
+      ]
+    },
+    "recovery_indicators": [
+      "After trunk renewal surgery, the new trunk and cordons produce normal, green, healthy leaves with no tiger-striping.",
+      "Cross-sections of the new wood show clean, white, healthy tissue."
+    ],
+    "recovery": {
+      "estimated_days": "2 Years (via Trunk Renewal Surgery)",
+      "success_rate": "Medium",
+      "depends_on": [
+        "Surgical Precision",
+        "Sanitation",
+        "Vine Vigor"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Individual vine yield goes to zero upon apoplexy. Vineyard yields steadily decline by 1-5% annually as the disease spreads.",
+      "quality_loss": "Berries with 'measles' can impart off-flavors to wine and are rejected for table grapes.",
+      "financial_impact": "Massive long-term capital loss due to shortened vineyard lifespan and the cost of surgical trunk renewal or replanting."
+    },
+    "monitoring": {
+      "inspection_frequency": "Scout in mid-to-late summer (July/August) for tiger-stripe leaves and apoplexy. Flag infected vines.",
+      "warning_signs": [
+        "Heat waves in late summer triggering sudden vine collapse.",
+        "Vineyards older than 10-15 years."
+      ],
+      "recovery_signs": [
+        "Healthy new sucker growth from the base of a surgically renewed vine."
+      ]
+    },
+    "faq": [
+      {
+        "question": "Can I spray copper or sulfur to fix the tiger-striped leaves?",
+        "answer": "No. The leaves look that way because of toxins coming from deep inside the trunk. No spray applied to the leaves will cure the wood rotting inside the vine."
+      },
+      {
+        "question": "If I cut off the sick branch, will the vine be okay?",
+        "answer": "Only if you cut far enough down. You must look at the cross-section of the wood where you cut. If there are dark spots or spongy wood, you must keep cutting lower until the wood is completely white and clean."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "The fungi that cause Esca can actually sit dormant inside the vine for up to a decade before suddenly causing symptoms, making it very difficult to track when the initial infection occurred."
+      ],
+      "similar_diseases": [
+        "Eutypa Dieback",
+        "Botryosphaeria Dieback",
+        "Magnesium Deficiency"
+      ],
+      "differential_diagnosis": [
+        "Magnesium deficiency causes interveinal yellowing, but it usually lacks the necrotic (dead brown) borders that give Esca its 'tiger-stripe' look. Eutypa causes stunted, yellowish spring shoots with short internodes, unlike Esca's mid-summer symptoms."
+      ],
+      "long_term_management": [
+        "Adopting a delayed pruning strategy (double pruning) and painting all large pruning cuts with protective mastics."
+      ]
+    },
+    "ai_context": {
+      "summary": "Esca is an incurable Grapevine Trunk Disease causing 'tiger-stripe' leaves, black measles on berries, and sudden vine death. Fungi enter via winter pruning wounds.",
+      "key_points": [
+        "No chemical cure exists.",
+        "Infection happens in winter; symptoms show in summer.",
+        "Causes sudden death (apoplexy).",
+        "Trunk renewal surgery is the only fix."
+      ],
+      "high_priority_actions": [
+        "Inform user that sprays will not work.",
+        "Advise marking the vine for trunk renewal surgery in winter.",
+        "Strongly advise against pruning when rain is forecasted."
+      ],
+      "weather_considerations": [
+        "Alert: Heavy rain during the dormant pruning season creates massive risk for new infections.",
+        "Alert: High heat/drought triggers apoplexy in infected vines."
+      ],
+      "common_mistakes": [
+        "Applying expensive foliar fungicides to cure it.",
+        "Pruning in the rain.",
+        "Leaving dead, infected wood piled next to the vineyard."
+      ],
+      "follow_up_recommendations": [
+        "Ask if the cross-section of the trunk shows dark stains.",
+        "Suggest applying Trichoderma to fresh pruning wounds next winter."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user that {disease_name} is a trunk disease, not a leaf disease. The striking {symptoms.leaf} are caused by fungi destroying the wood inside the vine.",
+      "weather_analysis": "Note that the recent hot, dry weather ({temperature_data}) has put massive water stress on the vine, triggering the sudden collapse (apoplexy) typical of {disease_name}.",
+      "treatment_plan": "Inform the user that {treatment.chemical} is impossible. Outline the steps for surgical trunk renewal, emphasizing the need to cut down until the wood is completely white, and detail {prevention.farm_hygiene}.",
+      "followup": "Ask the user to cut a cross-section of one of the dying branches. Is the wood inside dark, stained, or spongy? (This confirms the internal trunk rot)."
+    },
+    "references": [
+      "University of California Statewide IPM: Esca (Black Measles)",
+      "Cornell University: Grapevine Trunk Diseases"
+    ],
+    "model_mapping": {
+      "cnn_class": "Grape___Esca_Black_Measles",
+      "aliases": [
+        "Grape Esca (Black Measles)",
+        "Grape Grape Esca"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Beginner"
+    },
+    "disease_id": "GRAPE_003",
+    "disease_name": "Grape_Leaf_Blight",
+    "common_name": "Leaf Blight (Isariopsis Leaf Spot)",
+    "scientific_name": "Pseudocercospora vitis (formerly Isariopsis clavispora)",
+    "crop": "Grape",
+    "disease_type": "Fungal",
+    "pathogen_type": "Fungus",
+    "overview": {
+      "description": "Leaf Blight, or Isariopsis Leaf Spot, is a late-season fungal disease that primarily affects grape foliage in warm, humid climates. While rarely fatal, severe infections cause premature leaf drop, weakening the vine and potentially reducing the sugar content of late-harvested varieties.",
+      "importance": "Low to Medium. It typically appears late in the summer after the primary threats (like Black Rot and Downy Mildew) have passed. However, chronic defoliation year after year will weaken vine hardiness.",
+      "affected_parts": [
+        "Leaves"
+      ],
+      "host_plants": [
+        "Grape (Vitis spp.)"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Small, irregular, dark brown to black spots appear on the lower leaves.",
+        "Spots are often restricted by the small veins of the leaf, giving them an angular appearance."
+      ],
+      "moderate": [
+        "Spots enlarge and merge, creating large patches of dead, brown tissue.",
+        "A dark, olive-brown or grayish powdery mold develops on the undersides of the lesions."
+      ],
+      "severe": [
+        "Leaves curl, turn completely brown, and drop prematurely in late summer or early fall.",
+        "Extensive defoliation leaves fruit exposed to sunscald and stops sugar accumulation."
+      ],
+      "leaf": [
+        "Irregular, dark brown angular spots with olive/gray mold on the underside."
+      ],
+      "stem": [
+        "Rarely affected."
+      ],
+      "fruit": [
+        "Not directly infected, but may suffer sunburn or fail to ripen due to leaf loss."
+      ],
+      "flower": [
+        "Not affected."
+      ],
+      "root": []
+    },
+    "causes": {
+      "primary_cause": "Fungal spores splashing from fallen leaves onto the lower canopy during late summer rains.",
+      "pathogen": "Pseudocercospora vitis",
+      "survival_mechanism": "Overwinters in infected, fallen leaves on the vineyard floor.",
+      "infection_process": "Warm, wet weather in mid-to-late summer causes spores to splash up into the canopy. The fungus penetrates the leaf, causing necrosis and eventually producing new spores on the underside."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Overwinters in leaf litter.",
+        "Rain splashes spores to lower leaves in July/August.",
+        "Lesions form and produce secondary spores.",
+        "Disease moves upward through the canopy until natural leaf drop in autumn."
+      ],
+      "spread_cycle": "Polycyclic during the late summer, driven by high humidity and rain."
+    },
+    "transmission": {
+      "methods": [
+        "Rain splash",
+        "Wind-driven rain"
+      ],
+      "vectors": [],
+      "common_sources": [
+        "Leaf litter from the previous season under the vines"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "High",
+      "rainfall": "High",
+      "poor_airflow": "Medium",
+      "overhead_irrigation": "Medium",
+      "dense_canopy": "Medium"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "25°C - 30°C (77°F - 86°F)",
+        "notes": "Prefers warm to hot weather, making it a late-summer disease."
+      },
+      "humidity": {
+        "optimal_range": "80% - 100%",
+        "notes": "Requires high humidity for the olive-brown mold to form on the leaf undersides."
+      },
+      "rainfall": "Late summer thunderstorms or heavy dews provide the moisture needed for spore splash and germination.",
+      "wind": "Spreads spores higher into the canopy.",
+      "soil_conditions": "Not applicable.",
+      "leaf_wetness": "Requires prolonged leaf wetness to establish."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 20,
+        "max": 35
+      },
+      "humidity": {
+        "min": 80,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 8
+    },
+    "weather_influence": {
+      "high_humidity": "Drives secondary spore production on the undersides of leaves.",
+      "rain": "Splashes the primary inoculum from the ground into the vine.",
+      "high_temperature": "Highly favorable for this specific fungus.",
+      "low_temperature": "Slows or halts disease progression.",
+      "wind": "Dries the canopy, reducing risk.",
+      "dry_conditions": "Keeps the vineyard safe. Leaf blight struggles to establish without rain."
+    },
+    "severity_levels": {
+      "low": "Scattered brown spots on the lowest leaves. Common and relatively harmless.",
+      "medium": "Spots moving into the middle canopy; some lower leaf yellowing. Standard protectants should be maintained.",
+      "high": "Significant browning and curling of leaves throughout the canopy prior to harvest.",
+      "critical": "Severe early defoliation, halting fruit ripening and exposing clusters to intense sunscald."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "Assess if the vineyard is still under a protective fungicide program. If not, and weather is warm and wet, apply a protectant."
+      ],
+      "within_24_hours": [
+        "Manage the canopy by pulling leaves in the fruiting zone to improve airflow and drying."
+      ],
+      "within_one_week": [
+        "Monitor for defoliation. Ensure fruit is not overly exposed to direct afternoon sun if leaves are dropping."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Mancozeb, Captan (Excellent broad-spectrum protectants, though Mancozeb has long pre-harvest intervals).",
+        "Azoxystrobin or other Strobilurins provide excellent control."
+      ],
+      "biological": [
+        "Not standardly used for this specific disease."
+      ],
+      "organic": [
+        "Copper formulations (Bordeaux mixture is traditionally highly effective against Leaf Blight)."
+      ],
+      "integrated_management": [
+        "Standard fungicide programs designed to control Black Rot and Downy Mildew early in the season usually suppress Leaf Blight. If sprays stop too early in summer, Leaf Blight flares up."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Flail mow or till fallen leaves in the autumn to destroy the overwintering habitat of the fungus."
+      ],
+      "irrigation": [
+        "Avoid overhead irrigation in late summer."
+      ],
+      "crop_rotation": [
+        "Not applicable."
+      ],
+      "air_circulation": [
+        "Maintain an open, well-managed canopy to ensure leaves dry rapidly after summer storms."
+      ],
+      "resistant_varieties": [
+        "Most Vitis vinifera varieties are susceptible, while some American species have natural tolerance."
+      ],
+      "seasonal_practices": [
+        "Do not abandon the vineyard spray program completely just because the fruit has colored. Maintain canopy health until harvest."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Avoid excess late-season nitrogen, which pushes soft, vulnerable leaf growth.",
+      "phosphorus": "Standard.",
+      "potassium": "Adequate potassium helps maintain leaf longevity and resistance.",
+      "calcium": "Standard.",
+      "magnesium": "Standard.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Lower leaves develop dark spots.",
+        "Spots merge and leaves drop in August/September.",
+        "Loss of photosynthesis stops sugar accumulation in berries.",
+        "Berries sunburn. Vine enters winter with low carbohydrate reserves."
+      ],
+      "treated": [
+        "Protectant sprays shield the leaves.",
+        "Canopy remains fully green until natural frost.",
+        "Grapes achieve maximum brix (sugar) levels."
+      ]
+    },
+    "recovery_indicators": [
+      "Lesions stop expanding and dry out.",
+      "Upper canopy leaves remain green and securely attached to the vine.",
+      "No olive mold forms on the undersides of the spots."
+    ],
+    "recovery": {
+      "estimated_days": "14",
+      "success_rate": "High",
+      "depends_on": [
+        "Canopy Airflow",
+        "Fungicide Protection"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Generally low, but can reduce yield by 10-20% in severe early-defoliation years.",
+      "quality_loss": "Reduced sugar (brix) levels in the grapes, and off-flavors if sunburn occurs.",
+      "financial_impact": "Mostly impacts wine quality, leading to lower prices for the harvested crop."
+    },
+    "monitoring": {
+      "inspection_frequency": "Weekly during mid-to-late summer (July through September).",
+      "warning_signs": [
+        "Warm, highly humid, rainy weather late in the season.",
+        "Stopping fungicide programs too early in the summer."
+      ],
+      "recovery_signs": [
+        "Return of dry weather and cooler night temperatures."
+      ]
+    },
+    "faq": [
+      {
+        "question": "My grapes look fine, but the leaves are getting brown spots. Should I worry?",
+        "answer": "Leaf blight does not infect the grapes directly. However, if the tree loses too many leaves before you harvest, the grapes will stop sweetening. Applying a protectant like Copper can help keep the leaves healthy."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "Because it appears late in the season, it is often ignored by growers who have shifted their focus entirely to the fruit, allowing the fungus to build up massive populations in the leaf litter for the next year."
+      ],
+      "similar_diseases": [
+        "Black Rot (leaf spots)",
+        "Phomopsis"
+      ],
+      "differential_diagnosis": [
+        "Black Rot spots are tan with tiny black pimples. Leaf Blight spots are dark brown/black with a powdery olive mold on the underside."
+      ],
+      "long_term_management": [
+        "Good autumn sanitation—mowing or plowing fallen leaves—drastically reduces the disease pressure year over year."
+      ]
+    },
+    "ai_context": {
+      "summary": "Leaf Blight is a late-season fungal disease of grapes causing dark, angular leaf spots and premature defoliation, primarily in warm, humid weather.",
+      "key_points": [
+        "Overwinters in fallen leaves.",
+        "Attacks late in the summer.",
+        "Does not infect fruit directly, but stops sugar accumulation.",
+        "Copper is highly effective."
+      ],
+      "high_priority_actions": [
+        "Recommend copper or Mancozeb if defoliation is beginning before harvest.",
+        "Advise canopy thinning.",
+        "Remind user to mow leaves in autumn."
+      ],
+      "weather_considerations": [
+        "Alert: Hot, humid, rainy weather in late summer (August/September)."
+      ],
+      "common_mistakes": [
+        "Stopping fungicide sprays completely after veraison (color change).",
+        "Ignoring leaf spots because the fruit looks fine."
+      ],
+      "follow_up_recommendations": [
+        "Ask user if the grapes are still sweetening properly.",
+        "Suggest removing leaf litter post-harvest."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user that the dark brown spots on the leaves are {disease_name}. Reassure them that it does not attack the fruit directly, but warn them about {symptoms.severe}.",
+      "weather_analysis": "The late summer rains and temperatures around {temperature_data} have triggered {disease_name}. Advise that a protective spray is needed to keep the canopy intact for sugar accumulation.",
+      "treatment_plan": "Develop a late-season protection plan. Suggest {treatment.organic} (like Copper) to halt the disease without risking harsh chemical residues near harvest, and emphasize {prevention.farm_hygiene} for autumn.",
+      "followup": "Ask the user to check the undersides of the brown spots. Do they see a dark, powdery, olive-colored mold growing there?"
+    },
+    "references": [
+      "Various Agricultural Extension Services: Grape Foliar Diseases",
+      "FAO: Integrated Pest Management for Grapes"
+    ],
+    "model_mapping": {
+      "cnn_class": "Grape___Leaf_Blight_Isariopsis_Leaf_Spot",
+      "aliases": [
+        "Grape Leaf Blight (Isariopsis Leaf Spot)",
+        "Grape Grape Leaf Blight"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Intermediate"
+    },
+    "disease_id": "GRAPE_004",
+    "disease_name": "Grape_Downy_Mildew",
+    "common_name": "Downy Mildew",
+    "scientific_name": "Plasmopara viticola",
+    "crop": "Grape",
+    "disease_type": "Fungal",
+    "pathogen_type": "Oomycete",
+    "overview": {
+      "description": "Downy Mildew is an incredibly destructive, fast-moving oomycete disease. It thrives in warm, wet weather, completely destroying foliage and rotting berries. It is driven by the '10-10-10' rule: 10°C, 10mm of rain, and 10cm of shoot growth.",
+      "importance": "Critical. Uncontrolled, Downy Mildew can defoliate a vineyard in weeks and cause 100% crop loss by destroying the fruit clusters.",
+      "affected_parts": [
+        "Leaves",
+        "Berries",
+        "Shoots",
+        "Tendrils"
+      ],
+      "host_plants": [
+        "Grape (Vitis vinifera)"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Pale yellow, irregular 'oil spots' appear on the UPPER surface of the leaves.",
+        "A dense, white, cottony fuzz (sporangia) emerges on the UNDERSIDE of the leaves directly beneath the oil spots."
+      ],
+      "moderate": [
+        "Oil spots merge, turning brown and necrotic as the leaf tissue dies.",
+        "White cottony growth covers young shoots, tendrils, and blossom clusters.",
+        "Young berries turn grayish-white and become covered in downy fuzz."
+      ],
+      "severe": [
+        "Massive, premature defoliation of the vine.",
+        "Older berries (post-pea size) do not show the white fuzz, but instead turn dull green, then brown, shrivel, and drop off easily (leather rot).",
+        "Total loss of crop and severe reduction in winter hardiness due to defoliation."
+      ],
+      "leaf": [
+        "Yellow 'oil spots' on top; white cottony fuzz on the bottom."
+      ],
+      "stem": [
+        "Young green shoots become stunted, twisted, and covered in white fuzz, eventually turning brown and dying."
+      ],
+      "fruit": [
+        "Young fruit is covered in white fuzz. Older fruit turns brown, leathery, and drops."
+      ],
+      "flower": [
+        "Clusters turn yellow, wilt, and die, often covered in white fuzz."
+      ],
+      "root": []
+    },
+    "causes": {
+      "primary_cause": "Zoospores swimming in free moisture on the leaf surface, entering through stomata on the underside of the leaf.",
+      "pathogen": "Plasmopara viticola",
+      "survival_mechanism": "Overwinters as thick-walled oospores in fallen leaves on the vineyard floor. Can survive in the soil for up to 5 years.",
+      "infection_process": "Spring rains splash oospores onto lower leaves. They release zoospores, which swim in the water film and enter the leaf. The pathogen then grows rapidly inside the tissue."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Overwintering oospores mature in spring.",
+        "Primary infection triggered by the 10-10-10 rule (Rain splashes spores to shoots).",
+        "Incubation (4-10 days depending on temperature).",
+        "Secondary spread: White fuzz on leaf undersides releases millions of sporangia via wind/rain to infect new tissue."
+      ],
+      "spread_cycle": "Explosively polycyclic. Secondary infection cycles can occur every 4 to 5 days during warm, wet weather."
+    },
+    "transmission": {
+      "methods": [
+        "Rain splash",
+        "Wind (carries secondary sporangia)"
+      ],
+      "vectors": [],
+      "common_sources": [
+        "Leaf litter from previous years",
+        "Infected wild grapes"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "Extreme",
+      "rainfall": "Extreme",
+      "poor_airflow": "High",
+      "overhead_irrigation": "Extreme",
+      "dense_canopy": "Extreme"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "20°C - 25°C (68°F - 77°F)",
+        "notes": "Night temperatures above 13°C (55°F) strongly trigger the production of the white fuzz (sporangia) on leaf undersides."
+      },
+      "humidity": {
+        "optimal_range": "95% - 100%",
+        "notes": "Near 100% relative humidity at night is absolutely required for the fungus to sporulate (produce the white fuzz)."
+      },
+      "rainfall": "Heavy spring rains are the primary trigger. Summer storms drive the secondary spread.",
+      "wind": "Spreads sporangia during rain events.",
+      "soil_conditions": "Poor drainage increases vineyard humidity, favoring the pathogen.",
+      "leaf_wetness": "Critical. Zoospores must have liquid water to swim into the stomata. Requires 2-3 hours of wetness in morning."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 10,
+        "max": 30
+      },
+      "humidity": {
+        "min": 95,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 2
+    },
+    "weather_influence": {
+      "high_humidity": "The absolute requirement for nighttime spore production.",
+      "rain": "Triggers the 10-10-10 primary infection and spreads secondary spores.",
+      "high_temperature": "Temperatures above 30°C (86°F) halt the disease completely.",
+      "low_temperature": "Requires at least 10°C (50°F) to activate in spring.",
+      "wind": "Dries out the leaves, stopping zoospore swimming.",
+      "dry_conditions": "The ultimate cure. Downy mildew cannot survive or spread without liquid water and high humidity."
+    },
+    "severity_levels": {
+      "low": "A few 'oil spots' on lower leaves. Manageable with standard protectants.",
+      "medium": "White fuzz appearing on leaf undersides; moving to upper canopy. High alert.",
+      "high": "Infection reaches the fruit clusters. Massive spore production occurring nightly.",
+      "critical": "Severe defoliation; clusters rotting. Total crop failure imminent."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "If oil spots are visible and rain is forecasted, apply an eradicant/systemic fungicide immediately. Protectants are no longer enough."
+      ],
+      "within_24_hours": [
+        "Aggressively pull leaves and hedge the canopy around the fruiting zone to open it up to sunlight and wind."
+      ],
+      "within_one_week": [
+        "Monitor the undersides of the leaves closely. If the white fuzz turns brown or dries up, the fungicide is working."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Mefenoxam/Metalaxyl (Ridomil) (Highly effective systemic, but high risk of resistance).",
+        "Phosphorous acid / Phosphites (Excellent curative and systemic activity; highly recommended).",
+        "Mancozeb, Captan (Excellent protectants, but zero curative ability)."
+      ],
+      "biological": [
+        "Bacillus subtilis offers very low efficacy during epidemic conditions."
+      ],
+      "organic": [
+        "Copper fungicides (The gold standard for organic control. Must be applied BEFORE rain as a protectant)."
+      ],
+      "integrated_management": [
+        "Time initial sprays based on the 10-10-10 rule. Use Phosphites to cure early infections, and Copper/Mancozeb to protect healthy tissue."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Shred and bury fallen leaves in autumn to reduce oospores."
+      ],
+      "irrigation": [
+        "Eliminate all overhead watering."
+      ],
+      "crop_rotation": [
+        "Not applicable."
+      ],
+      "air_circulation": [
+        "CRITICAL. Thin shoots, remove laterals, and pull leaves to ensure the canopy dries within 2 hours of sunrise."
+      ],
+      "resistant_varieties": [
+        "Vitis vinifera is highly susceptible. Many American hybrids (e.g., Norton, Baco Noir) are highly resistant."
+      ],
+      "seasonal_practices": [
+        "Track the 10-10-10 rule in spring: Shoot length = 10 cm, Temperature = 10°C, Rainfall = 10 mm. This indicates the exact day primary infection begins."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Excessive nitrogen creates dense, lush, humid canopies that dry slowly—a perfect environment for Downy Mildew.",
+      "phosphorus": "Foliar phosphites (a specific form of phosphorus) act directly as highly effective fungicides against this pathogen.",
+      "potassium": "Standard.",
+      "calcium": "Standard.",
+      "magnesium": "Standard.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Oil spots appear on leaves.",
+        "White fuzz erupts on leaf undersides and fruit clusters.",
+        "Berries turn brown and drop.",
+        "Vines defoliate completely by mid-summer, ruining the crop and winter hardiness."
+      ],
+      "treated": [
+        "Phosphites or systemic fungicides halt mycelial growth.",
+        "White fuzz dries up.",
+        "Canopy remains healthy and grapes mature normally."
+      ]
+    },
+    "recovery_indicators": [
+      "The white, cottony fuzz on the leaf undersides turns gray, brown, and dries up.",
+      "Yellow oil spots turn into dry, dead, brown tissue without spreading.",
+      "New shoots emerge clean."
+    ],
+    "recovery": {
+      "estimated_days": "5-10 (with systemic treatment)",
+      "success_rate": "High",
+      "depends_on": [
+        "Immediate Systemic Spray",
+        "Canopy Thinning",
+        "Dry Weather"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "50% to 100% in highly susceptible varieties if weather favors the pathogen.",
+      "quality_loss": "Infected berries are completely unusable.",
+      "financial_impact": "Total crop loss plus severe vine weakening."
+    },
+    "monitoring": {
+      "inspection_frequency": "Twice weekly starting when shoots reach 10 cm. Daily during prolonged wet, warm weather.",
+      "warning_signs": [
+        "The 10-10-10 weather event in spring.",
+        "Warm, muggy nights with heavy dew."
+      ],
+      "recovery_signs": [
+        "A heat wave with temperatures above 86°F (30°C) and dry air."
+      ]
+    },
+    "faq": [
+      {
+        "question": "What is the difference between Powdery Mildew and Downy Mildew?",
+        "answer": "Powdery Mildew thrives in DRY, humid weather and forms white powder on TOP of the leaf. Downy Mildew requires RAIN, forms yellow spots on top, and white cottony fuzz strictly on the BOTTOM of the leaf."
+      },
+      {
+        "question": "I sprayed Copper after seeing the white fuzz, but the disease kept spreading. Why?",
+        "answer": "Copper is a protectant. It sits on the outside of the leaf to kill spores before they enter. Once the fungus is inside the leaf (producing fuzz), Copper cannot reach it. You need a systemic curative, like Phosphites, to kill existing infections."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "Downy Mildew is an Oomycete, meaning it is biologically closer to algae than to true fungi. This is why many standard fungicides do not work against it, and why it relies so heavily on swimming spores."
+      ],
+      "similar_diseases": [
+        "Powdery Mildew",
+        "Herbicide drift damage"
+      ],
+      "differential_diagnosis": [
+        "Look at the underside of the leaf. If the fuzz is restricted to the bottom side underneath a yellow spot, it's Downy Mildew. If the powder is on both sides and looks like dust, it's Powdery Mildew."
+      ],
+      "long_term_management": [
+        "Designing the trellis system for maximum airflow and applying the 10-10-10 tracking model every spring."
+      ]
+    },
+    "ai_context": {
+      "summary": "Downy Mildew is a devastating water mold of grapes causing yellow 'oil spots' and white underside fuzz. Driven entirely by the 10-10-10 weather rule (temp, rain, shoot growth).",
+      "key_points": [
+        "Oomycete pathogen, not a true fungus.",
+        "Triggered by 10°C, 10mm rain, 10cm shoots.",
+        "White fuzz ONLY on leaf undersides.",
+        "Copper protects; Phosphites cure."
+      ],
+      "high_priority_actions": [
+        "Run the 10-10-10 weather check in spring.",
+        "Advise urgent Phosphite/systemic spray if white fuzz is already present.",
+        "Demand immediate canopy thinning."
+      ],
+      "weather_considerations": [
+        "Extreme Alert: Heavy rain, 95%+ nighttime humidity, and temps >13°C. Perfect storm for sporulation."
+      ],
+      "common_mistakes": [
+        "Using a protectant (like Mancozeb/Copper) to cure an active infection.",
+        "Confusing it with Powdery Mildew."
+      ],
+      "follow_up_recommendations": [
+        "Ask if the white fuzz is on the top or bottom of the leaf.",
+        "Check if recent weather hit 86°F (30°C), which kills the pathogen."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user that {disease_name} is a highly aggressive water mold. The distinctive {symptoms.early} are a warning sign that the entire vine is at risk.",
+      "weather_analysis": "Based on the recent rainfall of {rainfall_data} and temperatures above {temperature_data}, the '10-10-10' infection threshold has been met. Generate an urgent alert.",
+      "treatment_plan": "Create an emergency response plan. If symptoms are already present, emphasize that protectants won't work and they MUST use a systemic curative like {treatment.chemical}. Emphasize {prevention.air_circulation}.",
+      "followup": "Ask the user to turn the leaf over. Is the white cottony fuzz strictly on the underside, directly beneath the yellow spot? (Crucial to distinguish from Powdery Mildew)."
+    },
+    "references": [
+      "Cornell University: Grapevine Downy Mildew",
+      "University of California Statewide IPM: Grape Downy Mildew"
+    ],
+    "model_mapping": {
+      "cnn_class": "Grape___Downy_Mildew",
+      "aliases": [
+        "Grape Downy Mildew",
+        "Grape Grape Downy Mildew"
+      ]
+    }
+  }
+]

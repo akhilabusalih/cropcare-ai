@@ -1,0 +1,43 @@
+knowledge_base_name: CropGuardian Disease Knowledge Base
+knowledge_base_version: "1.1"
+schema_version: "1.0.0"
+dataset_version: "1.1"
+last_updated: "2026-06-26"
+author: CropGuardian Knowledge Base Engineer
+description: Structured crop disease knowledge base for agricultural retrieval, validation, and decision support.
+supported_dataset: CropGuardian disease corpus
+dataset_information:
+  organization: CropGuardian
+  record_granularity: one disease record per crop disease entry
+  record_format: JSON arrays grouped by crop
+supported_crops:
+  - Apple
+  - Bell Pepper
+  - Cherry
+  - Corn
+  - Grape
+  - Orange
+  - Peach
+  - Potato
+  - Squash
+  - Strawberry
+  - Tomato
+total_classes: 46
+disease_classes: 46
+healthy_classes: 0
+supported_languages:
+  - English
+default_locale: en-US
+license: Internal project dataset
+reference_policy:
+  allowed_sources:
+    - Government agricultural extension services
+    - Agricultural university extension services
+    - Peer-reviewed journals
+    - FAO publications where applicable
+    - International agricultural organizations
+  disallowed_sources:
+    - Fabricated references
+    - Unverifiable web sources
+    - Non-agricultural speculative content
+  citation_expectation: Each disease record should cite trusted agricultural sources relevant to the crop and disease.

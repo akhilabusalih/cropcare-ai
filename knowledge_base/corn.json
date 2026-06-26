@@ -1,0 +1,1182 @@
+[
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Intermediate"
+    },
+    "disease_id": "CORN_001",
+    "disease_name": "Gray_Leaf_Spot",
+    "common_name": "Gray Leaf Spot (Cercospora Leaf Spot)",
+    "scientific_name": "Cercospora zeae-maydis",
+    "crop": "Corn",
+    "disease_type": "Fungal",
+    "pathogen_type": "Fungus",
+    "overview": {
+      "description": "Gray Leaf Spot is one of the most yield-limiting diseases of corn worldwide. It causes highly distinct, rectangular lesions on the leaves. By destroying photosynthetic tissue, it forces the plant to cannibalize its own stalk for grain fill, leading to late-season stalk lodging (falling over).",
+      "importance": "Critical. If the disease reaches the ear leaf (the leaf feeding the ear) prior to the dent stage, yield losses can easily exceed 30%.",
+      "affected_parts": [
+        "Leaves",
+        "Leaf Sheaths",
+        "Husks"
+      ],
+      "host_plants": [
+        "Corn (Maize)"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Small, tan spots with faint yellow halos appear on the lower leaves.",
+        "Spots are initially irregular but begin to elongate parallel to the leaf veins."
+      ],
+      "moderate": [
+        "Lesions expand into distinct, sharp-edged, rectangular blocks (1 to 4 inches long) that are restricted by the leaf veins.",
+        "Lesions turn opaque, pale brown, or gray as spores develop."
+      ],
+      "severe": [
+        "Rectangular lesions coalesce, blighting the entire leaf and turning it completely necrotic and dead.",
+        "The disease rapidly moves up the canopy, reaching the ear leaf and above.",
+        "Stalks become weak and prone to lodging as the plant cannibalizes carbohydrates."
+      ],
+      "leaf": [
+        "Classic rectangular, vein-limited, gray/tan lesions."
+      ],
+      "stem": [
+        "Not directly spotted, but weakens significantly due to carbohydrate cannibalization."
+      ],
+      "fruit": [
+        "Ears are not directly infected, but kernels fail to fill properly (light test weight)."
+      ],
+      "flower": [
+        "Not affected."
+      ],
+      "root": []
+    },
+    "causes": {
+      "primary_cause": "Fungal spores splashing and blowing up from infected corn residue on the soil surface.",
+      "pathogen": "Cercospora zeae-maydis",
+      "survival_mechanism": "Overwinters successfully in unburied corn debris (stalks and leaves) left on the soil surface.",
+      "infection_process": "In spring/summer, warm, humid conditions trigger spores to develop on crop residue. Wind and rain splash carry them to lower leaves. The spores require many hours of high humidity to germinate and enter the stomata."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Overwintering in crop residue.",
+        "Primary infection of lower leaves during warm, humid weather.",
+        "Incubation period (can be long, 14-21 days before lesions appear).",
+        "Secondary spore production in lesions, spreading upward through the canopy."
+      ],
+      "spread_cycle": "Polycyclic. The disease progresses vertically up the plant with each generation of spores."
+    },
+    "transmission": {
+      "methods": [
+        "Wind",
+        "Rain splash"
+      ],
+      "vectors": [],
+      "common_sources": [
+        "Corn residue from previous seasons (especially in no-till fields)"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "Extreme",
+      "rainfall": "High",
+      "poor_airflow": "Medium",
+      "overhead_irrigation": "High",
+      "dense_canopy": "High",
+      "no_till_farming": "Extreme"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "24°C - 30°C (75°F - 85°F)",
+        "notes": "Optimal for rapid lesion expansion and secondary spore generation."
+      },
+      "humidity": {
+        "optimal_range": "90% - 100%",
+        "notes": "Requires at least 11-13 hours of continuous relative humidity >90% for spores to infect."
+      },
+      "rainfall": "Frequent light rains or heavy morning dews provide the ideal environment.",
+      "wind": "Moves spores from the lower canopy to the upper canopy.",
+      "soil_conditions": "Not applicable.",
+      "leaf_wetness": "Extended dew periods (morning fog, overcast days) are the primary driver."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 20,
+        "max": 32
+      },
+      "humidity": {
+        "min": 90,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 12
+    },
+    "weather_influence": {
+      "high_humidity": "The absolute key requirement. Overcast, foggy mornings trigger outbreaks.",
+      "rain": "Splashes spores from ground residue onto lower leaves.",
+      "high_temperature": "Speeds up the disease cycle, causing leaves to blight faster.",
+      "low_temperature": "Slows or pauses fungal growth.",
+      "wind": "Spreads spores across the field.",
+      "dry_conditions": "Halts the disease. Lesions will stop expanding during hot, dry weeks."
+    },
+    "severity_levels": {
+      "low": "A few lesions on leaves below the ear. Common and low threat if weather turns dry.",
+      "medium": "Lesions spreading. Disease is 2-3 leaves below the ear leaf as tasseling approaches. Action required.",
+      "high": "Lesions present on the ear leaf and above during the early grain-fill stages.",
+      "critical": "Upper canopy heavily blighted before the 'dent' stage. Severe yield loss and imminent stalk lodging."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "Scout fields starting just before tasseling (VT stage). Check the 3 leaves directly below the ear leaf for rectangular spots."
+      ],
+      "within_24_hours": [
+        "If lesions are found near the ear leaf and high humidity is forecasted, schedule a fungicide application immediately."
+      ],
+      "within_one_week": [
+        "Monitor treated fields. Once grain reaches the 'dent' stage (R5), fungicide applications are no longer economical."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Pyraclostrobin, Azoxystrobin (QoI / Strobilurins - excellent preventative).",
+        "Prothioconazole, Tebuconazole (DMI / Triazoles - good curative activity).",
+        "Mixed-mode action fungicides (e.g., Headline AMP, Trivapro) are highly recommended to prevent resistance."
+      ],
+      "biological": [
+        "Limited efficacy in commercial field corn. Focus on chemical or cultural control."
+      ],
+      "organic": [
+        "Strict crop rotation and deep tillage to bury residue."
+      ],
+      "integrated_management": [
+        "The optimal timing for a single fungicide spray is at tasseling/silking (VT/R1 stage) to protect the ear leaf."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Invert and bury corn residue through deep tillage if erosion is not a primary concern."
+      ],
+      "irrigation": [
+        "Limit overhead irrigation during cloudy, humid periods."
+      ],
+      "crop_rotation": [
+        "Rotate away from corn for at least one year (e.g., to soybeans) to allow residue to decompose."
+      ],
+      "air_circulation": [
+        "Optimal row spacing and weed control can increase airflow and reduce canopy humidity."
+      ],
+      "resistant_varieties": [
+        "Select corn hybrids with high resistance scores for Gray Leaf Spot. This is the most effective long-term strategy."
+      ],
+      "seasonal_practices": [
+        "Avoid continuous corn-on-corn planting, especially in no-till systems."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Ensure adequate late-season nitrogen. Gray Leaf Spot forces the plant to cannibalize stalks, and low nitrogen exacerbates this stress.",
+      "phosphorus": "Standard maintenance.",
+      "potassium": "Crucial for stalk strength. Adequate potassium helps prevent the stalk lodging caused by GLS.",
+      "calcium": "Standard maintenance.",
+      "magnesium": "Standard maintenance.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Lower leaves die.",
+        "Disease overtakes the ear leaf during grain fill.",
+        "Photosynthesis stops; plant sucks nutrients from the stalk.",
+        "Kernels are lightweight. Stalks snap and fall over before harvest."
+      ],
+      "treated": [
+        "Fungicide applied at VT/R1 protects the ear leaf.",
+        "Upper canopy remains green throughout grain fill.",
+        "Full yield potential is realized; stalks remain standing."
+      ]
+    },
+    "recovery_indicators": [
+      "Lesions stop elongating.",
+      "The ear leaf and leaves above it remain perfectly green and free of rectangular spots through the dent stage."
+    ],
+    "recovery": {
+      "estimated_days": "14-21 (Protection duration)",
+      "success_rate": "High",
+      "depends_on": [
+        "Fungicide Timing (VT/R1)",
+        "Hybrid Resistance",
+        "Weather Shifts"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Commonly 5-40 bu/acre (up to 30% or more) depending on when the ear leaf is compromised.",
+      "quality_loss": "Reduced test weight of the grain.",
+      "financial_impact": "Loss of yield revenue, plus severe harvest delays and machine costs if the corn lodges (falls flat) and must be picked off the ground."
+    },
+    "monitoring": {
+      "inspection_frequency": "Weekly, beginning two weeks prior to tasseling.",
+      "warning_signs": [
+        "Corn planted into corn residue (continuous no-till corn).",
+        "Weeks of morning fog and high dew points in July/August."
+      ],
+      "recovery_signs": [
+        "Return of hot, dry, low-humidity weather."
+      ]
+    },
+    "faq": [
+      {
+        "question": "Can I spray fungicide when the corn is waist-high to stop Gray Leaf Spot early?",
+        "answer": "Early sprays (V5 stage) are usually not economical for Gray Leaf Spot. The disease has a long incubation period. It is much more profitable to wait and spray at tasseling (VT) to protect the critical upper canopy."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "Gray Leaf Spot was relatively minor until the 1970s and 80s when 'no-till' conservation farming became popular, inadvertently leaving the fungal incubator (crop residue) on the surface."
+      ],
+      "similar_diseases": [
+        "Northern Corn Leaf Blight",
+        "Stewart's Wilt"
+      ],
+      "differential_diagnosis": [
+        "GLS lesions are strictly rectangular and blocked by leaf veins. Northern Corn Leaf Blight lesions are much larger, cigar-shaped, and cross over leaf veins."
+      ],
+      "long_term_management": [
+        "Combining crop rotation, residue management (tillage if appropriate), and resistant hybrids."
+      ]
+    },
+    "ai_context": {
+      "summary": "Gray Leaf Spot is a humidity-driven fungal pathogen of corn that creates rectangular lesions, destroying foliage and causing late-season stalk collapse.",
+      "key_points": [
+        "Overwinters in corn residue.",
+        "Lesions are distinctly rectangular.",
+        "Ear leaf protection is critical.",
+        "Best treated with fungicide at VT (tasseling)."
+      ],
+      "high_priority_actions": [
+        "Advise VT/R1 fungicide spray if lesions are near the ear leaf.",
+        "Suggest checking potassium levels if lodging is a risk.",
+        "Recommend rotating to soybeans next year."
+      ],
+      "weather_considerations": [
+        "High Risk: Successive days of heavy morning dew/fog, humidity >90%, temps 25-30°C."
+      ],
+      "common_mistakes": [
+        "Spraying too early (vegetative stage) and losing protection during grain fill.",
+        "Planting highly susceptible hybrids in continuous no-till corn."
+      ],
+      "follow_up_recommendations": [
+        "Remind user to scout 2 weeks prior to tassel.",
+        "Advise checking stalk strength via the 'push test' before harvest."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user that {disease_name} restricts its damage between leaf veins, causing the classic {symptoms.moderate}. Warn them that it overwinters in {causes.survival_mechanism}.",
+      "weather_analysis": "Note that the heavy dews and {humidity_data} humidity have triggered {disease_name}. Calculate if the corn is near the VT (tasseling) stage to recommend action.",
+      "treatment_plan": "Create an action plan targeting the protection of the ear leaf. Strongly recommend a mixed-mode {treatment.chemical} applied via aerial or high-clearance sprayer at the VT/R1 stage.",
+      "followup": "Ask the user if they are using no-till farming and planting corn-on-corn, as these are the primary drivers of this disease."
+    },
+    "references": [
+      "Purdue University Extension: Gray Leaf Spot",
+      "University of Nebraska-Lincoln: Corn Disease Profiles"
+    ],
+    "model_mapping": {
+      "cnn_class": "Corn___Gray_Leaf_Spot_Cercospora_Leaf_Spot",
+      "aliases": [
+        "Corn Gray Leaf Spot (Cercospora Leaf Spot)",
+        "Corn Gray Leaf Spot"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Beginner"
+    },
+    "disease_id": "CORN_002",
+    "disease_name": "Common_Rust",
+    "common_name": "Common Rust",
+    "scientific_name": "Puccinia sorghi",
+    "crop": "Corn",
+    "disease_type": "Fungal",
+    "pathogen_type": "Fungus",
+    "overview": {
+      "description": "Common Rust is a foliar fungal disease that causes brick-red pustules on the leaves. It favors cool, moist weather. While very visually striking, most modern field corn hybrids have excellent resistance, making it mostly a threat to sweet corn and seed corn.",
+      "importance": "Low for modern field corn; High for sweet corn. Heavy infections in sweet corn stunt ears, dry out husks, and reduce marketability.",
+      "affected_parts": [
+        "Leaves",
+        "Leaf Sheaths",
+        "Husks"
+      ],
+      "host_plants": [
+        "Field Corn",
+        "Sweet Corn",
+        "Popcorn"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Small, light green to yellow flecks appear on both the upper and lower surfaces of the leaves."
+      ],
+      "moderate": [
+        "Flecks erupt into elongated, blister-like pustules (1/8 to 1/4 inch long).",
+        "Pustules are filled with a brick-red to cinnamon-brown powdery mass of spores.",
+        "Pustules occur on BOTH the upper and lower surfaces of the leaf (unlike Southern Rust)."
+      ],
+      "severe": [
+        "Leaves become heavily covered in rust, turning yellow, then brown and necrotic.",
+        "Pustules turn dark black late in the season as teliospores form.",
+        "Severe early infection in sweet corn causes stunted plants and poorly filled ears."
+      ],
+      "leaf": [
+        "Brick-red, raised pustules erupting through the epidermis on both top and bottom surfaces."
+      ],
+      "stem": [
+        "Pustules may occasionally appear on leaf sheaths wrapping the stalk."
+      ],
+      "fruit": [
+        "Ears are not directly affected, but husks can be heavily rusted, making sweet corn unmarketable."
+      ],
+      "flower": [
+        "Not affected."
+      ],
+      "root": []
+    },
+    "causes": {
+      "primary_cause": "Windblown spores (urediniospores) arriving from warmer southern climates.",
+      "pathogen": "Puccinia sorghi",
+      "survival_mechanism": "Does NOT overwinter in the central or northern Corn Belt. It survives year-round on living corn in tropical/subtropical regions.",
+      "infection_process": "Spores are carried hundreds of miles north by storm fronts (the 'Puccinia pathway'). Spores land on corn, germinate in water (dew/light rain), and penetrate the leaf. New pustules form in 7-14 days."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Spores arrive via southern winds.",
+        "Germination and infection during cool, wet nights.",
+        "Pustule eruption and massive secondary spore release.",
+        "Continuous repeating cycles as long as weather remains cool and moist."
+      ],
+      "spread_cycle": "Rapidly polycyclic. Generates millions of windborne spores that spread the disease quickly across a field."
+    },
+    "transmission": {
+      "methods": [
+        "Wind (primary vector, carries spores for hundreds of miles)"
+      ],
+      "vectors": [],
+      "common_sources": [
+        "Storm fronts blowing up from southern agricultural regions"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "High",
+      "rainfall": "Medium",
+      "poor_airflow": "Medium",
+      "overhead_irrigation": "Medium",
+      "dense_canopy": "Medium",
+      "susceptible_genetics": "Extreme"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "16°C - 25°C (61°F - 77°F)",
+        "notes": "Common Rust loves cool weather. Temperatures above 80°F (27°C) severely inhibit the fungus."
+      },
+      "humidity": {
+        "optimal_range": "90% - 100%",
+        "notes": "High relative humidity is required for spore germination."
+      },
+      "rainfall": "Light rain or heavy dew is necessary to provide free moisture for germination.",
+      "wind": "Essential for both bringing the disease into the region and spreading it field-to-field.",
+      "soil_conditions": "Not applicable.",
+      "leaf_wetness": "Requires 6 hours of free moisture on the leaf surface."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 10,
+        "max": 27
+      },
+      "humidity": {
+        "min": 85,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 6
+    },
+    "weather_influence": {
+      "high_humidity": "Facilitates rapid spore germination on cool nights.",
+      "rain": "Provides necessary leaf wetness.",
+      "high_temperature": "The natural enemy of Common Rust. Hot summer days (85°F+) stop the disease dead in its tracks.",
+      "low_temperature": "Cool spring/early summer weather is the primary driver.",
+      "wind": "Brings the disease from the south.",
+      "dry_conditions": "Halts infection; spores cannot germinate without water."
+    },
+    "severity_levels": {
+      "low": "Scattered brick-red pustules on lower leaves. Very typical, no yield threat to field corn.",
+      "medium": "Pustules moving to the upper canopy in sweet corn. Fungicide consideration begins.",
+      "high": "Upper canopy heavily infected prior to tasseling (sweet corn only).",
+      "critical": "Leaves yellowing and dying from massive rust eruptions. Husks completely rusted."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "Determine the corn type. If it is commercial field corn, no action is usually required. If it is sweet or seed corn, prepare to spray."
+      ],
+      "within_24_hours": [
+        "Apply fungicide to susceptible sweet/seed corn if rust covers 5% of leaf area before the tasseling stage."
+      ],
+      "within_one_week": [
+        "Monitor the weather. If temperatures are forecasted to rise above 85°F, fungicide may not be necessary as the heat will stop the disease."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Azoxystrobin, Pyraclostrobin (Strobilurins).",
+        "Propiconazole, Tebuconazole (Triazoles).",
+        "Note: Spraying field corn for Common Rust is almost never economically justified."
+      ],
+      "biological": [
+        "Not used commercially."
+      ],
+      "organic": [
+        "Planting resistant sweet corn varieties."
+      ],
+      "integrated_management": [
+        "Rely entirely on genetic resistance for field corn. Use fungicides only for high-value sweet corn crops during unusually cool, wet summers."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Not applicable, as the disease does not overwinter in crop residue."
+      ],
+      "irrigation": [
+        "Avoid overhead irrigation during cool, cloudy days."
+      ],
+      "crop_rotation": [
+        "Not effective, because spores blow in from hundreds of miles away."
+      ],
+      "air_circulation": [
+        "Standard spacing helps leaves dry quickly."
+      ],
+      "resistant_varieties": [
+        "CRITICAL. Most field corn hybrids contain Rp (resistance to Puccinia) genes, making them highly immune. Select sweet corn varieties with these genes."
+      ],
+      "seasonal_practices": [
+        "Plant early to get the crop past the highly susceptible vegetative stages before spores blow up from the south."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Standard maintenance.",
+      "phosphorus": "Standard maintenance.",
+      "potassium": "Standard maintenance.",
+      "calcium": "Standard maintenance.",
+      "magnesium": "Standard maintenance.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "(In Sweet Corn): Pustules cover leaves.",
+        "Photosynthetic area is lost, stunting the plant.",
+        "Ears fail to fill properly, husks look rusty and unappealing.",
+        "Total market rejection of sweet corn."
+      ],
+      "treated": [
+        "Fungicide stops spore germination.",
+        "Existing pustules turn black and inactive.",
+        "New growth remains clean; ears size up perfectly."
+      ]
+    },
+    "recovery_indicators": [
+      "Brick-red pustules turn black (teliospores), indicating the active infectious phase is ending.",
+      "Temperatures rise above 80°F, naturally halting disease spread."
+    ],
+    "recovery": {
+      "estimated_days": "7-10",
+      "success_rate": "Very High",
+      "depends_on": [
+        "Temperature Increases",
+        "Genetic Resistance",
+        "Fungicide (Sweet Corn)"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "0-5% in field corn (negligible). Up to 50% in highly susceptible sweet corn.",
+      "quality_loss": "Severe aesthetic damage to sweet corn husks.",
+      "financial_impact": "Loss of fresh market sales for sweet corn growers. Unnecessary fungicide expenses for field corn growers who panic."
+    },
+    "monitoring": {
+      "inspection_frequency": "Scout sweet corn weekly during cool, wet spring/early summer weather.",
+      "warning_signs": [
+        "Storm fronts moving up from the deep south.",
+        "Cool nights with heavy dew."
+      ],
+      "recovery_signs": [
+        "Arrival of hot summer weather (85°F+)."
+      ]
+    },
+    "faq": [
+      {
+        "question": "My field corn is covered in red rust. Do I need to spray it?",
+        "answer": "Usually, no. Commercial field corn is highly resistant, and as soon as summer heat arrives, the rust will stop spreading. Spraying field corn for Common Rust rarely pays off."
+      },
+      {
+        "question": "What is the difference between Common Rust and Southern Rust?",
+        "answer": "Common Rust pustules are brick-red, appear on BOTH sides of the leaf, and favor cool weather. Southern Rust pustules are bright orange, appear mostly on the TOP of the leaf, favor extreme heat, and are far more deadly."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "Late in the season, the red spores (urediniospores) turn into black survival spores (teliospores), giving the leaves a dark, sooty appearance."
+      ],
+      "similar_diseases": [
+        "Southern Rust"
+      ],
+      "differential_diagnosis": [
+        "If it's hot (90°F) and the pustules are bright orange and only on the top leaf surface, it is Southern Rust (a severe threat). If it's cool (70°F) and pustules are on both sides, it's Common Rust."
+      ],
+      "long_term_management": [
+        "Relying strictly on resistant genetics."
+      ]
+    },
+    "ai_context": {
+      "summary": "Common Rust is a windborne fungal disease causing brick-red pustules on both leaf sides. It favors cool weather and rarely threatens modern field corn.",
+      "key_points": [
+        "Spores blow in from the south.",
+        "Favors cool, wet weather.",
+        "Pustules on both top and bottom of leaf.",
+        "Field corn doesn't need treatment; sweet corn might."
+      ],
+      "high_priority_actions": [
+        "Determine if crop is sweet corn or field corn.",
+        "Advise against spraying field corn unless pressure is uniquely extreme.",
+        "Warn user to verify it is not the more dangerous Southern Rust."
+      ],
+      "weather_considerations": [
+        "Alert: Cool fronts (15-25°C) with rain/dew. Downgrade threat if weather turns hot (>27°C)."
+      ],
+      "common_mistakes": [
+        "Wasting money spraying field corn for Common Rust.",
+        "Confusing it with the much more dangerous Southern Rust."
+      ],
+      "follow_up_recommendations": [
+        "Ask user to check if pustules are on BOTH sides of the leaf.",
+        "Reassure user if hot weather is in the forecast."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain that {disease_name} looks dramatic but is usually harmless to field corn. Note that it favors {environmental_conditions.temperature.notes} and the red {symptoms.leaf} are its defining feature.",
+      "weather_analysis": "Current temperatures of {temperature_data} are fueling {disease_name}. Inform the user that if the forecast predicts heat above 85°F, the weather will naturally cure the plant.",
+      "treatment_plan": "Ask the user what type of corn they are growing. If it is sweet corn, recommend {treatment.chemical}. If it is field corn, advise them to save their money and let the hybrid's genetics fight it.",
+      "followup": "Ask the user to flip a leaf over. Are the red bumps on BOTH the top and bottom? (If yes, confirm it is Common Rust and not Southern Rust)."
+    },
+    "references": [
+      "University of Illinois Extension: Common Rust in Corn",
+      "Iowa State University: Rust Diseases of Corn"
+    ],
+    "model_mapping": {
+      "cnn_class": "Corn___Common_Rust",
+      "aliases": [
+        "Corn Common Rust"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Intermediate"
+    },
+    "disease_id": "CORN_003",
+    "disease_name": "Northern_Corn_Leaf_Blight",
+    "common_name": "Northern Corn Leaf Blight (NCLB)",
+    "scientific_name": "Exserohilum turcicum",
+    "crop": "Corn",
+    "disease_type": "Fungal",
+    "pathogen_type": "Fungus",
+    "overview": {
+      "description": "Northern Corn Leaf Blight is a destructive foliar disease easily recognized by its massive, cigar-shaped grayish-tan lesions. It rapidly destroys photosynthetic tissue, causing major yield losses if it strikes prior to the silking stage.",
+      "importance": "High. Infections that establish before silking can cause yield losses exceeding 30% to 50% due to catastrophic loss of leaf area.",
+      "affected_parts": [
+        "Leaves",
+        "Husks"
+      ],
+      "host_plants": [
+        "Corn (Maize)",
+        "Sorghum",
+        "Sudangrass"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Small, pale green to tan, oval spots appear, usually on the lower leaves first."
+      ],
+      "moderate": [
+        "Spots rapidly elongate into large, distinct 'cigar-shaped' or elliptical lesions, 1 to 6 inches long and up to an inch wide.",
+        "Lesions turn tan or grayish-green. In damp weather, dark, dusty spores form in the center of the lesions."
+      ],
+      "severe": [
+        "Massive cigar-shaped lesions merge together, blighting and killing the entire leaf.",
+        "Leaves look like they have been killed by frost.",
+        "Disease races to the upper canopy, killing the ear leaf and top leaves."
+      ],
+      "leaf": [
+        "Enormous (up to 6 inches) tan, cigar-shaped lesions crossing over leaf veins."
+      ],
+      "stem": [
+        "Not directly affected."
+      ],
+      "fruit": [
+        "Husks can develop lesions, but kernels are not directly infected."
+      ],
+      "flower": [
+        "Not affected."
+      ],
+      "root": []
+    },
+    "causes": {
+      "primary_cause": "Fungal spores splashing and blowing from infected corn residue.",
+      "pathogen": "Exserohilum turcicum (formerly Helminthosporium turcicum)",
+      "survival_mechanism": "Overwinters successfully as mycelium and conidia in corn residue (stalks/leaves) left on the soil surface.",
+      "infection_process": "Spring/early summer rains splash spores onto lower leaves. Spores germinate in free moisture and penetrate the leaf, creating massive necrotic lesions within 7-12 days."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Overwintering in crop debris.",
+        "Primary infection on lower leaves via rain splash.",
+        "Incubation (lesions form in 1-2 weeks).",
+        "Secondary spread: Lesions produce thousands of new spores blown by wind to the upper canopy and neighboring fields."
+      ],
+      "spread_cycle": "Polycyclic. Spreads rapidly vertically through the canopy and horizontally across fields during moderate, wet weather."
+    },
+    "transmission": {
+      "methods": [
+        "Wind",
+        "Rain splash"
+      ],
+      "vectors": [],
+      "common_sources": [
+        "No-till corn residue",
+        "Neighboring infected fields"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "High",
+      "rainfall": "High",
+      "poor_airflow": "Medium",
+      "overhead_irrigation": "Medium",
+      "dense_canopy": "Medium",
+      "no_till_farming": "Extreme"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "18°C - 27°C (64°F - 81°F)",
+        "notes": "Prefers moderate temperatures. It is cooler-weather favored compared to Gray Leaf Spot."
+      },
+      "humidity": {
+        "optimal_range": "85% - 100%",
+        "notes": "Requires heavy dew or high humidity for sporulation in the lesions."
+      },
+      "rainfall": "Frequent showers and long dew periods are necessary for infection.",
+      "wind": "Spreads spores long distances to upper leaves.",
+      "soil_conditions": "Not applicable.",
+      "leaf_wetness": "Requires 6-18 hours of continuous liquid water on the leaf for spores to germinate."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 15,
+        "max": 30
+      },
+      "humidity": {
+        "min": 85,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 6
+    },
+    "weather_influence": {
+      "high_humidity": "Causes the lesions to produce black, dusty spores (conidia).",
+      "rain": "Provides the leaf wetness essential for infection.",
+      "high_temperature": "Temperatures consistently above 85°F (30°C) slow down lesion expansion.",
+      "low_temperature": "Moderate-to-cool weather is highly favorable.",
+      "wind": "Dries out leaves, but also disperses the massive spores.",
+      "dry_conditions": "Stops disease spread."
+    },
+    "severity_levels": {
+      "low": "A few lesions on leaves below the ear. Standard in many fields.",
+      "medium": "Lesions approaching the ear leaf right before tasseling. Treatment threshold reached.",
+      "high": "Ear leaf and upper canopy showing large lesions. Heavy yield loss occurring.",
+      "critical": "Plant looks frost-killed in mid-summer. Massive yield reduction and high risk of stalk lodging."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "Scout field when corn approaches the V14 to VT (tasseling) stage. Count lesions on the ear leaf and the leaf directly below it."
+      ],
+      "within_24_hours": [
+        "If lesions are present on or near the ear leaf prior to silking, and weather is moderate/wet, schedule a fungicide application."
+      ],
+      "within_one_week": [
+        "Ensure aerial or ground application uses sufficient water volume (minimum 2 gpa aerial, 15 gpa ground) to penetrate the canopy."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Pyraclostrobin, Azoxystrobin (Strobilurins).",
+        "Prothioconazole, Propiconazole (Triazoles).",
+        "Dual-action products are best. Apply at VT/R1 stage for maximum economic return."
+      ],
+      "biological": [
+        "Not used in commercial field corn."
+      ],
+      "organic": [
+        "Rely on genetic resistance and aggressive crop rotation/tillage."
+      ],
+      "integrated_management": [
+        "Scout early. The economic return on fungicide is highest when applied at VT/R1 stage to protect the ear leaf during the critical pollination/grain fill period."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Bury corn residue via tillage to speed decomposition."
+      ],
+      "irrigation": [
+        "Manage overhead irrigation to allow leaves to dry before nightfall."
+      ],
+      "crop_rotation": [
+        "Rotate to soybeans or another non-host for 1-2 years to eliminate the inoculum in the residue."
+      ],
+      "air_circulation": [
+        "Standard."
+      ],
+      "resistant_varieties": [
+        "Crucial. Select hybrids with strong multigenic or single-gene (Ht1, Ht2, Ht3, HtN) resistance to NCLB."
+      ],
+      "seasonal_practices": [
+        "Avoid planting corn-on-corn in no-till systems in areas historically prone to NCLB."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Low nitrogen worsens the impact of the blighted leaves, as the plant must rob the stalk to fill grain.",
+      "phosphorus": "Standard.",
+      "potassium": "Vital for stalk strength, as NCLB often leads to late-season stalk rot and lodging.",
+      "calcium": "Standard.",
+      "magnesium": "Standard.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Lesions expand to 6 inches, killing lower leaves.",
+        "Disease overtakes the upper canopy.",
+        "Photosynthesis collapses; grain fill stops.",
+        "Ears are small, test weight is light, stalks fall over."
+      ],
+      "treated": [
+        "Fungicide at tasseling protects the upper canopy.",
+        "Lesions stop spreading.",
+        "Ear leaf remains healthy, driving maximum yield."
+      ]
+    },
+    "recovery_indicators": [
+      "Lesions turn fully dry and papery without producing dark, dusty spores.",
+      "The ear leaf remains completely green as the corn enters the dent stage."
+    ],
+    "recovery": {
+      "estimated_days": "14-21 (Protection window)",
+      "success_rate": "High",
+      "depends_on": [
+        "Timely Fungicide (VT Stage)",
+        "Hybrid Genetics"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Up to 50% if established before silking. 10-20% if established during late grain fill.",
+      "quality_loss": "Lightweight, shriveled kernels.",
+      "financial_impact": "Major revenue loss and severe stalk lodging causing harvest nightmares."
+    },
+    "monitoring": {
+      "inspection_frequency": "Weekly, beginning at V10 to V14 stage.",
+      "warning_signs": [
+        "Continuous corn, no-till fields.",
+        "Moderate, rainy weather in early to mid-summer."
+      ],
+      "recovery_signs": [
+        "Return of hot (90°F+) and dry weather."
+      ]
+    },
+    "faq": [
+      {
+        "question": "Can I spray fungicide after the corn starts denting?",
+        "answer": "No, it is too late. The damage is done, and spraying after the R4 (dough) or R5 (dent) stage will not provide a return on investment."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "Some resistant corn hybrids possess the HtN gene. This gene doesn't stop infection, but it severely delays the lesion formation, keeping the plant green until grain fill is almost done."
+      ],
+      "similar_diseases": [
+        "Southern Corn Leaf Blight",
+        "Gray Leaf Spot",
+        "Diplodia Leaf Streak"
+      ],
+      "differential_diagnosis": [
+        "NCLB lesions are massive (up to 6 inches), cigar-shaped, and cross over leaf veins. Gray Leaf Spot lesions are strictly rectangular and blocked by veins. Southern Blight spots are small (1/4 inch) and parallel."
+      ],
+      "long_term_management": [
+        "Crop rotation and selecting resistant hybrids."
+      ]
+    },
+    "ai_context": {
+      "summary": "Northern Corn Leaf Blight (NCLB) is a destructive fungus causing massive, cigar-shaped lesions. It thrives in moderate, wet weather and overwinters in corn residue.",
+      "key_points": [
+        "Overwinters in corn residue (no-till risk).",
+        "Creates 6-inch cigar-shaped lesions.",
+        "Ear leaf protection at VT stage is crucial.",
+        "Causes severe stalk lodging if uncontrolled."
+      ],
+      "high_priority_actions": [
+        "Advise checking the ear leaf for lesions.",
+        "Recommend VT/R1 fungicide application if disease pressure is high.",
+        "Suggest hybrid selection and rotation for next year."
+      ],
+      "weather_considerations": [
+        "High Risk: Moderate temps (18-27°C) with frequent rain or long morning dews."
+      ],
+      "common_mistakes": [
+        "Confusing it with Gray Leaf Spot.",
+        "Spraying too late (after dough/dent stage)."
+      ],
+      "follow_up_recommendations": [
+        "Remind user to perform the 'push test' on stalks before harvest to check for lodging risk."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Warn the user that the massive, cigar-shaped spots they see are {disease_name}. Emphasize that if these lesions reach the ear leaf before silking, yield loss will be severe.",
+      "weather_analysis": "The moderate temperatures of {temperature_data} and long dew periods are perfect for {disease_name}. Calculate if a {treatment.chemical} application at the VT stage is imminent.",
+      "treatment_plan": "Design a high-yield protection strategy. Instruct the user to prioritize protecting the ear leaf with a dual-action fungicide, and plan for {prevention.crop_rotation} next year to destroy the overwintering residue.",
+      "followup": "Ask the user to measure the lesions. Are they 1 to 6 inches long and shaped like a cigar, or are they perfectly rectangular blocks? (This differentiates NCLB from GLS)."
+    },
+    "references": [
+      "Purdue University Extension: Northern Corn Leaf Blight",
+      "Crop Protection Network: NCLB Management"
+    ],
+    "model_mapping": {
+      "cnn_class": "Corn___Northern_Corn_Leaf_Blight_NCLB",
+      "aliases": [
+        "Corn Northern Corn Leaf Blight (NCLB)",
+        "Corn Northern Corn Leaf Blight"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Intermediate"
+    },
+    "disease_id": "CORN_004",
+    "disease_name": "Corn_Smut",
+    "common_name": "Common Smut",
+    "scientific_name": "Ustilago maydis",
+    "crop": "Corn",
+    "disease_type": "Fungal",
+    "pathogen_type": "Fungus",
+    "overview": {
+      "description": "Common Smut is a bizarre and highly visible fungal disease that replaces corn kernels, tassels, or stalk tissue with massive, fleshy, silvery-white galls. These galls eventually burst, releasing black powdery spores.",
+      "importance": "Medium. While individual ears are completely destroyed, it rarely affects enough plants in modern field corn to cause catastrophic yield loss. It is a major problem for sweet corn growers.",
+      "affected_parts": [
+        "Ears (Kernels)",
+        "Tassels",
+        "Stalks",
+        "Leaves"
+      ],
+      "host_plants": [
+        "Field Corn",
+        "Sweet Corn",
+        "Popcorn"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "White, spongy, swollen tissue (galls) begins to form, usually replacing kernels on the ear, but can appear on stalks or leaves.",
+        "Leaf infections cause small, wrinkled, hard bumps rather than large galls."
+      ],
+      "moderate": [
+        "Galls rapidly expand, sometimes reaching 4 to 6 inches in diameter.",
+        "They are covered by a silvery-white, glistening membrane.",
+        "The interior of the gall begins to darken as spores form."
+      ],
+      "severe": [
+        "The silvery membrane ruptures and tears open.",
+        "The entire gall turns into a mass of dry, black, powdery spores that blow away in the wind, leaving behind ragged tissue."
+      ],
+      "leaf": [
+        "Small, hard, wrinkled knots or bumps, rarely expanding into large galls."
+      ],
+      "stem": [
+        "Large galls can form at nodes, especially if the stalk was wounded by hail or insects."
+      ],
+      "fruit": [
+        "Kernels are entirely replaced by massive, fleshy, silver galls filled with black spores."
+      ],
+      "flower": [
+        "Tassels can be entirely engulfed and replaced by smut galls."
+      ],
+      "root": []
+    },
+    "causes": {
+      "primary_cause": "Fungal spores surviving in the soil entering the plant through wounds or down the silks during pollination.",
+      "pathogen": "Ustilago maydis",
+      "survival_mechanism": "Overwinters as dark, thick-walled resting spores (teliospores) in the soil or crop residue. Can survive in the soil for up to 7 years.",
+      "infection_process": "Spores blow onto the plant. Infection REQUIRES actively growing (meristematic) tissue or a physical wound (from hail, insects, or equipment). Infection of the ear usually happens when spores travel down the silk channel during poor/delayed pollination."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Soil-borne spores germinate and are wind-blown to plants.",
+        "Spores infect wounds or unpollinated silks.",
+        "Fungus manipulates plant hormones to create massive fleshy tumors (galls).",
+        "Galls burst, releasing millions of black spores back into the soil for future years."
+      ],
+      "spread_cycle": "Monocyclic on the individual plant level (galls don't typically spread to neighboring plants in the same season), but spores build up heavily in the soil."
+    },
+    "transmission": {
+      "methods": [
+        "Wind",
+        "Rain splash",
+        "Manure (spores survive digestion by cattle)"
+      ],
+      "vectors": [
+        "Insects (create wounds, but don't carry the pathogen)"
+      ],
+      "common_sources": [
+        "Contaminated soil",
+        "Hail storms causing widespread field wounding"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "Low",
+      "rainfall": "Medium",
+      "poor_airflow": "Low",
+      "overhead_irrigation": "Low",
+      "mechanical_wounding": "Extreme",
+      "poor_pollination": "Extreme"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "26°C - 34°C (79°F - 93°F)",
+        "notes": "Prefers hot, dry weather during the vegetative stages."
+      },
+      "humidity": {
+        "optimal_range": "Variable",
+        "notes": "Not as humidity-dependent as foliar diseases."
+      },
+      "rainfall": "A light rain following a period of hot, dry drought stress is the classic trigger for smut outbreaks.",
+      "wind": "Blows spores from the soil onto the plants.",
+      "soil_conditions": "High nitrogen/manure applications increase susceptibility by promoting rapid, succulent growth.",
+      "leaf_wetness": "Not a primary driver; wounding is more important."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 20,
+        "max": 35
+      },
+      "humidity": {
+        "min": 40,
+        "max": 90
+      },
+      "leaf_wetness_hours_min": 0
+    },
+    "weather_influence": {
+      "high_humidity": "Not a major factor.",
+      "rain": "A sudden rain after a drought causes rapid plant expansion, sometimes micro-tearing tissues and allowing infection.",
+      "high_temperature": "Hot weather stresses the plant, interfering with pollination. Unpollinated silks are the main entry point for ear smut.",
+      "low_temperature": "Reduces disease incidence.",
+      "wind": "Creates physical damage (sandblasting, leaf tearing) that the fungus uses to enter the plant.",
+      "dry_conditions": "Drought stress delays silk emergence, leading to poor pollination and massively increasing ear smut risk."
+    },
+    "severity_levels": {
+      "low": "A few isolated galls on stalks or scattered ears. Normal and requires no action.",
+      "medium": "Smut appearing frequently in border rows or areas of insect damage.",
+      "high": "Widespread ear smut following a severe hail storm or drought.",
+      "critical": "Large percentage of ears destroyed (mostly a sweet corn issue). High economic loss."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "If growing sweet corn, visually inspect and manually snap off galls BEFORE they burst to prevent soil contamination."
+      ],
+      "within_24_hours": [
+        "No chemical fungicides are effective or labeled for Common Smut. Do not spray."
+      ],
+      "within_one_week": [
+        "Assess the field for insect damage (like corn borers or earworms) that may be providing the entry wounds for the smut."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "None. Fungicides are completely ineffective against Common Smut."
+      ],
+      "biological": [
+        "None available."
+      ],
+      "organic": [
+        "Physical removal of galls before they burst (only practical in small gardens/sweet corn)."
+      ],
+      "integrated_management": [
+        "Rely on resistant hybrids, balanced fertilization, and minimizing physical damage to the plants."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Avoid feeding heavily smutted corn to livestock if the manure will be spread back onto corn fields (spores survive digestion)."
+      ],
+      "irrigation": [
+        "Maintain even irrigation during tasseling to ensure successful pollination (pollinated silks quickly detach, closing the entry path for smut)."
+      ],
+      "crop_rotation": [
+        "Spores live up to 7 years in the soil, so short rotations offer limited help, but continuous corn increases pressure."
+      ],
+      "air_circulation": [
+        "Not a factor."
+      ],
+      "resistant_varieties": [
+        "Plant hybrids with known tolerance to smut. Most modern field corn is highly tolerant."
+      ],
+      "seasonal_practices": [
+        "Avoid mechanical injury during cultivation or spraying. Control corn borers and other chewing insects."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Excessive nitrogen or fresh manure applications cause rapid, succulent growth cells that are highly susceptible to smut infection. Keep N balanced.",
+      "phosphorus": "Standard.",
+      "potassium": "Standard.",
+      "calcium": "Standard.",
+      "magnesium": "Standard.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Spores enter wounds or silks.",
+        "Silvery tumors replace kernels.",
+        "Tumors burst, releasing black powder.",
+        "Ear is ruined, soil is heavily contaminated for a decade."
+      ],
+      "treated": [
+        "No chemical treatment exists. Proper pollination and hybrid genetics prevent formation entirely."
+      ]
+    },
+    "recovery_indicators": [
+      "Once an ear has a gall, it will not recover. Protection relies entirely on preventing new plants from being wounded."
+    ],
+    "recovery": {
+      "estimated_days": "N/A",
+      "success_rate": "Low (for infected plant)",
+      "depends_on": [
+        "Prevention",
+        "Avoiding Hail/Wounds"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Usually <5% in field corn. Can be 20%+ in sweet corn.",
+      "quality_loss": "Total destruction of infected ears. Minor cosmetic issues in silage.",
+      "financial_impact": "Negligible for most field corn growers. High risk of rejection for fresh market sweet corn."
+    },
+    "monitoring": {
+      "inspection_frequency": "Scout after major wind, hail, or sandblasting events. Inspect sweet corn ears just prior to harvest.",
+      "warning_signs": [
+        "Severe hail storm during the vegetative stage.",
+        "Severe drought during tasseling (causing poor pollination)."
+      ],
+      "recovery_signs": [
+        "N/A"
+      ]
+    },
+    "faq": [
+      {
+        "question": "Can I spray a fungicide to kill the smut?",
+        "answer": "No. Fungicides cannot penetrate the fleshy galls, and the infection occurs deep inside the plant. There is no chemical cure."
+      },
+      {
+        "question": "Is corn smut poisonous to my cattle?",
+        "answer": "No. Smutted corn is safe for livestock to eat, though it may have slightly lower nutritional energy. It does not produce mycotoxins like ear rots do."
+      },
+      {
+        "question": "I heard people eat this. Is that true?",
+        "answer": "Yes! In Mexico, young corn smut galls (before they turn black and powdery) are harvested and eaten as a delicacy called 'huitlacoche'. It has an earthy, mushroom-like flavor."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "The smut fungus essentially hijacks the corn plant's DNA, forcing it to stop making corn kernels and instead build a massive, nutrient-rich tumor to house the fungus."
+      ],
+      "similar_diseases": [
+        "Head Smut (A soil-borne systemic disease, but it completely destroys the tassel and ear with wire-like strands, lacking the silvery fleshy galls of Common Smut)."
+      ],
+      "differential_diagnosis": [
+        "Common Smut forms distinct silvery, fleshy tumors. Head Smut forms a dry, wire-like mass of black spores without the fleshy white membrane."
+      ],
+      "long_term_management": [
+        "Choosing resistant hybrids and avoiding massive nitrogen spikes."
+      ]
+    },
+    "ai_context": {
+      "summary": "Common Smut is a bizarre fungus that infects physical wounds and unpollinated silks, causing massive silvery-white tumors to replace corn kernels.",
+      "key_points": [
+        "Causes massive fleshy galls on ears.",
+        "Infects via hail wounds, insect damage, or poor pollination.",
+        "Fungicides are completely ineffective.",
+        "Spores survive in soil for 7 years.",
+        "Edible (huitlacoche)."
+      ],
+      "high_priority_actions": [
+        "Inform user that fungicides WILL NOT WORK.",
+        "Check if the field recently suffered hail or severe drought during pollination.",
+        "Reassure livestock producers that smut is safe for cattle."
+      ],
+      "weather_considerations": [
+        "Alert: Hail storms or extreme drought during pollination are the primary triggers."
+      ],
+      "common_mistakes": [
+        "Trying to spray fungicide on it.",
+        "Spreading manure from cattle fed smutted corn back onto corn fields."
+      ],
+      "follow_up_recommendations": [
+        "Ask user if there has been hail or heavy insect pressure.",
+        "Suggest tolerant hybrids for next year."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Reassure the user that the bizarre, alien-looking silver tumors are {disease_name}. Emphasize that it usually infects the plant because of {causes.infection_process}.",
+      "weather_analysis": "Determine if the region recently experienced severe hail, high winds, or drought during pollination, as physical wounding and stress are the primary drivers for {disease_name}.",
+      "treatment_plan": "Inform the user that {treatment.chemical} is completely useless against {disease_name}. Recommend {prevention.seasonal_practices} and ensuring good pollination next year.",
+      "followup": "Ask the user if their corn was recently damaged by hail, or if they suffered a severe dry spell right when the tassels and silks were emerging."
+    },
+    "references": [
+      "University of Wisconsin-Madison: Corn Smut",
+      "Penn State Extension: Corn Smut"
+    ],
+    "model_mapping": {
+      "cnn_class": "Corn___Common_Smut",
+      "aliases": [
+        "Corn Common Smut",
+        "Corn Corn Smut"
+      ]
+    }
+  }
+]

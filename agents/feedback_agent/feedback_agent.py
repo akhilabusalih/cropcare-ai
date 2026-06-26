@@ -4,6 +4,9 @@ import shutil
 import hashlib
 from collections import Counter
 from typing import Dict, Any
+from src.utils.logger import get_logger
+
+logger = get_logger("feedback_agent", "feedback_agent.log")
 
 class FeedbackAgent:
     def __init__(self, feedback_dir: str = "data/feedback"):
@@ -60,10 +63,12 @@ class FeedbackAgent:
         
         # Check if hash already exists in our stored images
         if os.path.exists(new_image_path):
+            logger.warning(f"Duplicate feedback detected for hash {img_hash}. Ignoring.")
             return False # Duplicate detected
             
         # Copy image
         shutil.copy2(original_image_path, new_image_path)
+        logger.info(f"Feedback image copied to {new_image_path}")
         
         # Determine relative path for CSV or just basename
         csv_image_path = new_filename
@@ -80,6 +85,7 @@ class FeedbackAgent:
                 "model_version": model_version
             })
             
+        logger.info(f"Feedback logged to CSV: {predicted_class} -> {actual_class}")
         return True
 
     def get_feedback_stats(self) -> Dict[str, Any]:
@@ -152,4 +158,5 @@ class FeedbackAgent:
                         shutil.copy2(src_path, dst_path)
                         exported_count += 1
                         
+        logger.info(f"Exported {exported_count} images to {output_dir}")
         return exported_count

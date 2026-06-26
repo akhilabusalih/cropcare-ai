@@ -1,0 +1,909 @@
+[
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Intermediate"
+    },
+    "disease_id": "CHERRY_001",
+    "disease_name": "Powdery_Mildew_Cherry",
+    "common_name": "Cherry Powdery Mildew",
+    "scientific_name": "Podosphaera clandestina",
+    "crop": "Cherry",
+    "disease_type": "Fungal",
+    "pathogen_type": "Fungus",
+    "overview": {
+      "description": "Cherry Powdery Mildew is a widespread fungal disease that covers leaves, young shoots, and fruit with a white, powdery coating. Unlike many fungi, it does not require rain to spread and actually thrives in dry but humid conditions.",
+      "importance": "High. While it rarely kills the tree, infections on the fruit render sweet and tart cherries completely unmarketable. Severe leaf infection stunts young trees and reduces overall vigor.",
+      "affected_parts": [
+        "Leaves",
+        "Young Shoots",
+        "Fruit"
+      ],
+      "host_plants": [
+        "Sweet Cherry",
+        "Tart (Sour) Cherry",
+        "Peach",
+        "Plum"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Faint, light green or slightly yellow patches appear on the newly unfurled leaves.",
+        "A delicate, white, web-like mycelium begins to form on the undersides of these leaves."
+      ],
+      "moderate": [
+        "The white powdery growth becomes thick and visible on both sides of the leaf.",
+        "Leaves begin to curl upward, pucker, or twist abnormally.",
+        "Faint white patches appear on developing green fruit."
+      ],
+      "severe": [
+        "Terminal shoots are stunted, covered entirely in white powder.",
+        "Fruit develops distinct white powdery patches, which later turn into sunken, leathery, scarred pits as the fruit matures.",
+        "Leaves become brittle and may drop prematurely."
+      ],
+      "leaf": [
+        "Upward curling or blistering, coated in a dusty white fungal mat."
+      ],
+      "stem": [
+        "New, succulent shoot tips become stunted and covered in white powder."
+      ],
+      "fruit": [
+        "White powdery spots that lead to permanent pitting, scarring, or cracking."
+      ],
+      "flower": [
+        "Rarely affected directly."
+      ],
+      "root": []
+    },
+    "causes": {
+      "primary_cause": "Airborne conidia (spores) landing on susceptible young tissue during warm, humid weather.",
+      "pathogen": "Podosphaera clandestina",
+      "survival_mechanism": "Overwinters as dormant fungal structures (chasmothecia) trapped in the bark crevices of the trunk and branches, or occasionally in infected buds.",
+      "infection_process": "In spring, overwintering structures release ascospores that infect the first flush of leaves. These primary infections quickly produce millions of secondary spores (conidia) that are blown by the wind to infect fruit and new foliage."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Spring ascospore release from bark crevices during early growth.",
+        "Primary infection on the undersides of the first leaves.",
+        "Explosive secondary production of conidia during warm, humid summer days.",
+        "Late summer formation of overwintering structures (chasmothecia) before leaf drop."
+      ],
+      "spread_cycle": "Extremely fast polycyclic disease. A new generation of spores can be produced every 5 to 7 days under ideal conditions."
+    },
+    "transmission": {
+      "methods": [
+        "Wind (The primary vector for the dry conidia)"
+      ],
+      "vectors": [],
+      "common_sources": [
+        "Overwintering structures on the tree's own bark",
+        "Neighboring infected cherry or stone fruit orchards"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "High",
+      "rainfall": "Low",
+      "poor_airflow": "High",
+      "overhead_irrigation": "Low",
+      "dense_canopy": "Extreme"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "20°C - 27°C (68°F - 80°F)",
+        "notes": "Optimal for explosive spore production. Temperatures above 32°C (90°F) kill the spores and stop the disease."
+      },
+      "humidity": {
+        "optimal_range": "70% - 90%",
+        "notes": "High relative humidity is required for the spores to germinate, but liquid water (rain) is detrimental."
+      },
+      "rainfall": "Rain actually washes spores off the leaves and causes them to burst, severely inhibiting the disease.",
+      "wind": "Light breezes are perfect for spreading the dry spores throughout the orchard canopy.",
+      "soil_conditions": "Not directly applicable.",
+      "leaf_wetness": "Requires NO leaf wetness. Free moisture inhibits powdery mildew."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 15,
+        "max": 30
+      },
+      "humidity": {
+        "min": 70,
+        "max": 95
+      },
+      "leaf_wetness_hours_min": 0
+    },
+    "weather_influence": {
+      "high_humidity": "The driving factor for spore germination. Overcast, muggy days are the most dangerous.",
+      "rain": "Washes the spores away and disrupts mycelial growth. Frequent rain stops powdery mildew.",
+      "high_temperature": "Hot weather (above 90°F/32°C) bakes and destroys the fungal hyphae.",
+      "low_temperature": "Slows fungal spread but does not kill overwintering structures.",
+      "wind": "Spreads millions of spores from tree to tree in dry weather.",
+      "dry_conditions": "Perfect for spore dispersal, provided the air humidity (especially in dense canopies) remains moderately high."
+    },
+    "severity_levels": {
+      "low": "Faint white patches on a few leaves in the inner canopy. No fruit involvement.",
+      "medium": "Visible leaf curling and powdery growth on terminal shoots. High risk of spreading to developing fruit.",
+      "high": "White patches visible on fruit. Significant stunting of new shoot growth.",
+      "critical": "Fruit heavily scarred, pitted, and completely unmarketable. Growth of young trees permanently stunted."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "If powdery white growth is visible on leaves but fruit is still green and clean, apply a systemic fungicide immediately to halt spread to the fruit."
+      ],
+      "within_24_hours": [
+        "Assess canopy density; plan to prune away dense, shaded inner growth that traps humidity."
+      ],
+      "within_one_week": [
+        "Implement a strict 7-14 day spray rotation until terminal shoot growth hardens off and stops."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Myclobutanil, Trifloxystrobin (Highly effective systemics; apply at first sign of disease).",
+        "Quinoxyfen, Boscalid (Good for rotation to prevent resistance)."
+      ],
+      "biological": [
+        "Bacillus pumilus or Bacillus amyloliquefaciens (Provide preventative suppression, not curative)."
+      ],
+      "organic": [
+        "Potassium Bicarbonate (MilStop) (Alters pH of the leaf, collapsing fungal cells on contact).",
+        "Wettable Sulfur (Highly effective, but risks burning leaves if temps exceed 85°F/29°C).",
+        "Horticultural Oils (Neem or mineral oil - smothers the fungus, but DO NOT mix with sulfur)."
+      ],
+      "integrated_management": [
+        "Focus on early season preventative sprays. Once the fungus is visibly thick, eradicating it from the fruit is nearly impossible."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Clean up fallen leaves, though the primary overwintering site is the bark."
+      ],
+      "irrigation": [
+        "Overhead irrigation actually suppresses this specific disease, though it risks triggering other fungal rots. Drip is still preferred."
+      ],
+      "crop_rotation": [
+        "Not applicable."
+      ],
+      "air_circulation": [
+        "CRITICAL: Open up the tree canopy via dormant and summer pruning to let sunlight and wind dry out the humid microclimate."
+      ],
+      "resistant_varieties": [
+        "Some tart cherry varieties are more tolerant, but most sweet cherries (like Bing or Rainier) are highly susceptible."
+      ],
+      "seasonal_practices": [
+        "Avoid excessive late-season nitrogen applications, which produce the highly susceptible, succulent leafy growth the fungus loves."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Avoid over-fertilization. Lush, rapid green growth is a magnet for powdery mildew.",
+      "phosphorus": "Maintain standard levels.",
+      "potassium": "Potassium applications can strengthen cell walls, slightly improving natural resistance.",
+      "calcium": "Ensure adequate calcium for strong fruit skin development.",
+      "magnesium": "Maintain standard levels.",
+      "micronutrients": [
+        "Silica foliar sprays may help mechanically toughen the leaf surface against fungal penetration."
+      ]
+    },
+    "disease_progression": {
+      "untreated": [
+        "Mildew covers new shoots, stunting growth.",
+        "Fungus spreads to immature fruit.",
+        "Fruit expands, but the infected skin cannot stretch, causing pits, scars, and cracking.",
+        "Total loss of marketable harvest."
+      ],
+      "treated": [
+        "Early systemic sprays halt the mycelial growth.",
+        "White patches turn gray or brown and flake off.",
+        "Fruit matures with clean, unblemished skin."
+      ]
+    },
+    "recovery_indicators": [
+      "The white powdery growth turns a dull gray or brownish color and looks dried out.",
+      "Newly emerging leaves remain flat, shiny, and green without curling.",
+      "Fruit continues to size up without developing white patches."
+    ],
+    "recovery": {
+      "estimated_days": "7-14",
+      "success_rate": "High",
+      "depends_on": [
+        "Early Detection Before Fruit Infection",
+        "Canopy Airflow",
+        "Effective Fungicide Contact"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Fresh market yield loss can approach 100% if the fruit becomes scarred and pitted.",
+      "quality_loss": "Severely downgraded. Even slight mildew markings cause rejection by fresh fruit packers.",
+      "financial_impact": "Devastating loss of high-value sweet cherry crops. Secondary financial impact from stunted growth on young orchard blocks."
+    },
+    "monitoring": {
+      "inspection_frequency": "Weekly, beginning at petal fall. Focus heavily on the shaded inner canopy and the undersides of the lowest leaves.",
+      "warning_signs": [
+        "Muggy, overcast weather with high humidity but no rain.",
+        "Rapid flush of succulent new leaf growth."
+      ],
+      "recovery_signs": [
+        "Cessation of new white patches; active shoot growth stops (hardens off), naturally ending the high-risk window."
+      ]
+    },
+    "faq": [
+      {
+        "question": "Will rain wash the powdery mildew away?",
+        "answer": "Yes, heavy rain physically washes the spores away and causes them to burst. Powdery mildew hates free water, which makes it unique among fungal diseases."
+      },
+      {
+        "question": "Can I spray oil and sulfur together to kill it faster?",
+        "answer": "NO. Mixing horticultural oils and sulfur, or applying them within 14 days of each other, will cause severe phytotoxicity and burn the leaves off your cherry tree."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "Powdery mildew spores contain their own water supply. This allows them to germinate on perfectly dry leaves, unlike almost every other fungal plant pathogen."
+      ],
+      "similar_diseases": [
+        "None easily confused. The white, powdery coating is highly distinctive."
+      ],
+      "differential_diagnosis": [
+        "Spider mite damage can cause leaf stippling and webbing that might be confused with mildew from afar, but close inspection reveals the mites and lack of white powder."
+      ],
+      "long_term_management": [
+        "Pruning strategies that prioritize 'light and air' throughout the entire tree structure to eliminate humid micro-climates."
+      ]
+    },
+    "ai_context": {
+      "summary": "Cherry Powdery Mildew is a dry-weather fungus causing white powdery growth on leaves and fruit scarring. It requires high humidity but NO free water.",
+      "key_points": [
+        "Thrives in warm, muggy, dry conditions.",
+        "Rain inhibits the disease.",
+        "Causes severe fruit pitting if untreated.",
+        "Avoid excess nitrogen."
+      ],
+      "high_priority_actions": [
+        "Advise immediate treatment if mildew is seen near developing fruit.",
+        "Recommend canopy thinning to improve airflow.",
+        "Warn against mixing oil and sulfur."
+      ],
+      "weather_considerations": [
+        "High Alert: Temps 20-27°C with high humidity but NO rain in the forecast."
+      ],
+      "common_mistakes": [
+        "Waiting until fruit is white to spray (damage is permanent by then).",
+        "Thinking irrigation or rain will cause mildew."
+      ],
+      "follow_up_recommendations": [
+        "Ask if the canopy is too dense.",
+        "Suggest potassium bicarbonate for an organic knockdown."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user that {disease_name} is unique because it loves humidity but hates rain. Confirm that the {symptoms.early} are visible in the shaded parts of the tree.",
+      "weather_analysis": "The current forecast shows {humidity_data} humidity with no rain, which is the perfect storm for {disease_name}. Generate an alert prioritizing {treatment.chemical} or {treatment.organic}.",
+      "treatment_plan": "Design a treatment plan focused on saving the fruit. Emphasize that {prevention.air_circulation} is just as important as spraying. Include a strict warning about mixing oil and sulfur.",
+      "followup": "Ask the user to check the undersides of leaves in the thickest, innermost part of the cherry tree to see if the white fungus has started there."
+    },
+    "references": [
+      "Washington State University Tree Fruit: Cherry Powdery Mildew",
+      "Oregon State University Plant Disease Clinic"
+    ],
+    "model_mapping": {
+      "cnn_class": "Cherry___Cherry_Powdery_Mildew",
+      "aliases": [
+        "Cherry Cherry Powdery Mildew",
+        "Cherry Powdery Mildew Cherry"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Intermediate"
+    },
+    "disease_id": "CHERRY_002",
+    "disease_name": "Brown_Rot",
+    "common_name": "Brown Rot (Blossom Blight and Fruit Rot)",
+    "scientific_name": "Monilinia fructicola",
+    "crop": "Cherry",
+    "disease_type": "Fungal",
+    "pathogen_type": "Fungus",
+    "overview": {
+      "description": "Brown Rot is the most destructive disease of sweet and tart cherries worldwide. It acts in two phases: causing 'blossom blight' in the spring which kills flowers and twigs, and causing a rapid, fuzzy brown rot on maturing fruit right before harvest.",
+      "importance": "Critical. Under warm, wet pre-harvest conditions, Brown Rot can destroy an entire cherry crop in 48 hours, spreading rapidly from fruit to fruit.",
+      "affected_parts": [
+        "Blossoms",
+        "Twigs",
+        "Fruit"
+      ],
+      "host_plants": [
+        "Cherry",
+        "Peach",
+        "Plum",
+        "Apricot",
+        "Nectarine"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Infected blossoms wilt, turn brown, and remain stubbornly attached to the twig.",
+        "Small, firm brown spots appear on ripening fruit."
+      ],
+      "moderate": [
+        "The fungus grows from the dead blossom into the twig, creating a sunken, gummy canker.",
+        "Fruit spots expand rapidly, rotting the flesh. Tan or gray dusty tufts of spores appear on the rot."
+      ],
+      "severe": [
+        "Twigs die back completely (flagging).",
+        "Entire clusters of fruit become covered in fuzzy gray/brown spores, rotting together in a mass.",
+        "Rotted fruit dries up into hard, black 'mummies' that cling to the tree over winter."
+      ],
+      "leaf": [
+        "Leaves on blighted twigs turn brown and die, but the fungus does not directly spot the leaves."
+      ],
+      "stem": [
+        "Sunken brown cankers on small twigs, often exuding a sticky gum/sap."
+      ],
+      "fruit": [
+        "Rapid, soft brown rot covered in concentric circles of tan, fuzzy spore tufts. Eventually mummifies."
+      ],
+      "flower": [
+        "Blossoms turn brown, collapse, and stick to the branch."
+      ],
+      "root": []
+    },
+    "causes": {
+      "primary_cause": "Spore infection of blossoms or ripening fruit during periods of warm rainfall or heavy dew.",
+      "pathogen": "Monilinia fructicola (and M. laxa in some regions)",
+      "survival_mechanism": "Overwinters in mummified fruit left on the tree or ground, and in twig cankers formed during the previous year's blossom blight.",
+      "infection_process": "In spring, overwintering mummies/cankers produce spores that infect open blossoms. The fungus travels into the twig. Later in summer, as fruit begins to color and produce sugar, spores from those dead twigs wash onto the fruit, entering through microscopic cracks, insect damage, or directly through the skin."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Overwintering in mummies and cankers.",
+        "Spring rain releases spores -> Blossom Blight.",
+        "Fungus rests in twigs during green fruit stage (green cherries are highly resistant).",
+        "Pre-harvest rain releases spores -> Fruit Rot on ripening, sugar-rich cherries."
+      ],
+      "spread_cycle": "Polycyclic during the pre-harvest phase. A single rotting cherry can produce millions of spores, infecting adjacent touching fruit within hours."
+    },
+    "transmission": {
+      "methods": [
+        "Wind",
+        "Rain splash",
+        "Insects (Bees can carry spores to blossoms; wasps/beetles can carry spores to damaged fruit)"
+      ],
+      "vectors": [
+        "Various insects"
+      ],
+      "common_sources": [
+        "Mummified fruit hanging in the tree",
+        "Nearby neglected stone fruit trees"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "High",
+      "rainfall": "Extreme",
+      "poor_airflow": "High",
+      "overhead_irrigation": "Extreme",
+      "dense_canopy": "Medium"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "20°C - 25°C (68°F - 77°F)",
+        "notes": "At 77°F, blossoms can become infected in only 5 hours of wetness."
+      },
+      "humidity": {
+        "optimal_range": "85% - 100%",
+        "notes": "High humidity is required for the spore tufts to form on the fruit."
+      },
+      "rainfall": "The absolute trigger. Rain during bloom causes blossom blight. Rain 2-3 weeks before harvest causes fruit rot epidemics.",
+      "wind": "Spreads spores throughout the orchard.",
+      "soil_conditions": "Not applicable.",
+      "leaf_wetness": "Critical. Blossom and fruit infection requires continuous free moisture."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 10,
+        "max": 30
+      },
+      "humidity": {
+        "min": 85,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 5
+    },
+    "weather_influence": {
+      "high_humidity": "Causes the rot to produce massive amounts of powdery tan spores.",
+      "rain": "Washes spores into blossoms and fruit cracks. The biggest risk factor for cherry farmers.",
+      "high_temperature": "Accelerates the rotting process. Fruit can go from clean to completely rotten in 48 hours at 80°F.",
+      "low_temperature": "Slows infection, but it can still occur if wetness persists for 24+ hours.",
+      "wind": "Dries the canopy, reducing infection risk, but spreads spores if rain follows.",
+      "dry_conditions": "Halts the disease. Brown rot cannot establish without moisture."
+    },
+    "severity_levels": {
+      "low": "A few isolated blighted blossoms; fruit remains clean. Easy to prune out.",
+      "medium": "Twig dieback visible. Scattered fruit showing rot. Requires immediate pre-harvest fungicide.",
+      "high": "Widespread fruit rot in clusters. Massive spore clouds when branches are shaken.",
+      "critical": "Complete crop loss. Rotten fruit turning into mummies field-wide."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "If pre-harvest rain is forecasted and fruit is coloring, apply a systemic protectant fungicide immediately.",
+        "If rot is already visible on a few fruits, physically remove those fruits carefully to avoid shaking spores onto healthy fruit."
+      ],
+      "within_24_hours": [
+        "Ensure harvesting bins and equipment are sanitized, as brown rot easily spreads post-harvest in storage."
+      ],
+      "within_one_week": [
+        "Rapidly harvest ripe fruit. Do not leave overripe cherries on the tree."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Fenbuconazole, Propiconazole, Myclobutanil (Highly effective systemics).",
+        "Captan (Excellent protectant, must be applied before rain).",
+        "Fludioxonil (Often used as a post-harvest dip/spray to prevent rot in transit)."
+      ],
+      "biological": [
+        "Bacillus subtilis (Serenade) can offer moderate control if applied strictly preventatively under low disease pressure."
+      ],
+      "organic": [
+        "Wettable Sulfur or Copper (Early season only).",
+        "Orchard sanitation is the primary organic defense."
+      ],
+      "integrated_management": [
+        "Two critical spray windows: 1) Early bloom to petal fall (to stop blossom blight) and 2) Three weeks before harvest until harvest (to stop fruit rot)."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "CRITICAL: Remove all mummified fruit from the tree during winter pruning.",
+        "Prune out all dead twigs and cankers.",
+        "Pick up and destroy dropped fruit; do not let it rot on the orchard floor."
+      ],
+      "irrigation": [
+        "Never use overhead irrigation. Use drip to keep the canopy completely dry."
+      ],
+      "crop_rotation": [
+        "Not applicable."
+      ],
+      "air_circulation": [
+        "Prune trees to an open-center or structured canopy so fruit dries rapidly after morning dew or rain."
+      ],
+      "resistant_varieties": [
+        "There are no highly resistant sweet cherry varieties. All are susceptible."
+      ],
+      "seasonal_practices": [
+        "Manage insects (like plum curculio or cherry fruit fly), as insect damage provides perfect entry wounds for brown rot spores."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Avoid excess nitrogen, which creates thin-skinned fruit more prone to cracking and infection.",
+      "phosphorus": "Standard maintenance.",
+      "potassium": "Crucial. High potassium improves fruit firmness and skin elasticity, reducing the micro-cracks where spores enter.",
+      "calcium": "Foliar calcium sprays late in the season improve skin toughness and significantly reduce fruit cracking and subsequent rot.",
+      "magnesium": "Standard maintenance.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Blossoms die, forming twig cankers.",
+        "Pre-harvest rain hits maturing fruit.",
+        "Fruit rots, turning brown and fuzzy within 48-72 hours.",
+        "Fruit dries into a mummy, guaranteeing the disease returns next year."
+      ],
+      "treated": [
+        "Bloom sprays keep twigs healthy.",
+        "Pre-harvest sprays shield the fruit skin.",
+        "Cherries are harvested clean and hold up well in cold storage."
+      ]
+    },
+    "recovery_indicators": [
+      "Blossoms drop cleanly without turning brown and sticking to the twigs.",
+      "Ripening fruit remains firm and glossy without soft brown spots."
+    ],
+    "recovery": {
+      "estimated_days": "N/A (Preventative)",
+      "success_rate": "High",
+      "depends_on": [
+        "Mummy Removal",
+        "Pre-Rain Spray Timing",
+        "Insect Control"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Can reach 100% in a matter of days if it rains right before harvest.",
+      "quality_loss": "Even one rotting cherry in a punnet will quickly rot the rest during shipping, leading to rejected shipments.",
+      "financial_impact": "Massive. Pre-harvest crop loss destroys a full year of input costs right at the finish line."
+    },
+    "monitoring": {
+      "inspection_frequency": "Twice weekly during bloom. Daily during the final 3 weeks before harvest.",
+      "warning_signs": [
+        "Rain forecasted while cherries are turning from yellow/pink to dark red.",
+        "Bird or insect damage on ripening fruit (creates wounds)."
+      ],
+      "recovery_signs": [
+        "A return to hot, dry, breezy weather."
+      ]
+    },
+    "faq": [
+      {
+        "question": "Can I wash the brown rot off and eat the cherry?",
+        "answer": "No. By the time you see the fuzzy spores on the outside, the fungal mycelium has entirely liquefied and rotted the flesh inside."
+      },
+      {
+        "question": "Why did my cherries rot after I picked them and put them in the fridge?",
+        "answer": "Brown rot spores were likely on the fruit surface at harvest. It can grow slowly even in cold storage. Always discard any bruised or slightly soft cherries before storing the rest."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "Green, unripe cherries are naturally immune to Brown Rot. As the fruit produces sugar and loses its natural chemical defenses (chlorogenic acid) near ripening, it suddenly becomes highly susceptible."
+      ],
+      "similar_diseases": [
+        "Botrytis (Gray Mold)",
+        "Rhizopus rot"
+      ],
+      "differential_diagnosis": [
+        "Botrytis looks similar but is less common on cherries. Rhizopus rot causes a much 'hairier', whiskery black-and-white mold, whereas Brown rot tufts are short, powdery, and tan/gray."
+      ],
+      "long_term_management": [
+        "Meticulous winter sanitation—making sure not a single mummy remains in the orchard—drastically reduces the need for heavy chemical sprays."
+      ]
+    },
+    "ai_context": {
+      "summary": "Brown Rot is a devastating, fast-moving fungus that blights blossoms in spring and rapidly rots sweet cherries just before harvest in warm, wet weather.",
+      "key_points": [
+        "Overwinters in fruit mummies.",
+        "Has two phases: Blossom Blight and Fruit Rot.",
+        "Requires wet weather to infect.",
+        "Can rot a crop in 48 hours pre-harvest."
+      ],
+      "high_priority_actions": [
+        "Urge user to spray IMMEDIATELY if rain is forecasted 2-3 weeks before harvest.",
+        "Emphasize removing mummified fruit during winter.",
+        "Ensure calcium is adequate to prevent fruit cracking."
+      ],
+      "weather_considerations": [
+        "Extreme Alert: Rain forecasted when cherries are coloring/ripening. Immediate intervention required."
+      ],
+      "common_mistakes": [
+        "Leaving dropped or mummified fruit in the orchard.",
+        "Missing the bloom-time spray and letting twig cankers form."
+      ],
+      "follow_up_recommendations": [
+        "Remind user to sanitize picking bins.",
+        "Suggest late-season calcium sprays to toughen cherry skins."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user that {disease_name} is the most dangerous threat to their cherry harvest. Warn them that the {symptoms.moderate} means the fruit will rot completely within days if not addressed.",
+      "weather_analysis": "The upcoming {rainfall_data} during this crucial pre-harvest window is an extreme risk for {disease_name}. Instruct the user to apply {treatment.chemical} before the rain arrives.",
+      "treatment_plan": "Create an emergency plan focused on saving the remaining crop. Tell the user to carefully cull any rotting fruit and immediately apply a systemic fungicide. Emphasize {prevention.farm_hygiene} for next year.",
+      "followup": "Ask the user if they notice any shriveled, dried-up 'mummy' cherries still hanging in the tree from last year, as this is the source of the infection."
+    },
+    "references": [
+      "Penn State Extension: Brown Rot of Stone Fruits",
+      "Michigan State University: Managing Brown Rot in Cherries"
+    ],
+    "model_mapping": {
+      "cnn_class": "Cherry___Brown_Rot_Blossom_Blight_and_Fruit_Rot",
+      "aliases": [
+        "Cherry Brown Rot (Blossom Blight and Fruit Rot)",
+        "Cherry Brown Rot"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Intermediate"
+    },
+    "disease_id": "CHERRY_003",
+    "disease_name": "Cherry_Leaf_Spot",
+    "common_name": "Cherry Leaf Spot",
+    "scientific_name": "Blumeriella jaapii",
+    "crop": "Cherry",
+    "disease_type": "Fungal",
+    "pathogen_type": "Fungus",
+    "overview": {
+      "description": "Cherry Leaf Spot is a serious fungal disease, primarily of tart cherries but also affecting sweet cherries. It causes small purple spots that turn brown, leading to massive leaf yellowing and severe premature defoliation by mid-summer.",
+      "importance": "High. While it doesn't directly rot the fruit, early loss of leaves prevents the tree from storing carbohydrates for the winter, leading to severe winter injury, dead branches, and drastically reduced yields the following year.",
+      "affected_parts": [
+        "Leaves",
+        "Petioles",
+        "Pedicels (fruit stems)"
+      ],
+      "host_plants": [
+        "Tart (Sour) Cherry",
+        "Sweet Cherry",
+        "Plum (rarely)"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Small (1/8 inch), circular, purple spots appear on the upper surface of leaves in late spring."
+      ],
+      "moderate": [
+        "The spots turn brown. In wet weather, white or light pink spore masses ooze from the spots on the underside of the leaf.",
+        "The center of the spots may fall out, giving the leaf a 'shot-hole' appearance."
+      ],
+      "severe": [
+        "Infected leaves rapidly turn a bright, distinct yellow (while the spots remain green or brown) and drop to the ground.",
+        "Complete defoliation of the tree can occur by mid-July or August.",
+        "Fruit on severely defoliated trees may fail to ripen, remaining pale and tasting bitter."
+      ],
+      "leaf": [
+        "Purple/brown spots, yellowing of the entire leaf, 'shot-hole' effect, and rapid dropping."
+      ],
+      "stem": [
+        "Rarely affects woody stems, but can infect the pedicels (stems attaching the fruit), causing fruit drop."
+      ],
+      "fruit": [
+        "Fruit is generally not infected, but fails to mature properly due to lack of leaf photosynthesis."
+      ],
+      "flower": [
+        "Not affected."
+      ],
+      "root": []
+    },
+    "causes": {
+      "primary_cause": "Fungal ascospores released from fallen leaves during wet spring weather.",
+      "pathogen": "Blumeriella jaapii",
+      "survival_mechanism": "Overwinters entirely in infected dead leaves on the orchard floor.",
+      "infection_process": "In spring, rain causes overwintered leaves to shoot ascospores into the air. They land on new cherry leaves, entering through stomata (natural pores) if the leaf remains wet for several hours."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Overwintering in fallen leaves.",
+        "Primary infection: Ascospores released during spring rains (around petal fall).",
+        "Incubation: 5-15 days.",
+        "Secondary infection: Leaf spots produce conidia (white/pink masses) which splash via rain to other leaves throughout the summer."
+      ],
+      "spread_cycle": "Polycyclic. Every rain event in the summer triggers a massive secondary spread from the existing leaf spots."
+    },
+    "transmission": {
+      "methods": [
+        "Wind-driven rain",
+        "Rain splash"
+      ],
+      "vectors": [],
+      "common_sources": [
+        "Infected fallen leaves from the previous season under the tree"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "High",
+      "rainfall": "High",
+      "poor_airflow": "Medium",
+      "overhead_irrigation": "High",
+      "dense_canopy": "Medium"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "15°C - 20°C (60°F - 68°F)",
+        "notes": "Optimal for initial spring infection, though secondary spread continues aggressively up to 85°F."
+      },
+      "humidity": {
+        "optimal_range": "85% - 100%",
+        "notes": "High humidity is required for the spore masses to form on the undersides of the leaves."
+      },
+      "rainfall": "Absolutely essential. Spores are only released during rain, and rain splash is required for secondary summer spread.",
+      "wind": "Helps blow the initial spring ascospores from the ground up into the canopy.",
+      "soil_conditions": "Not applicable.",
+      "leaf_wetness": "Requires a few hours of leaf wetness to enter the stomata (e.g., 5 hours at 68°F)."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 8,
+        "max": 30
+      },
+      "humidity": {
+        "min": 85,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 5
+    },
+    "weather_influence": {
+      "high_humidity": "Allows the fungus to erupt through the leaf underside and produce secondary spores.",
+      "rain": "The engine of the disease. Frequent summer rains guarantee severe defoliation if unprotected.",
+      "high_temperature": "Above 85°F (29°C), fungal development slows considerably.",
+      "low_temperature": "Prolongs the hours of leaf wetness required for infection.",
+      "wind": "Dries foliage, acting as a natural defense.",
+      "dry_conditions": "Stops the disease entirely. Leaves will not become infected without liquid water."
+    },
+    "severity_levels": {
+      "low": "A few scattered purple spots. Easily controlled with standard sprays.",
+      "medium": "Numerous spots, lower canopy leaves beginning to turn yellow. Requires immediate rescue fungicide.",
+      "high": "Significant yellowing and dropping of leaves in mid-summer. Tree vigor compromised.",
+      "critical": "Total defoliation before harvest. Fruit is ruined. Tree faces severe risk of winter kill."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "If heavy leaf spotting is observed, apply a curative systemic fungicide immediately to stop secondary spore production."
+      ],
+      "within_24_hours": [
+        "Calibrate sprayer to ensure excellent coverage on the UNDERSIDES of the leaves, where the disease enters and sporulates."
+      ],
+      "within_one_week": [
+        "Mow the orchard floor extremely tight to reduce humidity around the lower canopy and speed up drying."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Chlorothalonil (Excellent protectant, but cannot be used after petal fall/shuck split).",
+        "Myclobutanil, Fenbuconazole (Systemics with good curative reach).",
+        "Captan (Standard summer protectant)."
+      ],
+      "biological": [
+        "Not typically effective against severe Cherry Leaf Spot pressure."
+      ],
+      "organic": [
+        "Copper sprays (Effective, but repeated summer use can cause phytotoxic leaf yellowing and drop, mimicking the disease).",
+        "Strict leaf sanitation."
+      ],
+      "integrated_management": [
+        "Rely on early season protectants (bract leaf stage through petal fall) to prevent the primary spring infection, which makes summer control much easier."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Flail mow fallen leaves in autumn to speed decomposition.",
+        "Apply urea (nitrogen) to the fallen leaves in late fall to feed microbes that destroy the overwintering fungus."
+      ],
+      "irrigation": [
+        "Do not use overhead sprinklers, which mimic rain and spread the spores."
+      ],
+      "crop_rotation": [
+        "Not applicable."
+      ],
+      "air_circulation": [
+        "Prune out dense, shaded wood to allow wind to dry the leaves quickly after rain."
+      ],
+      "resistant_varieties": [
+        "Most commercial tart cherries (like Montmorency) are highly susceptible. Balaton is slightly less susceptible."
+      ],
+      "seasonal_practices": [
+        "Post-harvest sprays are critical. Do not stop spraying just because the fruit is picked; the tree needs its leaves until October."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Fall application of urea on the GROUND helps destroy the pathogen. Avoid excess foliar nitrogen which promotes overly susceptible growth.",
+      "phosphorus": "Standard maintenance.",
+      "potassium": "Crucial for winter hardiness, which is the main thing this disease steals from the tree.",
+      "calcium": "Standard maintenance.",
+      "magnesium": "Standard maintenance.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Spring rain causes minor early spotting.",
+        "Summer rains cause explosive secondary spread.",
+        "Leaves turn yellow and drop in July.",
+        "Tree starves, fails to harden off, and dies back during winter."
+      ],
+      "treated": [
+        "Fungicides block initial spring infection.",
+        "Foliage remains dark green and attached.",
+        "Tree stores carbohydrates, yielding a heavy crop next season."
+      ]
+    },
+    "recovery_indicators": [
+      "Leaves stop turning yellow and dropping.",
+      "New terminal leaf growth remains green and completely free of purple spots.",
+      "White/pink spore masses disappear from the undersides of old spots."
+    ],
+    "recovery": {
+      "estimated_days": "14-21",
+      "success_rate": "Medium",
+      "depends_on": [
+        "Preventative Timing",
+        "Post-Harvest Spraying",
+        "Leaf Sanitation"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Minor in the current year (unless defoliation happens before harvest), but can cause 50-80% yield loss the *following* year due to dead fruit buds.",
+      "quality_loss": "Fruit on defoliated trees is pale, soft, and low in sugar.",
+      "financial_impact": "Long-term loss of orchard productivity and shortened lifespan of the trees due to chronic winter injury."
+    },
+    "monitoring": {
+      "inspection_frequency": "Weekly, starting at petal fall. Look at the lower, inner canopy first, as spores come from the ground.",
+      "warning_signs": [
+        "Frequent rainy weather in late spring/early summer.",
+        "Neighboring unmanaged cherry trees dropping yellow leaves."
+      ],
+      "recovery_signs": [
+        "Retention of green foliage through September."
+      ]
+    },
+    "faq": [
+      {
+        "question": "My cherry tree's leaves are turning yellow and falling off in July. Does it need water?",
+        "answer": "While drought can cause leaf drop, if the leaves have small purple or brown spots on them, it is Cherry Leaf Spot, not a lack of water. In fact, too much rain likely caused it."
+      },
+      {
+        "question": "Can I stop spraying once I harvest the cherries?",
+        "answer": "No! This is the most common mistake. You must apply 1 or 2 post-harvest fungicide sprays to keep the leaves on the tree until fall. If the tree loses its leaves in August, it may die during the winter."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "The yellowing of the leaf is a systemic reaction by the tree trying to self-amputate the infected tissue. The spots themselves stay green or brown while the rest of the leaf turns bright yellow."
+      ],
+      "similar_diseases": [
+        "Bacterial Canker (causes shot-hole, but usually larger and associated with gummy twigs).",
+        "Nitrogen deficiency (causes yellowing, but without the purple spots)."
+      ],
+      "differential_diagnosis": [
+        "Bacterial shot-hole spots often have a yellow halo before falling out. Cherry Leaf Spot spots are strictly purple/brown, and produce white/pink fuzz underneath in the rain."
+      ],
+      "long_term_management": [
+        "Implementing a rigorous autumn urea application and leaf-chopping program to essentially starve the fungus of its winter home."
+      ]
+    },
+    "ai_context": {
+      "summary": "Cherry Leaf Spot is a rain-driven fungus causing purple leaf spots, severe yellowing, and early defoliation, which cripples the tree's winter survival.",
+      "key_points": [
+        "Overwinters in fallen leaves.",
+        "Causes leaves to turn yellow and drop mid-summer.",
+        "Post-harvest sprays are mandatory.",
+        "Requires rain to spread."
+      ],
+      "high_priority_actions": [
+        "Advise post-harvest fungicide applications.",
+        "Recommend autumn leaf management (mowing/urea).",
+        "Alert if heavy rain occurs during petal-fall."
+      ],
+      "weather_considerations": [
+        "Alert: Spring rains with temps 15-20°C trigger the initial massive spore release from the ground."
+      ],
+      "common_mistakes": [
+        "Stopping fungicide sprays after picking the fruit.",
+        "Confusing the yellow dropping leaves with drought stress."
+      ],
+      "follow_up_recommendations": [
+        "Ask user if leaves have purple spots before turning yellow.",
+        "Remind user to apply urea to fallen leaves in November."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user that {disease_name} is the reason their tree is losing its leaves in the middle of summer. Emphasize that the {symptoms.moderate} are caused by a fungus, not a lack of water.",
+      "weather_analysis": "The frequent rains ({rainfall_data}) have allowed {disease_name} to spread rapidly. Advise the user that {treatment.chemical} is necessary to keep the remaining leaves on the tree.",
+      "treatment_plan": "Create a management plan stressing the absolute necessity of post-harvest care. Remind the user that if they don't apply {treatment.chemical} and practice {prevention.farm_hygiene}, the tree may suffer severe winter damage.",
+      "followup": "Ask the user if they can see small purple or brown spots on the leaves that are turning yellow, or if there is white/pink fuzz on the undersides."
+    },
+    "references": [
+      "Michigan State University Extension: Cherry Leaf Spot",
+      "Cornell University: Integrated Pest Management for Cherries"
+    ],
+    "model_mapping": {
+      "cnn_class": "Cherry___Cherry_Leaf_Spot",
+      "aliases": [
+        "Cherry Cherry Leaf Spot"
+      ]
+    }
+  }
+]

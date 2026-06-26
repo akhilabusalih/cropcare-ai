@@ -1,4 +1,7 @@
 from typing import Dict, Any
+from src.utils.logger import get_logger
+
+logger = get_logger("severity_agent", "severity_agent.log")
 
 class SeverityAgent:
     def __init__(self):
@@ -37,9 +40,12 @@ class SeverityAgent:
             score = 1
             details = "Low confidence implies early-stage or ambiguous symptoms."
             
-        return {
+        result = {
             "severity": severity,
             "severity_score": score,
             "details": details,
             "assessment_method": self.assessment_method
         }
+        
+        logger.info(f"Severity analysis for {disease_class} (Conf: {confidence}%): {severity} (Score: {score})")
+        return result

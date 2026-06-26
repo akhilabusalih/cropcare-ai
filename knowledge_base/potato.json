@@ -1,0 +1,1217 @@
+[
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Intermediate"
+    },
+    "disease_id": "POTATO_001",
+    "disease_name": "Early_Blight",
+    "common_name": "Early Blight",
+    "scientific_name": "Alternaria solani",
+    "crop": "Potato",
+    "disease_type": "Fungal",
+    "pathogen_type": "Fungus",
+    "overview": {
+      "description": "Early Blight is a very common fungal disease of potatoes and tomatoes. Despite the name 'early', it typically becomes most severe later in the season as plants age and become stressed. It is easily identified by distinct 'bullseye' or 'target-board' rings within the leaf spots.",
+      "importance": "High. While it does not kill the plant as rapidly as Late Blight, it destroys photosynthetic leaf area, leading to significantly reduced tuber size and yield. It can also cause dry rot on tubers in storage.",
+      "affected_parts": [
+        "Leaves",
+        "Stems",
+        "Tubers"
+      ],
+      "host_plants": [
+        "Potato",
+        "Tomato",
+        "Eggplant",
+        "Nightshade weeds"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Small (1-2 mm), dark brown to black spots appear on the older, lower leaves first.",
+        "Spots are often angular, restricted by small leaf veins."
+      ],
+      "moderate": [
+        "Spots enlarge up to 1/2 inch in diameter and develop distinct concentric rings (like a target board).",
+        "A yellow halo often surrounds the dark, ringed lesions.",
+        "The disease moves progressively upward into the middle canopy."
+      ],
+      "severe": [
+        "Multiple lesions coalesce, causing entire leaves to turn yellow, wither, and die (but often remain attached to the stem).",
+        "Stems develop dark, sunken, elongated lesions.",
+        "Tubers (at harvest/storage) develop dark, sunken, circular lesions with raised purple-brown margins. The flesh underneath becomes dry, leathery, and brown."
+      ],
+      "leaf": [
+        "Dark brown/black spots with distinct concentric 'bullseye' rings and yellow halos. Starts on bottom leaves."
+      ],
+      "stem": [
+        "Dark, sunken, elongated cankers."
+      ],
+      "fruit": [
+        "(Tubers) Sunken, dark, dry, leathery lesions on the skin, causing dry rot in storage."
+      ],
+      "flower": [
+        "Not directly affected."
+      ],
+      "root": [
+        "Roots are not affected, but tubers are."
+      ]
+    },
+    "causes": {
+      "primary_cause": "Fungal spores splashing from infected crop residue in the soil onto the lower leaves.",
+      "pathogen": "Alternaria solani",
+      "survival_mechanism": "Overwinters in infected plant debris left in the soil from the previous season, and on volunteer potato plants.",
+      "infection_process": "Spores are splashed by rain or overhead irrigation onto lower leaves. They germinate in free moisture or heavy dew and penetrate the leaf directly. Infection is highly accelerated if the plant is stressed by poor nutrition, drought, or nematode damage."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Overwinters in crop debris.",
+        "Spring/Summer: Wind and rain splash primary spores onto lower leaves.",
+        "Lesions form and produce secondary spores (conidia).",
+        "Wind blows secondary spores to upper canopy and neighboring plants.",
+        "Spores wash into the soil at harvest, infecting tubers through skin wounds."
+      ],
+      "spread_cycle": "Polycyclic. Multiple cycles occur throughout the summer, gradually climbing the plant."
+    },
+    "transmission": {
+      "methods": [
+        "Wind",
+        "Rain splash",
+        "Overhead irrigation"
+      ],
+      "vectors": [
+        "Flea beetles (feeding wounds provide easy entry points)"
+      ],
+      "common_sources": [
+        "Soil-borne crop debris from last year"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "Medium",
+      "rainfall": "Medium",
+      "poor_airflow": "Medium",
+      "plant_stress": "Extreme",
+      "poor_nutrition": "High",
+      "overhead_irrigation": "High"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "24°C - 29°C (75°F - 84°F)",
+        "notes": "Prefers warm to hot weather with alternating wet and dry periods."
+      },
+      "humidity": {
+        "optimal_range": "80% - 100%",
+        "notes": "High humidity or dew is required for spore germination."
+      },
+      "rainfall": "Alternating dry weather (which helps spread spores via wind) and wet weather (which allows spores to germinate) is the perfect combination.",
+      "wind": "The primary method of spreading spores from leaf to leaf and field to field.",
+      "soil_conditions": "Sandy soils that leach nitrogen quickly often stress plants, triggering severe Early Blight outbreaks.",
+      "leaf_wetness": "Requires only a few hours of dew or light rain to germinate."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 10,
+        "max": 35
+      },
+      "humidity": {
+        "min": 80,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 4
+    },
+    "weather_influence": {
+      "high_humidity": "Facilitates rapid spore germination on leaves.",
+      "rain": "Splashes primary spores from the soil.",
+      "high_temperature": "Accelerates the disease cycle if accompanied by high humidity/dew.",
+      "low_temperature": "Slows disease progression.",
+      "wind": "Highly effective at spreading the dry spores (conidia) across the field.",
+      "dry_conditions": "Stress the plant, making it more vulnerable to infection once dew returns at night."
+    },
+    "severity_levels": {
+      "low": "Scattered spots on lower leaves only. Normal in most fields; monitor closely.",
+      "medium": "Spots climbing to middle canopy. Leaves turning yellow. Initiate fungicide program.",
+      "high": "Upper canopy infected; lower leaves dead. Yield loss occurring due to loss of photosynthesis.",
+      "critical": "Severe defoliation before tubers have bulked up. Massive yield loss."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "If bullseye spots are moving up into the middle canopy, apply a protectant/systemic fungicide immediately."
+      ],
+      "within_24_hours": [
+        "Evaluate the plant's nitrogen and watering status. Early blight aggressively attacks stressed or nutrient-deficient plants."
+      ],
+      "within_one_week": [
+        "If harvest is approaching, ensure the potato vines are completely dead (vine kill) for at least 2-3 weeks before digging to allow tuber skins to set, preventing tuber infection."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Chlorothalonil, Mancozeb (Excellent broad-spectrum protectants).",
+        "Azoxystrobin, Pyraclostrobin (Strobilurins - Excellent control, but resistance is common in many regions).",
+        "Boscalid, Fluopyram (Often used in rotation to prevent resistance)."
+      ],
+      "biological": [
+        "Bacillus subtilis offers mild preventative suppression."
+      ],
+      "organic": [
+        "Copper formulations (Effective preventative, but requires frequent application).",
+        "Maintaining high soil fertility to reduce plant stress."
+      ],
+      "integrated_management": [
+        "Combine crop rotation, proper nitrogen management, and preventative fungicide sprays starting just after the plant finishes blooming (when susceptibility increases)."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Deep plow infected potato vines immediately after harvest to speed decomposition."
+      ],
+      "irrigation": [
+        "Avoid overhead irrigation late in the day. Leaves must be dry before nightfall."
+      ],
+      "crop_rotation": [
+        "Rotate away from potatoes and tomatoes for at least 2-3 years."
+      ],
+      "air_circulation": [
+        "Maintain proper row spacing."
+      ],
+      "resistant_varieties": [
+        "No varieties are completely immune, but late-maturing varieties generally have higher resistance than early-maturing varieties."
+      ],
+      "seasonal_practices": [
+        "Kill vines 14-21 days before harvest. This thickens the tuber skin, making it much harder for Early Blight spores to infect the potato during digging."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "CRITICAL. Plants deficient in nitrogen are highly susceptible to Early Blight. Maintain adequate N throughout the tuber-bulking phase.",
+      "phosphorus": "Standard.",
+      "potassium": "Standard.",
+      "calcium": "Standard.",
+      "magnesium": "Standard.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Lower leaves develop target spots.",
+        "As tubers bulk and plant resources are drained, upper leaves become highly susceptible.",
+        "Entire canopy turns yellow and dies.",
+        "Tubers stop growing; yield is heavily reduced.",
+        "Tubers develop dry rot in winter storage."
+      ],
+      "treated": [
+        "Fungicides protect the middle/upper canopy.",
+        "Plants remain green through the full tuber-bulking phase.",
+        "Maximum yield is achieved; tubers store perfectly."
+      ]
+    },
+    "recovery_indicators": [
+      "Lesions stop expanding and dry out.",
+      "Upper canopy remains green and free of bullseye spots.",
+      "No further yellowing of the middle canopy."
+    ],
+    "recovery": {
+      "estimated_days": "10-14 (Protection window of spray)",
+      "success_rate": "High",
+      "depends_on": [
+        "Fungicide Timing",
+        "Nitrogen Levels",
+        "Stress Reduction"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Commonly 20-30% if defoliation happens early during the bulking phase.",
+      "quality_loss": "Storage rot can ruin harvested potatoes weeks after they are put in the cellar.",
+      "financial_impact": "Moderate to High, due to lost tonnage and potential storage losses."
+    },
+    "monitoring": {
+      "inspection_frequency": "Weekly starting at the bloom stage. Focus on the lowest leaves first.",
+      "warning_signs": [
+        "Alternating periods of hot, dry weather and heavy morning dew.",
+        "Plants looking yellow/pale from nitrogen deficiency."
+      ],
+      "recovery_signs": [
+        "Return of consistently dry weather; successful vine-kill prior to harvest."
+      ]
+    },
+    "faq": [
+      {
+        "question": "Can I eat a potato that has Early Blight dry rot spots?",
+        "answer": "Yes, but you must cut away the dark, leathery, rotted tissue. The rest of the potato is safe to eat, though it will not store well and should be used quickly."
+      },
+      {
+        "question": "What is the difference between Early Blight and Late Blight?",
+        "answer": "Early blight has distinct concentric 'bullseye' rings inside the dark spots, progresses slowly, and prefers warm weather. Late Blight has massive water-soaked spots with white fuzz underneath, lacks rings, prefers cool weather, and kills the plant in days."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "Early Blight is an 'opportunistic' pathogen. It heavily prefers to attack older, senescing leaves or plants that are stressed by a lack of fertilizer. A perfectly healthy, well-fed young potato plant is highly resistant."
+      ],
+      "similar_diseases": [
+        "Late Blight",
+        "Septoria Leaf Spot",
+        "Magnesium Deficiency"
+      ],
+      "differential_diagnosis": [
+        "Late blight lacks the target-board rings and has white mold on the underside. Magnesium deficiency causes yellowing between the veins on lower leaves, but lacks the distinct dark, ringed necrotic spots."
+      ]
+    },
+    "ai_context": {
+      "summary": "Early Blight is a fungal disease of potatoes causing distinct 'bullseye' target-ring spots on lower leaves. It attacks stressed or nitrogen-deficient plants in warm, alternating wet/dry weather.",
+      "key_points": [
+        "Causes 'bullseye' concentric rings in leaf spots.",
+        "Attacks from the bottom up.",
+        "Highly associated with plant stress and low nitrogen.",
+        "Can cause tuber dry-rot in storage."
+      ],
+      "high_priority_actions": [
+        "Advise user to check for target/bullseye rings inside the leaf spots.",
+        "Recommend checking soil nitrogen levels.",
+        "Ensure user practices a 2-3 week vine-kill before harvest to protect tubers."
+      ],
+      "weather_considerations": [
+        "Alert: Warm temps (24-29°C) with heavy morning dews and dry, windy afternoons."
+      ],
+      "common_mistakes": [
+        "Confusing it with Late Blight.",
+        "Digging potatoes while vines are still green and infected, forcing spores into the tuber skin.",
+        "Under-fertilizing the crop."
+      ],
+      "follow_up_recommendations": [
+        "Ask if the plant looks pale or yellow overall (indicating nitrogen stress).",
+        "Remind user to rotate out of potatoes next year."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user that the dark spots on the lower leaves with 'bullseye' rings inside them are the hallmark of {disease_name}. Note that this fungus is an opportunist that attacks {risk_factors.plant_stress}.",
+      "weather_analysis": "The alternating wet mornings and warm, dry afternoons ({temperature_data}) have allowed {disease_name} to spread. Warn the user that if the plant is stressed, the disease will move up the canopy fast.",
+      "treatment_plan": "Develop a two-pronged plan: Apply {treatment.chemical} to stop the fungal spread, and immediately address any {nutrient_management.nitrogen} deficiencies to boost the plant's natural immune system.",
+      "followup": "Ask the user to look very closely at the brown leaf spots. Do they see concentric rings inside the spot, like a target board? (This perfectly distinguishes Early Blight from Late Blight)."
+    },
+    "references": [
+      "University of Minnesota Extension: Early Blight of Potato",
+      "Penn State Extension: Potato Early Blight"
+    ],
+    "model_mapping": {
+      "cnn_class": "Potato___Early_Blight",
+      "aliases": [
+        "Potato Early Blight"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Advanced"
+    },
+    "disease_id": "POTATO_002",
+    "disease_name": "Late_Blight_Potato",
+    "common_name": "Late Blight",
+    "scientific_name": "Phytophthora infestans",
+    "crop": "Potato",
+    "disease_type": "Fungal",
+    "pathogen_type": "Oomycete",
+    "overview": {
+      "description": "Late blight is a highly destructive, fast-spreading oomycete disease. It causes rapid browning and wilting of leaves, and turns tubers into a foul-smelling, mushy rot. It is famously the pathogen responsible for the Irish Potato Famine in the 1840s.",
+      "importance": "Critical. It requires immediate, extreme action. Under favorable cool and wet conditions, Late Blight can destroy an entire potato field within a week and wipe out neighboring farms.",
+      "affected_parts": [
+        "Leaves",
+        "Stems",
+        "Tubers"
+      ],
+      "host_plants": [
+        "Potato",
+        "Tomato",
+        "Nightshade weeds"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Irregular, pale green, water-soaked spots appear on leaves, often starting at the tips or edges.",
+        "Spots quickly enlarge and turn dark brown to purplish-black.",
+        "A distinct, fluffy white mold (sporulation) appears on the undersides of the leaf spots during highly humid mornings."
+      ],
+      "moderate": [
+        "Lesions spread to the stems, turning them dark brown or black.",
+        "Leaves begin to shrivel, die, and hang from the stem. The field may take on a foul, rotting odor."
+      ],
+      "severe": [
+        "Complete defoliation and collapse of the plant (appears as if killed by frost).",
+        "Spores wash into the soil, infecting the tubers.",
+        "Tubers develop irregular, sunken, reddish-brown/purplish patches under the skin. The flesh underneath turns granular and reddish-brown, eventually succumbing to foul-smelling bacterial soft rot."
+      ],
+      "leaf": [
+        "Large, dark brown water-soaked spots with pale green halos; fluffy white mold on undersides."
+      ],
+      "stem": [
+        "Dark brown/black elongated lesions that can girdle and kill the stem."
+      ],
+      "fruit": [
+        "(Tubers) Sunken purplish lesions; granular reddish-brown dry rot inside, rapidly turning to mush via secondary bacteria."
+      ],
+      "flower": [
+        "Die off as the plant collapses."
+      ],
+      "root": [
+        "Tubers rot entirely in the ground or in storage."
+      ]
+    },
+    "causes": {
+      "primary_cause": "Infection by windblown sporangia under cool, wet conditions.",
+      "pathogen": "Phytophthora infestans",
+      "survival_mechanism": "CANNOT survive in dead plant tissue or bare soil. Overwinters strictly in living infected potato tubers left in the ground (volunteers), in cull piles, or in infected seed potatoes.",
+      "infection_process": "Sporangia blow in from cull piles or infected fields. In free moisture, they release zoospores that encyst and penetrate the leaf epidermis. Infection to new spore production can take as little as 3-4 days."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Overwintering tubers sprout, producing infected shoots.",
+        "Sporangia form and blow to healthy fields.",
+        "Infection occurs in cool, wet weather.",
+        "Massive secondary sporulation spreads across the region.",
+        "Rain washes spores into the soil, infecting the new tubers."
+      ],
+      "spread_cycle": "Explosively polycyclic. Capable of moving dozens of miles on storm fronts, devastating entire agricultural regions simultaneously."
+    },
+    "transmission": {
+      "methods": [
+        "Wind (primary vector for long-distance spread)",
+        "Rain splash",
+        "Infected seed potatoes"
+      ],
+      "vectors": [],
+      "common_sources": [
+        "Potato cull piles",
+        "Volunteer potatoes from last year",
+        "Infected seed stock"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "Extreme",
+      "rainfall": "Extreme",
+      "poor_airflow": "Medium",
+      "infected_seed": "Extreme",
+      "exposed_cull_piles": "Extreme"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "15°C - 21°C (60°F - 70°F)",
+        "notes": "Cool temperatures trigger the pathogen to release massive numbers of swimming zoospores, maximizing infectivity."
+      },
+      "humidity": {
+        "optimal_range": "90% - 100%",
+        "notes": "Near-100% relative humidity is required for the white mold to form and produce new spores."
+      },
+      "rainfall": "Frequent rainfall, fog, or continuous drizzle is highly conducive to severe epidemics.",
+      "wind": "Storm fronts carry the pathogen vast distances to new fields.",
+      "soil_conditions": "Heavy rains wash spores deep into the soil to reach the tubers.",
+      "leaf_wetness": "Requires at least 10-12 hours of continuous leaf wetness to germinate and infect."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 10,
+        "max": 27
+      },
+      "humidity": {
+        "min": 90,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 10
+    },
+    "weather_influence": {
+      "high_humidity": "Triggers massive spore production, turning the field into a bio-hazard for surrounding farms.",
+      "rain": "Washes spores into the soil to infect tubers. The primary driver of crop loss.",
+      "high_temperature": "Hot, dry days (>86°F/30°C) halt the disease progression, though the pathogen survives waiting for cooler nights.",
+      "low_temperature": "Cool weather combined with dew or rain causes explosive outbreaks.",
+      "wind": "The primary mechanism for regional spread.",
+      "dry_conditions": "Stops spore production and germination. The best natural defense."
+    },
+    "severity_levels": {
+      "low": "Initial arrival. A few plants show isolated leaf spots. Requires immediate aggressive fungicide application.",
+      "medium": "Hotspots forming. Field must be aggressively treated; infected plants should be rogued and bagged.",
+      "high": "Disease spreading row to row. Total crop loss imminent. Consider killing the vines chemically to protect the tubers underground.",
+      "critical": "Field is blighted (appears frosted/burned). High risk of tubers rotting in the ground. Salvage operations required."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "If only a few plants are infected, bag them carefully, pull them up, and destroy them (do not compost).",
+        "Apply a strong protectant/curative fungicide immediately to the rest of the field."
+      ],
+      "within_24_hours": [
+        "Notify local agricultural extension offices; late blight is tracked regionally to warn other farmers via 'Blightcast'."
+      ],
+      "within_one_week": [
+        "If the canopy is heavily infected and rain is forecasted, chemically kill the vines (desiccation) immediately to stop spores from washing down into the tubers."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Chlorothalonil, Mancozeb (Broad-spectrum protectants).",
+        "Cymoxanil, Dimethomorph, Propamocarb (Translaminar/systemic curatives to stop internal spread).",
+        "Mefenoxam (Ridomil) (Historically used, but highly resistant strains dominate many areas now)."
+      ],
+      "biological": [
+        "Not effective under severe Late Blight pressure."
+      ],
+      "organic": [
+        "Copper fungicides (the only viable organic option, must be applied strictly preventatively before the disease arrives)."
+      ],
+      "integrated_management": [
+        "Use certified disease-free seed, destroy cull piles, monitor regional blight trackers, apply preventative sprays prior to storm fronts, and execute timely vine-kill to protect tubers."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "CRITICAL: Destroy all potato cull piles (discards from harvest or storage) by freezing, deep burial, or feeding to livestock. Cull piles are ground-zero for epidemics.",
+        "Destroy volunteer potatoes from the previous season."
+      ],
+      "irrigation": [
+        "Use drip irrigation if possible. If using overhead, water mid-day so leaves dry before sunset."
+      ],
+      "crop_rotation": [
+        "Not directly effective against wind-blown spores, but helps control volunteer potatoes."
+      ],
+      "air_circulation": [
+        "Standard spacing helps rapid drying."
+      ],
+      "resistant_varieties": [
+        "Plant resistant or tolerant varieties (e.g., 'Defender', 'Elba', 'Kennebec' has some tolerance)."
+      ],
+      "seasonal_practices": [
+        "Ensure proper 'hilling' (mounding dirt over the tubers). A thick layer of soil makes it much harder for spores washing off leaves to reach the tubers."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Avoid excessive nitrogen, which creates dense, humid canopies that take a long time to dry.",
+      "phosphorus": "Standard.",
+      "potassium": "Standard.",
+      "calcium": "Standard.",
+      "magnesium": "Standard.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "1-3 days: Pale green spots.",
+        "4-5 days: Spots turn brown, white mold appears, stems blacken.",
+        "7-10 days: Complete plant collapse.",
+        "Rain washes spores into soil, rotting the tubers into foul mush."
+      ],
+      "treated": [
+        "Preventative sprays block leaf infection.",
+        "Or, timely vine-kill stops the spores before they reach the soil.",
+        "Tubers are harvested clean and store well."
+      ]
+    },
+    "recovery_indicators": [
+      "Lesions turn fully dry and brittle.",
+      "No white sporulation is visible on the underside of leaves during humid mornings.",
+      "Disease spread halts across the field."
+    ],
+    "recovery": {
+      "estimated_days": "N/A (Foliage does not recover)",
+      "success_rate": "Low for infected plants; High for protecting tubers if vines are killed.",
+      "depends_on": [
+        "Aggressive Fungicides",
+        "Vine Desiccation",
+        "Dry Weather"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "100% loss is common if the disease arrives early and weather favors the pathogen.",
+      "quality_loss": "Infected tubers will rot in storage, often turning into a wet, foul-smelling bacterial mush that spreads to healthy potatoes in the pile.",
+      "financial_impact": "Devastating loss of crop, extreme fungicide costs, and total loss of winter storage viability."
+    },
+    "monitoring": {
+      "inspection_frequency": "Daily during cool, wet, cloudy weather. Pay special attention to low-lying areas of the field where moisture settles.",
+      "warning_signs": [
+        "Reports of late blight on USA Blight trackers in your region.",
+        "Prolonged periods of rain with temperatures in the 60s (°F)."
+      ],
+      "recovery_signs": [
+        "Return of hot, sunny, dry weather (halts disease naturally)."
+      ]
+    },
+    "faq": [
+      {
+        "question": "Can I eat a potato that has Late Blight?",
+        "answer": "While not toxic to humans, the affected flesh is hard, reddish-brown, and bitter. Secondary bacteria usually invade quickly, making it a foul-smelling, mushy mess that you won't want to eat."
+      },
+      {
+        "question": "If my plants are dying from Late Blight, what should I do with the potatoes underground?",
+        "answer": "If the potatoes are a decent size, immediately kill the vines above ground (mechanically or chemically). Wait 2 weeks for the spores on the soil surface to die, then harvest the potatoes. Do NOT harvest while green, infected vines are still attached."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "Late Blight requires living tissue to survive the winter. It literally cannot live in soil alone. Every single outbreak of Late Blight originates from an infected tuber that someone missed, threw in a pile, or planted by mistake."
+      ],
+      "similar_diseases": [
+        "Early Blight",
+        "Botrytis (Gray Mold)"
+      ],
+      "differential_diagnosis": [
+        "Unlike Early Blight, Late Blight lesions lack concentric 'bullseye' rings, they cross over leaf veins, and they produce distinctive white mold strictly on the underside of the leaf during high humidity."
+      ],
+      "long_term_management": [
+        "Absolute, rigorous destruction of all potato cull piles and volunteer plants every single year."
+      ]
+    },
+    "ai_context": {
+      "summary": "Late Blight is an aggressive, catastrophic water mold triggered by cool, wet weather. It destroys potato foliage in days and rots tubers. It overwinters exclusively in infected, living tubers (cull piles/seed).",
+      "key_points": [
+        "Caused the Irish Potato Famine.",
+        "Water-soaked spots with white fuzz on the underside.",
+        "Requires living tubers to survive winter (cull piles).",
+        "Can destroy a crop in a week.",
+        "Killing infected vines protects the tubers."
+      ],
+      "high_priority_actions": [
+        "Alert user immediately if Late Blight is suspected.",
+        "Advise destroying cull piles.",
+        "Recommend immediate chemical control or vine-kill if the canopy is highly infected to save the tubers."
+      ],
+      "weather_considerations": [
+        "Extreme Alert: 3+ days of rain/fog with temps between 15-21°C."
+      ],
+      "common_mistakes": [
+        "Confusing it with Early Blight and under-reacting.",
+        "Harvesting potatoes while wet, infected green vines are still present (forces spores into the tubers)."
+      ],
+      "follow_up_recommendations": [
+        "Remind user to report the outbreak to local extension offices.",
+        "Advise checking their seed potatoes for dark, sunken lesions before planting."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Warn the user that {disease_name} is a catastrophic, fast-moving pathogen. The {symptoms.leaf} (water-soaked spots with white fuzz) indicate the crop is in extreme, immediate danger.",
+      "weather_analysis": "The cool, wet weather ({temperature_data}) is driving the explosive spread of {disease_name}. Inform them that the sporangia are washing into the soil, directly threatening the tubers.",
+      "treatment_plan": "Develop a triage plan. If only a few plants are infected, recommend immediate roguing and {treatment.chemical}. If the field is blighted, strongly advise chemical vine-desiccation to kill the foliage and stop the spores from rotting the tubers underground.",
+      "followup": "Ask the user to check the undersides of the dying leaves. Is there a fluffy, white mold growing there? (This confirms Late Blight)."
+    },
+    "references": [
+      "Cornell University: Late Blight of Potato",
+      "American Phytopathological Society (APS): Phytophthora infestans"
+    ],
+    "model_mapping": {
+      "cnn_class": "Potato___Late_Blight",
+      "aliases": [
+        "Potato Late Blight",
+        "Potato Late Blight Potato"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Intermediate"
+    },
+    "disease_id": "POTATO_003",
+    "disease_name": "Common_Scab_Potato",
+    "common_name": "Common Scab",
+    "scientific_name": "Streptomyces scabies (and other Streptomyces spp.)",
+    "crop": "Potato",
+    "disease_type": "Bacterial",
+    "pathogen_type": "Bacterium",
+    "overview": {
+      "description": "Common Scab is a pervasive soil-borne disease caused by a bacterium that behaves somewhat like a fungus. It causes unsightly, raised, corky, or pitted blemishes on the skin of the potato tuber. It thrives in dry, alkaline (high pH) soils.",
+      "importance": "Medium to High. While it does not affect yield (tonnage) or internal eating quality, the aesthetic damage severely downgrades the crop, making it unsellable for fresh market and severely penalizing it for processing (chipping).",
+      "affected_parts": [
+        "Tubers (Skin)"
+      ],
+      "host_plants": [
+        "Potato",
+        "Radish",
+        "Beet",
+        "Carrot",
+        "Turnip"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Small, brown, slightly raised spots appear on the very young tubers (not visible above ground)."
+      ],
+      "moderate": [
+        "Spots enlarge and coalesce as the tuber grows.",
+        "The skin develops raised, corky patches (russet scab) or slightly sunken, superficial scabs."
+      ],
+      "severe": [
+        "Pitted Scab: Deep, dark, corky pits up to 1/2 inch deep form in the tuber.",
+        "The entire surface of the potato may be covered in rough, cracked, unsightly scabs.",
+        "Soil insects often feed in the scab pits, making the damage look even worse."
+      ],
+      "leaf": [
+        "Leaves remain perfectly healthy. Scab does not affect the above-ground plant."
+      ],
+      "stem": [
+        "Stems remain healthy."
+      ],
+      "fruit": [
+        "(Tubers) Raised corky lesions, superficial scabs, or deep corky pits on the skin. Flesh underneath is unaffected."
+      ],
+      "flower": [
+        "Not affected."
+      ],
+      "root": [
+        "Minor lesions may occur on roots, but the primary target is the expanding tuber."
+      ]
+    },
+    "causes": {
+      "primary_cause": "Soil-borne bacteria infecting the young tubers through natural pores (lenticels) when the soil is dry and warm.",
+      "pathogen": "Streptomyces scabies",
+      "survival_mechanism": "Survives indefinitely in the soil as a saprophyte (living on decaying organic matter). It can also survive on infected seed potatoes.",
+      "infection_process": "The bacteria infect the tuber through newly forming lenticels (breathing pores) or wounds during the first 2 to 6 weeks of tuber development. As the tuber expands, the plant produces layers of corky cells to wall off the infection, creating the visible scab."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Bacteria live naturally in the soil.",
+        "Tubers begin to form (tuber initiation).",
+        "Dry soil allows bacteria to penetrate young lenticels.",
+        "Tubers expand, pushing out corky defensive tissue (the scab).",
+        "At harvest, infected tubers or scabby debris return bacteria to the soil."
+      ],
+      "spread_cycle": "Monocyclic per tuber. Infection only happens during the early tuber growth phase. Does not spread tuber-to-tuber in storage."
+    },
+    "transmission": {
+      "methods": [
+        "Contaminated soil",
+        "Infected seed potatoes",
+        "Manure (spores survive animal digestion)"
+      ],
+      "vectors": [],
+      "common_sources": [
+        "Naturally occurring in most agricultural soils",
+        "Applying uncomposted manure or fresh lime"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "Low",
+      "rainfall": "Low",
+      "high_soil_ph": "Extreme",
+      "dry_soil_during_initiation": "Extreme",
+      "susceptible_variety": "High"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "20°C - 24°C (68°F - 75°F)",
+        "notes": "Prefers warm soil temperatures."
+      },
+      "humidity": {
+        "optimal_range": "Variable",
+        "notes": "Air humidity does not affect this soil-borne pathogen."
+      },
+      "rainfall": "LACK of rainfall is the trigger. Dry soil during the 2-6 weeks after tubers begin to form allows the bacteria to infect.",
+      "wind": "Not applicable.",
+      "soil_conditions": "Alkaline soils (pH > 5.5) heavily favor the bacteria. Light, sandy soils that dry out quickly are the highest risk.",
+      "leaf_wetness": "Not applicable."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 10,
+        "max": 30
+      },
+      "humidity": {
+        "min": 0,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 0
+    },
+    "weather_influence": {
+      "high_humidity": "No effect.",
+      "rain": "Frequent rain during tuber initiation PREVENTS the disease.",
+      "high_temperature": "Warm soils increase bacterial activity.",
+      "low_temperature": "Cold soils reduce infection rates.",
+      "wind": "No effect.",
+      "dry_conditions": "The absolute primary trigger. If the soil dries out when tubers are the size of marbles, scab infection is almost guaranteed in infested soils."
+    },
+    "severity_levels": {
+      "low": "A few superficial scabs. Acceptable for most processing/chipping markets, but docked in fresh markets.",
+      "medium": "Noticeable raised scabs over 10-20% of the potato. Fresh market rejection.",
+      "high": "Deep pitted scabs. Tubers are difficult to peel and process. High waste.",
+      "critical": "Entire crop covered in deep pits. Crop is unsellable."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "If you discover scab at harvest, it is too late to fix this year's crop. Sort out the worst tubers before sale."
+      ],
+      "within_24_hours": [
+        "For NEXT year: Test soil pH. If pH is above 5.5, do not plant highly susceptible varieties in that field."
+      ],
+      "within_one_week": [
+        "Do not apply fresh manure or wood ashes to fields intended for potatoes next year, as this rapidly raises pH and introduces the pathogen."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "There are no foliar sprays or post-harvest dips that cure Common Scab.",
+        "Seed treatments (e.g., Mancozeb or Fludioxonil dusts) can prevent bringing seed-borne scab into a clean field, but will not protect tubers from soil-borne scab."
+      ],
+      "biological": [
+        "Cover crops like mustard (biofumigation) plowed into the soil before planting can suppress the bacteria."
+      ],
+      "organic": [
+        "Lowering soil pH using elemental sulfur.",
+        "Rigorous irrigation management."
+      ],
+      "integrated_management": [
+        "Maintain soil moisture near field capacity during the 2 to 6 weeks of tuber initiation. Keep soil pH strictly between 5.0 and 5.2. Plant resistant varieties."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Plant certified, scab-free seed potatoes."
+      ],
+      "irrigation": [
+        "CRITICAL: Keep the soil consistently moist (but not flooded) from the time tubers are the size of a pea until they are the size of a golf ball. Water acts as a physical barrier against the bacteria."
+      ],
+      "crop_rotation": [
+        "Rotate with non-root crops (corn, alfalfa, small grains) for 3-4 years. Do not rotate with beets, radishes, or carrots, which harbor the disease."
+      ],
+      "air_circulation": [
+        "Not applicable."
+      ],
+      "resistant_varieties": [
+        "The best defense. Use resistant varieties like 'Russet Burbank', 'Superior', 'Goldrush', or 'Norland'. Avoid highly susceptible varieties like 'Kennebec' or 'Yukon Gold' in high-pH soils."
+      ],
+      "seasonal_practices": [
+        "Acidify the soil. Apply elemental sulfur to lower the pH to 5.2, which naturally suppresses Streptomyces scabies."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Use acidic nitrogen sources (like Ammonium Sulfate) rather than alkaline sources (like Calcium Nitrate) to help suppress soil pH.",
+      "phosphorus": "Standard.",
+      "potassium": "Standard.",
+      "calcium": "Avoid adding lime to potato fields unless absolutely necessary, as raising the pH directly triggers Scab.",
+      "magnesium": "Standard.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Dry soil allows bacteria to infect young tubers.",
+        "Tubers expand, pushing out massive corky scabs.",
+        "At harvest, tubers look horrible and cannot be sold fresh.",
+        "Scabs do not grow or spread in winter storage."
+      ],
+      "treated": [
+        "Soil kept moist during tuber initiation.",
+        "Resistant varieties planted in low-pH soil.",
+        "Tubers are harvested with perfectly smooth, clean skin."
+      ]
+    },
+    "recovery_indicators": [
+      "Cannot be cured once the scabs form. Successful prevention is indicated by smooth, unblemished tuber skins at harvest."
+    ],
+    "recovery": {
+      "estimated_days": "N/A",
+      "success_rate": "Zero (for current crop), High (for prevention)",
+      "depends_on": [
+        "Irrigation Management",
+        "Soil pH",
+        "Resistant Varieties"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Very low. It does not reduce the tonnage or internal quality of the potatoes.",
+      "quality_loss": "Extreme. Ruins the visual appearance.",
+      "financial_impact": "Major financial losses due to rejection from high-value fresh produce markets and chipping contracts."
+    },
+    "monitoring": {
+      "inspection_frequency": "Monitor soil moisture intensely during the crucial tuber initiation phase (usually 4-6 weeks after planting).",
+      "warning_signs": [
+        "Allowing the soil to dry out shortly after the plants begin to flower (which corresponds with early tuber formation).",
+        "Applying wood ashes or lime to the soil."
+      ],
+      "recovery_signs": [
+        "N/A"
+      ]
+    },
+    "faq": [
+      {
+        "question": "Are scabby potatoes safe to eat?",
+        "answer": "Yes. The disease is entirely restricted to the skin. You can just peel the scabs away; the flesh inside is perfectly safe, normal, and delicious."
+      },
+      {
+        "question": "Will the scab spread to my other potatoes in the root cellar?",
+        "answer": "No. Common Scab only infects actively growing tubers in the soil. It will not spread from potato to potato in storage, and the scabs will not get any larger."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "Streptomyces scabies is an Actinomycete—a unique organism that is technically a bacteria, but grows in thread-like filaments like a fungus. It is the same group of soil microbes that gives freshly turned dirt its rich, 'earthy' smell (geosmin)."
+      ],
+      "similar_diseases": [
+        "Powdery Scab",
+        "Rhizoctonia (Black Scurf)",
+        "Wireworm damage"
+      ],
+      "differential_diagnosis": [
+        "Wireworms drill clean, deep, round holes. Rhizoctonia causes black, dirt-like crusts that can be scratched off with a fingernail. Powdery Scab creates pustules filled with brown powder. Common Scab forms solid, rough, corky, raised or pitted tissue that cannot be scraped off easily."
+      ]
+    },
+    "ai_context": {
+      "summary": "Common Scab is a bacterial soil disease that causes corky, raised, or pitted blemishes on potato tubers. It thrives in high pH (alkaline) soils that are allowed to dry out during early tuber formation.",
+      "key_points": [
+        "Affects tuber appearance, not yield or safety.",
+        "Driven by dry soil during early tuber growth.",
+        "Thrives in alkaline (high pH) soils.",
+        "Cannot be cured with foliar sprays; requires soil/water management."
+      ],
+      "high_priority_actions": [
+        "Inform user that sprays will not cure it.",
+        "Advise ensuring heavy, consistent irrigation during tuber initiation (marble size).",
+        "Recommend planting resistant varieties if soil pH is high."
+      ],
+      "weather_considerations": [
+        "Alert: Extended dry, hot periods early in the summer right as the plants begin to flower."
+      ],
+      "common_mistakes": [
+        "Applying wood ashes or lime to potato patches (triggers massive scab outbreaks).",
+        "Letting the soil dry out early in the season.",
+        "Throwing scabby potatoes into the compost pile."
+      ],
+      "follow_up_recommendations": [
+        "Ask if the soil pH is known.",
+        "Remind user that the potatoes are perfectly safe to peel and eat."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user that the rough, corky patches on their potatoes are {disease_name}. Reassure them that this is a cosmetic issue and the potatoes are safe to eat after peeling.",
+      "weather_analysis": "Determine if there was a dry spell early in the summer when the tubers were first forming. Explain that {disease_name} bacteria enter the young tubers when the soil lacks moisture.",
+      "treatment_plan": "Inform the user that there is no chemical fix for this year's harvest. Detail a prevention plan for next year focused entirely on keeping the soil pH low (below 5.2) and strictly managing {prevention.irrigation} during the first 6 weeks of tuber growth.",
+      "followup": "Ask the user if they recently added lime, wood ashes, or fresh manure to their garden, as these dramatically raise soil pH and act as the primary trigger for Common Scab."
+    },
+    "references": [
+      "University of Maine Cooperative Extension: Potato Scab",
+      "Michigan State University Extension: Common Scab of Potato"
+    ],
+    "model_mapping": {
+      "cnn_class": "Potato___Common_Scab",
+      "aliases": [
+        "Potato Common Scab",
+        "Potato Common Scab Potato"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Intermediate"
+    },
+    "disease_id": "POTATO_004",
+    "disease_name": "Rhizoctonia_Potato",
+    "common_name": "Black Scurf and Stem Canker",
+    "scientific_name": "Rhizoctonia solani",
+    "crop": "Potato",
+    "disease_type": "Fungal",
+    "pathogen_type": "Fungus",
+    "overview": {
+      "description": "Rhizoctonia solani causes two distinct phases of disease in potatoes: 'Stem Canker', which rots underground shoots early in the spring, and 'Black Scurf', which forms hard, black, dirt-like masses on the tubers at harvest.",
+      "importance": "High. Stem Canker causes delayed emergence and stunted plants, reducing yield. Black Scurf severely degrades the cosmetic quality of the tubers, causing rejection in fresh markets.",
+      "affected_parts": [
+        "Underground Stems",
+        "Stolons",
+        "Tubers"
+      ],
+      "host_plants": [
+        "Potato",
+        "Beans",
+        "Beets",
+        "Cabbage",
+        "Over 200 other plant species"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Underground Phase (Stem Canker): Reddish-brown, sunken cankers form on the white underground shoots (sprouts) before they emerge from the soil.",
+        "Shoots may be entirely girdled and killed ('nipped off'), forcing the seed piece to send up a new, weaker shoot, delaying emergence."
+      ],
+      "moderate": [
+        "Plants that survive emergence are often stunted, weak, and lack vigor.",
+        "Cankers form on the stolons (the underground stems that attach to the tubers), cutting off nutrient flow.",
+        "Leaves may curl upward and turn slightly purplish or yellowish (resembling viral infection or leafroll)."
+      ],
+      "severe": [
+        "Because stolons are destroyed, the plant cannot send starches down to the underground tubers. Instead, it forms small, green, useless 'aerial tubers' in the leaf axils above ground.",
+        "Harvest Phase (Black Scurf): Tubers are covered with hard, black, irregular masses (sclerotia) that look like clods of dirt but cannot be washed off."
+      ],
+      "leaf": [
+        "Upward curling, purplish tint, stunting (due to underground vascular damage)."
+      ],
+      "stem": [
+        "Underground stems feature deep, reddish-brown sunken cankers. Above-ground stems may produce green 'aerial tubers'."
+      ],
+      "fruit": [
+        "(Tubers) Hard, black, crusty masses (sclerotia) stuck to the skin. Tubers may also be cracked, deformed, or small."
+      ],
+      "flower": [
+        "Not directly affected."
+      ],
+      "root": [
+        "Root systems are reduced, but the stolons and stems suffer the main cankering."
+      ]
+    },
+    "causes": {
+      "primary_cause": "Soil-borne or seed-borne fungus attacking the slow-growing sprouts in cold, wet spring soils.",
+      "pathogen": "Rhizoctonia solani",
+      "survival_mechanism": "Survives for years in the soil as hard, black resting bodies (sclerotia). Also survives directly on infected seed potatoes as 'Black Scurf'.",
+      "infection_process": "If seed is planted into cold, wet soil, the potato sprouts grow very slowly. The fungus in the soil (or on the seed) becomes active and attacks these slow-growing white sprouts, forming cankers. Later in the season, as the plant dies (naturally or via vine-kill), the fungus forms the black sclerotia on the new tubers to overwinter."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Planting: Sclerotia in soil or on seed germinate.",
+        "Spring: Fungus infects slow-growing sprouts, causing Stem Canker.",
+        "Summer: Cankers girdle stolons, reducing tuber growth.",
+        "Late Summer/Fall: As vines die, the fungus senses starvation and forms hard black sclerotia (Black Scurf) on the new tubers."
+      ],
+      "spread_cycle": "Monocyclic per season. The fungus lives in the soil and attacks the plant; it does not blow from plant to plant in the air."
+    },
+    "transmission": {
+      "methods": [
+        "Infected seed potatoes",
+        "Contaminated soil",
+        "Moving farm equipment"
+      ],
+      "vectors": [],
+      "common_sources": [
+        "Planting seed potatoes that already have 'Black Scurf' on them.",
+        "Planting too early into cold, wet soil."
+      ]
+    },
+    "risk_factors": {
+      "humidity": "Low",
+      "rainfall": "High (during planting)",
+      "cold_soils": "Extreme",
+      "deep_planting": "High",
+      "delayed_harvest": "Extreme"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "10°C - 16°C (50°F - 60°F)",
+        "notes": "Cold soils heavily favor the disease. It slows down the potato's growth, leaving the sprout vulnerable to the fungus for a longer time."
+      },
+      "humidity": {
+        "optimal_range": "Variable",
+        "notes": "Soil moisture is the key factor."
+      },
+      "rainfall": "Wet soils during spring planting exacerbate the disease. Wet soils late in the fall encourage sclerotia formation on the tubers.",
+      "wind": "Not applicable.",
+      "soil_conditions": "Heavy, cold, wet, poorly drained soils are the highest risk.",
+      "leaf_wetness": "Not applicable."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 5,
+        "max": 25
+      },
+      "humidity": {
+        "min": 0,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 0
+    },
+    "weather_influence": {
+      "high_humidity": "No effect.",
+      "rain": "Cold spring rains keep soils wet and cool, preventing rapid plant emergence and guaranteeing stem canker.",
+      "high_temperature": "Warm soils (>68°F) allow the potato to sprout rapidly, 'outrunning' the fungus and minimizing stem canker.",
+      "low_temperature": "The primary trigger for the spring Stem Canker phase.",
+      "wind": "No effect.",
+      "dry_conditions": "Helps warm the soil in spring, reducing disease severity."
+    },
+    "severity_levels": {
+      "low": "Minor scurf on tubers at harvest. No significant stem cankering. Acceptable for most markets.",
+      "medium": "Uneven field emergence in spring. Noticeable black scurf on tubers causing fresh-market docking.",
+      "high": "Many sprouts killed before emergence, resulting in missing plants. Aerial tubers forming. High yield loss.",
+      "critical": "Severe stand loss. Massive stolon cankering. Surviving tubers are small, deformed, and heavily crusted with black scurf."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "If diagnosing in spring (poor emergence): Dig up a non-emerged seed piece. If the white shoots have reddish-brown, sunken cuts on them, it is Rhizoctonia."
+      ],
+      "within_24_hours": [
+        "If diagnosing at harvest (black dirt on tubers): Do not delay harvest. The longer tubers sit in the ground after the vines are dead, the more black scurf forms on them."
+      ],
+      "within_one_week": [
+        "Evaluate planting practices for next year. Avoid planting early in cold, wet soils."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Seed Treatments: Fludioxonil (Maxim), Mancozeb, or Penflufen applied to seed pieces before planting are highly effective at preventing seed-borne spread.",
+        "In-Furrow Soil Treatments: Azoxystrobin (Quadris) applied as an in-furrow spray at planting protects the emerging sprouts from soil-borne Rhizoctonia."
+      ],
+      "biological": [
+        "Trichoderma and Bacillus species applied as seed treatments show some efficacy in organic systems."
+      ],
+      "organic": [
+        "Waiting for soils to warm before planting (cultural control).",
+        "Pre-sprouting (chitting) seed potatoes so they emerge instantly."
+      ],
+      "integrated_management": [
+        "Combine clean seed, seed-piece fungicide treatments, crop rotation, and waiting for soil temperatures to reach at least 50°F (10°C) before planting."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "CRITICAL: Never plant seed potatoes that have hard black 'dirt' specks on them."
+      ],
+      "irrigation": [
+        "Avoid over-watering early in the spring while plants are trying to emerge."
+      ],
+      "crop_rotation": [
+        "Rotate with non-host crops like corn, cereals, or grasses for 3-4 years. Avoid rotating with sugar beets or beans, which are highly susceptible."
+      ],
+      "air_circulation": [
+        "Not applicable."
+      ],
+      "resistant_varieties": [
+        "There are no highly resistant potato varieties. Management relies entirely on cultural practices and seed treatments."
+      ],
+      "seasonal_practices": [
+        "Shallow planting: Plant seed pieces shallowly in the spring so they emerge faster, then hill dirt up around them later. Fast emergence 'outruns' the disease."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Standard.",
+      "phosphorus": "Standard.",
+      "potassium": "Standard.",
+      "calcium": "Standard.",
+      "magnesium": "Standard.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Seed planted in cold, wet dirt.",
+        "Sprouts are attacked and cankered underground.",
+        "Plant emerges weak and stunted.",
+        "Stolons are destroyed; plant forms green 'aerial' potatoes on the stem.",
+        "Underground tubers get coated in black scurf while waiting for harvest."
+      ],
+      "treated": [
+        "Seed treated with fungicide; planted in warm, well-drained soil.",
+        "Sprouts emerge rapidly in 10-14 days.",
+        "Stolons remain healthy and bulk large tubers.",
+        "Potatoes harvested promptly after vine-kill, remaining clean and scurf-free."
+      ]
+    },
+    "recovery_indicators": [
+      "Cannot be cured once established. Success is measured by rapid, even field emergence in the spring, and clean, scurf-free potato skins at harvest."
+    ],
+    "recovery": {
+      "estimated_days": "N/A (Preventative)",
+      "success_rate": "High (with proper planting)",
+      "depends_on": [
+        "Soil Temperature",
+        "Seed Treatments",
+        "Harvest Timing"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Moderate to High (10-30%) due to missing plants, stunted growth, and damaged stolons.",
+      "quality_loss": "Extreme. Tubers with black scurf are ugly and often rejected by fresh markets or require excessive washing/peeling.",
+      "financial_impact": "Loss of premium fresh-market pricing and reduced overall tonnage."
+    },
+    "monitoring": {
+      "inspection_frequency": "Monitor soil temperatures closely before planting. Dig up slow-to-emerge seed pieces in the spring to check for cankers.",
+      "warning_signs": [
+        "Planting in early spring when soil temps are below 50°F.",
+        "Leaving potatoes in the ground for weeks after the vines have died."
+      ],
+      "recovery_signs": [
+        "Rapid, uniform emergence of the entire field within 2 weeks of planting."
+      ]
+    },
+    "faq": [
+      {
+        "question": "My potatoes have hard black dirt stuck to them that won't wash off. Is it safe to eat?",
+        "answer": "Yes. The black crusts (sclerotia) are the resting phase of the Rhizoctonia fungus. They sit entirely on the surface of the skin. You can just peel the potato and the flesh inside is perfectly safe and normal."
+      },
+      {
+        "question": "Why are tiny, green potatoes growing above ground on the stem of my plant?",
+        "answer": "This happens when Rhizoctonia cankers destroy the underground stems (stolons). The leaves are making sugar, but it can't go down into the dirt to make normal potatoes, so the plant forces 'aerial tubers' to grow above ground. These are toxic (green) and should not be eaten."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "The black scurf on the potato is actually the fungus packing itself tightly into a hardened shell to survive the winter. It causes no harm to the potato in storage, it's just 'hitching a ride' to be planted again next spring."
+      ],
+      "similar_diseases": [
+        "Common Scab",
+        "Blackleg (bacterial rot)"
+      ],
+      "differential_diagnosis": [
+        "Common Scab causes corky, raised, or pitted lesions in the skin. Rhizoctonia Black Scurf sits ON TOP of the skin and can be scratched off with a fingernail, revealing undamaged skin underneath. Blackleg causes a wet, slimy, black rot of the stem base, whereas Rhizoctonia stem cankers are dry and reddish-brown."
+      ]
+    },
+    "ai_context": {
+      "summary": "Rhizoctonia causes Stem Canker in spring (rotting sprouts in cold soil) and Black Scurf at harvest (hard black masses on tubers). Driven by cold, wet planting conditions and delayed harvest.",
+      "key_points": [
+        "Causes 'dirt that won't wash off' on tubers.",
+        "Causes aerial tubers to form on stems.",
+        "Driven by planting in cold (<50°F), wet soil.",
+        "Tubers should be harvested promptly after vines die to prevent scurf buildup."
+      ],
+      "high_priority_actions": [
+        "Advise user not to plant seed potatoes that have black scurf on them.",
+        "Recommend waiting for soil to warm up before planting.",
+        "Suggest seed treatments (Fludioxonil) or in-furrow fungicides (Azoxystrobin)."
+      ],
+      "weather_considerations": [
+        "Alert: Cold, wet spring weather immediately following planting."
+      ],
+      "common_mistakes": [
+        "Planting too early in the spring to rush the season.",
+        "Leaving potatoes in the ground for a month after the vines are dead (allows black scurf to heavily coat the tubers)."
+      ],
+      "follow_up_recommendations": [
+        "Ask if the black dirt on the tuber can be scratched off with a fingernail.",
+        "Recommend 'shallow planting' next year to encourage faster emergence."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user that the hard black 'dirt' stuck to their potatoes is the {disease_name} fungus resting for the winter. Reassure them that peeling the potato removes the fungus and makes it completely safe to eat.",
+      "weather_analysis": "Determine if the user planted their potatoes during cold, wet spring weather, which is when {disease_name} attacks the slow-growing sprouts and causes {symptoms.early}.",
+      "treatment_plan": "Inform the user that the current potatoes cannot be 'cured', but they must be harvested immediately, as leaving them in the dirt causes more scurf to form. Outline a prevention plan for next year focused on {prevention.seasonal_practices} and {treatment.chemical} seed treatments.",
+      "followup": "Ask the user to check the above-ground stems of their potato plants. Are there strange, small, green 'aerial' potatoes growing on the stem above the dirt? (This confirms underground Rhizoctonia damage)."
+    },
+    "references": [
+      "University of Minnesota Extension: Rhizoctonia Canker and Black Scurf",
+      "Pacific Northwest Extension: Potato - Rhizoctonia Canker and Black Scurf"
+    ],
+    "model_mapping": {
+      "cnn_class": "Potato___Black_Scurf_and_Stem_Canker",
+      "aliases": [
+        "Potato Black Scurf and Stem Canker",
+        "Potato Rhizoctonia Potato"
+      ]
+    }
+  }
+]

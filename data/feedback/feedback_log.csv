@@ -1,2 +1,0 @@
-image_path,predicted_class,actual_class,confidence,timestamp,model_version
-0a2f8408729330af763a489f42030ae7.JPG,Grape___Leaf_blight_(Isariopsis_Leaf_Spot),Strawberry___Leaf_scorch,70.74,2026-06-24T22:42:23,crop_disease_mobilenetv2_v1

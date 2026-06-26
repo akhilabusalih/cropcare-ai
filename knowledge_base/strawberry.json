@@ -1,0 +1,914 @@
+[
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Intermediate"
+    },
+    "disease_id": "STRAWBERRY_001",
+    "disease_name": "Leaf_Scorch",
+    "common_name": "Leaf Scorch",
+    "scientific_name": "Diplocarpon earlianum",
+    "crop": "Strawberry",
+    "disease_type": "Fungal",
+    "pathogen_type": "Fungus",
+    "overview": {
+      "description": "Leaf Scorch is a common foliar disease of strawberries. It causes dark purple to brown blotches on the leaves that rapidly merge together, making the leaf look burned or 'scorched'. While it doesn't rot the fruit, severe infections stunt the plant and drastically reduce the next year's yield.",
+      "importance": "Medium to High. Heavy infections in late summer or fall reduce the plant's ability to store carbohydrates in the crown, leading to poor winter survival and reduced blossom production the following spring.",
+      "affected_parts": [
+        "Leaves",
+        "Petioles",
+        "Runners",
+        "Calyx (fruit cap)"
+      ],
+      "host_plants": [
+        "Strawberry"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Small (1/8 inch), irregular, purplish-dark brown spots appear on the upper surfaces of the leaves.",
+        "Unlike Common Leaf Spot, these spots NEVER develop a white or light-gray dead center."
+      ],
+      "moderate": [
+        "The dark spots rapidly expand and merge (coalesce) into large, irregular purplish-brown blotches.",
+        "Tiny, shiny black fruiting bodies (acervuli) may be visible in the dark lesions with a hand lens.",
+        "The tissue around the spots turns yellow or bright red."
+      ],
+      "severe": [
+        "The entire leaf dries up, curls at the edges, turns completely brown, and looks as though it was burned by fire (scorched).",
+        "The calyx (the green leafy cap on the strawberry) turns brown and dies, severely reducing the market value of the fruit.",
+        "Plant vigor drops completely."
+      ],
+      "leaf": [
+        "Solid, irregular purplish-brown blotches without a white center, merging to kill the entire leaf (scorched look)."
+      ],
+      "stem": [
+        "Petioles and runners develop elongated, slightly sunken purple streaks."
+      ],
+      "fruit": [
+        "Fruit is rarely infected directly, but the green calyx (cap) turns brown and dies (dead cap)."
+      ],
+      "flower": [
+        "Can occasionally infect flower petals."
+      ],
+      "root": []
+    },
+    "causes": {
+      "primary_cause": "Fungal spores splashing from infected dead leaves in the plant canopy onto healthy foliage.",
+      "pathogen": "Diplocarpon earlianum",
+      "survival_mechanism": "Overwinters successfully in infected dead or living leaves that remain attached to the strawberry crown throughout the winter.",
+      "infection_process": "Spring rains trigger the overwintering fruiting bodies to release ascospores. The spores require the leaf to remain wet for several hours to germinate and penetrate the cuticle. Lesions are visible within 2 weeks."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Overwintering in old foliage.",
+        "Spring rains splash spores to new, expanding leaves.",
+        "Incubation (10-14 days).",
+        "Secondary spread: Lesions produce conidia that splash to other leaves during every summer rainstorm."
+      ],
+      "spread_cycle": "Polycyclic. Constant secondary spread occurs from spring through late autumn as long as foliage gets wet."
+    },
+    "transmission": {
+      "methods": [
+        "Rain splash",
+        "Overhead irrigation",
+        "Contaminated tools/workers moving through wet fields"
+      ],
+      "vectors": [],
+      "common_sources": [
+        "Dead foliage from the previous season left in the strawberry bed"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "High",
+      "rainfall": "High",
+      "poor_airflow": "High",
+      "overhead_irrigation": "Extreme",
+      "dense_canopy": "Medium"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "15°C - 25°C (59°F - 77°F)",
+        "notes": "Prefers moderate, cool-to-warm temperatures. Hot weather (above 86°F) generally suppresses the fungus."
+      },
+      "humidity": {
+        "optimal_range": "85% - 100%",
+        "notes": "Required for the fungal fruiting bodies to produce spores."
+      },
+      "rainfall": "Frequent rain showers or heavy dews are the absolute drivers of the disease, providing the splash necessary to move the sticky spores.",
+      "wind": "Dries out the canopy, ending the infection period.",
+      "soil_conditions": "Not directly applicable, but dense weed growth prevents the canopy from drying.",
+      "leaf_wetness": "Requires 9 to 12 hours of continuous leaf wetness to establish an infection."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 10,
+        "max": 30
+      },
+      "humidity": {
+        "min": 85,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 9
+    },
+    "weather_influence": {
+      "high_humidity": "Extends the leaf wetness period, ensuring the spores have enough time to germinate.",
+      "rain": "The primary dispersal agent. No rain splash = no spread.",
+      "high_temperature": "High summer heat pauses the disease, but it will flare back up in the cooler, wetter autumn weather.",
+      "low_temperature": "Slows disease progression.",
+      "wind": "Dries the leaves quickly, reducing infection.",
+      "dry_conditions": "Halts the disease completely. The pathogen cannot spread or infect without water."
+    },
+    "severity_levels": {
+      "low": "Scattered purplish blotches on the oldest leaves. Normal in most perennial beds.",
+      "medium": "Blotches moving to newer leaves; petioles showing streaks. Protectant spray required.",
+      "high": "Leaves beginning to curl and turn entirely brown. Calyces on fruit turning brown.",
+      "critical": "Severe defoliation ('scorched earth' look) in late summer/fall. Plant crowns failing to size up for winter."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "If plants are blooming or setting fruit, apply a protectant fungicide immediately before the next rain event to protect the calyx (fruit cap)."
+      ],
+      "within_24_hours": [
+        "Switch all irrigation from overhead sprinklers to drip tape immediately."
+      ],
+      "within_one_week": [
+        "If the harvest is over (June-bearing varieties), immediately mow the leaves off the plants (renovation) and remove the debris from the field."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Captan, Mancozeb (Excellent broad-spectrum protectants).",
+        "Myclobutanil, Thiophanate-methyl (Systemic options to halt spread)."
+      ],
+      "biological": [
+        "Bacillus subtilis can offer mild preventative suppression under low disease pressure."
+      ],
+      "organic": [
+        "Copper formulations (Can cause some leaf burn if applied during hot weather).",
+        "Strict renovation (mowing) and sanitation."
+      ],
+      "integrated_management": [
+        "Combine resistant varieties with a strict post-harvest renovation (mowing off all old foliage) to break the disease cycle entirely."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "RENOVATION: For June-bearing strawberries, mow the foliage 1-2 inches above the crown immediately after harvest and rake/destroy the debris. This removes the fungal inoculum.",
+        "Remove dead leaves in the spring before new growth begins."
+      ],
+      "irrigation": [
+        "Use drip irrigation. Overhead watering guarantees the spread of Leaf Scorch."
+      ],
+      "crop_rotation": [
+        "Rotating to a new bed every 3-4 years breaks the buildup of inoculum."
+      ],
+      "air_circulation": [
+        "Maintain proper plant spacing (don't let runner plants choke the bed) and control all weeds to ensure rapid drying."
+      ],
+      "resistant_varieties": [
+        "Highly recommended. Cultivars like 'Jewel', 'Allstar', and 'Surecrop' have good resistance. 'Honeoye' and 'Chandler' are highly susceptible."
+      ],
+      "seasonal_practices": [
+        "Apply a late-summer/early-fall fungicide spray to protect the new foliage so the plant can store energy for winter."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Avoid excess spring nitrogen, which creates a dense, slow-drying canopy.",
+      "phosphorus": "Standard.",
+      "potassium": "Standard.",
+      "calcium": "Standard.",
+      "magnesium": "Standard.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Spring rains splash spores to new leaves.",
+        "Solid purple blotches form and merge.",
+        "Leaves die and look scorched by mid-summer.",
+        "Plants fail to store carbohydrates in autumn.",
+        "Winter kill increases; next year's yield drops 30-50%."
+      ],
+      "treated": [
+        "Post-harvest mowing removes the infection source.",
+        "Protectant sprays shield the new autumn leaves.",
+        "Plants remain green, store energy, and produce heavily the following spring."
+      ]
+    },
+    "recovery_indicators": [
+      "The newest flush of leaves emerging from the crown remains bright green without purple blotches.",
+      "The green calyces (caps) on developing fruit remain healthy and green."
+    ],
+    "recovery": {
+      "estimated_days": "14-21",
+      "success_rate": "High",
+      "depends_on": [
+        "Renovation (Mowing)",
+        "Dry Weather",
+        "Fungicide Protection"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Minor in the current year, but can cause 30-50% yield loss the *following* year due to starved crowns.",
+      "quality_loss": "Fruit with a 'dead cap' (brown, dead calyx) is immediately rejected by fresh-market buyers, even if the strawberry itself is perfect.",
+      "financial_impact": "Direct loss of fresh market sales and reduced longevity of the perennial strawberry bed."
+    },
+    "monitoring": {
+      "inspection_frequency": "Weekly from early spring until post-harvest. Resume monitoring in early autumn.",
+      "warning_signs": [
+        "Frequent rain showers during moderate spring/fall temperatures.",
+        "Overcrowded, weed-choked strawberry beds."
+      ],
+      "recovery_signs": [
+        "Return of hot, dry summer weather."
+      ]
+    },
+    "faq": [
+      {
+        "question": "My strawberry leaves have dark spots, but some have white/gray centers. Is that Leaf Scorch?",
+        "answer": "No. If the dark purple spot has a distinct white or light-gray 'dead center', it is a different disease called 'Common Leaf Spot'. Leaf Scorch spots are solid dark purple or brown all the way through and look like burns."
+      },
+      {
+        "question": "Can I eat the strawberries if the plant has Leaf Scorch?",
+        "answer": "Yes. Leaf Scorch does not rot the actual berry. It may kill the little green leafy cap on top of the berry, but the fruit itself is perfectly safe to eat."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "Strawberry growers often panic when they see the 'scorched' leaves, but the real financial damage comes from the fungus killing the green calyx (the cap) on the berry. Grocery stores will not buy a strawberry with a brown, dead cap, as consumers equate it with old fruit."
+      ],
+      "similar_diseases": [
+        "Common Leaf Spot",
+        "Leaf Blight",
+        "Phosphorus Deficiency"
+      ],
+      "differential_diagnosis": [
+        "Common Leaf Spot has white/gray centers. Leaf Blight has large V-shaped brown lesions with purple borders. Phosphorus deficiency causes leaves to turn dark red/purple, but usually uniformly along the edges, without the irregular, merging necrotic spots of Scorch."
+      ]
+    },
+    "ai_context": {
+      "summary": "Leaf Scorch is a rain-splashed fungal disease of strawberries causing solid purplish-brown blotches that kill the leaf, giving a 'burned' appearance. Also kills the fruit's green cap.",
+      "key_points": [
+        "Solid dark purple blotches (NO white centers).",
+        "Leaves look burned/scorched.",
+        "Causes 'dead cap' on fruit, ruining marketability.",
+        "Mowing (renovation) after harvest is the best cure."
+      ],
+      "high_priority_actions": [
+        "Demand user checks if the spots have white centers to rule out Common Leaf Spot.",
+        "Advise immediate protectant sprays if plants are blooming to protect the fruit cap.",
+        "Instruct user to mow foliage post-harvest."
+      ],
+      "weather_considerations": [
+        "Alert: Frequent rain and long dew periods (9+ hours wetness) during moderate weather (15-25°C)."
+      ],
+      "common_mistakes": [
+        "Using overhead irrigation.",
+        "Letting strawberry beds become an overcrowded, weedy jungle.",
+        "Failing to renovate/mow the beds after the June harvest."
+      ],
+      "follow_up_recommendations": [
+        "Ask if the green cap on the strawberries is turning brown.",
+        "Suggest planting resistant varieties like 'Jewel' or 'Allstar'."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user that the dark, merging blotches making their leaves look burned are {disease_name}. Emphasize that unlike other leaf spots, these spots do NOT have a white center.",
+      "weather_analysis": "Note that the recent {rainfall_data} allowed the spores to splash up from the old dead leaves. Warn them that if the leaves stay wet for {leaf_wetness_hours_min} hours or more, the disease will spread to the fruit caps.",
+      "treatment_plan": "Develop a control plan focused on saving the fruit's marketability. Recommend applying {treatment.chemical} to protect the green caps, stopping all {risk_factors.overhead_irrigation}, and committing to a strict mowing (renovation) process immediately after harvest.",
+      "followup": "Ask the user to look closely at the dark purple spots. Is the very center of the spot turning white or light gray, or is it solid purple/brown all the way across? (This separates Leaf Scorch from Common Leaf Spot)."
+    },
+    "references": [
+      "University of Florida IFAS: Strawberry Foliar Diseases",
+      "Cornell University: Strawberry Leaf Scorch"
+    ],
+    "model_mapping": {
+      "cnn_class": "Strawberry___Leaf_Scorch",
+      "aliases": [
+        "Strawberry Leaf Scorch"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Intermediate"
+    },
+    "disease_id": "STRAWBERRY_002",
+    "disease_name": "Botrytis_Fruit_Rot",
+    "common_name": "Gray Mold (Botrytis Fruit Rot)",
+    "scientific_name": "Botrytis cinerea",
+    "crop": "Strawberry",
+    "disease_type": "Fungal",
+    "pathogen_type": "Fungus",
+    "overview": {
+      "description": "Botrytis Fruit Rot, or Gray Mold, is the most common and damaging fruit rot of strawberries worldwide. It covers ripening and picked fruit with a highly distinct, fuzzy, gray mold. It thrives in cool, humid, wet weather.",
+      "importance": "Critical. It causes massive pre-harvest field losses and acts as a devastating post-harvest disease, rotting healthy-looking fruit in the punnet during shipping or on the grocery shelf.",
+      "affected_parts": [
+        "Fruit",
+        "Blossoms",
+        "Leaves (dying tissue)"
+      ],
+      "host_plants": [
+        "Strawberry",
+        "Grape",
+        "Tomato",
+        "Over 200 other broadleaf plants"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Infection usually starts during bloom, but stays dormant. Blossoms may sometimes turn brown and die (blossom blight).",
+        "As fruit ripens, a light brown, soft, water-soaked spot appears, usually under the calyx (the green cap) or where the berry touches the dirt or another rotting berry."
+      ],
+      "moderate": [
+        "The brown rot expands rapidly, turning the entire berry soft and mushy.",
+        "A velvety, gray, fuzzy fungal growth (mycelium and spores) begins to erupt from the rotten tissue."
+      ],
+      "severe": [
+        "The entire strawberry is engulfed in a thick, dusty, gray/brown cloud of mold.",
+        "If left on the plant, the rotten berry eventually dries up into a tough, mummified husk covered in mold.",
+        "The fungus spreads rapidly to any adjacent berries touching the rotten one ('nesting')."
+      ],
+      "leaf": [
+        "Can colonize dead or dying leaves, but does not aggressively attack healthy green foliage."
+      ],
+      "stem": [
+        "Not directly affected."
+      ],
+      "fruit": [
+        "Soft, light brown rot followed by a massive eruption of fuzzy gray mold. Destroys the berry completely."
+      ],
+      "flower": [
+        "Blossoms turn brown, dry up, and may develop gray fuzz. The fungus uses dead flower petals as a food source to invade the growing fruit."
+      ],
+      "root": []
+    },
+    "causes": {
+      "primary_cause": "Airborne spores infecting open blossoms during cool, wet spring weather.",
+      "pathogen": "Botrytis cinerea",
+      "survival_mechanism": "Overwinters as tough, black resting bodies (sclerotia) in plant debris on the ground, or as mycelium in dead strawberry leaves.",
+      "infection_process": "Spores land on the delicate flower petals during bloom. The fungus infects the flower and enters the developing fruit, where it 'sleeps' (latent infection) until the berry begins to ripen and produce sugar. Then, it aggressively rots the fruit from the inside out."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Overwintering sclerotia produce millions of spores in early spring.",
+        "Wind/rain carries spores to open blossoms (Primary Infection).",
+        "Fungus remains latent while fruit is green.",
+        "Fruit ripens; fungus wakes up and rots the berry, erupting in gray fuzz.",
+        "Gray fuzz releases billions of spores to infect other ripe berries (Secondary Infection)."
+      ],
+      "spread_cycle": "Polycyclic. Spreads incredibly fast during the harvest season via wind, rain, and physical contact between berries ('nesting')."
+    },
+    "transmission": {
+      "methods": [
+        "Wind",
+        "Rain splash",
+        "Physical contact (berries touching)",
+        "Human handling during picking"
+      ],
+      "vectors": [],
+      "common_sources": [
+        "Dead leaves in the strawberry bed",
+        "Overripe or rotten fruit left in the field"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "Extreme",
+      "rainfall": "Extreme (especially during bloom)",
+      "poor_airflow": "Extreme",
+      "overripe_fruit": "Extreme",
+      "dense_canopy": "High"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "15°C - 25°C (59°F - 77°F)",
+        "notes": "Prefers cool to moderate weather. High summer heat (above 85°F/29°C) suppresses the fungus."
+      },
+      "humidity": {
+        "optimal_range": "90% - 100%",
+        "notes": "High humidity is absolutely required for the massive gray spore clouds to form on the fruit."
+      },
+      "rainfall": "Rain during the BLOOM period is the absolute most critical risk factor. It washes spores directly into the flower.",
+      "wind": "Blows the powdery gray spores throughout the entire field.",
+      "soil_conditions": "Fruit resting directly on wet soil rots almost immediately.",
+      "leaf_wetness": "Requires wet blossoms/fruit to germinate and infect."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 5,
+        "max": 28
+      },
+      "humidity": {
+        "min": 85,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 6
+    },
+    "weather_influence": {
+      "high_humidity": "Triggers the massive 'fuzz' on rotting berries.",
+      "rain": "The primary trigger for flower infection. Rain during harvest also causes the fruit skin to swell and crack, inviting immediate infection.",
+      "high_temperature": "Stops the disease. Botrytis hates hot weather.",
+      "low_temperature": "Very favorable. This is a cool-weather disease.",
+      "wind": "Spreads spores rapidly. A light tap on a rotten berry will release a visible cloud of dust in the wind.",
+      "dry_conditions": "Halts the disease. Clean, dry blossoms do not get infected."
+    },
+    "severity_levels": {
+      "low": "Occasional rotten berry, usually touching the dirt. Manageable by picking it off.",
+      "medium": "Gray mold appearing on berries in the canopy. Preventative sprays required immediately to save the harvest.",
+      "high": "Widespread 'nesting' (clusters of rotting berries). Spore clouds visible when picking.",
+      "critical": "Complete crop loss. Even healthy-looking berries rot within 24 hours of being placed in the fridge."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "If gray mold is visible, physically pick and REMOVE all rotten fruit from the field. Do not drop it in the aisles, as it will continue to produce billions of spores."
+      ],
+      "within_24_hours": [
+        "If plants are still blooming and rain is coming, apply a highly specific Botrytis fungicide to protect the flowers."
+      ],
+      "within_one_week": [
+        "Harvest fruit daily or every other day. Never leave overripe fruit on the plant, as it acts as a magnet for Botrytis."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Fenhexamid (Elevate), Fludioxonil (Switch), Cyprodinil (Highly specific, extremely effective Botryticides).",
+        "Captan (Excellent broad-spectrum protectant).",
+        "CRITICAL: Botrytis mutates rapidly. You MUST rotate chemical classes every single spray to prevent resistance."
+      ],
+      "biological": [
+        "Bacillus subtilis (Serenade) or Clonostachys rosea can be applied during bloom to competitively exclude Botrytis from the flower, showing good efficacy in low-pressure years."
+      ],
+      "organic": [
+        "Strict sanitation (removing all dead leaves and rotten fruit).",
+        "Using plastic mulch to keep fruit off the soil."
+      ],
+      "integrated_management": [
+        "The single most important time to spray is during BLOOM (early bloom, full bloom, petal fall). 80% of Gray Mold infections happen in the flower, not on the ripe fruit."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Remove all dead/dying leaves from the plants in early spring. Botrytis feeds on dead tissue to build up its army before attacking the fruit.",
+        "Remove cull (bad) fruit from the field entirely."
+      ],
+      "irrigation": [
+        "NEVER use overhead irrigation during bloom or harvest. Use drip tape only."
+      ],
+      "crop_rotation": [
+        "Not highly effective, as the spores are ubiquitous in the environment."
+      ],
+      "air_circulation": [
+        "Space plants well and keep the rows weed-free to allow the wind to dry the blossoms and fruit quickly."
+      ],
+      "resistant_varieties": [
+        "No varieties are immune. Some varieties with firmer fruit or an open, upright growth habit (keeping fruit off the ground) suffer less rot."
+      ],
+      "seasonal_practices": [
+        "Use black plastic mulch or a thick layer of straw under the plants to prevent the strawberries from ever touching the wet soil."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Avoid excessive spring nitrogen. A massive, bushy canopy traps humidity and blocks wind, creating the perfect cool, wet incubator for Gray Mold.",
+      "phosphorus": "Standard.",
+      "potassium": "Standard.",
+      "calcium": "Foliar calcium sprays can increase the firmness of the fruit skin, making it slightly harder for the fungus to penetrate.",
+      "magnesium": "Standard.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Spores land on blossoms during spring rain.",
+        "Fungus sleeps inside the green berry.",
+        "Berry ripens and softens.",
+        "Fungus erupts, rotting the berry into a gray fuzz ball.",
+        "Spores spread to adjacent berries, rotting the entire cluster."
+      ],
+      "treated": [
+        "Bloom sprays block the fungus from entering the flower.",
+        "Straw mulch keeps berries off the dirt.",
+        "Berries ripen clean, firm, and have excellent post-harvest shelf life."
+      ]
+    },
+    "recovery_indicators": [
+      "Harvested berries remain firm and do not grow gray 'whiskers' after 3 days in the refrigerator.",
+      "No new 'nests' of fuzzy gray berries form in the field."
+    ],
+    "recovery": {
+      "estimated_days": "N/A (Preventative)",
+      "success_rate": "High (If bloom sprays are timed perfectly)",
+      "depends_on": [
+        "Bloom Sprays",
+        "Removing Rotten Fruit",
+        "Dry Weather"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Can easily exceed 50% in cool, wet years if bloom sprays are missed.",
+      "quality_loss": "A single fuzzy berry in a plastic clamshell will cause the grocery store to reject the entire shipment.",
+      "financial_impact": "Massive loss of revenue, particularly in post-harvest rejections."
+    },
+    "monitoring": {
+      "inspection_frequency": "Watch weather intensely during bloom. Inspect fields daily during harvest.",
+      "warning_signs": [
+        "Cool, wet, rainy weather during the 2-3 weeks when strawberries are flowering.",
+        "Finding old, dead leaves covered in gray fuzz under the canopy."
+      ],
+      "recovery_signs": [
+        "A shift to hot (above 85°F), dry weather."
+      ]
+    },
+    "faq": [
+      {
+        "question": "Can I just wash the gray fuzz off and eat the strawberry?",
+        "answer": "No. The gray fuzz is just the reproductive part of the fungus. The inside of the strawberry is entirely colonized by the fungal roots (mycelium) and is rotting, mushy, and tastes terrible."
+      },
+      {
+        "question": "My strawberries looked perfect when I picked them, but turned gray and fuzzy in the fridge two days later. Why?",
+        "answer": "They were already infected with Botrytis in the field. The fungus infected the flower weeks ago and was 'sleeping' inside the fruit. Botrytis can grow even at refrigerator temperatures. Cooling them quickly helps, but you must prevent it during bloom."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "Botrytis is considered a 'necrotroph'—it prefers to eat dead things. This is why it almost always enters the strawberry by first infecting the flower petals. As the petals naturally die, the fungus uses that dead tissue as a food base to launch its attack into the healthy green fruit."
+      ],
+      "similar_diseases": [
+        "Anthracnose Fruit Rot",
+        "Leather Rot",
+        "Rhizopus Rot (Leak)"
+      ],
+      "differential_diagnosis": [
+        "Anthracnose causes sunken black spots with PINK/ORANGE spores in HOT weather. Rhizopus Rot causes the berry to 'leak' juice everywhere and produces whiskery black/white mold, usually post-harvest. Botrytis causes soft brown rot covered in distinctive GRAY dust in COOL weather."
+      ]
+    },
+    "ai_context": {
+      "summary": "Botrytis Fruit Rot (Gray Mold) is the most destructive strawberry rot, causing fuzzy gray mold on ripe fruit. It infects during BLOOM in cool/wet weather, sleeping inside the fruit until it ripens.",
+      "key_points": [
+        "Infection happens primarily during the flowering stage.",
+        "Requires cool, wet weather.",
+        "Produces distinctive gray fuzzy mold on fruit.",
+        "Fruit touching soil rots rapidly.",
+        "Fungicides MUST be applied during bloom."
+      ],
+      "high_priority_actions": [
+        "Inform user that spraying ripe, rotting fruit is too late.",
+        "Demand user physically removes all rotten fruit from the field.",
+        "Instruct user to apply protectants during BLOOM next year."
+      ],
+      "weather_considerations": [
+        "Extreme Alert: Cool, rainy weather (15-25°C) specifically during the strawberry blooming period."
+      ],
+      "common_mistakes": [
+        "Waiting until fruit is ripe and rotting to start spraying.",
+        "Letting fruit rest directly on bare dirt.",
+        "Leaving overripe/rotten fruit in the field."
+      ],
+      "follow_up_recommendations": [
+        "Ask if the rotten fruit has gray fuzz, or pink/orange spores (Anthracnose).",
+        "Suggest putting straw down to keep fruit off the dirt."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user that the fuzzy gray mold eating their strawberries is {disease_name}. Emphasize the crucial fact that the infection actually happened weeks ago when the plant was flowering, via {causes.infection_process}.",
+      "weather_analysis": "Note that the cool, rainy weather ({temperature_data}) is the absolute perfect environment for {disease_name} to explode. Warn them that the spores will spread rapidly to any healthy berries.",
+      "treatment_plan": "Create a triage plan. Instruct the user to immediately pick and throw away all rotting fruit to lower the spore count. Inform them that {treatment.chemical} is mostly effective during bloom, but a protectant now may save uninfected berries. Stress the need for {prevention.seasonal_practices} (straw mulch).",
+      "followup": "Ask the user to check the temperature of their field. Is it cool and wet (Botrytis weather), or is it hot and muggy? If it's hot, tell them to check if the mold is actually pink or orange, which would mean Anthracnose."
+    },
+    "references": [
+      "University of Florida IFAS: Botrytis Fruit Rot of Strawberry",
+      "Cornell University: Gray Mold of Strawberry"
+    ],
+    "model_mapping": {
+      "cnn_class": "Strawberry___Gray_Mold_Botrytis_Fruit_Rot",
+      "aliases": [
+        "Strawberry Gray Mold (Botrytis Fruit Rot)",
+        "Strawberry Botrytis Fruit Rot"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Advanced"
+    },
+    "disease_id": "STRAWBERRY_003",
+    "disease_name": "Anthracnose_Strawberry",
+    "common_name": "Anthracnose Fruit Rot and Crown Rot",
+    "scientific_name": "Colletotrichum acutatum, Colletotrichum nymphaeae",
+    "crop": "Strawberry",
+    "disease_type": "Fungal",
+    "pathogen_type": "Fungus",
+    "overview": {
+      "description": "Anthracnose is a catastrophic, fast-moving fungal disease of strawberries. It causes distinctly sunken, dark circular lesions on the fruit that ooze salmon-pink spore masses. Unlike Botrytis (which prefers cool weather), Anthracnose destroys crops in hot, rainy, humid weather.",
+      "importance": "Critical. Anthracnose can cause 100% crop loss in a matter of days during warm, wet weather. It also causes a lethal crown rot that kills the entire plant.",
+      "affected_parts": [
+        "Fruit (Green and Ripe)",
+        "Crowns",
+        "Runners",
+        "Petioles"
+      ],
+      "host_plants": [
+        "Strawberry",
+        "Pepper",
+        "Tomato",
+        "Apple"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Fruit: Small, water-soaked, light brown spots appear on green or ripening fruit.",
+        "Runners/Petioles: Small, dark, sunken, elongated lesions appear on the stems."
+      ],
+      "moderate": [
+        "Fruit: Spots expand rapidly into firm, distinctly circular, deeply sunken black or dark brown craters.",
+        "Crown: The plant suddenly wilts. If the crown (base of the plant) is cut in half, the internal tissue is marbled with reddish-brown rot."
+      ],
+      "severe": [
+        "Fruit: In humid conditions, the sunken black craters fill with a wet, sticky, salmon-pink or bright orange mass of spores.",
+        "The entire berry dries into a hard, black mummy.",
+        "Crown Rot Phase: The entire plant collapses and dies within days of wilting."
+      ],
+      "leaf": [
+        "Small, irregular black spots may appear, but foliage is usually the least affected part."
+      ],
+      "stem": [
+        "Runners and petioles develop dark, sunken 'girdling' cankers that kill the leaves or daughter plants attached to them."
+      ],
+      "fruit": [
+        "Deeply sunken, firm, dark circular craters oozing distinct salmon/pink/orange spore masses."
+      ],
+      "flower": [
+        "Blossoms can turn completely black and die."
+      ],
+      "root": [
+        "The crown (where roots meet the stem) rots internally, showing reddish-brown marbling when cut open."
+      ]
+    },
+    "causes": {
+      "primary_cause": "Spores splashing from infected plants or contaminated nursery stock during warm rains.",
+      "pathogen": "Colletotrichum acutatum (primarily fruit rot) / Colletotrichum nymphaeae",
+      "survival_mechanism": "Survives on living plants (even asymptomatic ones), in infected plant debris in the soil (for up to 9 months), and is frequently introduced via infected transplants from the nursery.",
+      "infection_process": "Spores land on the fruit or crown. They require liquid water to germinate. They penetrate the skin directly, causing massive cellular collapse. The fungus produces a sticky matrix to hold its new spores, which must be physically splashed by rain to spread."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Infected transplants introduced to the field (Primary source).",
+        "Warm rain splashes spores to fruit or runners.",
+        "Lesions form rapidly (within 3-5 days in hot weather).",
+        "Lesions ooze pink spores.",
+        "More rain splashes the pink spores across the field (Explosive epidemic)."
+      ],
+      "spread_cycle": "Explosively polycyclic. Disease incidence can spike from 1% to 90% in a single week if weather is hot and rainy."
+    },
+    "transmission": {
+      "methods": [
+        "Rain splash (The absolute primary method)",
+        "Overhead irrigation",
+        "Contaminated workers/equipment touching wet plants",
+        "Infected nursery stock"
+      ],
+      "vectors": [],
+      "common_sources": [
+        "Asymptomatic, infected plants bought from the nursery",
+        "Weeds serving as alternative hosts"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "Extreme",
+      "rainfall": "Extreme",
+      "poor_airflow": "Medium",
+      "hot_weather": "Extreme",
+      "overhead_irrigation": "Extreme"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "25°C - 30°C (77°F - 86°F)",
+        "notes": "Loves HOT weather. This is the opposite of Botrytis (Gray Mold). Hot, muggy summers trigger massive epidemics."
+      },
+      "humidity": {
+        "optimal_range": "90% - 100%",
+        "notes": "Required for the production of the pink spore masses."
+      },
+      "rainfall": "Absolutely required. Anthracnose spores are bound in a sticky, water-soluble slime. They CANNOT blow in the wind; they MUST be splashed by raindrops or sprinklers.",
+      "wind": "Wind-driven rain spreads the disease violently down the rows.",
+      "soil_conditions": "Using plastic mulch without straw between rows causes rain to splash much higher, spreading spores further.",
+      "leaf_wetness": "Requires 12+ hours of wetness for spores to penetrate the fruit."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 15,
+        "max": 35
+      },
+      "humidity": {
+        "min": 85,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 12
+    },
+    "weather_influence": {
+      "high_humidity": "Facilitates the oozing of the pink spore masses.",
+      "rain": "The mechanism of death. A single warm thunderstorm can spread the disease across an entire farm.",
+      "high_temperature": "Accelerates the rotting process. Fruit can be destroyed in 3 days.",
+      "low_temperature": "Slows the disease, allowing Botrytis to become the dominant rot instead.",
+      "wind": "Dries the canopy, but pushes rain splash further.",
+      "dry_conditions": "Halts the spread. Without water splash, Anthracnose is trapped in its sticky slime."
+    },
+    "severity_levels": {
+      "low": "A few sunken spots on berries. Immediate targeted fungicides and rogueing required.",
+      "medium": "Pink spores visible in lesions. Plants beginning to wilt from crown rot. Epidemic is active.",
+      "high": "Widespread fruit rot. Multiple plants collapsing per row.",
+      "critical": "Total crop failure. Entire field rotting or wilting."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "If pink/orange spores are visible, STOP overhead irrigation immediately.",
+        "Apply a targeted Strobilurin (e.g., Azoxystrobin) or Fludioxonil/Cyprodinil (Switch) fungicide immediately to save remaining green fruit."
+      ],
+      "within_24_hours": [
+        "Walk the field and physically remove ALL spotted fruit, both ripe and green. Place them in plastic bags and remove them from the farm."
+      ],
+      "within_one_week": [
+        "If plants are wilting from Crown Rot, pull them up and bag them. Do not drag them through the field."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Azoxystrobin, Pyraclostrobin (Strobilurins - Highly effective, but high risk of resistance).",
+        "Fludioxonil + Cyprodinil (Switch) (Excellent control).",
+        "Captan (Excellent protectant. Must be mixed with systemics during an outbreak)."
+      ],
+      "biological": [
+        "Bacillus subtilis offers virtually no control during an active epidemic."
+      ],
+      "organic": [
+        "Copper formulations (Moderate efficacy, risks leaf burn in hot weather).",
+        "Strict sanitation and growing under high tunnels/hoop houses to block rain."
+      ],
+      "integrated_management": [
+        "Rely on disease-free nursery stock. At the first sign of hot, wet weather, initiate a preventative Captan + Azoxystrobin rotation program."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Remove all rotten fruit from the field. Do not drop it in the furrows."
+      ],
+      "irrigation": [
+        "NEVER use overhead irrigation. Drip irrigation is mandatory in Anthracnose-prone regions."
+      ],
+      "crop_rotation": [
+        "Rotate out of strawberries for 2-3 years if Crown Rot becomes established in the field."
+      ],
+      "air_circulation": [
+        "Standard spacing helps drying."
+      ],
+      "resistant_varieties": [
+        "Some varieties (e.g., 'Sweet Charlie', 'Pelican') offer strong resistance to Anthracnose Fruit Rot. Avoid highly susceptible varieties like 'Camarosa' or 'Chandler' in wet climates."
+      ],
+      "seasonal_practices": [
+        "Grow strawberries under plastic tunnels (hoop houses). By physically blocking the rain from hitting the plants, you completely eliminate Anthracnose spread, even in hot weather."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Avoid excessive nitrogen; heavy canopies dry slowly.",
+      "phosphorus": "Standard.",
+      "potassium": "Standard.",
+      "calcium": "Ensure adequate calcium to improve fruit firmness.",
+      "magnesium": "Standard.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Hot rain splashes spores to fruit and crowns.",
+        "Sunken black spots form in 3 days.",
+        "Spots fill with pink spore slime.",
+        "Next rain spreads spores field-wide.",
+        "Fruit rots, plants wilt, 100% crop loss."
+      ],
+      "treated": [
+        "Rain is blocked via hoop houses, or drip irrigation is used.",
+        "Protectant fungicides shield the fruit.",
+        "Fruit remains firm and clean through harvest."
+      ]
+    },
+    "recovery_indicators": [
+      "Remaining green fruit ripens to full red without developing sunken black craters.",
+      "No pink/salmon spore masses are found in the field.",
+      "No further plants suddenly wilt and collapse."
+    ],
+    "recovery": {
+      "estimated_days": "7-10 (to halt spread of active rot)",
+      "success_rate": "Low to Medium (Very hard to stop once an epidemic starts)",
+      "depends_on": [
+        "Removing Rotten Fruit",
+        "Stopping Overhead Water",
+        "Fungicide Efficacy"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Often reaches 80-100% if weather is hot and wet and no protectants are applied.",
+      "quality_loss": "A single sunken crater ruins the berry for all markets.",
+      "financial_impact": "Devastating. Can force farmers out of the strawberry business if Crown Rot infests their soil."
+    },
+    "monitoring": {
+      "inspection_frequency": "Daily during the harvest season, especially during heat waves accompanied by thunderstorms.",
+      "warning_signs": [
+        "Temperatures above 80°F accompanied by heavy rain.",
+        "Planting highly susceptible varieties imported from infected nurseries."
+      ],
+      "recovery_signs": [
+        "Return of cool, dry weather."
+      ]
+    },
+    "faq": [
+      {
+        "question": "My strawberries have sunken black spots, but my neighbor's have fuzzy gray mold. What is the difference?",
+        "answer": "Your neighbor has Botrytis (Gray Mold), which loves cool, wet weather. You have Anthracnose, which loves hot, wet weather. Anthracnose creates firm, sunken craters that ooze pink/orange slime, whereas Botrytis creates soft brown rot with gray fuzz."
+      },
+      {
+        "question": "One of my strawberry plants suddenly wilted and died, but it had plenty of water. Why?",
+        "answer": "It likely had Anthracnose Crown Rot. The fungus rotted the base of the plant internally. If you cut the crown (base) in half, you will likely see a reddish-brown marbled rot inside."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "The spores of Anthracnose are embedded in a water-soluble mucilage (slime). Wind absolutely cannot blow them off the plant. They require a physical drop of water to hit them, dissolve the slime, and act as a 'taxi' to splash them to the next plant."
+      ],
+      "similar_diseases": [
+        "Botrytis Fruit Rot",
+        "Leather Rot",
+        "Phytophthora Crown Rot"
+      ],
+      "differential_diagnosis": [
+        "Botrytis has GRAY fuzz and prefers COOL weather. Leather Rot causes fruit to turn dull purple/brown, smell like rotting meat, and taste extremely bitter. Anthracnose has sunken, firm craters with PINK/ORANGE spores and prefers HOT weather. Phytophthora Crown Rot causes a solid brown internal crown rot, whereas Anthracnose Crown Rot causes a marbled reddish-brown internal rot."
+      ]
+    },
+    "ai_context": {
+      "summary": "Anthracnose is a catastrophic, hot-weather fungal disease of strawberries causing deeply sunken fruit craters with salmon/pink spores, and lethal crown rot. Driven entirely by rain splash.",
+      "key_points": [
+        "Thrives in HOT, wet weather (unlike Botrytis).",
+        "Causes deeply sunken circular fruit craters.",
+        "Produces distinct pink/salmon/orange spore slime.",
+        "Causes sudden plant wilt (Crown Rot).",
+        "Cannot spread without water splash."
+      ],
+      "high_priority_actions": [
+        "Demand user immediately stops overhead watering.",
+        "Instruct user to rogue (remove and bag) any wilting plants and rotten fruit.",
+        "Advise urgent application of Strobilurin or Switch fungicides."
+      ],
+      "weather_considerations": [
+        "Extreme Alert: Heat waves (>25°C) accompanied by thunderstorms and heavy rain."
+      ],
+      "common_mistakes": [
+        "Using overhead sprinklers during hot weather.",
+        "Leaving pink-spotted fruit in the field.",
+        "Confusing it with Botrytis and using the wrong fungicide."
+      ],
+      "follow_up_recommendations": [
+        "Ask the user to cut a wilting plant's crown in half to check for reddish-brown marbling.",
+        "Suggest growing under high-tunnels/hoop houses next year to block the rain."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user that the deeply sunken spots oozing pink or orange slime on their strawberries are {disease_name}. Warn them that this is an incredibly aggressive, {environmental_conditions.temperature.notes} pathogen.",
+      "weather_analysis": "Note that the recent hot temperatures and {rainfall_data} created the absolute perfect storm for {disease_name}. The rain physically splashed the sticky spores everywhere.",
+      "treatment_plan": "Develop a salvage operation. Instruct them to completely halt {risk_factors.overhead_irrigation} right now. Tell them to walk the field, bag every piece of spotted fruit, and apply {treatment.chemical} immediately. Emphasize that throwing rotten fruit in the aisles will guarantee crop failure.",
+      "followup": "Ask the user to look closely at the sunken craters on the berries. Do they see the bright salmon, pink, or orange slimy spores inside the crater? (This is the ultimate confirmation of Anthracnose)."
+    },
+    "references": [
+      "University of Florida IFAS: Anthracnose Fruit Rot of Strawberry",
+      "NC State Extension: Strawberry Anthracnose"
+    ],
+    "model_mapping": {
+      "cnn_class": "Strawberry___Anthracnose_Fruit_Rot_and_Crown_Rot",
+      "aliases": [
+        "Strawberry Anthracnose Fruit Rot and Crown Rot",
+        "Strawberry Anthracnose Strawberry"
+      ]
+    }
+  }
+]

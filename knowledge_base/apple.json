@@ -1,0 +1,1217 @@
+[
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Intermediate"
+    },
+    "disease_id": "APPLE_001",
+    "disease_name": "Apple_Scab",
+    "common_name": "Apple Scab",
+    "scientific_name": "Venturia inaequalis",
+    "crop": "Apple",
+    "disease_type": "Fungal",
+    "pathogen_type": "Fungus",
+    "overview": {
+      "description": "Apple scab is the most economically significant fungal disease of apples worldwide. It primarily causes lesions on leaves and fruit, leading to premature defoliation, deformed fruit, and substantial yield loss if left unmanaged.",
+      "importance": "High. Without proper management in regions with wet springs, apple scab can cause up to 100% loss of marketable fruit due to aesthetic damage and secondary rotting.",
+      "affected_parts": [
+        "Leaves",
+        "Fruit",
+        "Blossoms",
+        "Petioles"
+      ],
+      "host_plants": [
+        "Apple (Malus domestica)",
+        "Crabapple",
+        "Hawthorn",
+        "Mountain Ash"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Lighter green, irregular spots appearing on the undersides of leaves as they emerge in spring.",
+        "Spots turn olive-green with a velvety texture as spore production begins."
+      ],
+      "moderate": [
+        "Lesions darken to brown or black, becoming more defined.",
+        "Leaves may become distorted or puckered around the lesions.",
+        "Small, dark, scabby spots appear on young fruit."
+      ],
+      "severe": [
+        "Extensive yellowing of leaves and premature leaf drop (defoliation).",
+        "Fruit lesions become large, corky, and cracked, rendering fruit unmarketable.",
+        "Tree vigor is severely reduced, impacting the next year's bloom."
+      ],
+      "leaf": [
+        "Olive-green to black velvety spots, mostly on the upper surface as leaves mature; chlorosis and defoliation."
+      ],
+      "stem": [
+        "Rarely affected in typical commercial cultivars, but young green shoots can occasionally show blister-like lesions."
+      ],
+      "fruit": [
+        "Dark, sunken, scabby lesions. Early infections cause fruit to become deformed and cracked as it grows."
+      ],
+      "flower": [
+        "Small dark spots on the sepals and pedicels, which can lead to early blossom drop."
+      ],
+      "root": []
+    },
+    "causes": {
+      "primary_cause": "Fungal infection triggered by prolonged leaf wetness during the early growing season.",
+      "pathogen": "Venturia inaequalis",
+      "survival_mechanism": "The fungus overwinters in infected dead apple leaves on the orchard floor, forming pseudothecia (fruiting bodies) during the winter.",
+      "infection_process": "In spring, rain triggers the release of ascospores from the overwintered leaves. Spores land on newly emerging green tissue and, if wetness persists long enough at a given temperature, infection occurs."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Overwintering in leaf litter.",
+        "Primary infection (spring): Ascospores released during rain.",
+        "Incubation (9-17 days depending on temperature).",
+        "Secondary infection (summer): Lesions produce conidia, which splash to other leaves during summer rains."
+      ],
+      "spread_cycle": "Polycyclic. Primary infection from the ground in spring is followed by repeating cycles of secondary infections moving upward and outward throughout the summer."
+    },
+    "transmission": {
+      "methods": [
+        "Wind (Ascospores in spring)",
+        "Rain splash (Conidia in summer)"
+      ],
+      "vectors": [],
+      "common_sources": [
+        "Infected fallen leaves from the previous season",
+        "Nearby unmanaged apple trees"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "Very High",
+      "rainfall": "High",
+      "poor_airflow": "Medium",
+      "overhead_irrigation": "High",
+      "dense_canopy": "High"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "15°C - 20°C (59°F - 68°F)",
+        "notes": "At optimal temperatures, only 6 to 9 hours of continuous leaf wetness are required for infection."
+      },
+      "humidity": {
+        "optimal_range": "85% - 100%",
+        "notes": "High humidity slows leaf drying, extending the wetness duration necessary for spore germination."
+      },
+      "rainfall": "Frequent spring rains are the primary driver, releasing primary spores and providing required wetness.",
+      "wind": "Moderate winds help distribute ascospores throughout the orchard canopy.",
+      "soil_conditions": "Poor drainage can increase localized orchard humidity.",
+      "leaf_wetness": "Critical factor. Must follow the Mills Table criteria."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 1,
+        "max": 26
+      },
+      "humidity": {
+        "min": 85,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 6
+    },
+    "weather_influence": {
+      "high_humidity": "Delays the drying of leaves after rain or dew, drastically increasing infection risk.",
+      "rain": "The ultimate trigger. Rain events >0.01 inches trigger ascospore release.",
+      "high_temperature": "Temperatures above 26°C (79°F) slow down fungal growth and reduce secondary spread.",
+      "low_temperature": "Infection can still occur down to 1°C (34°F), but requires nearly 48 hours of continuous wetness.",
+      "wind": "Dries leaves quickly after rain, but spreads spores during the initial rain event.",
+      "dry_conditions": "Completely halts the infection process."
+    },
+    "severity_levels": {
+      "low": "Few isolated lesions on leaves, no fruit damage. Easily managed with standard spray program.",
+      "medium": "Visible leaf lesions scattered through the canopy; minor fruit spotting. Requires immediate secondary control.",
+      "high": "Abundant leaf lesions, early defoliation starting, significant fruit damage visible.",
+      "critical": "Severe defoliation, nearly all fruit infected, cracking open, and unmarketable. Tree health compromised for next year."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "Assess weather data against the Mills Table to determine if an infection period just occurred.",
+        "Apply a systemic kickback (curative) fungicide if within 24-48 hours of an infection event."
+      ],
+      "within_24_hours": [
+        "Calibrate spray equipment for thorough canopy coverage.",
+        "Plan a protectant fungicide application before the next forecasted rain event."
+      ],
+      "within_one_week": [
+        "Scout the orchard thoroughly for early primary lesions to determine if the protectant program was successful.",
+        "Mow orchard grass short to improve airflow and speed up drying times."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Captan, Mancozeb (Protectants - apply before rain).",
+        "Myclobutanil, Fenbuconazole (Sterol inhibitors/Systemics - offer 72-96 hour post-infection curative activity)."
+      ],
+      "biological": [
+        "Bacillus subtilis (Serenade) applied preventatively (lower efficacy in high-pressure environments)."
+      ],
+      "organic": [
+        "Liquid Lime Sulfur (effective but can cause phytotoxicity if applied above 27°C).",
+        "Wettable Sulfur (needs frequent reapplication)."
+      ],
+      "integrated_management": [
+        "Combine protectant sprays before rain with curative sprays immediately after, rotating chemical classes to prevent resistance."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Flail mow fallen leaves in late autumn to speed up decomposition.",
+        "Apply 5% urea spray to fallen leaves in late fall to disrupt pathogen overwintering."
+      ],
+      "irrigation": [
+        "Avoid overhead irrigation which mimics rain. Use drip or micro-sprinklers."
+      ],
+      "crop_rotation": [
+        "Not applicable for perennial tree crops."
+      ],
+      "air_circulation": [
+        "Prune trees annually to maintain an open canopy, allowing sunlight penetration."
+      ],
+      "resistant_varieties": [
+        "Plant scab-resistant cultivars such as Enterprise, Liberty, Honeycrisp, or GoldRush."
+      ],
+      "seasonal_practices": [
+        "Monitor degree days and leaf development in early spring to time first preventative sprays."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Avoid excessive early-season nitrogen, which pushes overly vigorous, highly susceptible succulent growth.",
+      "phosphorus": "Maintain balanced levels for overall root health.",
+      "potassium": "Ensure adequate potassium to strengthen cell walls and overall plant resilience.",
+      "calcium": "Critical for cell wall structure; helps limit secondary rots.",
+      "magnesium": "Maintain adequate levels for proper photosynthesis.",
+      "micronutrients": [
+        "Zinc and Boron are essential for early season leaf and bud health."
+      ]
+    },
+    "disease_progression": {
+      "untreated": [
+        "Primary infections produce secondary spores, leading to exponential spread.",
+        "Leaves yellow and drop by mid-summer.",
+        "Fruit cracks and rots, resulting in 100% crop loss."
+      ],
+      "treated": [
+        "Existing lesions become inactive (dry up and turn gray).",
+        "New growth remains healthy and green.",
+        "Fruit develops normally with minor or no aesthetic blemishes."
+      ]
+    },
+    "recovery_indicators": [
+      "Velvety olive-green lesions turn dry, gray, or silver, indicating fungal sporulation has stopped.",
+      "Newly unfolding leaves remain completely free of spots."
+    ],
+    "recovery": {
+      "estimated_days": "14-21",
+      "success_rate": "High",
+      "depends_on": [
+        "Early Detection",
+        "Fungicide Timing",
+        "Dry Weather Windows"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Can reach 70-100% in severe, unmanaged cases due to poor fruit set and fruit drop.",
+      "quality_loss": "Even minor infections downgrade fruit from 'fresh market' to 'processing' grade.",
+      "financial_impact": "Loss of revenue from downgraded fruit, plus the high cost of intensive fungicide programs."
+    },
+    "monitoring": {
+      "inspection_frequency": "Scout twice weekly starting at the 'green tip' bud stage until 2 weeks after petal fall. Then weekly.",
+      "warning_signs": [
+        "Prolonged wet spring weather.",
+        "Neighboring unmanaged orchards showing early defoliation."
+      ],
+      "recovery_signs": [
+        "Crisp, dry margins on old lesions; clean terminal growth."
+      ]
+    },
+    "faq": [
+      {
+        "question": "Can I save fruit that already has scab spots?",
+        "answer": "No, existing spots cannot be cured. Treatments only prevent new spots from forming and stop existing ones from spreading."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "Venturia inaequalis reproduces sexually in the winter, helping it mutate and develop fungicide resistance rapidly."
+      ],
+      "similar_diseases": [
+        "Frogeye leaf spot",
+        "Cedar apple rust (early stages)"
+      ],
+      "differential_diagnosis": [
+        "Scab lesions are velvety and olive/black, whereas Cedar Apple Rust lesions are bright yellow/orange."
+      ],
+      "long_term_management": [
+        "Transitioning the orchard block to genetically resistant varieties over a 10-20 year replanting strategy."
+      ]
+    },
+    "ai_context": {
+      "summary": "Apple scab is a severe, moisture-driven fungal disease causing black lesions on leaves and fruit.",
+      "key_points": [
+        "Overwinters in dead leaves.",
+        "Triggered by spring rain.",
+        "Requires protectant sprays before rain."
+      ],
+      "high_priority_actions": [
+        "Check weather for rain.",
+        "Apply protectant fungicide.",
+        "Sanitize leaf litter."
+      ],
+      "weather_considerations": [
+        "Alert if rain + temps between 10-20°C for > 9 hours."
+      ],
+      "common_mistakes": [
+        "Applying curative fungicides too late.",
+        "Relying on a single chemical class."
+      ],
+      "follow_up_recommendations": [
+        "Scout for lesions 10 days after major rain.",
+        "Plan urea application for fall."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "The crop is suffering from Apple Scab. Explain to the user that {disease_name} is triggered by {weather_conditions} and causes {primary_symptoms}.",
+      "weather_analysis": "Based on the recent {rainfall_data} and temperatures of {temperature_data}, the Mills period has been met. Generate an urgent alert about {disease_name} spore release.",
+      "treatment_plan": "Create a step-by-step 7-day action plan for {disease_name} focusing on {treatment.chemical} or {treatment.organic} if the user prefers organic methods.",
+      "followup": "Ask the user if they were able to apply preventative sprays before the last rain event, and if they are seeing velvety spots on the upper canopy."
+    },
+    "references": [
+      "Cornell University Plant Disease Diagnostic Clinic",
+      "Penn State Extension"
+    ],
+    "model_mapping": {
+      "cnn_class": "Apple___Apple_Scab",
+      "aliases": [
+        "Apple Apple Scab"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Advanced"
+    },
+    "disease_id": "APPLE_002",
+    "disease_name": "Fire_Blight",
+    "common_name": "Fire Blight",
+    "scientific_name": "Erwinia amylovora",
+    "crop": "Apple",
+    "disease_type": "Bacterial",
+    "pathogen_type": "Bacterium",
+    "overview": {
+      "description": "Fire blight is a highly destructive bacterial disease affecting apples and pears. It attacks blossoms, shoots, limbs, and sometimes entire trees, causing tissues to blacken and die rapidly as if scorched by fire.",
+      "importance": "Critical. Fire blight can kill highly susceptible trees within a single season. It requires aggressive surgical pruning and precise chemical timing to manage.",
+      "affected_parts": [
+        "Blossoms",
+        "Shoots",
+        "Branches",
+        "Trunk",
+        "Fruit"
+      ],
+      "host_plants": [
+        "Apple",
+        "Pear",
+        "Quince",
+        "Crabapple",
+        "Hawthorn"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Infected blossoms become water-soaked, wilt, and turn brown or black.",
+        "Droplets of milky or amber bacterial ooze may exude from infected blossoms or stems in humid weather."
+      ],
+      "moderate": [
+        "The tips of infected young shoots wilt, bending over to form a characteristic 'shepherd's crook'.",
+        "Leaves turn brown or black but remain firmly attached to the dead shoot."
+      ],
+      "severe": [
+        "Cankers (sunken, discolored areas) form on main branches and trunks.",
+        "If a canker girdles a main limb or the trunk, all parts above it die.",
+        "Entire dwarf trees can collapse and die within weeks of rootstock infection."
+      ],
+      "leaf": [
+        "Leaves wilt rapidly, turning dark brown to black, clinging tightly to the dead branches."
+      ],
+      "stem": [
+        "Shoot tips hook downward (shepherd's crook). Bark becomes water-soaked, dark, and peels away easily."
+      ],
+      "fruit": [
+        "Small, shriveled, and dark. Often exuding sticky bacterial ooze."
+      ],
+      "flower": [
+        "Blossoms rapidly blacken and shrivel (blossom blight)."
+      ],
+      "root": [
+        "Rootstock blight can occur, leading to oozing at the soil line and sudden tree death."
+      ]
+    },
+    "causes": {
+      "primary_cause": "Infection by the bacterium Erwinia amylovora during bloom under warm, wet conditions.",
+      "pathogen": "Erwinia amylovora",
+      "survival_mechanism": "Overwinters in the margins of old cankers on branches and trunks from previous seasons.",
+      "infection_process": "In spring, bacteria multiply in overwintering cankers and ooze out. Insects or rain carry bacteria to open blossoms. Bacteria multiply on the stigma and are washed into the floral cup by rain/dew, entering the plant."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Overwintering cankers become active in spring, producing bacterial ooze.",
+        "Primary infection: Bacteria moved to blossoms by flies, bees, or rain.",
+        "Secondary infection: Trauma blight (bacteria enter via hail, wind, or insect wounds on shoots).",
+        "Systemic movement: Bacteria travel down the vascular system into larger limbs, forming new overwintering cankers."
+      ],
+      "spread_cycle": "Extremely fast. Bacteria can migrate through the tree's vascular system at a rate of several inches per day during warm weather."
+    },
+    "transmission": {
+      "methods": [
+        "Rain splash",
+        "Wind-driven rain",
+        "Pruning tools"
+      ],
+      "vectors": [
+        "Honeybees",
+        "Flies",
+        "Aphids",
+        "Leafhoppers",
+        "Birds"
+      ],
+      "common_sources": [
+        "Overwintering cankers in the orchard",
+        "Nearby wild hawthorn or neglected pear trees"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "High",
+      "rainfall": "High",
+      "poor_airflow": "Low",
+      "overhead_irrigation": "High",
+      "dense_canopy": "Medium"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "24°C - 29°C (75°F - 84°F)",
+        "notes": "Warm days combined with night temperatures above 15°C (60°F) trigger rapid bacterial multiplication."
+      },
+      "humidity": {
+        "optimal_range": "70% - 100%",
+        "notes": "High humidity or dew is required to wash the bacteria into the natural openings of the blossom (nectarthodes)."
+      },
+      "rainfall": "A light rain or even heavy dew during bloom is the primary trigger event for infection.",
+      "wind": "High winds or hail cause micro-wounds on leaves, leading to severe 'trauma blight' epidemics.",
+      "soil_conditions": "Highly vigorous growth from rich soils or excess nitrogen makes trees far more susceptible.",
+      "leaf_wetness": "Required for bacteria to swim into floral cups or wounds."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 18,
+        "max": 30
+      },
+      "humidity": {
+        "min": 70,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 2
+    },
+    "weather_influence": {
+      "high_humidity": "Promotes the formation of bacterial ooze droplets on cankers, readying them for spread.",
+      "rain": "Washes bacteria directly into blossoms.",
+      "high_temperature": "Accelerates bacterial division; infections progress rapidly down the branches.",
+      "low_temperature": "Halts bacterial growth, keeping the disease dormant.",
+      "wind": "Spreads ooze and causes tissue damage that creates entry points for bacteria.",
+      "dry_conditions": "Significantly reduces infection risk during bloom."
+    },
+    "severity_levels": {
+      "low": "A few localized blossom strikes; manageable with immediate pruning.",
+      "medium": "Shoot blight appearing throughout the canopy; requires extensive therapeutic pruning.",
+      "high": "Major limb involvement, cankers forming on main scaffold branches.",
+      "critical": "Cankers reach the central trunk or rootstock. Tree death is imminent. Immediate removal required."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "If bloom is active and weather is warm/wet, apply Streptomycin immediately (within 24 hours of infection event).",
+        "If strikes are visible, begin pruning out infected shoots immediately, cutting 8-12 inches below visible damage into healthy wood."
+      ],
+      "within_24_hours": [
+        "Sanitize all pruning tools between EVERY cut using 70% alcohol or a 10% bleach solution to avoid spreading the bacteria.",
+        "Remove and burn or securely dispose of all pruned, infected wood."
+      ],
+      "within_one_week": [
+        "Scout the orchard thoroughly every 3 days during the rapid growth phase to catch and remove new shoot blight."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Streptomycin sulfate (Primary antibiotic during bloom).",
+        "Kasugamycin, Oxytetracycline (Alternative antibiotics for resistance management).",
+        "Prohexadione-calcium (Apogee/Kudos) (Growth regulator to harden off shoots and prevent shoot blight)."
+      ],
+      "biological": [
+        "Aureobasidium pullulans (Blossom Protect) or Bacillus subtilis applied preventatively to blossoms to competitively exclude fire blight bacteria."
+      ],
+      "organic": [
+        "Liquid copper formulations (applied at green tip to sanitize overwintering cankers).",
+        "Soluble copper during bloom (risks severe fruit russeting)."
+      ],
+      "integrated_management": [
+        "Use predictive models (e.g., Maryblyt, Cougarblight) to time antibiotic sprays exactly with high-risk weather events during bloom."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Prune out all overwintering cankers during dormant winter pruning when bacteria are inactive.",
+        "Remove alternate hosts (wild hawthorn, neglected pears) from the orchard perimeter."
+      ],
+      "irrigation": [
+        "Strictly avoid overhead irrigation during bloom and active shoot growth."
+      ],
+      "crop_rotation": [
+        "Not applicable."
+      ],
+      "air_circulation": [
+        "Maintain open canopies to promote rapid drying."
+      ],
+      "resistant_varieties": [
+        "Plant resistant rootstocks (e.g., Geneva series: G.11, G.41, G.214) and scions (Enterprise, Liberty)."
+      ],
+      "seasonal_practices": [
+        "Apply dormant copper sprays at silver-tip stage to kill bacteria oozing from old cankers."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "CRITICAL: Do not over-apply nitrogen. Excessive vegetative growth creates highly susceptible succulent shoots.",
+      "phosphorus": "Maintain standard levels.",
+      "potassium": "Maintain standard levels.",
+      "calcium": "Adequate calcium helps strengthen cell walls, slightly slowing systemic spread.",
+      "magnesium": "Maintain standard levels.",
+      "micronutrients": [
+        "Avoid late-season foliar nutrient sprays that might prolong active growth into autumn."
+      ]
+    },
+    "disease_progression": {
+      "untreated": [
+        "Blossoms die.",
+        "Bacteria move down the spur into the main branch, creating a canker.",
+        "Canker girdles the branch, killing everything above it.",
+        "Bacteria reach the trunk, killing the entire tree within one to two seasons."
+      ],
+      "treated": [
+        "Antibiotics prevent blossom infection.",
+        "Properly pruned shoot strikes halt the systemic spread of the bacteria.",
+        "Tree heals over the pruning wounds and returns to normal production next season."
+      ]
+    },
+    "recovery_indicators": [
+      "Pruning cuts show clean, healthy white wood with no vascular discoloration.",
+      "Terminal buds set (growth stops and hardens off), naturally ending the susceptible shoot blight phase."
+    ],
+    "recovery": {
+      "estimated_days": "14-28",
+      "success_rate": "Medium",
+      "depends_on": [
+        "Aggressive Surgical Pruning",
+        "Tool Sanitation",
+        "Weather Cooling"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Can easily reach 50-100% in a severe epidemic year.",
+      "quality_loss": "Fruit on infected spurs shrivels and dies. Surviving fruit may be undersized.",
+      "financial_impact": "Massive. Beyond lost yield, farmers face the capital loss of replacing dead trees and the years of lost production while waiting for new trees to bear fruit."
+    },
+    "monitoring": {
+      "inspection_frequency": "Daily during bloom if temperatures exceed 65°F (18°C). Twice weekly during early summer.",
+      "warning_signs": [
+        "High temperatures coupled with rain during bloom.",
+        "Hail storms during the early summer (triggers trauma blight)."
+      ],
+      "recovery_signs": [
+        "Cessation of oozing; distinct, dry margins forming around old cankers."
+      ]
+    },
+    "faq": [
+      {
+        "question": "If I cut off the dead branch, will the tree survive?",
+        "answer": "Yes, but you must cut 8 to 12 inches below the visible damage into healthy wood, as the bacteria travel invisibly inside the vascular tissue ahead of the blackened area. Always sanitize your tools between cuts."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "Erwinia amylovora was the first bacterium ever proven to cause disease in plants, discovered in the 1870s."
+      ],
+      "similar_diseases": [
+        "Nectria twig blight",
+        "Pseudomonas blossom blast"
+      ],
+      "differential_diagnosis": [
+        "Fire blight leaves remain attached to the dead branch, whereas leaves often drop with Nectria twig blight. Fire blight features the distinct 'shepherd's crook' hook."
+      ],
+      "long_term_management": [
+        "Transitioning entirely to Geneva-series resistant rootstocks, as rootstock death is the most economically devastating outcome of Fire Blight."
+      ]
+    },
+    "ai_context": {
+      "summary": "Fire Blight is a fatal bacterial disease that infects apples during bloom in warm, wet weather, requiring antibiotics and surgical pruning.",
+      "key_points": [
+        "Causes 'shepherd's crook' wilting and blackened leaves.",
+        "Infects via blossoms during warm rain.",
+        "Requires tool sanitation when pruning.",
+        "Avoid excess nitrogen."
+      ],
+      "high_priority_actions": [
+        "Use predictive models (Maryblyt) during bloom.",
+        "Apply Streptomycin before rain if bloom is active.",
+        "Prune out strikes 12 inches below damage."
+      ],
+      "weather_considerations": [
+        "Extreme Risk: Temps > 75°F (24°C) with rain/dew during apple bloom."
+      ],
+      "common_mistakes": [
+        "Pruning without sanitizing tools, spreading the disease.",
+        "Applying nitrogen to a blighted tree."
+      ],
+      "follow_up_recommendations": [
+        "Remind user to check for oozing cankers.",
+        "Recommend Apogee/Kudos to harden off shoots."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Alert the user that {disease_name} is a highly destructive bacterial disease. State that their trees are at immediate risk of death if they exhibit {symptoms.early}.",
+      "weather_analysis": "The temperature is currently {temperature_data} during active bloom. Inform the user that this triggers a massive risk for {disease_name} if moisture occurs, and suggest {treatment.chemical}.",
+      "treatment_plan": "Generate a triage plan for {disease_name}. Emphasize the 'Ugly Stub' pruning method and the absolute necessity of tool sanitation using {immediate_actions.within_24_hours}.",
+      "followup": "Ask the user if they have noticed any amber-colored ooze on the branches or if the shoot tips have formed a 'shepherd's crook'."
+    },
+    "references": [
+      "Michigan State University Extension: Fire Blight Management",
+      "Washington State University: Comprehensive Fire Blight Control"
+    ],
+    "model_mapping": {
+      "cnn_class": "Apple___Fire_Blight",
+      "aliases": [
+        "Apple Fire Blight"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Intermediate"
+    },
+    "disease_id": "APPLE_003",
+    "disease_name": "Cedar_Apple_Rust",
+    "common_name": "Cedar Apple Rust",
+    "scientific_name": "Gymnosporangium juniperi-virginianae",
+    "crop": "Apple",
+    "disease_type": "Fungal",
+    "pathogen_type": "Fungus",
+    "overview": {
+      "description": "Cedar Apple Rust is a unique fungal disease that requires two different host plants to complete its lifecycle: an apple tree and an Eastern Red Cedar (or juniper). It causes bright yellow-orange spots on apple leaves and fruit, causing early defoliation and fruit deformation.",
+      "importance": "Medium to High. While rarely fatal to the tree, severe defoliation weakens the tree over time, and fruit infections render the apples unmarketable.",
+      "affected_parts": [
+        "Leaves",
+        "Fruit",
+        "Twigs"
+      ],
+      "host_plants": [
+        "Apple (Malus domestica)",
+        "Eastern Red Cedar (Juniperus virginiana)"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Small, pale yellow spots appear on the upper surface of apple leaves shortly after bloom.",
+        "Spots gradually enlarge and turn bright orange or red, often with a red border."
+      ],
+      "moderate": [
+        "Black dots (pycnidia) appear in the center of the orange spots on the upper leaf surface.",
+        "Lesions form on the calyx end of the fruit, appearing as raised, orange-yellow bumps."
+      ],
+      "severe": [
+        "Leaves become heavily spotted, turn yellow, and drop prematurely in mid-summer.",
+        "Tube-like structures (aecia) protrude from the underside of the leaf spots, giving them a fringed or 'hairy' appearance.",
+        "Fruit becomes stunted, deformed, and drops early."
+      ],
+      "leaf": [
+        "Bright yellow/orange circular lesions on top; hairy/fringed protrusions on the bottom."
+      ],
+      "stem": [
+        "Rarely affects twigs on commercial apples, though some highly susceptible crabapples may develop swollen twig galls."
+      ],
+      "fruit": [
+        "Raised, orange, rough patches, usually near the calyx (bottom) of the apple."
+      ],
+      "flower": [
+        "Not directly affected."
+      ],
+      "root": []
+    },
+    "causes": {
+      "primary_cause": "Infection by windblown spores from nearby infected juniper/cedar trees during wet spring weather.",
+      "pathogen": "Gymnosporangium juniperi-virginianae",
+      "survival_mechanism": "Overwinters in hard, brown, woody galls on the branches of Eastern Red Cedar trees.",
+      "infection_process": "During spring rains, cedar galls produce gelatinous, orange, octopus-like 'horns' that release teliospores. These germinate to produce basidiospores, which are blown by the wind to apple trees, infecting damp newly unfurled leaves."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Year 1 (Cedar): Spores from apple infect cedar needles; small galls begin to form.",
+        "Year 2 (Cedar): Galls mature. Spring rains cause galls to produce orange horns and release spores to apples.",
+        "Year 2 (Apple): Spores infect apple leaves/fruit. In late summer, lesions on apples produce spores that blow BACK to cedars.",
+        "Note: The fungus CANNOT spread from apple to apple."
+      ],
+      "spread_cycle": "Complex alternating host cycle taking two years to complete. Monocyclic on the apple tree (only one infection period per year in the spring)."
+    },
+    "transmission": {
+      "methods": [
+        "Wind (Spores can travel up to several miles, though most severe infections occur within a few hundred yards)"
+      ],
+      "vectors": [],
+      "common_sources": [
+        "Eastern Red Cedar trees serving as windbreaks or wild borders near the orchard."
+      ]
+    },
+    "risk_factors": {
+      "humidity": "High",
+      "rainfall": "High",
+      "poor_airflow": "Medium",
+      "overhead_irrigation": "Low",
+      "dense_canopy": "Low",
+      "proximity_to_alternate_host": "Extreme"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "10°C - 24°C (50°F - 75°F)",
+        "notes": "Spore release and apple infection occur most efficiently at these mild spring temperatures."
+      },
+      "humidity": {
+        "optimal_range": "80% - 100%",
+        "notes": "Required for the cedar galls to swell and produce the spore-bearing 'horns'."
+      },
+      "rainfall": "Spring rains are the absolute requirement for the cedar galls to activate and release spores.",
+      "wind": "Crucial for blowing the microscopic basidiospores from the cedars to the apple trees.",
+      "soil_conditions": "Not applicable.",
+      "leaf_wetness": "Apple leaves must remain wet for 4 to 6 hours for spores to germinate and penetrate the tissue."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 10,
+        "max": 24
+      },
+      "humidity": {
+        "min": 80,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 4
+    },
+    "weather_influence": {
+      "high_humidity": "Keeps apple foliage wet, facilitating spore germination.",
+      "rain": "Triggers the spectacular swelling of cedar galls (telial horns) and subsequent spore release.",
+      "high_temperature": "Temperatures above 80°F halt spore germination and dry out cedar galls rapidly.",
+      "low_temperature": "Prolongs the duration of leaf wetness required for infection.",
+      "wind": "Dictates the direction and distance the disease will travel from the cedar source.",
+      "dry_conditions": "Prevents cedar galls from swelling; protects apples entirely."
+    },
+    "severity_levels": {
+      "low": "Occasional spots on leaves, no fruit damage. Common and easily tolerated.",
+      "medium": "Noticeable leaf spotting leading to minor defoliation in late summer. Some fruit showing lesions.",
+      "high": "Heavy spotting on majority of leaves, early defoliation starting in July. Significant fruit deformation.",
+      "critical": "Severe early defoliation weakening the tree's winter hardiness; near-total loss of marketable fruit."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "If you see orange spots on your apple leaves, the infection period has already passed. Fungicides will not cure existing spots.",
+        "Check local weather to see if cedars are still producing orange horns; if so, apply protectant fungicides to protect new apple growth."
+      ],
+      "within_24_hours": [
+        "Identify and map locations of Eastern Red Cedar trees within 1/4 mile of the orchard for future management."
+      ],
+      "within_one_week": [
+        "Ensure trees are adequately watered, as rust-induced defoliation combined with drought stress can severely harm tree health."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Myclobutanil (Extremely highly effective systemic for rust).",
+        "Mancozeb, Ziram (Effective protectants).",
+        "Note: Captan, which is great for Scab, is POOR at controlling Rust."
+      ],
+      "biological": [
+        "Limited efficacy once established. Bacillus subtilis may offer minor preventative suppression."
+      ],
+      "organic": [
+        "Copper sprays (Early season only, risks russeting).",
+        "Sulfur formulations (Provide moderate protection but require frequent reapplication)."
+      ],
+      "integrated_management": [
+        "Combine protectant sprays from the 'pink bud' stage through 3 weeks after petal fall (the time when cedar galls are active)."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "The most effective prevention is cutting down and removing all Eastern Red Cedar trees within a 1-to-2-mile radius of the orchard (often impractical).",
+        "Alternatively, prune out the dormant brown galls from nearby cedars during the winter."
+      ],
+      "irrigation": [
+        "Not a major factor, though keeping foliage dry helps."
+      ],
+      "crop_rotation": [
+        "Not applicable."
+      ],
+      "air_circulation": [
+        "Standard pruning helps foliage dry faster, reducing infection windows."
+      ],
+      "resistant_varieties": [
+        "Plant rust-resistant apple varieties: Liberty, Enterprise, MacFree, or Redfree. (Note: Honeycrisp and Fuji are highly susceptible)."
+      ],
+      "seasonal_practices": [
+        "Time fungicide applications strictly between the 'pink' bud stage and second cover spray."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Maintain standard levels.",
+      "phosphorus": "Maintain standard levels.",
+      "potassium": "Ensure adequate potassium to help leaves resist dropping prematurely.",
+      "calcium": "Standard maintenance.",
+      "magnesium": "Standard maintenance.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Spots appear in May/June.",
+        "Spots grow and develop hairy undersides by July.",
+        "Heavily infected leaves turn yellow and drop in August.",
+        "Tree fails to build carbohydrate reserves for winter."
+      ],
+      "treated": [
+        "Preventative sprays block the initial infection.",
+        "Foliage remains clean and green all season.",
+        "Fruit develops normally."
+      ]
+    },
+    "recovery_indicators": [
+      "No new yellow spots appear on newly unfurled leaves after mid-summer (as the spore release period from cedars has ended naturally)."
+    ],
+    "recovery": {
+      "estimated_days": "14-21",
+      "success_rate": "Low",
+      "depends_on": [
+        "Prevention Only",
+        "Cannot Cure Existing Lesions"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Moderate to High, up to 50% loss due to deformed fruit and reduced fruit size from defoliation.",
+      "quality_loss": "Fruit with rust lesions is culled and cannot be sold on the fresh market.",
+      "financial_impact": "Direct loss of fruit sales and reduced tree vigor leading to smaller crops the following year."
+    },
+    "monitoring": {
+      "inspection_frequency": "Monitor nearby cedar trees in early spring. When galls produce orange, jelly-like horns during rain, apple infection is occurring.",
+      "warning_signs": [
+        "Orange gelatinous galls visible on nearby landscape junipers.",
+        "Spring rains occurring while apples are blooming."
+      ],
+      "recovery_signs": [
+        "Cedar galls dry up and fall off (disease pressure ends for the year)."
+      ]
+    },
+    "faq": [
+      {
+        "question": "Can Apple Rust spread from my infected apple tree to my neighbor's apple tree?",
+        "answer": "No. The fungus cannot infect an apple tree from an apple tree. The spores produced on the apple tree in late summer can ONLY infect a cedar tree."
+      },
+      {
+        "question": "I see orange spots on my leaves. What should I spray?",
+        "answer": "Once the spots are visible, it is too late to spray for those spots. The infection happened weeks ago. You can apply Myclobutanil to protect new leaves if the cedars are still active, but the best approach is preventative spraying next spring."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "The galls on cedar trees look so bizarre during a rainstorm that people sometimes mistake them for alien organisms or strange blossoming flowers."
+      ],
+      "similar_diseases": [
+        "Hawthorn Rust",
+        "Quince Rust (Quince rust affects the fruit much more severely than leaves)."
+      ],
+      "differential_diagnosis": [
+        "Quince rust causes deep, dark green to black, sunken, necrotic lesions on the fruit without the bright orange color or leaf spots seen in Cedar Apple Rust."
+      ],
+      "long_term_management": [
+        "Eradication of the alternate host (cedars) from the local environment, or planting exclusively immune apple varieties."
+      ]
+    },
+    "ai_context": {
+      "summary": "Cedar Apple Rust is a multi-host fungal disease causing bright orange spots on apple leaves and fruit, requiring nearby cedar trees to survive.",
+      "key_points": [
+        "Cannot spread apple-to-apple.",
+        "Overwinters on Eastern Red Cedar.",
+        "Infects apples during spring rains.",
+        "Captan fungicide is ineffective against it."
+      ],
+      "high_priority_actions": [
+        "Check for proximity of cedar trees.",
+        "Apply Myclobutanil preventatively during spring bloom/rain events."
+      ],
+      "weather_considerations": [
+        "Alert if spring rains overlap with apple bloom and cedars are in the area."
+      ],
+      "common_mistakes": [
+        "Trying to cure orange spots mid-summer (too late).",
+        "Using Captan for rust control."
+      ],
+      "follow_up_recommendations": [
+        "Advise user to cut down nearby cedars if possible.",
+        "Suggest rust-immune cultivars for future planting."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user that {disease_name} is a fascinating but damaging fungus that requires two different trees to survive. Confirm that the {symptoms.early} they are seeing originated from nearby cedar trees.",
+      "weather_analysis": "The spring rains of {rainfall_data} caused cedar galls to swell and release spores. Assess if the user applied preventative sprays before this event.",
+      "treatment_plan": "Inform the user that curing existing spots is impossible. Outline a plan using {treatment.chemical} to protect unaffected new growth, emphasizing that Captan will not work.",
+      "followup": "Ask the user if they have noticed any evergreen cedar or juniper trees with strange orange, jelly-like growths within a mile of their orchard."
+    },
+    "references": [
+      "University of Minnesota Extension: Cedar Apple Rust",
+      "Purdue University Landscape Report: Rust Diseases of Apple"
+    ],
+    "model_mapping": {
+      "cnn_class": "Apple___Cedar_Apple_Rust",
+      "aliases": [
+        "Apple Cedar Apple Rust"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Intermediate"
+    },
+    "disease_id": "APPLE_004",
+    "disease_name": "Black_Rot",
+    "common_name": "Black Rot (Frogeye Leaf Spot)",
+    "scientific_name": "Botryosphaeria obtusa",
+    "crop": "Apple",
+    "disease_type": "Fungal",
+    "pathogen_type": "Fungus",
+    "overview": {
+      "description": "Black Rot is a triple-threat fungal disease that attacks the fruit (Black Rot), the leaves (Frogeye Leaf Spot), and the wood (Black Rot Canker). It thrives in warm, wet weather and primarily spreads from dead or dying wood left in the orchard.",
+      "importance": "High. While the leaf spotting is mostly cosmetic, the fruit rot can cause significant pre-harvest yield loss, and the branch cankers can kill fruit-bearing wood and eventually weaken the entire tree structure.",
+      "affected_parts": [
+        "Leaves",
+        "Fruit",
+        "Branches",
+        "Trunk"
+      ],
+      "host_plants": [
+        "Apple",
+        "Pear",
+        "Crabapple",
+        "Quince"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Small, purple flecks appear on the upper surface of leaves 1-3 weeks after petal fall.",
+        "Small, reddish-brown spots appear on the calyx (blossom) end of young fruit."
+      ],
+      "moderate": [
+        "Leaf spots enlarge to 1/8 - 1/4 inch in diameter, developing a tan or gray center with a distinct purple margin (classic 'frogeye' appearance).",
+        "Fruit lesions expand into large, firm, brown areas with alternating light and dark concentric rings."
+      ],
+      "severe": [
+        "Heavily infected leaves turn yellow and drop prematurely.",
+        "The entire fruit rots, turns black, and shrivels into a hard, wrinkled 'mummy' that remains attached to the tree.",
+        "Sunken, reddish-brown cankers form on branches, eventually peeling, cracking, and girdling the limb."
+      ],
+      "leaf": [
+        "Distinctive 'frogeye' spots: tan center, dark brown ring, and purple outer halo."
+      ],
+      "stem": [
+        "Reddish-brown, sunken cankers on the bark that slowly expand year after year, eventually turning the wood black and flaky."
+      ],
+      "fruit": [
+        "Firm, brown rot with concentric rings; eventually blackens and mummifies. Tiny black pimples (pycnidia) may appear in the center of the rot."
+      ],
+      "flower": [
+        "Not directly affected, though sepals can be infected."
+      ],
+      "root": []
+    },
+    "causes": {
+      "primary_cause": "Fungal spores splashing from overwintering cankers and mummified fruit onto susceptible new growth during warm spring rains.",
+      "pathogen": "Botryosphaeria obtusa",
+      "survival_mechanism": "Overwinters in dead wood, branch cankers, and mummified apples left hanging in the tree from the previous season.",
+      "infection_process": "During rain, spores (conidia and ascospores) are released from dead tissue and splash onto leaves and fruit. The fungus enters fruit through natural openings (stomata), insect stings, or cracks, and enters wood through pruning cuts or winter injury."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Overwintering in mummies and dead wood.",
+        "Spring rains trigger spore release. Spores wash downward in a cone-shape through the canopy.",
+        "Primary infection of unfurling leaves and newly set fruit.",
+        "Secondary infection occurs throughout the summer as rain splashes spores from new leaf/fruit lesions."
+      ],
+      "spread_cycle": "Polycyclic. Spores are produced continuously throughout the growing season whenever temperatures are warm and rainfall occurs."
+    },
+    "transmission": {
+      "methods": [
+        "Rain splash",
+        "Wind-driven rain",
+        "Contaminated pruning tools (less common but possible)"
+      ],
+      "vectors": [],
+      "common_sources": [
+        "Dead wood piled near the orchard",
+        "Mummified fruit hanging in trees",
+        "Fire blight cankers (Black rot often invades wood previously killed by fire blight)"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "High",
+      "rainfall": "High",
+      "poor_airflow": "Medium",
+      "overhead_irrigation": "Medium",
+      "dense_canopy": "Medium",
+      "poor_sanitation": "Extreme"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "20°C - 32°C (68°F - 90°F)",
+        "notes": "Black Rot is a warm-weather disease. Spore germination and infection happen rapidly at these temperatures."
+      },
+      "humidity": {
+        "optimal_range": "80% - 100%",
+        "notes": "High humidity is required for the spore-producing structures to swell and release conidia."
+      },
+      "rainfall": "Rain is the primary dispersal mechanism. Infections usually occur in a 'cone' shape directly beneath a dead branch or mummy.",
+      "wind": "Helps blow rain and spores deeper into the canopy.",
+      "soil_conditions": "Not applicable to the disease cycle.",
+      "leaf_wetness": "Requires roughly 9 hours of continuous leaf wetness at 68°F, but up to 24 hours if temperatures drop to 50°F."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 10,
+        "max": 32
+      },
+      "humidity": {
+        "min": 80,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 9
+    },
+    "weather_influence": {
+      "high_humidity": "Extends the leaf wetness duration, guaranteeing spore germination.",
+      "rain": "Washes spores directly from cankers onto the fruit and leaves below.",
+      "high_temperature": "Accelerates the rotting process on fruit; a firm brown spot can engulf the entire apple in days at 85°F.",
+      "low_temperature": "Slows fungal growth significantly, extending the required wetness duration for infection.",
+      "wind": "Dries out the canopy, ending the infection period.",
+      "dry_conditions": "Completely halts the spread and development of the disease."
+    },
+    "severity_levels": {
+      "low": "A few 'frogeye' spots on leaves, usually localized beneath an old pruning cut. Fruit remains clean.",
+      "medium": "Noticeable leaf spotting throughout the canopy. A small percentage of fruit showing calyx-end rot.",
+      "high": "Severe leaf spotting leading to yellowing. Expanding cankers on secondary branches. 10-20% fruit loss.",
+      "critical": "Cankers killing main scaffold limbs. Widespread fruit rot turning into mummies. Entire harvest at risk."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "Scout the tree canopy immediately above any cluster of 'frogeye' leaf spots to locate the source (a dead branch or mummy) and remove it.",
+        "Apply a broad-spectrum protectant fungicide to shield uninfected fruit."
+      ],
+      "within_24_hours": [
+        "Remove any black, shriveled mummified fruit hanging in the trees and dispose of them outside the orchard."
+      ],
+      "within_one_week": [
+        "Plan a dry-weather pruning pass to cut out dead or cankered wood, cutting at least 6 inches into healthy wood."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Captan, Mancozeb, Ziram (Excellent protectants; must be applied before rain).",
+        "Thiophanate-methyl (Topsin M), Pyraclostrobin (Pristine) (Systemic options for high-pressure control)."
+      ],
+      "biological": [
+        "Bacillus subtilis (Serenade) has shown very limited efficacy against Black Rot and is not recommended as a standalone treatment."
+      ],
+      "organic": [
+        "Copper formulations (Early season only; late use causes fruit russeting).",
+        "Strict mechanical sanitation is the only highly effective organic control."
+      ],
+      "integrated_management": [
+        "Combine absolute orchard sanitation (removing all dead wood) with a standard Captan spray program from petal fall through summer."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "CRITICAL: Prune out all dead or diseased wood during winter dormancy.",
+        "Remove all mummified fruit from trees and the ground.",
+        "Burn, bury, or completely chip and compost all pruned wood; do not leave brush piles near the orchard."
+      ],
+      "irrigation": [
+        "Use drip irrigation. Overhead watering spreads spores and triggers infections."
+      ],
+      "crop_rotation": [
+        "Not applicable."
+      ],
+      "air_circulation": [
+        "Prune for an open canopy to ensure rapid drying of fruit and foliage after rain."
+      ],
+      "resistant_varieties": [
+        "No varieties are completely immune, but some (like Fuji and Honeycrisp) are highly susceptible, while others (like Golden Delicious) show moderate tolerance."
+      ],
+      "seasonal_practices": [
+        "Protect wounds: Paint large pruning cuts or winter injury sites to prevent the fungus from entering the wood."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Maintain standard levels. Avoid excess which creates dense canopies that dry slowly.",
+      "phosphorus": "Standard maintenance.",
+      "potassium": "Standard maintenance.",
+      "calcium": "Ensure adequate calcium to improve fruit skin integrity, making it harder for the fungus to penetrate.",
+      "magnesium": "Standard maintenance.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Small leaf spots multiply.",
+        "Fungus moves to fruit, causing concentric brown rotting.",
+        "Fruit turns pitch black and mummifies on the tree.",
+        "Cankers expand, girdling and killing branches year over year."
+      ],
+      "treated": [
+        "Removal of dead wood eliminates the spore source.",
+        "Fungicides protect fruit from secondary infections.",
+        "Fruit matures normally and tree structure is preserved."
+      ]
+    },
+    "recovery_indicators": [
+      "No new 'frogeye' spots appear on fresh, upper-canopy growth.",
+      "Fruit remains firm and free of brown, circular lesions as it sizes up.",
+      "Pruning cuts to remove cankers heal over cleanly with healthy callus tissue."
+    ],
+    "recovery": {
+      "estimated_days": "N/A (Ongoing)",
+      "success_rate": "High",
+      "depends_on": [
+        "Meticulous Sanitation",
+        "Dead Wood Removal",
+        "Preventative Sprays"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Can reach 30-50% in warm, wet years if dead wood is left in the canopy.",
+      "quality_loss": "Infected fruit is entirely ruined for both fresh and processing markets.",
+      "financial_impact": "Direct crop loss, plus the long-term capital loss of fruit-bearing branches dying from cankers."
+    },
+    "monitoring": {
+      "inspection_frequency": "Scout for mummies in late winter. Scout leaves weekly for 'frogeye' spots starting 2 weeks after petal fall.",
+      "warning_signs": [
+        "'Frogeye' leaf spots appearing in a cone-shape below a specific branch.",
+        "Warm rains following a period of winter injury to the trees."
+      ],
+      "recovery_signs": [
+        "Clean, unspotted fruit approaching harvest."
+      ]
+    },
+    "faq": [
+      {
+        "question": "Can I cut the brown spot out of the apple and eat the rest?",
+        "answer": "While not toxic to humans, Black Rot permeates the flesh quickly, leaving a bitter, unpleasant taste even in parts that look healthy. It is best to discard infected fruit."
+      },
+      {
+        "question": "Why are the leaf spots only on certain branches?",
+        "answer": "Black Rot spores splash downward with rain. If you see a cluster of leaf spots, look directly upward in the canopy—you will almost always find a dead branch or a mummified apple serving as the spore source."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "Black rot often acts as a secondary invader. It loves to infect wood that was recently killed by Fire Blight, effectively 'piggybacking' on the previous disease."
+      ],
+      "similar_diseases": [
+        "Bitter Rot",
+        "White Rot",
+        "Cedar Apple Rust (early leaf spots)"
+      ],
+      "differential_diagnosis": [
+        "Bitter rot causes V-shaped sunken lesions on fruit, often with pink spore masses. Black rot causes firm, non-sunken lesions with black pimples (pycnidia) and concentric rings."
+      ],
+      "long_term_management": [
+        "Orchard sanitation is the ultimate long-term fix. A 'clean' orchard with no dead wood or mummies rarely suffers from Black Rot, even without heavy spraying."
+      ]
+    },
+    "ai_context": {
+      "summary": "Black Rot is a fungal pathogen causing 'frogeye' leaf spots, black mummified fruit, and branch cankers, driven entirely by poor orchard sanitation and warm rains.",
+      "key_points": [
+        "Overwinters in dead wood and mummified apples.",
+        "Causes classic 'frogeye' spots on leaves.",
+        "Infections splash downward in a cone shape.",
+        "Sanitation is more important than spraying."
+      ],
+      "high_priority_actions": [
+        "Instruct user to look UP into the canopy to find the dead wood/mummy causing the spots.",
+        "Advise immediate removal of mummies.",
+        "Recommend Captan before warm rains."
+      ],
+      "weather_considerations": [
+        "High Alert: Temps > 20°C (68°F) + Rain. Spores will spread rapidly."
+      ],
+      "common_mistakes": [
+        "Spraying heavily but ignoring the dead wood in the tree.",
+        "Leaving pruning brush piles next to the orchard (spores will still blow in)."
+      ],
+      "follow_up_recommendations": [
+        "Remind user to burn or chip all pruned wood.",
+        "Ask user if they had Fire Blight last year, as Black Rot often invades those old dead strikes."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user that {disease_name} has three phases: leaf spots, fruit rot, and wood cankers. Emphasize that the {symptoms.early} they are seeing means there is a source of spores nearby.",
+      "weather_analysis": "Note that the recent warm rains and temperatures around {temperature_data} created perfect conditions for spore release. Alert the user that fruit infection is highly likely.",
+      "treatment_plan": "Create an action plan focused heavily on {prevention.farm_hygiene}. Instruct the user to use the 'cone of infection' to locate the dead wood, and supplement with {treatment.chemical}.",
+      "followup": "Ask the user to look directly above the spotted leaves to see if they can identify a dead branch or a shriveled 'mummy' apple from last year."
+    },
+    "references": [
+      "Cornell University Tree Fruit Pathology: Black Rot",
+      "Penn State Extension: Black Rot of Apple"
+    ],
+    "model_mapping": {
+      "cnn_class": "Apple___Black_Rot_Frogeye_Leaf_Spot",
+      "aliases": [
+        "Apple Black Rot (Frogeye Leaf Spot)",
+        "Apple Black Rot"
+      ]
+    }
+  }
+]

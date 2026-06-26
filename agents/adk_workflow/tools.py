@@ -3,6 +3,7 @@ from agents.severity_agent.severity_agent import SeverityAgent
 from agents.advisory_agent.advisory_agent import AdvisoryAgent
 from agents.weather_agent.weather_agent import WeatherAgent
 from agents.environmental_risk_agent.environmental_risk_agent import EnvironmentalRiskAgent
+from src.services.knowledge_base.models import AdvisoryContext, DiseaseRecord
 
 # Instantiate legacy agents to be reused across tools
 _disease_agent = DiseaseDetectionAgent()
@@ -47,27 +48,30 @@ def analyze_severity_tool(image_path: str, disease_class: str, confidence: float
     except Exception as e:
         return {"error": str(e)}
 
-def generate_advice_tool(disease_class: str, severity: str, weather_data: dict, risk_data: dict) -> dict:
+def generate_advice_tool(disease_data: dict, weather_data: dict, severity_data: dict, risk_data: dict, knowledge_context: dict) -> dict:
     """
-    Generates agricultural advice based on disease class, severity, weather, and environmental risk.
+    Generates agricultural advice based on disease, severity, weather, environmental risk, and knowledge context.
     
     Args:
-        disease_class (str): The name of the detected disease.
-        severity (str): The severity level ('Low', 'Medium', 'High', 'None').
-        weather_data (dict): The current weather data.
-        risk_data (dict): The environmental risk assessment.
+        disease_data (dict): Prediction data.
+        weather_data (dict): Current weather data.
+        severity_data (dict): Severity assessment.
+        risk_data (dict): Risk assessment.
+        knowledge_context (dict): Disease knowledge base context.
         
     Returns:
         dict: Agricultural recommendations.
     """
     try:
-        # We need to update AdvisoryAgent to accept weather and risk, but for now we pass it in.
-        return _advisory_agent.generate_advice(
-            disease_class=disease_class,
-            severity=severity,
+        # Convert dictionary state back to Pydantic model for AdvisoryAgent
+        context = AdvisoryContext(
+            disease_data=disease_data,
             weather_data=weather_data,
-            risk_data=risk_data
+            severity_data=severity_data,
+            risk_data=risk_data,
+            knowledge_context=DiseaseRecord(**knowledge_context) if knowledge_context else None
         )
+        return _advisory_agent.generate_advice(context=context)
     except Exception as e:
         return {"error": str(e)}
 

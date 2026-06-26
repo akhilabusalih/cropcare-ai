@@ -1,0 +1,1195 @@
+[
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Intermediate"
+    },
+    "disease_id": "PEACH_001",
+    "disease_name": "Bacterial_Spot",
+    "common_name": "Bacterial Spot",
+    "scientific_name": "Xanthomonas arboricola pv. pruni",
+    "crop": "Peach",
+    "disease_type": "Bacterial",
+    "pathogen_type": "Bacterium",
+    "overview": {
+      "description": "Bacterial Spot is a severe disease of peaches and nectarines that blemishes fruit with deep, cracking pits and causes severe 'shot-hole' leaf dropping. It thrives in hot, wet, windy environments.",
+      "importance": "High. Severe defoliation weakens the tree's winter hardiness, and the deep cracks on the fruit render it entirely unmarketable for fresh sales.",
+      "affected_parts": [
+        "Leaves",
+        "Fruit",
+        "Twigs"
+      ],
+      "host_plants": [
+        "Peach",
+        "Nectarine",
+        "Plum",
+        "Apricot"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Small, water-soaked, grayish spots appear on the undersides of leaves.",
+        "On fruit, small, dark, sunken spots appear shortly after shuck-fall."
+      ],
+      "moderate": [
+        "Leaf spots turn purplish-black and angular, restricted by leaf veins.",
+        "The dead centers of the leaf spots fall out, leaving a 'shot-hole' appearance.",
+        "Leaves rapidly turn yellow and drop from the tree."
+      ],
+      "severe": [
+        "Fruit spots expand, coalesce, and form deep, dark, corky pits or massive cracks down the side of the peach.",
+        "Complete defoliation can occur by mid-summer, exposing the fruit to sunburn.",
+        "Dark, sunken cankers form on the green twigs (spring and summer cankers)."
+      ],
+      "leaf": [
+        "Angular, purplish-black spots, 'shot-hole' effect, and severe yellowing/dropping."
+      ],
+      "stem": [
+        "Dark, blister-like 'spring cankers' on overwintering twigs that ooze bacteria during rain."
+      ],
+      "fruit": [
+        "Deep, dark, pitted lesions that often crack open as the fruit expands, inviting secondary brown rot."
+      ],
+      "flower": [
+        "Rarely affected."
+      ],
+      "root": []
+    },
+    "causes": {
+      "primary_cause": "Bacteria splashing and blowing from overwintering twig cankers onto newly expanding leaves and fruit.",
+      "pathogen": "Xanthomonas arboricola pv. pruni",
+      "survival_mechanism": "Overwinters inside tiny, dark cankers on the twigs that were infected late in the previous summer.",
+      "infection_process": "During warm spring rains, bacteria ooze from the twig cankers. Wind-driven rain blasts the bacteria into the stomata (natural pores) of the new leaves and the lenticels of the young fruit."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Overwintering in twig cankers.",
+        "Primary infection: Spring rains splash bacteria to new leaves and fruit.",
+        "Secondary infection: Bacteria multiply in leaf spots and splash to new tissue during every summer rainstorm.",
+        "Late summer infection of new twigs creates the overwintering cankers for next year."
+      ],
+      "spread_cycle": "Polycyclic. Explodes rapidly across the orchard during intense summer thunderstorms."
+    },
+    "transmission": {
+      "methods": [
+        "Wind-driven rain",
+        "Rain splash"
+      ],
+      "vectors": [],
+      "common_sources": [
+        "Existing infections in the tree canopy",
+        "Highly susceptible neighboring peach cultivars"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "Medium",
+      "rainfall": "Extreme",
+      "poor_airflow": "Low",
+      "wind_exposure": "Extreme",
+      "sandy_soils": "Medium (blowing sand creates micro-wounds)"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "20°C - 30°C (68°F - 86°F)",
+        "notes": "Hot, muggy weather maximizes bacterial multiplication rates."
+      },
+      "humidity": {
+        "optimal_range": "Variable",
+        "notes": "Requires high humidity (90%+) for bacteria to ooze from the cankers."
+      },
+      "rainfall": "Absolutely essential. Three or more days of continuous rain during the 3 weeks after petal fall causes massive outbreaks.",
+      "wind": "Winds force the bacteria into the leaf pores. Windbreaks significantly reduce disease severity.",
+      "soil_conditions": "Sandy soils that blow in the wind can cause tiny abrasions on the fruit, creating entry points for the bacteria.",
+      "leaf_wetness": "Requires free moisture for infection."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 15,
+        "max": 34
+      },
+      "humidity": {
+        "min": 85,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 4
+    },
+    "weather_influence": {
+      "high_humidity": "Facilitates bacterial oozing.",
+      "rain": "The primary dispersal agent. Heavy thunderstorms are the biggest risk.",
+      "high_temperature": "Accelerates the disease cycle.",
+      "low_temperature": "Slows or pauses bacterial growth.",
+      "wind": "The driving force that physically pushes bacteria into the plant tissue.",
+      "dry_conditions": "Stops the disease entirely. Bacteria die quickly in dry, sunny conditions."
+    },
+    "severity_levels": {
+      "low": "Minor spotting on leaves. Mostly cosmetic. Standard copper program is working.",
+      "medium": "Shot-holes appearing, lower leaves yellowing. Immediate antibiotic/copper rotation needed.",
+      "high": "Pitting visible on fruit. Significant mid-summer defoliation beginning.",
+      "critical": "Fruit heavily cracked and unmarketable. Tree nearly defoliated, risking winter kill."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "If heavy wind and rain are forecasted in the weeks following shuck-fall, apply Oxytetracycline or a low-rate Copper protectant."
+      ],
+      "within_24_hours": [
+        "Assess whether the spotting is restricted to the leaves or has reached the fruit, which dictates the aggressiveness of the spray program."
+      ],
+      "within_one_week": [
+        "Ensure tree nutrition is balanced; severely stressed trees drop infected leaves much faster than healthy trees."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Oxytetracycline (Mycoshield/FireLine) (Antibiotic, provides excellent control without the risk of leaf burn).",
+        "Copper formulations (Effective, but repeated summer use on peaches often causes phytotoxicity—burning the leaves and mimicking the disease)."
+      ],
+      "biological": [
+        "Serenade (Bacillus subtilis) provides very limited suppression."
+      ],
+      "organic": [
+        "Strictly reliant on planting highly resistant varieties. Organic copper can be used, but risks burning the foliage."
+      ],
+      "integrated_management": [
+        "Combine resistant varieties with a dormant high-rate Copper spray (to kill overwintering cankers) and summer Oxytetracycline sprays."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Prune out any visibly dead or cankered twigs during winter."
+      ],
+      "irrigation": [
+        "Avoid overhead irrigation at all costs."
+      ],
+      "crop_rotation": [
+        "Not applicable."
+      ],
+      "air_circulation": [
+        "Maintain open canopies to speed drying."
+      ],
+      "resistant_varieties": [
+        "CRITICAL. Planting resistant varieties (like Candor, Norman, or Biscoe) is the most effective control. Avoid highly susceptible varieties like O'Henry or Ryan Sun."
+      ],
+      "seasonal_practices": [
+        "Establish windbreaks (trees or hedges) around the orchard to reduce wind-driven rain."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Avoid excess nitrogen. Soft, rapid growth is highly susceptible to bacterial invasion.",
+      "phosphorus": "Standard.",
+      "potassium": "Standard.",
+      "calcium": "High calcium can help fortify cell walls against bacterial enzymes.",
+      "magnesium": "Standard.",
+      "micronutrients": [
+        "Maintain good overall nutrition to help the tree retain its leaves even if mildly infected."
+      ]
+    },
+    "disease_progression": {
+      "untreated": [
+        "Wind-driven rain infects leaves and fruit.",
+        "Leaves develop shot-holes, turn yellow, and drop.",
+        "Fruit pits and cracks open.",
+        "Tree enters winter starving due to early defoliation."
+      ],
+      "treated": [
+        "Dormant copper limits the spring inoculum.",
+        "Summer antibiotics protect the fruit rind.",
+        "Fruit grows cleanly without cracking."
+      ]
+    },
+    "recovery_indicators": [
+      "No new purplish spots appear on the newest flush of terminal leaves.",
+      "Fruit expansion continues without new pits or deep cracking forming."
+    ],
+    "recovery": {
+      "estimated_days": "14-21 (Protective Window)",
+      "success_rate": "Medium",
+      "depends_on": [
+        "Variety Resistance",
+        "Pre-Rain Spraying",
+        "Wind Exposure"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Can exceed 50% due to fruit cracking and secondary rots.",
+      "quality_loss": "Pitted/cracked fruit is rejected from the fresh market.",
+      "financial_impact": "Loss of fresh fruit sales and long-term decline of orchard health due to chronic early defoliation."
+    },
+    "monitoring": {
+      "inspection_frequency": "Weekly from petal fall through mid-summer, especially after thunderstorms.",
+      "warning_signs": [
+        "High-wind thunderstorms moving through the area.",
+        "Planting highly susceptible varieties in exposed, windy locations."
+      ],
+      "recovery_signs": [
+        "A shift to hot, dry, calm weather."
+      ]
+    },
+    "faq": [
+      {
+        "question": "My peach leaves are full of holes. Is it bugs?",
+        "answer": "While some bugs chew holes, 'shot-hole' damage in peaches is almost always caused by Bacterial Spot. The tree naturally kills and drops the infected circle of leaf tissue to try and stop the bacteria from spreading."
+      },
+      {
+        "question": "Can I spray Copper all summer to cure it?",
+        "answer": "No. Peach leaves are highly sensitive to Copper. If you spray heavy Copper in the summer, you will burn the leaves off the tree yourself. You must use very low rates or switch to an antibiotic like Oxytetracycline."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "The 'shot-hole' effect is actually the peach tree's immune system at work. The plant intentionally kills the cells surrounding the bacteria to create a 'firebreak', and that dead circle eventually falls out."
+      ],
+      "similar_diseases": [
+        "Peach Scab (spots on fruit, but no deep pitting/cracking)",
+        "Nitrogen/Magnesium Deficiency (yellowing leaves)",
+        "Coryneum Blight (also causes shot-hole)"
+      ],
+      "differential_diagnosis": [
+        "Peach Scab spots are small, greenish-black, and fuzzy, sitting on the skin surface. Bacterial Spot lesions are deep, corky, and sink into the flesh, eventually causing huge cracks."
+      ],
+      "long_term_management": [
+        "Replacing highly susceptible cultivars with resistant ones and planting tree-line windbreaks."
+      ]
+    },
+    "ai_context": {
+      "summary": "Bacterial Spot is a severe disease of peaches driven by wind and rain. It causes shot-holes in leaves and deep, unmarketable cracks in the fruit. Copper sensitivity is a major complication.",
+      "key_points": [
+        "Driven by wind-blown rain.",
+        "Causes shot-hole leaves and cracked fruit.",
+        "Peaches are very sensitive to Copper in summer.",
+        "Resistant varieties are the best defense."
+      ],
+      "high_priority_actions": [
+        "Advise checking for cracked fruit vs surface scabs.",
+        "Recommend Oxytetracycline over heavy Copper during the summer.",
+        "Alert if high-wind thunderstorms are predicted."
+      ],
+      "weather_considerations": [
+        "Extreme Risk: Heavy rain accompanied by high winds (>15mph) and warm temps (20-30°C)."
+      ],
+      "common_mistakes": [
+        "Burning the tree's leaves off by applying too much Copper in the summer.",
+        "Assuming the shot-holes in the leaves are from chewing insects."
+      ],
+      "follow_up_recommendations": [
+        "Ask if the fruit spots are sunken/cracking (Bacterial) or just sitting on the surface (Scab).",
+        "Suggest planting a windbreak."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user that the holes in their peach leaves are likely {disease_name}, not insects. The tree is dropping that tissue to fight the {pathogen_type}.",
+      "weather_analysis": "Note that the recent high winds and {rainfall_data} rain blasted the bacteria into the leaves. Emphasize that {disease_name} thrives in these storm conditions.",
+      "treatment_plan": "Design a strict protective plan. Warn the user that peaches are very sensitive to Copper, so they should use {treatment.chemical} carefully to prevent fruit cracking, while avoiding leaf burn.",
+      "followup": "Ask the user to look at the peaches. Are the spots causing deep, corky cracks in the fruit, or are they just small, greenish-black freckles on the skin?"
+    },
+    "references": [
+      "Penn State Extension: Bacterial Spot of Stone Fruit",
+      "Clemson University: Peach Diseases"
+    ],
+    "model_mapping": {
+      "cnn_class": "Peach___Bacterial_Spot",
+      "aliases": [
+        "Peach Bacterial Spot"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Intermediate"
+    },
+    "disease_id": "PEACH_002",
+    "disease_name": "Peach_Leaf_Curl",
+    "common_name": "Peach Leaf Curl",
+    "scientific_name": "Taphrina deformans",
+    "crop": "Peach",
+    "disease_type": "Fungal",
+    "pathogen_type": "Fungus",
+    "overview": {
+      "description": "Peach Leaf Curl is an incredibly distinct, bizarre-looking fungal disease that attacks the first flush of leaves in spring. It causes the leaves to become severely thickened, puckered, twisted, and vividly red or purple before they eventually fall off.",
+      "importance": "High. While it does not kill the tree immediately, the massive loss of early spring foliage forces the tree to push a second set of leaves, depleting its energy reserves and drastically reducing fruit yield.",
+      "affected_parts": [
+        "Leaves",
+        "Young Shoots",
+        "Fruit (Rarely)"
+      ],
+      "host_plants": [
+        "Peach",
+        "Nectarine"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Newly emerging leaves in the spring are pale green or yellow and slightly thicker than normal."
+      ],
+      "moderate": [
+        "Leaves become severely distorted, puckered, blistered, and curled inwards.",
+        "The thickened tissue turns brilliant shades of red, purple, or pink.",
+        "A dusty white or gray powdery coating (spores) appears on the distorted leaves."
+      ],
+      "severe": [
+        "The blistered leaves turn brown, shrivel, and drop from the tree by early summer.",
+        "Severely infected young shoots become swollen, stunted, and eventually die.",
+        "Rarely, fruit may develop raised, irregular, reddish-wrinkled areas and drop early."
+      ],
+      "leaf": [
+        "Massively thickened, puckered, twisted, and vividly red/purple, eventually covered in white dust."
+      ],
+      "stem": [
+        "New, succulent spring shoots become thickened, stunted, and pale."
+      ],
+      "fruit": [
+        "Raised, wrinkled, reddish patches (not common, but can happen)."
+      ],
+      "flower": [
+        "Can be infected and drop, but less noticeable than leaf symptoms."
+      ],
+      "root": []
+    },
+    "causes": {
+      "primary_cause": "Fungal spores washing into the swelling buds during cold, wet spring weather.",
+      "pathogen": "Taphrina deformans",
+      "survival_mechanism": "Overwinters as dormant spores (blastospores) resting directly on the tree's bark, twigs, and bud scales.",
+      "infection_process": "Infection occurs during a very narrow window in early spring when the buds first begin to swell. Rain washes the resting spores into the opening buds. The fungus secretes growth-regulating chemicals that cause the leaf cells to multiply uncontrollably, creating the bizarre red blisters."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Spores overwinter on the bark.",
+        "Early spring: Rain washes spores into swelling buds.",
+        "Leaves emerge severely deformed and blistered.",
+        "Blisters produce a white dusty layer of new spores.",
+        "Spores blow back onto the bark to sleep until next spring."
+      ],
+      "spread_cycle": "Strictly Monocyclic. There is only ONE infection period per year (during bud swell). The white spores produced in summer do NOT infect the summer leaves."
+    },
+    "transmission": {
+      "methods": [
+        "Rain splash (moves spores from bark into buds)",
+        "Wind"
+      ],
+      "vectors": [],
+      "common_sources": [
+        "Spores already resting on the tree's own bark from the previous year"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "Medium",
+      "rainfall": "Extreme (during bud swell)",
+      "poor_airflow": "Low",
+      "cool_spring_weather": "Extreme"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "10°C - 21°C (50°F - 70°F)",
+        "notes": "Prefers cool, damp spring weather. Temperatures above 70°F stop the infection process."
+      },
+      "humidity": {
+        "optimal_range": "Variable",
+        "notes": "Rainfall is the required driver, not just ambient humidity."
+      },
+      "rainfall": "Absolutely required during the specific 2-to-4-week window when buds are swelling and opening.",
+      "wind": "Blows summer spores onto the bark for overwintering.",
+      "soil_conditions": "Not applicable.",
+      "leaf_wetness": "Requires roughly 12.5 hours of continuous wetness at temperatures below 60°F for spores to infect the bud."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 8,
+        "max": 21
+      },
+      "humidity": {
+        "min": 80,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 12
+    },
+    "weather_influence": {
+      "high_humidity": "No major effect compared to actual rain.",
+      "rain": "The absolute trigger. A wet spring guarantees Peach Leaf Curl if the tree wasn't sprayed. A dry spring means zero disease.",
+      "high_temperature": "Warm, sunny spring weather pushes the tree through the vulnerable bud-swell phase quickly, minimizing infection.",
+      "low_temperature": "Prolongs the bud-swell phase, leaving the tree vulnerable to infection for weeks instead of days.",
+      "wind": "Dries out the buds.",
+      "dry_conditions": "The best natural defense. Without rain to wash the spores into the bud, the disease cannot happen."
+    },
+    "severity_levels": {
+      "low": "A few curled red leaves. No impact on tree health.",
+      "medium": "Noticeable curling on many branches. Tree will drop leaves and regrow them. Thin the fruit crop to reduce stress.",
+      "high": "Nearly all early foliage is curled and drops. Severe energy drain on the tree.",
+      "critical": "Total early defoliation. Tree may abort the entire fruit crop and faces massive winter dieback due to lack of stored energy."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "If you see the red, curled leaves, IT IS TOO LATE TO SPRAY. The infection happened months ago. Fungicides will do absolutely nothing now."
+      ],
+      "within_24_hours": [
+        "Apply a nitrogen fertilizer and ensure the tree is well-watered to give it the energy needed to push a second set of healthy leaves."
+      ],
+      "within_one_week": [
+        "Thin the fruit crop heavily (remove many baby peaches). The tree does not have the foliage to support a large crop this year."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Chlorothalonil (Bravo/Daconil) or Ziram (Highly effective protectants. MUST be applied during winter dormancy)."
+      ],
+      "biological": [
+        "None effective."
+      ],
+      "organic": [
+        "Liquid Lime Sulfur or Fixed Copper formulations. (Must be applied while the tree is completely dormant)."
+      ],
+      "integrated_management": [
+        "Timing is everything. A single thorough spray of Copper or Chlorothalonil in late autumn (after leaf drop) or early spring (BEFORE buds swell) provides 95%+ control."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Removing fallen curled leaves does NOT help, because the spores for next year are already stuck to the bark on the tree."
+      ],
+      "irrigation": [
+        "Maintain excellent summer watering to help the tree recover from the early defoliation."
+      ],
+      "crop_rotation": [
+        "Not applicable."
+      ],
+      "air_circulation": [
+        "Not a major factor, as the infection happens when the tree has no leaves."
+      ],
+      "resistant_varieties": [
+        "Most commercial peaches are highly susceptible. A few varieties like 'Frost' or 'Indian Free' offer high resistance."
+      ],
+      "seasonal_practices": [
+        "Mark the calendar. You MUST spray the bare bark and branches during the winter. Once you see a hint of green pushing from the bud, it is too late."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "CRITICAL for recovery. If the tree loses its first flush of leaves, apply nitrogen immediately to fuel the growth of the replacement leaves.",
+      "phosphorus": "Standard.",
+      "potassium": "Standard.",
+      "calcium": "Standard.",
+      "magnesium": "Standard.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Cold rain washes spores into buds.",
+        "Leaves emerge as thick, red blisters.",
+        "Leaves turn brown, get covered in white dust, and drop.",
+        "Tree uses all its energy to grow new leaves, leaving small, poor fruit."
+      ],
+      "treated": [
+        "Dormant spray kills spores on the bark in January.",
+        "Buds open cleanly.",
+        "Leaves are flat and green; fruit develops normally."
+      ]
+    },
+    "recovery_indicators": [
+      "The bizarre red leaves fall off.",
+      "The SECOND flush of leaves emerges in late spring/early summer completely flat, green, and healthy."
+    ],
+    "recovery": {
+      "estimated_days": "30-45 (for the tree to push a second set of leaves)",
+      "success_rate": "High (for the tree), Low (for this year's fruit)",
+      "depends_on": [
+        "Supplemental Fertilizer",
+        "Fruit Thinning",
+        "Watering"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Can be severe (up to 80%) if the tree drops its leaves and lacks the energy to size the fruit.",
+      "quality_loss": "Fruit remains small and lacks sugar.",
+      "financial_impact": "Direct loss of harvest value and weakening of the orchard's overall lifespan."
+    },
+    "monitoring": {
+      "inspection_frequency": "Monitor bud swell in late winter/early spring to time the dormant spray. By the time symptoms are visible, monitoring is only for damage assessment.",
+      "warning_signs": [
+        "Failing to apply a dormant spray.",
+        "Prolonged cool, rainy weather right as the buds start to crack open in spring."
+      ],
+      "recovery_signs": [
+        "The tree successfully growing a normal, flat second set of leaves in June."
+      ]
+    },
+    "faq": [
+      {
+        "question": "My peach leaves are all twisted and bright red. What can I spray to cure them?",
+        "answer": "Nothing. It is completely too late. The infection happened inside the bud weeks ago. You must water and fertilize the tree to help it survive, and remember to spray Copper next winter when the tree is dormant."
+      },
+      {
+        "question": "Should I pick off the red leaves and throw them away?",
+        "answer": "You can, but it doesn't really matter. The fungus only infects the tree once a year during bud swell. The spores produced on those red leaves will just wait on the bark until next spring."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "The fungus secretes a hormone (indole-3-acetic acid) that is the exact same chemical the plant uses to grow. The fungus overdoses the leaf with this hormone, causing the cells to divide wildly and form the massive blisters."
+      ],
+      "similar_diseases": [
+        "Aphid damage (causes leaf curling)"
+      ],
+      "differential_diagnosis": [
+        "Aphids cause leaves to curl downward and inward tightly, and you will see the tiny bugs inside the curl. Peach Leaf Curl causes massive, thick, fleshy, blistered, bright red tissue with no bugs inside."
+      ]
+    },
+    "ai_context": {
+      "summary": "Peach Leaf Curl is a striking fungal disease causing severely puckered, red/purple leaves in spring. Infection happens only during bud swell. Cannot be cured once visible; must be prevented with dormant winter sprays.",
+      "key_points": [
+        "Causes bizarre, thick, red blistered leaves.",
+        "Infects ONLY during bud swell in cold, wet spring weather.",
+        "Once you see symptoms, sprays are 100% useless.",
+        "Requires a dormant Copper/Chlorothalonil spray."
+      ],
+      "high_priority_actions": [
+        "Inform user that spraying now will NOT WORK.",
+        "Advise applying nitrogen and water to help the tree regrow its leaves.",
+        "Set a reminder to spray next winter/early spring BEFORE buds open."
+      ],
+      "weather_considerations": [
+        "Alert: Prolonged cold (10-15°C) and rainy weather during late winter bud swell guarantees massive infection if unsprayed."
+      ],
+      "common_mistakes": [
+        "Trying to spray fungicides on the red, curled leaves in May (a complete waste of money).",
+        "Thinking it's a bug infestation."
+      ],
+      "follow_up_recommendations": [
+        "Ask if they applied a dormant spray last winter.",
+        "Advise thinning the fruit to save the tree's energy."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user that the bizarre, thick, red, twisted leaves are a classic case of {disease_name}. Strongly emphasize that it is caused by a fungus, not an insect.",
+      "weather_analysis": "Determine if the region had a cold, wet spring. Explain that the {rainfall_data} during bud-swell is when the pathogen washed into the tree. Since it's warm now, the active infection period is over.",
+      "treatment_plan": "Deliver the hard truth: {treatment.chemical} will do absolutely nothing now. Instruct the user to pivot to an agronomic rescue plan—fertilize, water, and thin fruit—and explicitly outline the requirement for a dormant spray next winter.",
+      "followup": "Ask the user to unroll one of the curled leaves. Are there tiny green or black bugs inside (Aphids), or is the leaf tissue itself just thick, fleshy, and red (Leaf Curl)?"
+    },
+    "references": [
+      "University of California Statewide IPM: Peach Leaf Curl",
+      "Cornell University: Peach Leaf Curl"
+    ],
+    "model_mapping": {
+      "cnn_class": "Peach___Peach_Leaf_Curl",
+      "aliases": [
+        "Peach Peach Leaf Curl"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Intermediate"
+    },
+    "disease_id": "PEACH_003",
+    "disease_name": "Brown_Rot_Peach",
+    "common_name": "Brown Rot (Blossom Blight and Fruit Rot)",
+    "scientific_name": "Monilinia fructicola",
+    "crop": "Peach",
+    "disease_type": "Fungal",
+    "pathogen_type": "Fungus",
+    "overview": {
+      "description": "Brown Rot is the most universally destructive disease of peaches. It kills blossoms and twigs in the spring (Blossom Blight), but its most devastating phase is a rapid, fuzzy brown rot that consumes ripening fruit right before harvest.",
+      "importance": "Critical. In warm, wet weather, Brown Rot can destroy an entire peach crop in 48-72 hours. Post-harvest rot can also ruin fruit during shipping and storage.",
+      "affected_parts": [
+        "Blossoms",
+        "Twigs",
+        "Fruit"
+      ],
+      "host_plants": [
+        "Peach",
+        "Nectarine",
+        "Cherry",
+        "Plum",
+        "Apricot"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Infected blossoms wilt, turn brown, and stick to the twigs instead of falling off.",
+        "Small, circular, light brown spots appear on ripening peaches."
+      ],
+      "moderate": [
+        "The fungus moves from the dead blossom into the twig, creating a sunken, gummy canker.",
+        "Fruit spots expand incredibly fast. Tan or grayish powdery tufts of spores appear in concentric rings on the rotted fruit."
+      ],
+      "severe": [
+        "Twigs die back completely beyond the canker (flagging).",
+        "Entire peaches become completely rotten, covered in fuzzy brown/gray spores.",
+        "Rotted peaches shrivel into hard, black, wrinkled 'mummies' that cling to the tree all winter."
+      ],
+      "leaf": [
+        "Leaves on blighted twigs turn brown and die, but the fungus does not directly spot healthy leaves."
+      ],
+      "stem": [
+        "Sunken brown cankers on small twigs, exuding sticky gum. Twig dieback."
+      ],
+      "fruit": [
+        "Rapid, soft brown rot covered in fuzzy tan spore tufts. Eventually turns into a shriveled mummy."
+      ],
+      "flower": [
+        "Blossoms turn brown, collapse, and remain stuck to the branch."
+      ]
+    },
+    "causes": {
+      "primary_cause": "Spore infection of open blossoms or ripening fruit during warm rains.",
+      "pathogen": "Monilinia fructicola",
+      "survival_mechanism": "Overwinters primarily in mummified peaches left on the tree or the ground, and in twig cankers.",
+      "infection_process": "Spores from mummies wash or blow into open blossoms in spring. The fungus rests dormant in the green fruit (green peaches are resistant). As the peach ripens and sugar increases, the fungus wakes up, or new spores wash onto the skin, causing explosive rot."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Spring: Spores from mummies infect blossoms (Blossom Blight).",
+        "Summer: Fungus rests in cankers.",
+        "Pre-Harvest: Spores wash onto ripening fruit, causing massive secondary infection.",
+        "Winter: Rotted fruit mummifies, preserving the fungus."
+      ],
+      "spread_cycle": "Explosively polycyclic during the 3 weeks prior to harvest. Spores spread from rotting fruit to healthy fruit via wind, rain, and insects."
+    },
+    "transmission": {
+      "methods": [
+        "Wind",
+        "Rain splash",
+        "Insects (Beetles/Wasps feed on rotted fruit and carry spores to healthy fruit)"
+      ],
+      "vectors": [
+        "Various insects (opportunistic)"
+      ],
+      "common_sources": [
+        "Mummified peaches from last year",
+        "Fruit damaged by Plum Curculio or Oriental Fruit Moth"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "High",
+      "rainfall": "Extreme (Pre-harvest)",
+      "poor_airflow": "High",
+      "insect_damage": "Extreme",
+      "unpicked_mummies": "Extreme"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "20°C - 25°C (68°F - 77°F)",
+        "notes": "At optimal temperatures, the fungus can rot a healthy peach in under 48 hours."
+      },
+      "humidity": {
+        "optimal_range": "85% - 100%",
+        "notes": "High humidity is required for the massive tan spore tufts to erupt on the fruit."
+      },
+      "rainfall": "The ultimate trigger. Rain during bloom causes blossom blight. Rain during the 3 weeks before harvest causes total fruit rot.",
+      "wind": "Blows spores throughout the orchard.",
+      "soil_conditions": "Not applicable.",
+      "leaf_wetness": "Fruit must remain wet for several hours for spores to germinate."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 10,
+        "max": 30
+      },
+      "humidity": {
+        "min": 85,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 5
+    },
+    "weather_influence": {
+      "high_humidity": "Guarantees heavy spore production on infected fruit.",
+      "rain": "The primary requirement. Warm rains right before harvest are the peach grower's worst nightmare.",
+      "high_temperature": "Accelerates the rotting process exponentially.",
+      "low_temperature": "Slows infection, but doesn't stop it.",
+      "wind": "Dries the canopy, but spreads spores if it precedes rain.",
+      "dry_conditions": "Halts the disease. Brown rot cannot establish without moisture."
+    },
+    "severity_levels": {
+      "low": "Minor blossom blight. Easily managed.",
+      "medium": "A few early ripening fruits showing fuzzy rot. Immediate spray required to protect the main crop.",
+      "high": "Widespread fuzzy rot in the canopy. Spore clouds visible when branches are shaken.",
+      "critical": "Total crop destruction. Peaches rotting and dropping in mass."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "If fruit is ripening and rain is forecasted, apply a systemic pre-harvest fungicide IMMEDIATELY."
+      ],
+      "within_24_hours": [
+        "Walk the orchard and physically remove any rotting fruit. Drop it to the ground and crush it, or remove it entirely, to stop spores from spreading to healthy fruit."
+      ],
+      "within_one_week": [
+        "Harvest ripe fruit quickly. Do not leave overripe peaches on the tree."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Propiconazole, Fenbuconazole, Myclobutanil (Excellent systemic curatives/protectants).",
+        "Fludioxonil, Captan (Excellent protectants).",
+        "Rotate chemical classes strictly, as Brown Rot develops resistance quickly."
+      ],
+      "biological": [
+        "Bacillus subtilis (Serenade) can suppress low disease pressure if applied preventatively."
+      ],
+      "organic": [
+        "Wettable Sulfur (Requires frequent reapplication).",
+        "Strict insect control and sanitation are the only viable organic defenses."
+      ],
+      "integrated_management": [
+        "Target two crucial windows: 1) Bloom sprays to stop twig cankers, and 2) Two sprays in the 3 weeks leading up to harvest to protect the fruit."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "MUMMY REMOVAL: You must remove every single mummified peach from the tree during winter pruning. This is the single most important action."
+      ],
+      "irrigation": [
+        "Do not use overhead sprinklers."
+      ],
+      "crop_rotation": [
+        "Not applicable."
+      ],
+      "air_circulation": [
+        "Prune to an open-center vase shape to ensure maximum sunlight and rapid drying of the fruit."
+      ],
+      "resistant_varieties": [
+        "No peach varieties are immune. Some (like 'Babygold') are highly susceptible to the blossom blight phase."
+      ],
+      "seasonal_practices": [
+        "Aggressively control Oriental Fruit Moth and Plum Curculio. The wounds these insects chew in the peach are perfect entry points for Brown Rot spores."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Avoid excess nitrogen, which makes the fruit skin thin and highly susceptible to cracking and infection.",
+      "phosphorus": "Standard.",
+      "potassium": "Standard.",
+      "calcium": "Foliar calcium can slightly toughen the peach skin, reducing micro-cracks.",
+      "magnesium": "Standard.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Mummies infect spring blossoms.",
+        "Twigs die, harboring spores all summer.",
+        "Pre-harvest rain washes spores onto sweetening fruit.",
+        "Fruit turns fuzzy, brown, and rots completely in 3 days."
+      ],
+      "treated": [
+        "Winter sanitation removes the source.",
+        "Pre-harvest sprays shield the skin.",
+        "Peaches are harvested clean and firm."
+      ]
+    },
+    "recovery_indicators": [
+      "Ripening fruit remains firm and unblemished, even after a rainstorm.",
+      "Spring blossoms fall off cleanly rather than turning brown and sticking to the branch."
+    ],
+    "recovery": {
+      "estimated_days": "N/A",
+      "success_rate": "High",
+      "depends_on": [
+        "Pre-Harvest Fungicides",
+        "Mummy Removal",
+        "Insect Control"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Can easily reach 100% in warm, wet climates if pre-harvest sprays are missed.",
+      "quality_loss": "Fruit rots in the box during transit, leading to rejected shipments.",
+      "financial_impact": "Devastating. Destroys the entire year's investment right at the moment of harvest."
+    },
+    "monitoring": {
+      "inspection_frequency": "Twice weekly during bloom. Daily during the final 3 weeks before harvest.",
+      "warning_signs": [
+        "Rain forecasted while peaches are coloring up and softening.",
+        "Heavy insect damage to the fruit."
+      ],
+      "recovery_signs": [
+        "Return of hot, dry weather."
+      ]
+    },
+    "faq": [
+      {
+        "question": "Can I just cut the brown, fuzzy part off and eat the rest of the peach?",
+        "answer": "No. By the time you see the fuzzy spores, the fungal mycelium has spread throughout the entire flesh of the peach, turning it mushy and ruining the flavor."
+      },
+      {
+        "question": "Why did my peaches rot on the kitchen counter? They looked fine on the tree.",
+        "answer": "Brown rot spores were resting on the skin when you picked them. At room temperature, the fungus rapidly invaded the fruit. Always cool peaches immediately after picking to slow the rot."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "Green, hard peaches are biologically immune to Brown Rot. The fungus can land on them, but it cannot rot them until the peach begins to produce sugar and soften near harvest."
+      ],
+      "similar_diseases": [
+        "Rhizopus Rot (Whiskery black and white mold, mostly post-harvest)"
+      ],
+      "differential_diagnosis": [
+        "Rhizopus rot looks like a messy, hairy, black-and-white beard on the peach. Brown rot produces neat, powdery, tan/gray tufts, often in concentric circles."
+      ],
+      "long_term_management": [
+        "Orchard sanitation. Removing every mummy and dead twig breaks the disease cycle and drastically reduces the need for chemicals."
+      ]
+    },
+    "ai_context": {
+      "summary": "Brown Rot is a devastating, explosive fungal disease that blights peach blossoms and rapidly turns ripening fruit into fuzzy brown mush. Driven by warm, pre-harvest rains.",
+      "key_points": [
+        "Overwinters in shriveled mummies.",
+        "Destroys ripening fruit in 48 hours.",
+        "Requires wet, warm weather.",
+        "Pre-harvest sprays and mummy removal are absolutely required."
+      ],
+      "high_priority_actions": [
+        "Demand the user apply a systemic fungicide IMMEDIATELY if rain is forecasted near harvest.",
+        "Instruct the user to remove all mummies during winter.",
+        "Advise cooling picked fruit immediately."
+      ],
+      "weather_considerations": [
+        "Extreme Alert: Rain forecasted during the 3 weeks prior to peach harvest with temps >20°C."
+      ],
+      "common_mistakes": [
+        "Leaving mummies hanging in the tree over winter.",
+        "Ignoring insect damage, which opens the fruit to rot spores."
+      ],
+      "follow_up_recommendations": [
+        "Ask if the rotten fruit has fuzzy tan tufts on it.",
+        "Remind the user to control Oriental Fruit Moth."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user that {disease_name} is the absolute worst enemy of ripening peaches. The fuzzy brown spores on the {symptoms.fruit} mean the crop is in extreme, immediate danger.",
+      "weather_analysis": "The impending {rainfall_data} hitting the sweetening peaches is the perfect storm for {disease_name}. A massive outbreak is highly likely within 48 hours.",
+      "treatment_plan": "Create an emergency plan. If the fruit is not yet rotting, instruct them to apply {treatment.chemical} immediately. Emphasize that {prevention.farm_hygiene} (removing mummies) is the only way to stop this from happening again next year.",
+      "followup": "Ask the user to check the tree for shriveled, dried-up, black peaches (mummies) still hanging from last year. These are the source of the rot."
+    },
+    "references": [
+      "Penn State Extension: Brown Rot of Stone Fruits",
+      "University of Georgia: Peach Disease Management"
+    ],
+    "model_mapping": {
+      "cnn_class": "Peach___Brown_Rot_Blossom_Blight_and_Fruit_Rot",
+      "aliases": [
+        "Peach Brown Rot (Blossom Blight and Fruit Rot)",
+        "Peach Brown Rot Peach"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Advanced"
+    },
+    "disease_id": "PEACH_004",
+    "disease_name": "Cytospora_Canker",
+    "common_name": "Perennial Canker (Cytospora Canker)",
+    "scientific_name": "Leucostoma persoonii (Cytospora leucostoma)",
+    "crop": "Peach",
+    "disease_type": "Fungal",
+    "pathogen_type": "Fungus",
+    "overview": {
+      "description": "Cytospora Canker, or Perennial Canker, is a devastating wood-rotting disease of peaches. It infects the tree through wounds—especially winter freeze damage and pruning cuts—causing massive, oozing cankers that girdle and kill entire branches or the trunk.",
+      "importance": "Critical. This disease severely shortens the lifespan of peach orchards in cold climates. It cannot be cured with chemical sprays; it requires surgical pruning and intensive cultural management.",
+      "affected_parts": [
+        "Trunk",
+        "Scaffold Branches",
+        "Twigs"
+      ],
+      "host_plants": [
+        "Peach",
+        "Nectarine",
+        "Sweet Cherry",
+        "Plum"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Excessive, dark amber gum (sap) oozes from pruning cuts, branch crotches, or winter-injured bark during the spring."
+      ],
+      "moderate": [
+        "The bark around the oozing gum sinks, darkens, and cracks, forming an elongated oval canker.",
+        "Beneath the bark, the wood is stained dark brown or black.",
+        "Leaves on the affected branch may suddenly wilt or turn yellow."
+      ],
+      "severe": [
+        "The canker expands year after year (perennial), forming raised rings of callus tissue as the tree tries to heal itself.",
+        "The canker eventually girdles the entire branch or trunk, killing everything above it.",
+        "Tiny black pimples (pycnidia) appear on the dead bark of the canker."
+      ],
+      "leaf": [
+        "Leaves wilt, turn yellow, and die (flagging) when the branch below them is girdled."
+      ],
+      "stem": [
+        "Massive, sunken, oval cankers exuding copious amounts of dark jelly-like gum. Branch dieback."
+      ],
+      "fruit": [
+        "Fruit on girdled branches shrivels and dies."
+      ],
+      "flower": [
+        "Not directly affected."
+      ],
+      "root": []
+    },
+    "causes": {
+      "primary_cause": "Fungal spores washing into fresh pruning wounds or winter-killed bark during wet spring weather.",
+      "pathogen": "Leucostoma persoonii / Cytospora leucostoma",
+      "survival_mechanism": "Survives year-round inside the dead wood and bark of the cankers on the tree.",
+      "infection_process": "Spores ooze from existing cankers during wet weather. They CANNOT infect healthy, intact bark. They rely entirely on wounds (pruning cuts, insect borer holes, or cold-damaged bark) to enter the wood. Once inside, they kill the vascular tissue, causing the tree to bleed gum in defense."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Tree suffers a wound (e.g., pruning in winter, or freeze damage).",
+        "Spring rains wash spores from old cankers into the fresh wound.",
+        "Fungus colonizes the dead/dying wood and moves into healthy tissue.",
+        "Canker expands during the cool spring/fall and rests during hot summer.",
+        "Next year, the tree tries to heal, but the fungus breaks out again."
+      ],
+      "spread_cycle": "Progressive and perennial. The canker grows larger every year until the branch dies."
+    },
+    "transmission": {
+      "methods": [
+        "Rain splash",
+        "Wind-driven rain",
+        "Contaminated pruning tools"
+      ],
+      "vectors": [
+        "Peach Tree Borer insects (create entry wounds)"
+      ],
+      "common_sources": [
+        "Existing cankers in the orchard",
+        "Dead wood left on the ground"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "Medium",
+      "rainfall": "High",
+      "winter_injury": "Extreme",
+      "early_pruning": "Extreme",
+      "peach_tree_borer": "High"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "10°C - 20°C (50°F - 68°F)",
+        "notes": "The fungus grows best in cool weather (spring and fall) when the peach tree is growing slowly and cannot defend itself."
+      },
+      "humidity": {
+        "optimal_range": "Variable",
+        "notes": "Moisture is needed for spore release."
+      },
+      "rainfall": "Rain is required to wash the spores into the pruning wounds.",
+      "wind": "Spreads spores across the orchard.",
+      "soil_conditions": "Poor drainage stresses the tree, making it more susceptible to winter injury.",
+      "leaf_wetness": "Not applicable; infects wood."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 5,
+        "max": 30
+      },
+      "humidity": {
+        "min": 0,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 0
+    },
+    "weather_influence": {
+      "high_humidity": "Promotes spore oozing.",
+      "rain": "The primary mechanism that moves spores into open wounds.",
+      "high_temperature": "Above 80°F, the tree grows rapidly and walls off the fungus. The disease essentially pauses during hot summers.",
+      "low_temperature": "SEVERE COLD (e.g., rapid temperature drops in early winter) cracks the bark, providing the primary entry points for the fungus.",
+      "wind": "Spreads spores.",
+      "dry_conditions": "Pruning during dry weather prevents infection."
+    },
+    "severity_levels": {
+      "low": "Minor gumming on small twigs. Easy to prune out.",
+      "medium": "Cankers forming on secondary scaffold branches. Surgical pruning required.",
+      "high": "Cankers forming in the main trunk crotch. Severe risk to tree lifespan.",
+      "critical": "Trunk completely girdled by canker. Tree death imminent."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "If massive gumming is seen on a branch, inspect beneath the gum. If the bark is dark, sunken, and dead, schedule surgical pruning for the next dry day."
+      ],
+      "within_24_hours": [
+        "Do NOT prune the tree if rain is forecasted. Pruning in wet weather guarantees new canker infections."
+      ],
+      "within_one_week": [
+        "Prune out the infected branch, cutting at least 6 to 8 inches below the visible canker into healthy, white wood."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "There are NO chemical fungicide sprays that can cure or control Cytospora Canker once it is inside the wood."
+      ],
+      "biological": [
+        "None effective."
+      ],
+      "organic": [
+        "Strictly cultural: Delayed pruning, surgical removal, and avoiding winter injury."
+      ],
+      "integrated_management": [
+        "Management is 100% cultural. Delay pruning until late spring (bloom time) when the tree is actively growing and heals wounds rapidly before spores can infect."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Remove and burn or completely chip all pruned cankered wood. Do not leave dead peach wood near the orchard."
+      ],
+      "irrigation": [
+        "Do not irrigate late in the fall; the tree must be allowed to harden off for winter."
+      ],
+      "crop_rotation": [
+        "Not applicable."
+      ],
+      "air_circulation": [
+        "Not applicable."
+      ],
+      "resistant_varieties": [
+        "No varieties are immune, but varieties with high cold-hardiness suffer less winter injury, and therefore less canker."
+      ],
+      "seasonal_practices": [
+        "CRITICAL: Paint the lower trunk with white interior latex paint to prevent 'Southwest Injury' (sunscald that cracks the bark in winter, inviting canker)."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "CRITICAL: Do NOT apply nitrogen late in the summer. Late nitrogen pushes soft autumn growth that will absolutely freeze and die in the winter, becoming a magnet for Cytospora.",
+      "phosphorus": "Standard.",
+      "potassium": "Crucial for improving winter hardiness of the wood.",
+      "calcium": "Standard.",
+      "magnesium": "Standard.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Winter cold cracks the bark.",
+        "Spring rain washes spores into the crack.",
+        "Canker forms, oozing gum.",
+        "Canker expands annually until the branch/trunk is girdled and dies."
+      ],
+      "treated": [
+        "Trunks painted white to prevent winter cracking.",
+        "Pruning delayed until bloom time.",
+        "Wounds heal fast, fungus cannot enter, tree lives a full 15-20 year lifespan."
+      ]
+    },
+    "recovery_indicators": [
+      "Pruning cuts heal cleanly with a raised ring of healthy callus tissue, without oozing dark amber gum.",
+      "No dead, flagging branches appear in the canopy during the summer."
+    ],
+    "recovery": {
+      "estimated_days": "N/A (Surgical Removal Only)",
+      "success_rate": "Medium (Requires strict hygiene)",
+      "depends_on": [
+        "Surgical Pruning",
+        "Delayed Pruning Tactics",
+        "Winter Protection"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Individual trees yield 0 if killed. Orchard yields steadily decline as scaffold branches die off.",
+      "financial_impact": "Severe capital loss. Heavily infected orchards may only live 8-10 years instead of the standard 15-20, requiring expensive early replanting."
+    },
+    "monitoring": {
+      "inspection_frequency": "Annually in the spring (during bloom) when gumming is most obvious.",
+      "warning_signs": [
+        "A severe, sudden freeze in early winter before trees hardened off.",
+        "Pruning peach trees in January/February (the worst possible time)."
+      ],
+      "recovery_signs": [
+        "Vigorous new shoot growth below a surgical pruning cut."
+      ]
+    },
+    "faq": [
+      {
+        "question": "My peach tree has thick, jelly-like sap oozing from the trunk. Is it a bug?",
+        "answer": "While Peach Tree Borers can cause gumming near the soil line, massive oozing on upper branches is usually Cytospora Canker. The tree bleeds sap to try and flush the fungus out of the wound."
+      },
+      {
+        "question": "Can I spray a fungicide on the trunk to kill the canker?",
+        "answer": "No. The fungus lives deep inside the dead wood where sprays cannot reach. You must use a saw to cut the infected branch completely off, well below the dead area."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "Peach trees are naturally 'leaky' trees. They will ooze clear sap for minor mechanical injuries, which is normal. But if the sap is dark amber, thick, and associated with sunken, peeling bark, it is a pathological canker."
+      ],
+      "similar_diseases": [
+        "Peach Tree Borer (insect)",
+        "Bacterial Canker"
+      ],
+      "differential_diagnosis": [
+        "Peach Tree Borer damage is almost exclusively at the soil line and the gum is mixed with sawdust (frass). Cytospora canker happens higher up on branches and the gum is clear/amber without sawdust."
+      ],
+      "long_term_management": [
+        "Shifting pruning schedules from winter to late spring (bloom stage) so wounds heal in days rather than sitting open for months."
+      ]
+    },
+    "ai_context": {
+      "summary": "Cytospora (Perennial) Canker is an incurable wood-rotting fungus of peaches causing massive, oozing trunk lesions. It infects strictly through winter freeze damage and pruning wounds.",
+      "key_points": [
+        "Incurable with sprays; requires surgical pruning.",
+        "Infects via wounds and winter freeze cracks.",
+        "Pruning in wet winter weather is a massive mistake.",
+        "Do not apply late-summer nitrogen."
+      ],
+      "high_priority_actions": [
+        "Inform user that sprays will not work.",
+        "Advise surgical pruning 6-8 inches below the canker.",
+        "Strongly advise delaying all pruning until late spring (bloom)."
+      ],
+      "weather_considerations": [
+        "Alert: Sudden, severe freezes in late fall/early winter cause the bark cracking that invites this disease."
+      ],
+      "common_mistakes": [
+        "Pruning peach trees in the dead of winter (Jan/Feb).",
+        "Applying late-season nitrogen, making the tree vulnerable to winter kill.",
+        "Leaving the cut, diseased wood sitting in the orchard."
+      ],
+      "follow_up_recommendations": [
+        "Ask if the gumming has sawdust in it (Borer) or is just pure sap (Canker).",
+        "Recommend painting trunks with white latex paint to prevent sunscald/winter injury."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user that the dark, oozing sap on the branches is {disease_name}. Emphasize that it is a wood-rotting fungus that entered through a wound or {risk_factors.winter_injury}.",
+      "weather_analysis": "Note that the harsh winter weather or recent rainy spring allowed {disease_name} to infect the tree's wounds. Advise that dry, warm weather is required before any surgical action is taken.",
+      "treatment_plan": "Deliver the harsh reality: {treatment.chemical} is impossible. Outline a strict surgical pruning plan, cutting 6-8 inches below the canker. Strongly emphasize {prevention.farm_hygiene} and delaying future pruning until bloom.",
+      "followup": "Ask the user when they pruned the tree last. Did they prune it during the cold, wet winter months? (This is the #1 cause of the disease)."
+    },
+    "references": [
+      "Cornell University: Cytospora Canker of Stone Fruits",
+      "Michigan State University: Managing Perennial Canker"
+    ],
+    "model_mapping": {
+      "cnn_class": "Peach___Perennial_Canker_Cytospora_Canker",
+      "aliases": [
+        "Peach Perennial Canker (Cytospora Canker)",
+        "Peach Cytospora Canker"
+      ]
+    }
+  }
+]

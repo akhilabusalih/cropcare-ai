@@ -1,0 +1,1218 @@
+[
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Advanced"
+    },
+    "disease_id": "ORANGE_001",
+    "disease_name": "Huanglongbing",
+    "common_name": "Citrus Greening (HLB)",
+    "scientific_name": "Candidatus Liberibacter asiaticus",
+    "crop": "Orange",
+    "disease_type": "Bacterial",
+    "pathogen_type": "Bacterium",
+    "overview": {
+      "description": "Huanglongbing (HLB), or Citrus Greening, is the most devastating citrus disease in the world. It is caused by a bacterium that infects the vascular system (phloem) of the tree, crippling its ability to move nutrients. It is spread entirely by the Asian Citrus Psyllid insect.",
+      "importance": "Critical. There is no cure. HLB has decimated citrus industries globally, turning sweet oranges into bitter, misshapen, green fruit, and eventually killing the tree over several years.",
+      "affected_parts": [
+        "Leaves",
+        "Fruit",
+        "Branches",
+        "Roots"
+      ],
+      "host_plants": [
+        "Orange",
+        "Grapefruit",
+        "Lemon",
+        "Lime",
+        "Mandarin",
+        "All Citrus species"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "A single shoot or branch turns distinctly yellow, often standing out against the green canopy (the 'yellow dragon' shoot).",
+        "Leaves display a 'blotchy mottle'—an asymmetrical, blotchy yellowing that crosses the leaf veins without a distinct pattern."
+      ],
+      "moderate": [
+        "Yellowing spreads throughout the canopy. Twigs begin to die back.",
+        "Fruit becomes noticeably lopsided or misshapen.",
+        "When cut open, the core of the fruit is curved, and the seeds are small, dark, and aborted."
+      ],
+      "severe": [
+        "Massive twig and branch dieback. The canopy becomes extremely thin and sparse.",
+        "Fruit remains green at the bottom even when ripe (hence 'greening'), tastes extremely bitter and salty, and drops prematurely.",
+        "Root system collapses; tree eventually dies."
+      ],
+      "leaf": [
+        "Asymmetrical blotchy mottle (yellowing is not a mirror image on both sides of the central vein). Thickened, prominent veins."
+      ],
+      "stem": [
+        "Severe twig dieback starting from the canopy perimeter."
+      ],
+      "fruit": [
+        "Small, lopsided, asymmetrical. Stays green at the stylar end. Bitter taste. Dark, aborted seeds."
+      ],
+      "flower": [
+        "Off-season blooming may occur, but flowers drop easily."
+      ],
+      "root": [
+        "Massive fibrous root loss occurs even before canopy symptoms appear, starving the tree of water and nutrients."
+      ]
+    },
+    "causes": {
+      "primary_cause": "Transmission of the bacteria into the phloem by the feeding of the Asian Citrus Psyllid.",
+      "pathogen": "Candidatus Liberibacter asiaticus (CLas)",
+      "survival_mechanism": "Survives only inside the living tissue of citrus trees, alternative host plants (like Orange Jasmine), and the gut of the Asian Citrus Psyllid.",
+      "infection_process": "An infected psyllid feeds on citrus sap, injecting the bacteria into the phloem. The bacteria multiply, clogging the vascular tissue and preventing sugars produced in the leaves from reaching the roots. The roots starve, followed by the rest of the tree."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Psyllid feeds on an infected tree, acquiring the bacteria.",
+        "Psyllid flies to a healthy tree to feed on new flush (succulent growth), injecting the bacteria.",
+        "Incubation period (can be 6 months to 2 years before visible symptoms appear).",
+        "Systemic spread throughout the tree's vascular system."
+      ],
+      "spread_cycle": "Vector-driven. Moves from tree to tree strictly via the movement of the Asian Citrus Psyllid or through grafting with infected budwood."
+    },
+    "transmission": {
+      "methods": [
+        "Insect vector feeding",
+        "Grafting infected budwood"
+      ],
+      "vectors": [
+        "Asian Citrus Psyllid (Diaphorina citri)"
+      ],
+      "common_sources": [
+        "Neighboring infected citrus groves",
+        "Ornamental Orange Jasmine (Murraya paniculata) acting as a reservoir"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "Low",
+      "rainfall": "Low",
+      "poor_airflow": "Low",
+      "presence_of_vector": "Extreme",
+      "unmanaged_flush": "Extreme"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "25°C - 30°C (77°F - 86°F)",
+        "notes": "Temperatures highly favorable for psyllid reproduction. High heat (above 35°C/95°F) actually suppresses the bacteria slightly."
+      },
+      "humidity": {
+        "optimal_range": "Variable",
+        "notes": "Not a direct driver of the bacteria, but new leaf flush (which attracts psyllids) often follows rain/humidity."
+      },
+      "rainfall": "Triggers new leaf 'flush', which is the only tissue psyllids can lay eggs on.",
+      "wind": "High winds and hurricanes can blow infected psyllids for miles to new, uninfected groves.",
+      "soil_conditions": "Not a primary infection factor, but poor soils accelerate tree death once the roots begin to collapse.",
+      "leaf_wetness": "Not applicable."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 15,
+        "max": 35
+      },
+      "humidity": {
+        "min": 0,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 0
+    },
+    "weather_influence": {
+      "high_humidity": "No direct effect on the disease, though favors tree growth.",
+      "rain": "Stimulates vegetative flush, sparking massive spikes in psyllid populations and feeding.",
+      "high_temperature": "Very hot summers can mask symptoms, but the tree remains infected.",
+      "low_temperature": "Frost kills new flush, temporarily suppressing psyllid populations.",
+      "wind": "The primary mechanism for long-distance transport of the insect vector.",
+      "dry_conditions": "Exacerbates the stress on the tree, accelerating canopy collapse due to root loss."
+    },
+    "severity_levels": {
+      "low": "A few isolated yellow shoots. Tree remains highly productive. Aggressive vector control required.",
+      "medium": "Blotchy mottle spreading. Some premature fruit drop. Supplemental foliar nutrition required to keep tree alive.",
+      "high": "Major canopy thinning. Significant percentage of fruit is small, green, and bitter.",
+      "critical": "Tree is a skeleton. Zero marketable fruit. Tree removal is the only option to remove the inoculum source."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "Inspect the undersides of new leaf flush for Asian Citrus Psyllids (tiny, aphid-like insects resting at a 45-degree angle) or their waxy white excretions."
+      ],
+      "within_24_hours": [
+        "If psyllids are found, apply a systemic or contact insecticide immediately to protect uninfected trees."
+      ],
+      "within_one_week": [
+        "If a tree is confirmed infected in a newly invaded region, it must be completely uprooted and destroyed immediately."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "There is NO chemical cure for the bacteria.",
+        "Insecticides (Imidacloprid, Thiamethoxam, Dimethoate) MUST be used to kill the psyllid vector.",
+        "Oxytetracycline (OTC) trunk injections have recently been approved in some regions to suppress the bacteria and restore yield, though it is not a permanent cure."
+      ],
+      "biological": [
+        "Release of Tamarixia radiata (a parasitic wasp that targets Asian Citrus Psyllids)."
+      ],
+      "organic": [
+        "Horticultural oils, Kaolin clay (Surround) to deter psyllid feeding.",
+        "Strict eradication of infected trees."
+      ],
+      "integrated_management": [
+        "Area-wide psyllid spraying, extreme nutritional therapy (spoon-feeding foliar micro/macronutrients since roots are dead), and replacing dead trees with tolerant rootstocks."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Destroy any unmanaged/abandoned citrus groves nearby, as they breed infected psyllids.",
+        "Use exclusively certified, disease-free budwood/trees from screened nurseries."
+      ],
+      "irrigation": [
+        "Maintain rigorous soil moisture; HLB-infected trees have compromised roots and cannot withstand drought stress."
+      ],
+      "crop_rotation": [
+        "Not applicable."
+      ],
+      "air_circulation": [
+        "Not applicable."
+      ],
+      "resistant_varieties": [
+        "No commercial orange varieties are immune. Some rootstocks (like US-897) impart slightly better tolerance. Breeding programs are heavily focused on this."
+      ],
+      "seasonal_practices": [
+        "Coordinate pesticide sprays with neighboring farms (Area-Wide Management) during dormant winter periods to crash the psyllid population before spring flush."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Apply in frequent, small doses via fertigation, as compromised roots cannot absorb large granular doses.",
+      "phosphorus": "Standard.",
+      "potassium": "Vital for maintaining fruit size and quality in infected trees.",
+      "calcium": "Standard.",
+      "magnesium": "Foliar sprays are required, as HLB blocks the internal transport of Mg.",
+      "micronutrients": [
+        "CRITICAL: Frequent, heavy foliar applications of Zinc, Manganese, and Boron are mandatory to keep infected trees productive, as the clogged phloem prevents these from moving from roots to leaves."
+      ]
+    },
+    "disease_progression": {
+      "untreated": [
+        "Psyllid injects bacteria.",
+        "Asymmetrical yellow leaves appear.",
+        "Roots begin to die off massively underground.",
+        "Fruit becomes bitter, green, and drops.",
+        "Tree starves to death over 3 to 5 years."
+      ],
+      "treated": [
+        "With extreme foliar nutrition and trunk injections: The bacteria are suppressed.",
+        "Tree retains enough health to produce marketable fruit.",
+        "Tree lifespan is prolonged, but it never fully cures."
+      ]
+    },
+    "recovery_indicators": [
+      "Trunk injections (if legal/used) result in a massive flush of new, dark green leaves with no blotchy mottle.",
+      "Fruit sizes up normally and regains normal sugar/acid ratios."
+    ],
+    "recovery": {
+      "estimated_days": "N/A (Incurable)",
+      "success_rate": "Low",
+      "depends_on": [
+        "Vector Control",
+        "Intensive Foliar Nutrition",
+        "Trunk Injections"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Up to 100% over a few years. It has cut Florida's citrus production by over 75% since its discovery.",
+      "quality_loss": "Devastating. Fruit is entirely rejected by juice processors due to high acidity and bitter off-flavors.",
+      "financial_impact": "Existential threat to the citrus industry. Multi-billion dollar losses globally."
+    },
+    "monitoring": {
+      "inspection_frequency": "Scout for psyllids continuously whenever the tree is pushing new leaf flush.",
+      "warning_signs": [
+        "Finding tiny insects perched at a 45-degree angle on new leaves.",
+        "Yellowing that doesn't follow a symmetrical pattern on the leaf."
+      ],
+      "recovery_signs": [
+        "N/A"
+      ]
+    },
+    "faq": [
+      {
+        "question": "Can I eat a greening-infected orange? Is it safe?",
+        "answer": "Yes, it is perfectly safe for humans to eat, but it will taste extremely bitter, salty, and sour. It will not make you sick."
+      },
+      {
+        "question": "Why can't I just spray a fungicide or antibiotic on the leaves to cure it?",
+        "answer": "HLB is a bacteria, not a fungus, so fungicides do nothing. Furthermore, the bacteria live deep inside the vascular system (the phloem) where foliar sprays cannot easily reach. This is why trunk injections are being tested."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "HLB is so catastrophic because the bacteria essentially 'trick' the citrus tree into creating a callose plug in its own veins, effectively causing the tree to starve itself to death."
+      ],
+      "similar_diseases": [
+        "Zinc Deficiency",
+        "Citrus Tristeza Virus (CTV)",
+        "Phytophthora Root Rot"
+      ],
+      "differential_diagnosis": [
+        "Zinc deficiency causes yellowing BETWEEN the veins, but it is highly symmetrical (looks the same on the left and right side of the leaf). HLB 'blotchy mottle' is chaotic and asymmetrical. If you fold the leaf in half, the yellow spots won't match up."
+      ]
+    },
+    "ai_context": {
+      "summary": "Huanglongbing (Citrus Greening) is a fatal, incurable bacterial disease of citrus spread by the Asian Citrus Psyllid, causing bitter, misshapen fruit and tree starvation.",
+      "key_points": [
+        "Incurable and fatal.",
+        "Spread entirely by the Asian Citrus Psyllid.",
+        "Symptoms include asymmetrical blotchy mottle and bitter, green-ended fruit.",
+        "Requires intensive foliar feeding and insect control."
+      ],
+      "high_priority_actions": [
+        "Confirm if the yellowing is asymmetrical.",
+        "Instruct user to scout for psyllids on new flush immediately.",
+        "Advise that infected trees in clean areas must be destroyed."
+      ],
+      "weather_considerations": [
+        "Alert: Rain triggering new leaf flush will cause a massive spike in psyllid populations and feeding."
+      ],
+      "common_mistakes": [
+        "Confusing the symptoms with Zinc/Magnesium deficiency and doing nothing.",
+        "Ignoring psyllid control while trying to 'fertilize the tree out of it'."
+      ],
+      "follow_up_recommendations": [
+        "Ask if the fruit tastes bitter and has aborted dark seeds.",
+        "Recommend massive foliar micronutrient sprays."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user that {disease_name} is the most dangerous citrus disease in the world. Verify that the {symptoms.leaf} are truly asymmetrical to confirm it is not just a nutrient deficiency.",
+      "weather_analysis": "Note that recent rains have caused a new flush of leaves. Alert the user that this new growth is a magnet for the Asian Citrus Psyllid, the vector of {disease_name}.",
+      "treatment_plan": "Inform the user honestly that there is no chemical cure for {disease_name}. Outline an aggressive survival plan focusing entirely on vector control ({treatment.chemical}) and intense spoon-feeding of {nutrient_management.micronutrients} through the leaves.",
+      "followup": "Ask the user to cut one of the affected oranges in half. Is the core curved to one side, and are the seeds tiny, dark, and aborted?"
+    },
+    "references": [
+      "University of Florida IFAS: Citrus Greening (HLB)",
+      "USDA APHIS: Citrus Greening"
+    ],
+    "model_mapping": {
+      "cnn_class": "Orange___Citrus_Greening_HLB",
+      "aliases": [
+        "Orange Citrus Greening (HLB)",
+        "Orange Huanglongbing"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Intermediate"
+    },
+    "disease_id": "ORANGE_002",
+    "disease_name": "Citrus_Canker",
+    "common_name": "Citrus Canker",
+    "scientific_name": "Xanthomonas citri subsp. citri",
+    "crop": "Orange",
+    "disease_type": "Bacterial",
+    "pathogen_type": "Bacterium",
+    "overview": {
+      "description": "Citrus Canker is a highly contagious bacterial disease that causes distinct, raised, corky lesions with yellow halos on leaves, stems, and fruit. It thrives in hot, wet, windy weather.",
+      "importance": "High. Severe infections cause early leaf drop, severe fruit blemishing, and premature fruit drop. Because it is highly contagious, infected fruit is often quarantined and restricted from export markets.",
+      "affected_parts": [
+        "Leaves",
+        "Fruit",
+        "Twigs",
+        "Stems"
+      ],
+      "host_plants": [
+        "Grapefruit (Highly susceptible)",
+        "Sweet Orange",
+        "Lemon",
+        "Lime"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Small, blister-like spots appear on the leaves, starting as a water-soaked or greasy spot.",
+        "Spots are usually visible on both the upper and lower leaf surfaces."
+      ],
+      "moderate": [
+        "Spots become raised, rough, and corky (crater-like).",
+        "A distinct, bright yellow halo forms around the corky lesion.",
+        "Similar raised, corky lesions appear on green fruit and young twigs."
+      ],
+      "severe": [
+        "Lesions coalesce, causing severe defoliation and twig dieback.",
+        "Fruit lesions turn dark brown or black, becoming scabby and cratered.",
+        "Heavy fruit drop occurs before maturity."
+      ],
+      "leaf": [
+        "Raised, rough, corky blisters surrounded by a bright yellow halo."
+      ],
+      "stem": [
+        "Corky cankers on twigs that do NOT have a yellow halo. These are critical overwintering sites."
+      ],
+      "fruit": [
+        "Raised, scab-like, corky lesions, often with a yellow halo early on. Lesions do not penetrate the rind into the flesh."
+      ],
+      "flower": [
+        "Not heavily affected."
+      ],
+      "root": []
+    },
+    "causes": {
+      "primary_cause": "Bacteria splashing from existing lesions onto new tissue during wind-driven rain.",
+      "pathogen": "Xanthomonas citri subsp. citri",
+      "survival_mechanism": "Survives in older twig cankers and leaf lesions on the tree. The bacteria multiply rapidly when these tissues become wet.",
+      "infection_process": "Bacteria ooze out of existing lesions during rain. Wind blows the water droplets to new leaves or fruit. The bacteria enter through natural openings (stomata) or physical wounds, especially wounds caused by the Citrus Leafminer insect."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Bacteria ooze from twig cankers during spring/summer rain.",
+        "Wind-driven rain forces bacteria into stomata or wounds on new flush.",
+        "Incubation (7-14 days).",
+        "New lesions erupt, producing millions of new bacteria for the next rain event."
+      ],
+      "spread_cycle": "Explosively polycyclic during the rainy/hurricane season. A single storm can spread the disease miles downwind."
+    },
+    "transmission": {
+      "methods": [
+        "Wind-driven rain",
+        "Contaminated equipment/humans",
+        "Infected nursery stock"
+      ],
+      "vectors": [
+        "Citrus Leafminer (creates massive entry wounds, multiplying the severity of the disease)"
+      ],
+      "common_sources": [
+        "Existing cankers in the tree canopy"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "Medium",
+      "rainfall": "Extreme",
+      "poor_airflow": "Low",
+      "wind_exposure": "Extreme",
+      "leafminer_presence": "Extreme"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "20°C - 30°C (68°F - 86°F)",
+        "notes": "Hot weather maximizes bacterial multiplication rates."
+      },
+      "humidity": {
+        "optimal_range": "Variable",
+        "notes": "Moisture is more important than ambient humidity."
+      },
+      "rainfall": "Absolutely required. Bacteria cannot disperse without water splash.",
+      "wind": "Winds >18 mph literally force the bacteria through the plant's stomata. Hurricanes trigger massive regional epidemics.",
+      "soil_conditions": "Not applicable.",
+      "leaf_wetness": "Free moisture combined with wind pressure is the primary infection mechanism."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 15,
+        "max": 35
+      },
+      "humidity": {
+        "min": 0,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 0
+    },
+    "weather_influence": {
+      "high_humidity": "Extends wetness periods.",
+      "rain": "The dispersal mechanism. No rain = no spread.",
+      "high_temperature": "Accelerates lesion growth and bacterial oozing.",
+      "low_temperature": "Slows the disease.",
+      "wind": "The most critical factor. Windbreaks significantly reduce canker spread.",
+      "dry_conditions": "Halts the spread completely. Bacteria die quickly when exposed to dry sunlight."
+    },
+    "severity_levels": {
+      "low": "A few lesions on leaves. Mostly cosmetic. Easy to manage with copper.",
+      "medium": "Lesions spreading to fruit. Requires immediate spray program and leafminer control.",
+      "high": "Heavy fruit blemishing causing fresh-market rejection.",
+      "critical": "Severe early defoliation and massive premature fruit drop causing heavy yield loss."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "Check new foliage for the winding, serpentine tunnels of the Citrus Leafminer insect. If present, apply insecticide immediately to stop wounding."
+      ],
+      "within_24_hours": [
+        "Apply a Copper protectant spray if wind-driven rain is forecasted and fruit is expanding."
+      ],
+      "within_one_week": [
+        "Decontaminate all equipment and clothing before moving to uninfected groves using a quaternary ammonium sanitizer."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Copper formulations (Copper hydroxide, Copper sulfate). The absolute standard for canker control. Must be applied as a protectant before rain.",
+        "Insecticides (Abamectin, Imidacloprid) to control the Citrus Leafminer."
+      ],
+      "biological": [
+        "None commercially effective."
+      ],
+      "organic": [
+        "Organic Copper formulations.",
+        "Windbreaks."
+      ],
+      "integrated_management": [
+        "Planting windbreaks, rigorously controlling Citrus Leafminer, and applying Copper on a 21-day schedule during the period when fruit sizes from 1/4 inch to 1.5 inches."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Sanitize all pruning tools, tractors, and picking bins. Canker is easily spread by humans brushing against wet, infected foliage."
+      ],
+      "irrigation": [
+        "Avoid overhead irrigation that mimics rain splash."
+      ],
+      "crop_rotation": [
+        "Not applicable."
+      ],
+      "air_circulation": [
+        "Not applicable; wind actually worsens the disease."
+      ],
+      "resistant_varieties": [
+        "Grapefruit and Navel Oranges are highly susceptible. Valencia Oranges are moderately susceptible. Tangerines are fairly resistant."
+      ],
+      "seasonal_practices": [
+        "Plant dense hedges (Casuarina or Eucalyptus) around the perimeter of the grove to act as windbreaks."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Avoid excessive nitrogen, which pushes massive amounts of succulent new flush that is highly vulnerable to infection.",
+      "phosphorus": "Standard.",
+      "potassium": "Standard.",
+      "calcium": "Standard.",
+      "magnesium": "Standard.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Wind/rain forces bacteria into leaves.",
+        "Leafminer insects tear open leaves, causing massive infections.",
+        "Bacteria spreads to fruit, causing scabs.",
+        "Fruit drops prematurely; remaining fruit is unmarketable for fresh sales."
+      ],
+      "treated": [
+        "Windbreaks slow the wind; Leafminers are killed.",
+        "Copper coats the tissue, killing bacteria before they enter.",
+        "Fruit remains clean and matures normally."
+      ]
+    },
+    "recovery_indicators": [
+      "No new blister-like spots appear on the newest flush of leaves.",
+      "Fruit reaches maturity without developing raised, corky scabs."
+    ],
+    "recovery": {
+      "estimated_days": "N/A (Preventative Only)",
+      "success_rate": "High",
+      "depends_on": [
+        "Copper Timing",
+        "Leafminer Control",
+        "Wind Protection"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Up to 50% due to premature fruit drop in highly susceptible varieties like Grapefruit.",
+      "quality_loss": "Scabbed fruit cannot be sold in fresh markets, though it can still be processed for juice (the bacteria do not affect the internal flesh).",
+      "financial_impact": "High cost of repetitive copper spraying and loss of lucrative fresh-fruit and export markets due to quarantine restrictions."
+    },
+    "monitoring": {
+      "inspection_frequency": "Weekly during periods of active shoot growth (flush), particularly after severe storms.",
+      "warning_signs": [
+        "Tropical storms, hurricanes, or high-wind thunderstorms.",
+        "High populations of Citrus Leafminer (silvery trails on leaves)."
+      ],
+      "recovery_signs": [
+        "Return of dry, calm weather."
+      ]
+    },
+    "faq": [
+      {
+        "question": "Can I eat an orange that has Canker scabs on it?",
+        "answer": "Yes. Citrus Canker only affects the outer rind of the fruit. The flesh inside is perfectly safe, delicious, and unaffected."
+      },
+      {
+        "question": "Why did Canker suddenly appear all over my tree after a hurricane?",
+        "answer": "Hurricanes produce extreme wind-driven rain. The wind literally blasts the bacteria through the tree's natural pores (stomata) and creates tiny micro-wounds, causing massive, immediate infections."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "The Citrus Leafminer insect doesn't carry the disease itself. Instead, it tunnels through the leaf, opening up massive wounds. If canker bacteria wash into those tunnels, the resulting infection is 100 times worse than a normal spot."
+      ],
+      "similar_diseases": [
+        "Citrus Scab",
+        "Alternaria Brown Spot"
+      ],
+      "differential_diagnosis": [
+        "Citrus Scab causes raised corky lesions but lacks the bright yellow halo of Canker. Canker spots are usually visible on both sides of the leaf; Alternaria mostly stays on the surface."
+      ],
+      "long_term_management": [
+        "Planting and maintaining physical windbreaks (hedges) around the grove."
+      ]
+    },
+    "ai_context": {
+      "summary": "Citrus Canker is a highly contagious bacterial disease driven by wind and rain, causing raised, corky lesions with yellow halos on leaves and fruit. Regulated for export.",
+      "key_points": [
+        "Driven entirely by wind and rain.",
+        "Causes raised, corky spots with yellow halos.",
+        "Citrus Leafminer insects make it 10x worse.",
+        "Copper protectants are mandatory."
+      ],
+      "high_priority_actions": [
+        "Demand user checks for Citrus Leafminer trails.",
+        "Advise immediate Copper application before heavy thunderstorms.",
+        "Suggest planting windbreaks."
+      ],
+      "weather_considerations": [
+        "Extreme Risk: High winds (>18mph) combined with rain (e.g., tropical storms)."
+      ],
+      "common_mistakes": [
+        "Applying Copper AFTER the rain (it must be there before to protect).",
+        "Ignoring Leafminer infestations."
+      ],
+      "follow_up_recommendations": [
+        "Ask if the corky spots have a bright yellow ring around them.",
+        "Remind user to sanitize tools."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Inform the user that the rough, raised spots with yellow halos are {disease_name}. Emphasize that it is highly contagious and spreads via {transmission.methods}.",
+      "weather_analysis": "The forecasted high winds and rain pose a severe threat for {disease_name}. Calculate if the fruit is in the vulnerable expansion stage to recommend {treatment.chemical}.",
+      "treatment_plan": "Develop a two-part plan: apply Copper immediately as a barrier, and use an insecticide to kill the Citrus Leafminer, which creates wounds that let the bacteria inside.",
+      "followup": "Ask the user to look at the new leaves. Do they see silvery, winding tunnels inside the leaves? (This indicates Leafminers, which drastically worsen Canker)."
+    },
+    "references": [
+      "University of Florida IFAS: Citrus Canker",
+      "USDA APHIS: Citrus Diseases"
+    ],
+    "model_mapping": {
+      "cnn_class": "Orange___Citrus_Canker",
+      "aliases": [
+        "Orange Citrus Canker"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Advanced"
+    },
+    "disease_id": "ORANGE_003",
+    "disease_name": "Citrus_Black_Spot",
+    "common_name": "Citrus Black Spot (CBS)",
+    "scientific_name": "Phyllosticta citricarpa (formerly Guignardia citricarpa)",
+    "crop": "Orange",
+    "disease_type": "Fungal",
+    "pathogen_type": "Fungus",
+    "overview": {
+      "description": "Citrus Black Spot is a fungal disease that primarily affects the rind of the fruit, causing unsightly dark spots and blemishes. While it doesn't rot the internal fruit, severe infections cause massive premature fruit drop, destroying yields.",
+      "importance": "High. It is a major quarantine pest globally. Fruit with CBS cannot be sold in fresh markets and is banned from export to regions free of the disease.",
+      "affected_parts": [
+        "Fruit (Rind)",
+        "Leaves",
+        "Twigs"
+      ],
+      "host_plants": [
+        "Lemon (Highly susceptible)",
+        "Orange",
+        "Mandarin",
+        "Grapefruit"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Symptoms rarely appear on green fruit. The fungus lies dormant inside the rind for months.",
+        "Small, reddish-brown spots may appear on leaves, though leaf symptoms are rare and hard to spot."
+      ],
+      "moderate": [
+        "As fruit matures and begins to turn color, 'Hard Spots' appear: sunken, circular lesions with a gray center, brick-red/black margins, and a green halo.",
+        "Tiny black fruiting bodies (pycnidia) can sometimes be seen in the gray center of the spots."
+      ],
+      "severe": [
+        "Multiple spots merge to form 'Virulent Spot', a large, sunken, irregularly shaped necrotic area that spreads rapidly over the mature fruit.",
+        "Severely infected fruit drops from the tree prematurely in massive numbers just before harvest."
+      ],
+      "leaf": [
+        "Small, reddish-brown necrotic spots with light centers (often asymptomatic)."
+      ],
+      "stem": [
+        "Rarely symptomatic, though it can survive on dead twigs."
+      ],
+      "fruit": [
+        "Four distinct symptom types: Hard Spot, False Melanose, Freckle Spot, and Virulent Spot. All result in severe rind blemishing and premature drop."
+      ],
+      "flower": [
+        "Not affected."
+      ],
+      "root": []
+    },
+    "causes": {
+      "primary_cause": "Airborne ascospores from fallen leaves, or water-splashed conidia from the tree canopy, infecting green fruit.",
+      "pathogen": "Phyllosticta citricarpa",
+      "survival_mechanism": "Overwinters primarily in dead, fallen citrus leaves on the orchard floor.",
+      "infection_process": "Spores land on young fruit from petal fall up to 5 months later. The fungus penetrates the rind but remains completely dormant (latent) until the fruit begins to ripen and color, at which point the massive spots suddenly erupt."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Overwintering in leaf litter on the ground.",
+        "Ascospores released during spring rains, blown into the canopy.",
+        "Infection of young green fruit (remains asymptomatic).",
+        "Months later, as fruit matures or is exposed to sunlight/heat, symptoms erupt.",
+        "Infected fruit drops to the ground, restarting the cycle."
+      ],
+      "spread_cycle": "Primary spread is from the ground up (ascospores). Secondary spread (conidia) can wash down from dead twigs in the canopy to fruit below."
+    },
+    "transmission": {
+      "methods": [
+        "Wind",
+        "Rain splash",
+        "Movement of infected nursery stock or fruit"
+      ],
+      "vectors": [],
+      "common_sources": [
+        "Fallen leaf litter in the grove",
+        "Dead twigs in the canopy"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "High",
+      "rainfall": "High",
+      "poor_airflow": "Medium",
+      "late_harvest": "Extreme",
+      "tree_stress": "High"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "21°C - 32°C (70°F - 90°F)",
+        "notes": "Optimal for both early infection and late-season symptom expression."
+      },
+      "humidity": {
+        "optimal_range": "Variable",
+        "notes": "Moisture is required for spore release."
+      },
+      "rainfall": "Frequent rains and heavy dews from petal-fall through mid-summer drive the infection events.",
+      "wind": "Blows ascospores from the ground up into the canopy.",
+      "soil_conditions": "Not applicable.",
+      "leaf_wetness": "Requires 12 to 24 hours of leaf/fruit wetness for spores to germinate and penetrate the rind."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 15,
+        "max": 35
+      },
+      "humidity": {
+        "min": 0,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 12
+    },
+    "weather_influence": {
+      "high_humidity": "Extends the wetness period needed for spore germination.",
+      "rain": "Triggers the massive release of ascospores from the leaf litter on the ground.",
+      "high_temperature": "High heat and intense sunlight in late summer trigger the dormant fungus to suddenly express 'Virulent Spots' on the maturing fruit.",
+      "low_temperature": "Slows disease.",
+      "wind": "Dries the canopy, but spreads spores.",
+      "dry_conditions": "If the 4-5 months following petal fall are exceptionally dry, infection is minimal."
+    },
+    "severity_levels": {
+      "low": "A few 'Hard Spots' on highly sun-exposed fruit. Cosmetic damage.",
+      "medium": "Spots appearing widely across the canopy as fruit colors. Fruit destined for fresh market is ruined.",
+      "high": "Spots transitioning to 'Virulent Spot' on mature fruit. Heavy fruit drop beginning.",
+      "critical": "Massive premature fruit drop covering the orchard floor. Total economic loss."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "If fruit is coloring and symptoms suddenly appear, it is too late to spray fungicides—the infection happened months ago. Plan an early harvest to salvage the fruit for juice before it drops."
+      ],
+      "within_24_hours": [
+        "In spring (petal fall), initiate a rigorous monthly fungicide program if the grove has a history of CBS."
+      ],
+      "within_one_week": [
+        "Flail mow the orchard floor to shred fallen leaves, destroying the source of next year's spores."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Copper fungicides (Excellent protectant, applied monthly starting at petal fall).",
+        "Strobilurins (Azoxystrobin, Pyraclostrobin) provide excellent control, but must be rotated with Copper to prevent resistance."
+      ],
+      "biological": [
+        "None commercially effective."
+      ],
+      "organic": [
+        "Copper formulations.",
+        "Strict leaf litter management."
+      ],
+      "integrated_management": [
+        "A 4 to 5 month continuous protectant spray program starting exactly at petal fall, combined with aggressive shredding of leaf litter."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Leaf litter management is CRITICAL. Flail mow leaves to speed decomposition, or apply urea to the ground to feed microbes that destroy the leaves.",
+        "Prune out dead wood in the canopy, which harbors secondary spores."
+      ],
+      "irrigation": [
+        "Avoid overhead irrigation, which mimics rain and causes spore release."
+      ],
+      "crop_rotation": [
+        "Not applicable."
+      ],
+      "air_circulation": [
+        "Standard pruning helps fruit dry faster."
+      ],
+      "resistant_varieties": [
+        "All commercial sweet oranges and lemons are highly susceptible. Sour orange is somewhat tolerant."
+      ],
+      "seasonal_practices": [
+        "Harvest fruit as early as possible. The longer mature fruit hangs on the tree, the more likely the disease will erupt into Virulent Spot and cause fruit drop."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Apply urea to the leaf litter on the ground in autumn/winter to speed up decomposition of the pathogen's home.",
+      "phosphorus": "Standard.",
+      "potassium": "Standard.",
+      "calcium": "Standard.",
+      "magnesium": "Standard.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Spring rains cause asymptomatic infection of green fruit.",
+        "Fungus sleeps for 4-6 months.",
+        "As fruit colors and ripens, massive black spots erupt.",
+        "Fruit drops to the ground prematurely, ruining harvest."
+      ],
+      "treated": [
+        "Copper/Strobilurins protect the young green fruit in spring.",
+        "Fungus never enters the rind.",
+        "Fruit colors beautifully without blemishes and holds tight to the tree."
+      ]
+    },
+    "recovery_indicators": [
+      "Fruit reaches full maturity and color without developing any sunken, black/gray spots with green halos."
+    ],
+    "recovery": {
+      "estimated_days": "N/A (Preventative Only)",
+      "success_rate": "High",
+      "depends_on": [
+        "Spring Spray Program",
+        "Leaf Litter Mowing",
+        "Early Harvest"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Up to 50%+ due to premature fruit drop in severe years.",
+      "quality_loss": "Fruit is rejected from the fresh market. It can still be juiced if harvested before it drops.",
+      "financial_impact": "High. Blocks access to export markets due to quarantine rules, and limits fruit to the lower-paying juice market."
+    },
+    "monitoring": {
+      "inspection_frequency": "Monitor fruit closely as it begins to change color (break color) in the fall/winter.",
+      "warning_signs": [
+        "Leaving mature fruit hanging on the tree late into the season.",
+        "Heavy rains during the 4 months following petal fall."
+      ],
+      "recovery_signs": [
+        "N/A"
+      ]
+    },
+    "faq": [
+      {
+        "question": "Can I spray something to get rid of the black spots on my oranges?",
+        "answer": "No. Once you see the spots, the fungus has been living inside the rind for months. You must spray next spring, starting right after the flowers fall off, to prevent it."
+      },
+      {
+        "question": "Is the juice inside still good if the rind has Black Spot?",
+        "answer": "Yes! The disease is entirely restricted to the rind. The internal flesh and juice are perfectly healthy and normal."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "Citrus Black Spot has an incredibly long incubation period. A fruit can be infected in May, but the spots won't appear until November or December when the fruit begins to ripen."
+      ],
+      "similar_diseases": [
+        "Citrus Canker",
+        "Alternaria Brown Spot",
+        "Melanose"
+      ],
+      "differential_diagnosis": [
+        "Canker spots are raised and corky. Black Spot 'Hard Spots' are sunken and crater-like with gray centers. Melanose feels like sandpaper, whereas Black Spot lesions are distinct and separate."
+      ]
+    },
+    "ai_context": {
+      "summary": "Citrus Black Spot is a fungal disease with a massive 5-month incubation period. It infects green fruit in spring, but erupts into severe black blemishes and causes fruit drop only as fruit ripens.",
+      "key_points": [
+        "Infects in spring, shows symptoms in fall/winter.",
+        "Overwinters in fallen leaves.",
+        "Causes massive premature fruit drop.",
+        "Once symptoms appear, sprays are useless."
+      ],
+      "high_priority_actions": [
+        "Inform user that spraying mature spotted fruit is useless.",
+        "Advise early harvest to save the fruit for juice before it drops.",
+        "Recommend spring Copper sprays and winter leaf mowing."
+      ],
+      "weather_considerations": [
+        "Alert: Frequent rains occurring 1 to 4 months after bloom (the critical infection window)."
+      ],
+      "common_mistakes": [
+        "Trying to cure the spots in autumn/winter.",
+        "Leaving fallen leaves on the ground intact."
+      ],
+      "follow_up_recommendations": [
+        "Ask if the spots are sunken (Black Spot) or raised/corky (Canker).",
+        "Remind user to apply urea to the orchard floor to rot the leaf litter."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user the tricky nature of {disease_name}: it infects the fruit in the spring, but stays hidden for months until the fruit ripens, causing the {symptoms.moderate} they are seeing now.",
+      "weather_analysis": "Determine if the orchard is currently in the 4-month window following petal fall. If it is raining, {disease_name} is actively infecting the green fruit, and {treatment.chemical} is urgently needed.",
+      "treatment_plan": "If spots are already visible, advise the user to harvest early to prevent fruit drop. Design a plan for next year focused heavily on {treatment.chemical} directly after bloom, and {prevention.farm_hygiene}.",
+      "followup": "Ask the user to touch the spots. Do they feel sunken into the rind like a crater (Black Spot), or do they feel raised and corky like a scab (Canker)?"
+    },
+    "references": [
+      "University of Florida IFAS: Citrus Black Spot",
+      "USDA APHIS: Citrus Black Spot Profile"
+    ],
+    "model_mapping": {
+      "cnn_class": "Orange___Citrus_Black_Spot_CBS",
+      "aliases": [
+        "Orange Citrus Black Spot (CBS)",
+        "Orange Citrus Black Spot"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Intermediate"
+    },
+    "disease_id": "ORANGE_004",
+    "disease_name": "Phytophthora_Foot_Rot",
+    "common_name": "Phytophthora Foot Rot and Gummosis",
+    "scientific_name": "Phytophthora nicotianae, Phytophthora palmivora",
+    "crop": "Orange",
+    "disease_type": "Fungal",
+    "pathogen_type": "Oomycete",
+    "overview": {
+      "description": "Phytophthora Foot Rot (Gummosis) is a destructive soil-borne disease driven by excessive moisture. It rots the bark at the base of the trunk and destroys the feeder roots, essentially strangling the tree from the ground up.",
+      "importance": "High. It is present in almost all citrus soils globally. Under water-logged conditions, it can girdle the trunk and kill mature trees, and is a major cause of death in newly planted saplings.",
+      "affected_parts": [
+        "Base of Trunk (Crown)",
+        "Feeder Roots",
+        "Lower Fruit (Brown Rot)"
+      ],
+      "host_plants": [
+        "Orange",
+        "Lemon (Highly susceptible)",
+        "Grapefruit",
+        "All Citrus"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Water-soaked, dark patches of bark appear on the trunk, usually near the soil line.",
+        "Drops of water-soluble gum (sap) ooze from cracks in the bark (Gummosis)."
+      ],
+      "moderate": [
+        "Bark dries out, shrinks, cracks, and peels away, revealing dark, dead, stained wood underneath.",
+        "Tree canopy begins to look thin, with leaves turning yellow with light green veins (mimicking nitrogen deficiency due to root death)."
+      ],
+      "severe": [
+        "The bark lesion expands around the entire circumference of the trunk, girdling the tree.",
+        "Massive feeder root decay. The tree collapses and dies.",
+        "Fruit hanging near the ground may develop a firm, leathery, foul-smelling brown rot."
+      ],
+      "leaf": [
+        "Leaves turn yellow, thin out, and drop due to root starvation."
+      ],
+      "stem": [
+        "Base of the trunk oozes sap, cracks, peels, and rots away at the soil line."
+      ],
+      "fruit": [
+        "'Brown Rot' on fruit touching or near the ground, caused by spores splashing up from the soil."
+      ],
+      "flower": [
+        "Not directly affected."
+      ],
+      "root": [
+        "Fibrous feeder roots slough off their outer layer, turning soft, mushy, and brown, drastically reducing nutrient uptake."
+      ]
+    },
+    "causes": {
+      "primary_cause": "Oomycete zoospores swimming in saturated soil, infecting the roots and the bark of the lower trunk.",
+      "pathogen": "Phytophthora nicotianae",
+      "survival_mechanism": "Survives for years in the soil as thick-walled resting spores (chlamydospores).",
+      "infection_process": "When soil becomes saturated with water, resting spores release swimming zoospores. These swim through the water in the soil, attracted by chemicals released by growing citrus roots and bark wounds. They infect and rot the tissue."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Spores rest in soil.",
+        "Soil flooding/saturation triggers zoospore release.",
+        "Zoospores swim to and infect roots/trunk.",
+        "Lesions form, tree oozes gum, and roots rot.",
+        "Pathogen produces more spores, spreading via moving water."
+      ],
+      "spread_cycle": "Polycyclic in wet conditions. Spreads rapidly through orchards via irrigation runoff and flooding."
+    },
+    "transmission": {
+      "methods": [
+        "Moving water (irrigation, floods)",
+        "Contaminated nursery stock",
+        "Rain splash (for fruit rot)"
+      ],
+      "vectors": [],
+      "common_sources": [
+        "Water-logged areas of the grove",
+        "Micro-sprinklers hitting the trunk directly"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "Low",
+      "rainfall": "High",
+      "poor_airflow": "Low",
+      "poor_drainage": "Extreme",
+      "deep_planting": "Extreme",
+      "sprinklers_hitting_trunk": "Extreme"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "20°C - 30°C (68°F - 86°F)",
+        "notes": "Optimal for zoospore activity and rapid rotting of the trunk."
+      },
+      "humidity": {
+        "optimal_range": "Variable",
+        "notes": "Air humidity matters less than soil moisture."
+      },
+      "rainfall": "Heavy, flooding rains cause massive spikes in disease activity.",
+      "wind": "Not applicable.",
+      "soil_conditions": "Heavy clay soils, hardpans, or any condition causing water to pond around the tree base is the ultimate trigger.",
+      "leaf_wetness": "Not applicable to the trunk/root phase."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 10,
+        "max": 35
+      },
+      "humidity": {
+        "min": 0,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 0
+    },
+    "weather_influence": {
+      "high_humidity": "No major effect.",
+      "rain": "Flooding creates the swimming pathways for the zoospores.",
+      "high_temperature": "Accelerates the rotting of the bark.",
+      "low_temperature": "Slows disease.",
+      "wind": "No effect.",
+      "dry_conditions": "The ultimate cure. Phytophthora cannot move or infect without saturated soil."
+    },
+    "severity_levels": {
+      "low": "Minor gumming on one side of the trunk. Canopy looks healthy. Easily corrected with irrigation changes.",
+      "medium": "Bark peeling, feeder roots dying, leaves yellowing. Chemical intervention required.",
+      "high": "Lesion covers >50% of the trunk circumference. Severe canopy thinning.",
+      "critical": "Trunk completely girdled. Tree death imminent. Tree must be removed."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "Pull back all mulch, soil, and weeds from the base of the trunk. The root crown must be exposed to the air to dry out."
+      ],
+      "within_24_hours": [
+        "Adjust micro-sprinklers immediately so they do not spray water directly onto the tree trunk."
+      ],
+      "within_one_week": [
+        "If a lesion is active (oozing gum), apply a systemic fungicide drench or foliar spray to halt the infection."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Phosphites / Phosphorous Acid (Aliette) (Excellent systemic; applied as a foliar spray or trunk paint to boost plant defenses and kill the pathogen).",
+        "Mefenoxam (Ridomil) (Applied as a soil drench; highly effective but prone to resistance).",
+        "Copper paste (Can be painted directly onto scraped trunk lesions)."
+      ],
+      "biological": [
+        "Soil applications of Trichoderma spp. can help outcompete Phytophthora in the root zone."
+      ],
+      "organic": [
+        "Strict water management and exposing the root crown.",
+        "Painting the trunk with Copper."
+      ],
+      "integrated_management": [
+        "Combine proper planting depth, moving sprinklers away from trunks, and applying systemic Phosphites during periods of heavy summer rain."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Never move soil from a known infected area to a clean area."
+      ],
+      "irrigation": [
+        "CRITICAL: Ensure irrigation emitters are placed at least 1-2 feet away from the trunk. Do not water-log the soil."
+      ],
+      "crop_rotation": [
+        "Not applicable."
+      ],
+      "air_circulation": [
+        "Weed control around the base of the tree is vital to let the trunk bark dry."
+      ],
+      "resistant_varieties": [
+        "Use highly resistant/tolerant rootstocks like Swingle citrumelo or Trifoliate orange. Sweet orange roots are highly susceptible."
+      ],
+      "seasonal_practices": [
+        "Plant trees high. The bud union (graft line) must be well above the soil line. If soil covers the scion, Phytophthora will attack it instantly."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Avoid excess nitrogen, as it promotes soft bark tissue susceptible to infection.",
+      "phosphorus": "Foliar Phosphite applications act directly as a fungicide against this specific pathogen.",
+      "potassium": "Standard.",
+      "calcium": "High soil calcium levels suppress Phytophthora spore production.",
+      "magnesium": "Standard.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Saturated soil releases zoospores.",
+        "Bark becomes infected and oozes sap.",
+        "Bark dies and peels, cutting off nutrient flow.",
+        "Tree canopy starves, yellows, and the tree dies."
+      ],
+      "treated": [
+        "Soil is dried out, stopping spore movement.",
+        "Systemic Phosphites heal the trunk lesion.",
+        "Tree regrows feeder roots and canopy greens up."
+      ]
+    },
+    "recovery_indicators": [
+      "The trunk lesion stops oozing gum, dries out, and begins to form healthy callus tissue around the edges.",
+      "Canopy stops yellowing and produces a vigorous new flush of green leaves."
+    ],
+    "recovery": {
+      "estimated_days": "30-60 (for canopy recovery)",
+      "success_rate": "High (if not girdled)",
+      "depends_on": [
+        "Drying the Trunk Base",
+        "Systemic Fungicides",
+        "Lesion Size"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Individual trees yield 0 if killed. General grove yield drops as feeder roots are chronically rotted.",
+      "quality_loss": "Fruit size decreases due to root damage.",
+      "financial_impact": "High cost of replanting dead trees and applying expensive soil drenches."
+    },
+    "monitoring": {
+      "inspection_frequency": "Check trunks monthly during the rainy season or in heavily irrigated blocks.",
+      "warning_signs": [
+        "Trees planted too deeply in heavy clay soils.",
+        "Irrigation water constantly hitting the trunk.",
+        "Sap oozing from the bark near the dirt."
+      ],
+      "recovery_signs": [
+        "Dry, hardened bark around old lesions."
+      ]
+    },
+    "faq": [
+      {
+        "question": "My tree is oozing sticky sap near the ground. What should I do?",
+        "answer": "This is Gummosis caused by Phytophthora. Immediately pull away any dirt or mulch touching the trunk so it can breathe and dry out. Check your sprinklers to make sure they aren't spraying the trunk."
+      },
+      {
+        "question": "Can I just paint over the oozing bark to seal it?",
+        "answer": "No, standard paint won't kill the pathogen underneath. You can carefully scrape away the dead outer bark and paint it with a Copper fungicide paste, but fixing the water problem is more important."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "Phytophthora zoospores have two flagella (whip-like tails) that allow them to literally swim through the water filling the pores of wet soil to find citrus roots."
+      ],
+      "similar_diseases": [
+        "Tristeza Virus (causes tree decline, but no gumming)",
+        "Mechanical trunk injury (weed eater damage)"
+      ],
+      "differential_diagnosis": [
+        "Weed eater damage can cause gumming, but it usually lacks the dark, water-soaked, rotting bark seen in Phytophthora. If the bark easily peels off in dark mushy strips, it's Phytophthora."
+      ],
+      "long_term_management": [
+        "Planting trees on raised mounds (berms) to guarantee water drains away from the trunk."
+      ]
+    },
+    "ai_context": {
+      "summary": "Phytophthora Foot Rot is a deadly soil-borne water mold causing sap oozing (gummosis) and bark rot at the base of the trunk, driven by water-logged soils and poor irrigation practices.",
+      "key_points": [
+        "Driven entirely by saturated soil/flooding.",
+        "Causes gum to ooze from the lower trunk.",
+        "Rootstocks dictate resistance.",
+        "Fixing irrigation is more important than chemicals."
+      ],
+      "high_priority_actions": [
+        "Demand the user checks if sprinklers are hitting the trunk.",
+        "Instruct user to clear mulch/soil away from the root crown.",
+        "Recommend systemic Phosphites (Aliette)."
+      ],
+      "weather_considerations": [
+        "Alert: Heavy flooding or continuous rain creating standing water in the grove."
+      ],
+      "common_mistakes": [
+        "Piling mulch up against the tree trunk (creates a dark, wet incubator for the rot).",
+        "Planting the tree too deep in the soil."
+      ],
+      "follow_up_recommendations": [
+        "Ask if the tree was planted so deep that the graft union is buried.",
+        "Suggest a Mefenoxam soil drench if feeder roots are heavily damaged."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user that {disease_name} is a water mold that is rotting the tree from the bottom up. The {symptoms.early} they are seeing is the tree's reaction to the infection.",
+      "weather_analysis": "Determine if the soil is water-logged due to recent heavy rains or poor drainage, as {disease_name} zoospores require standing water in the soil to swim and infect the tree.",
+      "treatment_plan": "Create a rescue plan. Step 1: Fix the environment ({immediate_actions.today}). Step 2: Fix the irrigation. Step 3: Apply {treatment.chemical} to systemically kill the pathogen inside the bark.",
+      "followup": "Ask the user to inspect the base of the tree. Is there mulch piled up against the trunk, or are the irrigation sprinklers spraying water directly onto the bark?"
+    },
+    "references": [
+      "University of California Statewide IPM: Phytophthora Root and Crown Rot",
+      "University of Florida IFAS: Phytophthora Foot Rot"
+    ],
+    "model_mapping": {
+      "cnn_class": "Orange___Phytophthora_Foot_Rot_and_Gummosis",
+      "aliases": [
+        "Orange Phytophthora Foot Rot and Gummosis",
+        "Orange Phytophthora Foot Rot"
+      ]
+    }
+  }
+]

@@ -2,7 +2,11 @@ import os
 import sys
 import csv
 import datetime
+import uuid
+import json
+import shutil
 import streamlit as st
+from PIL import Image
 
 # ─── Path Setup ───────────────────────────────────────────────────────────────
 # Project root (d:/agricare) for backend agents
@@ -14,6 +18,16 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')
 from agents.coordinator_agent.coordinator_agent import CoordinatorAgent
 from agents.adk_workflow.adk_coordinator import ADKCoordinatorAgent
 from agents.feedback_agent.feedback_agent import FeedbackAgent
+from src.utils.logger import (
+    pipeline_run_id_var, 
+    correlation_id_var, 
+    RESPONSES_DIR, 
+    append_to_manifest, 
+    get_logger,
+    log_config_snapshot
+)
+
+ui_logger = get_logger("ui", "uploaded_images.log")
 
 # ─── UI Helpers ──────────────────────────────────────────────────────────────
 from ui_components import (
@@ -180,10 +194,49 @@ if uploaded_file:
         use_container_width=True,
     )
     if analyze_btn:
-        # Save image temporarily
-        temp_img_path = f"temp_{uploaded_file.name}"
+        # Generate IDs
+        run_id = str(uuid.uuid4())
+        corr_id = str(uuid.uuid4())
+        
+        # Save image to temp/uploads with tracking info
+        uploads_dir = os.path.join("temp", "uploads")
+        os.makedirs(uploads_dir, exist_ok=True)
+        timestamp_str = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+        temp_img_path = os.path.join(uploads_dir, f"{timestamp_str}_{run_id[:8]}_{uploaded_file.name}")
+        
         with open(temp_img_path, "wb") as f:
             f.write(uploaded_file.getbuffer())
+            
+        # Extract metadata for logging
+        file_size_kb = os.path.getsize(temp_img_path) / 1024
+        try:
+            with Image.open(temp_img_path) as img:
+                width, height = img.size
+        except Exception:
+            width, height = 0, 0
+            
+        abs_path = os.path.abspath(temp_img_path)
+        ui_logger.info(
+            f"Image Upload Details - "
+            f"Original: {uploaded_file.name} | "
+            f"Stored: {os.path.basename(temp_img_path)} | "
+            f"RelPath: {temp_img_path} | "
+            f"AbsPath: {abs_path} | "
+            f"Size: {file_size_kb:.1f}KB | "
+            f"Dimensions: {width}x{height} | "
+            f"RunID: {run_id} | "
+            f"SessionID: {st.session_state.get('session_id', 'unknown')}"
+        )
+
+        # Set context variables for logs
+        token1 = pipeline_run_id_var.set(run_id)
+        token2 = correlation_id_var.set(corr_id)
+
+        # Log configuration snapshot for this run
+        log_config_snapshot(
+            workflow_mode=workflow_mode,
+            adk_enabled=(workflow_mode == "Google ADK Workflow")
+        )
 
         # Lazy-load agents — triggers TF model load only here, on first use
         _coordinator     = get_coordinator_agent()
@@ -207,6 +260,30 @@ if uploaded_file:
             st.session_state["pipeline_response"]  = response
             st.session_state["uploaded_img_path"]  = temp_img_path
             log_prediction_history(response["prediction"], uploaded_file.name)
+            
+            # Save raw JSON response
+            resp_filename = f"{run_id}_response.json"
+            resp_path = os.path.join(RESPONSES_DIR, resp_filename)
+            with open(resp_path, "w", encoding="utf-8") as f:
+                json.dump(response, f, indent=2)
+                
+            # Append to manifest
+            append_to_manifest(
+                run_id=run_id,
+                session_id=st.session_state.get("session_id", "unknown"),
+                workflow=workflow_mode,
+                start_time=response.get("timestamp"),
+                end_time=datetime.datetime.now().replace(microsecond=0).isoformat(),
+                status=response.get("status"),
+                original_image=uploaded_file.name,
+                stored_image=temp_img_path
+            )
+            
+            ui_logger.info(f"Pipeline completed successfully. Run ID: {run_id}")
+            
+            # Reset context
+            pipeline_run_id_var.reset(token1)
+            correlation_id_var.reset(token2)
             # NOTE: No st.rerun() — results render in this same execution cycle.
             # st.rerun() would cause a full second page execution (doubled render time).
 else:
@@ -446,19 +523,72 @@ with st.expander("Was this prediction correct?", expanded=False):
 # ═══════════════════════════════════════════════════════════════════════════════
 # PIPELINE DIAGNOSTICS — Expander (hidden by default, for technical users)
 # ═══════════════════════════════════════════════════════════════════════════════
-with st.expander("Pipeline Diagnostics", expanded=False):
-    dc1, dc2, dc3 = st.columns(3)
+with st.expander("Pipeline Diagnostics", expanded=st.session_state.get("dev_mode", False)):
+    if st.session_state.get("dev_mode"):
+        st.info("🛠️ Developer Mode is ON. Showing detailed diagnostics.")
+    
     engine = response.get("workflow_engine", "legacy_coordinator").replace("_", " ").title()
-    dc1.metric("Engine",         engine)
-    dc2.metric("Execution Time", f"{response.get('execution_time_ms', 0)} ms")
-    dc3.metric("Status",         response.get("status", "—").replace("_", " ").title())
+    st.markdown(f"**Engine:** {engine}")
+    
+    # 1. Pipeline Summary
+    summary = response.get("pipeline_summary", {})
+    if summary:
+        dc1, dc2, dc3, dc4, dc5 = st.columns(5)
+        dc1.metric("Overall", summary.get("overall_status", "—").title())
+        dc2.metric("Time", f"{summary.get('total_execution_time_ms', 0)}ms")
+        dc3.metric("Success", summary.get("successful_agents", 0))
+        dc4.metric("Failed", summary.get("failed_agents", 0))
+        dc5.metric("Skipped", summary.get("skipped_agents", 0))
+    else:
+        # Fallback for old responses
+        dc1, dc2, dc3 = st.columns(3)
+        dc1.metric("Time", f"{response.get('execution_time_ms', 0)} ms")
+        dc2.metric("Status", response.get("status", "—").title())
 
-    trace = response.get("agent_trace", [])
-    if trace:
-        st.markdown("**Agent Trace:**")
-        st.markdown("  →  ".join([f"`{a}`" for a in trace]))
+    # 2. Warnings and ADK Fallbacks
+    warnings = response.get("warnings", [])
+    if warnings:
+        for w in warnings:
+            if "Switched to Legacy Coordinator" in w or "Fallback to Legacy Coordinator" in w:
+                st.warning(f"⚠️ **Fallback Triggered:** {w}")
+            elif "failed" in w.lower():
+                st.error(f"❌ {w}")
+            else:
+                st.info(f"ℹ️ {w}")
 
-    fallback_warnings = [w for w in response.get("warnings", []) if "Fallback" in w or "fallback" in w]
-    if fallback_warnings:
-        for w in fallback_warnings:
-            st.info(f"ℹ️ {w}")
+    # 3. Execution Summary Trace
+    exec_summary = response.get("execution_summary", [])
+    if exec_summary:
+        st.markdown("**Execution Trace:**")
+        for agent_exec in exec_summary:
+            status = agent_exec.get("status", "unknown")
+            agent = agent_exec.get("agent", "UnknownAgent")
+            time_ms = agent_exec.get("execution_time_ms", 0)
+            reason = agent_exec.get("reason", "")
+            
+            if status == "success":
+                icon = "🟢"
+                desc = f"{icon} **{agent}** ({time_ms}ms)"
+            elif status == "timeout":
+                icon = "🟡"
+                desc = f"{icon} **{agent}** ({time_ms}ms)  \n_Timeout: {reason}_"
+            elif status == "warning" or status == "partial_success":
+                icon = "🟡"
+                desc = f"{icon} **{agent}** ({time_ms}ms)  \n_Warning: {reason}_"
+            elif status == "failed":
+                icon = "🔴"
+                desc = f"{icon} **{agent}** ({time_ms}ms)  \n_Failed: {reason}_"
+            elif status == "skipped":
+                icon = "⚪"
+                desc = f"{icon} **{agent}** ({time_ms}ms)  \n_Skipped: {reason}_"
+            else:
+                icon = "❓"
+                desc = f"{icon} **{agent}** ({time_ms}ms)  \n_Status: {status}_"
+                
+            st.markdown(desc)
+    else:
+        # Fallback to old agent trace
+        trace = response.get("agent_trace", [])
+        if trace:
+            st.markdown("**Agent Trace:**")
+            st.markdown("  →  ".join([f"`{a}`" for a in trace]))

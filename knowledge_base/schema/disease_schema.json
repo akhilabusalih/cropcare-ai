@@ -1,0 +1,298 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/cropguardian/schema/disease_schema.json",
+  "title": "CropGuardian Disease Record Schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "metadata",
+    "disease_id",
+    "disease_name",
+    "common_name",
+    "scientific_name",
+    "crop",
+    "disease_type",
+    "pathogen_type",
+    "model_mapping",
+    "overview",
+    "symptoms",
+    "causes",
+    "infection_cycle",
+    "transmission",
+    "risk_factors",
+    "environmental_conditions",
+    "weather_thresholds",
+    "weather_influence",
+    "severity_levels",
+    "severity_score",
+    "immediate_actions",
+    "treatment",
+    "prevention",
+    "nutrient_management",
+    "disease_progression",
+    "recovery_indicators",
+    "recovery",
+    "economic_impact",
+    "monitoring",
+    "faq",
+    "educational_information",
+    "ai_context",
+    "prompt_templates",
+    "references"
+  ],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "review_status": {
+          "type": "string",
+          "enum": ["Reviewed", "Needs Review"]
+        },
+        "last_scientific_review": {
+          "type": "string",
+          "format": "date"
+        },
+        "content_quality": {
+          "type": "string",
+          "enum": ["High", "Medium", "Low"]
+        },
+        "difficulty_level": {
+          "type": "string",
+          "enum": ["Beginner", "Intermediate", "Advanced"]
+        }
+      },
+      "required": ["review_status", "last_scientific_review", "content_quality", "difficulty_level"]
+    },
+    "disease_id": {
+      "type": "string",
+      "pattern": "^[A-Z]+_[0-9]{3}$"
+    },
+    "disease_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "common_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scientific_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "crop": {
+      "type": "string",
+      "minLength": 1
+    },
+    "disease_type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "pathogen_type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "model_mapping": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["cnn_class", "aliases"],
+      "properties": {
+        "cnn_class": {
+          "type": "string",
+          "minLength": 1
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      }
+    },
+    "overview": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "description": {
+          "type": "string"
+        },
+        "importance": {
+          "type": "string"
+        },
+        "affected_parts": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "host_plants": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "symptoms": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "causes": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "infection_cycle": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "transmission": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "risk_factors": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "environmental_conditions": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "weather_thresholds": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "temperature": {
+          "type": "object",
+          "additionalProperties": true,
+          "properties": {
+            "min": {
+              "type": ["number", "integer"]
+            },
+            "max": {
+              "type": ["number", "integer"]
+            }
+          }
+        },
+        "humidity": {
+          "type": "object",
+          "additionalProperties": true,
+          "properties": {
+            "min": {
+              "type": ["number", "integer"]
+            },
+            "max": {
+              "type": ["number", "integer"]
+            }
+          }
+        },
+        "leaf_wetness_hours_min": {
+          "type": ["number", "integer"]
+        }
+      }
+    },
+    "weather_influence": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "severity_levels": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "severity_score": {
+      "type": "object",
+      "additionalProperties": {
+        "type": ["integer", "number", "string"]
+      }
+    },
+    "immediate_actions": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "treatment": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "prevention": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "nutrient_management": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "disease_progression": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "recovery_indicators": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "recovery": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "estimated_days": {
+          "type": "string"
+        },
+        "success_rate": {
+          "type": "string"
+        },
+        "depends_on": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "economic_impact": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "monitoring": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "faq": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["question", "answer"],
+        "properties": {
+          "question": {
+            "type": "string"
+          },
+          "answer": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "educational_information": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "ai_context": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "prompt_templates": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    }
+  }
+}

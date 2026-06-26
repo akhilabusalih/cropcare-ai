@@ -1,0 +1,1211 @@
+[
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Intermediate"
+    },
+    "disease_id": "PEPPER_001",
+    "disease_name": "Bacterial_Spot_Pepper",
+    "common_name": "Bacterial Spot",
+    "scientific_name": "Xanthomonas euvesicatoria (and other Xanthomonas spp.)",
+    "crop": "Pepper",
+    "disease_type": "Bacterial",
+    "pathogen_type": "Bacterium",
+    "overview": {
+      "description": "Bacterial Spot is the most severe and common foliar disease of bell peppers worldwide. It causes massive leaf spotting, yellowing, and severe defoliation, leaving the fruit exposed to intense sunscald. It also causes unmarketable scabs on the fruit itself.",
+      "importance": "Critical. Heavy defoliation early in the season completely halts fruit development. The disease spreads explosively during warm, rainy weather.",
+      "affected_parts": [
+        "Leaves",
+        "Fruit",
+        "Stems"
+      ],
+      "host_plants": [
+        "Bell Pepper",
+        "Hot Peppers",
+        "Tomato"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Small, yellow-green, water-soaked spots appear on the undersides of lower leaves.",
+        "Spots quickly turn dark brown or black, becoming slightly raised."
+      ],
+      "moderate": [
+        "Spots remain small (about 1/8 inch) but multiply rapidly, often surrounded by a narrow yellow halo.",
+        "Heavily spotted leaves turn completely yellow and drop from the plant.",
+        "Small, blister-like raised spots appear on the green fruit."
+      ],
+      "severe": [
+        "Massive, rapid defoliation of the lower and middle canopy (plants may look like bare sticks).",
+        "Exposed fruit suffers severe white, blistering sunscald.",
+        "Fruit spots become large, brown, scabby, and cracked, rendering them unmarketable."
+      ],
+      "leaf": [
+        "Small, dark brown/black angular spots with yellow halos; severe yellowing and dropping."
+      ],
+      "stem": [
+        "Narrow, elongated, dark brown cankers on stems (less common)."
+      ],
+      "fruit": [
+        "Raised, brown, corky, scab-like lesions that do not rot the flesh but ruin the appearance."
+      ],
+      "flower": [
+        "Blossoms can be infected and drop prematurely."
+      ],
+      "root": []
+    },
+    "causes": {
+      "primary_cause": "Bacteria splashing from infected soil/debris or contaminated seeds onto leaves during rain.",
+      "pathogen": "Xanthomonas euvesicatoria",
+      "survival_mechanism": "Survives in infected crop debris in the soil (for up to 1 year), on volunteer pepper/tomato plants, and inside contaminated seeds.",
+      "infection_process": "During rain, bacteria splash from the soil onto the lower leaves. They enter the plant through natural openings (stomata) or tiny wounds caused by wind-blown sand or insects."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Primary infection from seed or soil debris during spring rains.",
+        "Bacteria multiply inside leaf spots.",
+        "Secondary spread: Every rainstorm or overhead irrigation event splashes millions of bacteria to new leaves and neighboring plants."
+      ],
+      "spread_cycle": "Explosively polycyclic. Disease incidence can go from 5% to 100% of a field within a week of a heavy storm."
+    },
+    "transmission": {
+      "methods": [
+        "Rain splash",
+        "Wind-driven rain",
+        "Contaminated equipment or hands brushing wet plants"
+      ],
+      "vectors": [],
+      "common_sources": [
+        "Contaminated seed",
+        "Infected crop residue from the previous year"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "High",
+      "rainfall": "Extreme",
+      "poor_airflow": "Medium",
+      "overhead_irrigation": "Extreme",
+      "contaminated_seed": "Extreme"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "24°C - 30°C (75°F - 86°F)",
+        "notes": "Hot, humid weather accelerates bacterial division immensely."
+      },
+      "humidity": {
+        "optimal_range": "85% - 100%",
+        "notes": "Moisture is absolutely required for the bacteria to ooze and spread."
+      },
+      "rainfall": "The ultimate driver of the epidemic. Driving rain forces bacteria into the leaf pores.",
+      "wind": "Creates micro-wounds (especially if blowing sand) and blows rain across the field.",
+      "soil_conditions": "Not applicable, though splashing soil carries the initial inoculum.",
+      "leaf_wetness": "Requires wet foliage to spread and enter the plant."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 20,
+        "max": 35
+      },
+      "humidity": {
+        "min": 85,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 2
+    },
+    "weather_influence": {
+      "high_humidity": "Keeps leaves wet longer, facilitating bacterial entry.",
+      "rain": "The dispersal mechanism. Storms guarantee an outbreak if the pathogen is present.",
+      "high_temperature": "Speeds up leaf yellowing and defoliation.",
+      "low_temperature": "Slows the disease.",
+      "wind": "Pushes bacteria through the stomata. Windbreaks help immensely.",
+      "dry_conditions": "Halts the spread. Bacteria die quickly in dry, sunny environments."
+    },
+    "severity_levels": {
+      "low": "A few dark spots on lower leaves. Manageable with preventative copper.",
+      "medium": "Spots moving to middle canopy; some yellowing. Immediate tank-mix spraying required.",
+      "high": "Significant lower defoliation. Fruit showing scabs. Yield loss occurring.",
+      "critical": "Near-total defoliation. Fruit suffering massive sunscald. Harvest ruined."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "If rain is forecasted, apply a Copper + Mancozeb tank mix immediately. Copper alone is often ineffective due to widespread bacterial resistance."
+      ],
+      "within_24_hours": [
+        "Cease all overhead irrigation immediately. Switch to drip irrigation if possible."
+      ],
+      "within_one_week": [
+        "Do not enter the field to tie, weed, or harvest when the plants are wet. You will spread the bacteria physically on your clothes."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Copper Hydroxide + Mancozeb (Tank mixing these two forces a chemical reaction that makes the copper much more lethal to the bacteria, overcoming copper-resistance).",
+        "Actigard (Acibenzolar-S-methyl) (Systemic Acquired Resistance inducer. Acts like a vaccine to turn on the plant's immune system)."
+      ],
+      "biological": [
+        "Bacillus subtilis offers very low control under epidemic conditions."
+      ],
+      "organic": [
+        "Organic Copper formulations (but resistance is highly likely without Mancozeb)."
+      ],
+      "integrated_management": [
+        "Use certified disease-free seed, plant resistant varieties, and apply preventative Copper/Mancozeb before every rainstorm."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Deep plow crop residue immediately after harvest to speed decomposition.",
+        "Sanitize all seedling trays and greenhouse benches before starting seeds."
+      ],
+      "irrigation": [
+        "Use drip irrigation. Overhead sprinklers act exactly like rain storms to the bacteria."
+      ],
+      "crop_rotation": [
+        "Rotate out of peppers and tomatoes for at least 1-2 full years."
+      ],
+      "air_circulation": [
+        "Stake and tie peppers to keep them upright and improve drying."
+      ],
+      "resistant_varieties": [
+        "CRITICAL. Plant varieties with multiple resistance genes (X10R varieties like 'Playmaker', 'Turnpike', or 'Ninja')."
+      ],
+      "seasonal_practices": [
+        "Hot water treat seeds (50°C for 25 mins) before planting to kill bacteria inside the seed coat."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Avoid excessive nitrogen, which pushes soft, highly susceptible leafy growth.",
+      "phosphorus": "Standard.",
+      "potassium": "Standard.",
+      "calcium": "Standard.",
+      "magnesium": "Standard.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Rain splashes bacteria to lower leaves.",
+        "Leaves get spotted, turn yellow, and drop.",
+        "Disease races up the plant during storms.",
+        "Plant defoliates; fruit gets sunscald and scabs."
+      ],
+      "treated": [
+        "Resistant varieties block infection.",
+        "Actigard + Copper shields the foliage.",
+        "Leaves remain attached, protecting clean fruit from the sun."
+      ]
+    },
+    "recovery_indicators": [
+      "No new dark spots appear on the uppermost new leaves.",
+      "Lower leaves stop turning yellow and dropping.",
+      "Fruit develops a smooth, clean skin without raised scabs."
+    ],
+    "recovery": {
+      "estimated_days": "N/A (Preventative Only)",
+      "success_rate": "Low once established; High if prevented",
+      "depends_on": [
+        "Tank-Mix Sprays",
+        "Dry Weather",
+        "Resistant Genetics"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Easily 50-100% due to a combination of fruit scabs and severe sunscald from canopy loss.",
+      "quality_loss": "Scabbed fruit is completely rejected from the fresh market.",
+      "financial_impact": "Total crop failure in wet years if susceptible varieties are planted."
+    },
+    "monitoring": {
+      "inspection_frequency": "Twice weekly, starting when seedlings are in the greenhouse. Check the lowest, oldest leaves first.",
+      "warning_signs": [
+        "Frequent heavy thunderstorms.",
+        "Working in the field while plants are wet with dew."
+      ],
+      "recovery_signs": [
+        "A shift to hot, dry weather without rain."
+      ]
+    },
+    "faq": [
+      {
+        "question": "Can I eat a pepper with Bacterial Spot scabs?",
+        "answer": "Yes, the bacteria do not harm humans and the rot doesn't usually penetrate deep into the flesh. However, the scabs are ugly and the pepper won't last long on the counter."
+      },
+      {
+        "question": "I sprayed Copper but the spots are still spreading. Why?",
+        "answer": "The Xanthomonas bacteria have developed widespread resistance to Copper. You must tank-mix the Copper with Mancozeb to break that resistance, or the Copper will be useless."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "Bacterial Spot is actually a group of several different species of Xanthomonas, and there are 11 different 'races' of the pathogen. This is why a pepper variety resistant to Race 1-3 might still get sick if Race 4 or 10 is in your field."
+      ],
+      "similar_diseases": [
+        "Cercospora Leaf Spot (Frogeye)",
+        "Phytophthora Blight"
+      ],
+      "differential_diagnosis": [
+        "Cercospora spots are large, circular, and have a distinct light-gray center with a dark border ('frogeye'). Bacterial Spot lesions are small, angular, dark all the way through, and cause much more severe yellowing."
+      ]
+    },
+    "ai_context": {
+      "summary": "Bacterial Spot is a highly destructive, rain-driven bacterial disease of peppers causing dark leaf spots, severe defoliation, and fruit scabs. Bacteria are highly resistant to Copper alone.",
+      "key_points": [
+        "Driven by rain/overhead irrigation.",
+        "Causes massive defoliation, leading to sunscald on fruit.",
+        "Fruit develops raised scabs.",
+        "Copper MUST be mixed with Mancozeb to work."
+      ],
+      "high_priority_actions": [
+        "Advise mixing Mancozeb with Copper.",
+        "Demand user stops overhead watering.",
+        "Warn against touching wet plants."
+      ],
+      "weather_considerations": [
+        "Extreme Alert: Heavy rain/thunderstorms with temps >24°C."
+      ],
+      "common_mistakes": [
+        "Spraying Copper alone.",
+        "Walking through the field while plants are wet.",
+        "Planting susceptible varieties in wet climates."
+      ],
+      "follow_up_recommendations": [
+        "Ask if the fruit has raised scabs or just sunscald (white bleached patches).",
+        "Suggest planting X10R (10-race resistant) varieties next season."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user that the small dark spots causing their pepper leaves to turn yellow and drop off are {disease_name}. Warn them that the biggest threat is actually {symptoms.severe} (sunscald) once the leaves fall.",
+      "weather_analysis": "The driving rains recently ({rainfall_data}) caused the bacteria to splash and spread. Emphasize that {disease_name} will explode if the wet weather continues.",
+      "treatment_plan": "Create a strict action plan. Inform them that {treatment.chemical} (mixing Copper with Mancozeb) is absolutely necessary because the bacteria are likely resistant to plain Copper. Emphasize stopping {risk_factors.overhead_irrigation}.",
+      "followup": "Ask the user to check the green peppers. Do they have raised, corky, brown scabs on them? (This confirms Bacterial Spot vs a fungal leaf spot)."
+    },
+    "references": [
+      "University of Florida IFAS: Bacterial Spot of Pepper",
+      "Penn State Extension: Pepper Diseases"
+    ],
+    "model_mapping": {
+      "cnn_class": "Pepper___Bacterial_Spot",
+      "aliases": [
+        "Pepper Bacterial Spot",
+        "Pepper Bacterial Spot Pepper"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Advanced"
+    },
+    "disease_id": "PEPPER_002",
+    "disease_name": "Phytophthora_Blight_Pepper",
+    "common_name": "Phytophthora Blight (Crown Rot)",
+    "scientific_name": "Phytophthora capsici",
+    "crop": "Pepper",
+    "disease_type": "Fungal",
+    "pathogen_type": "Oomycete",
+    "overview": {
+      "description": "Phytophthora Blight is one of the most destructive diseases of bell peppers. It is a soil-borne 'water mold' that causes devastating crown rot, rapidly killing the plant. It also causes severe white mold on the fruit.",
+      "importance": "Critical. Phytophthora can wipe out an entire pepper field in a matter of days following a heavy rain or flooding event. Once a plant wilts from crown rot, it cannot be saved.",
+      "affected_parts": [
+        "Crown (Stem base)",
+        "Roots",
+        "Leaves",
+        "Fruit"
+      ],
+      "host_plants": [
+        "Pepper",
+        "Tomato",
+        "Eggplant",
+        "Squash",
+        "Cucumber",
+        "Pumpkin"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "A dark, water-soaked, black or brown lesion appears on the main stem right at the soil line (crown rot).",
+        "The plant may wilt during the heat of the day but recover at night."
+      ],
+      "moderate": [
+        "The black lesion girdles the stem completely.",
+        "The plant suffers 'sudden permanent wilt'—the leaves wilt and droop entirely, but they DO NOT turn yellow first. They remain green while wilting."
+      ],
+      "severe": [
+        "The entire plant collapses, turns brown, and dies within 3-4 days.",
+        "Fruit touching the ground or splashed by rain develops dark water-soaked spots, quickly covered by a thick, white, powdered-sugar-like mold.",
+        "Roots are completely rotted, turning soft and dark brown."
+      ],
+      "leaf": [
+        "Wilt completely while still green. No specific spotting unless splashed by rain (causing large circular lesions)."
+      ],
+      "stem": [
+        "Distinct black/dark brown rotting lesion at the soil line (Crown Rot)."
+      ],
+      "fruit": [
+        "Rapid rotting, turning dark green/brown, covered in a highly distinct white fungal fuzz."
+      ],
+      "flower": [
+        "Not directly affected, but wilt with the plant."
+      ],
+      "root": [
+        "Feeder roots and taproot rot, turning brown and mushy."
+      ]
+    },
+    "causes": {
+      "primary_cause": "Swimming zoospores in saturated, flooded soils infecting the crown and roots of the pepper plant.",
+      "pathogen": "Phytophthora capsici",
+      "survival_mechanism": "Survives for over 10 years in the soil as thick-walled resting spores (oospores).",
+      "infection_process": "When soil becomes saturated with water (standing puddles), resting spores release zoospores with tails. These zoospores literally swim through the water, attracted by chemicals released by the pepper roots. They infect the crown and rot it rapidly."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Oospores rest in soil for years.",
+        "Flooding triggers swimming zoospore release.",
+        "Zoospores infect the crown (soil line) or roots.",
+        "Plant wilts and dies.",
+        "Rain splash moves spores from soil to fruit, producing white mold and millions of new spores."
+      ],
+      "spread_cycle": "Polycyclic. Spreads incredibly fast down rows via irrigation runoff or flowing rain water."
+    },
+    "transmission": {
+      "methods": [
+        "Flowing surface water",
+        "Rain splash",
+        "Contaminated soil on boots/tractors"
+      ],
+      "vectors": [],
+      "common_sources": [
+        "Low-lying, poorly drained areas of the field",
+        "Contaminated irrigation ponds"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "Medium",
+      "rainfall": "Extreme (Flooding)",
+      "poor_airflow": "Low",
+      "poor_drainage": "Extreme",
+      "flat_planting": "Extreme (Not using raised beds)"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "24°C - 30°C (75°F - 86°F)",
+        "notes": "Loves hot summer weather combined with flooded soils."
+      },
+      "humidity": {
+        "optimal_range": "Variable",
+        "notes": "Soil moisture is the critical factor, not air humidity."
+      },
+      "rainfall": "Heavy, torrential rains that create standing puddles are the absolute trigger.",
+      "wind": "Not a major factor, except for blowing splashing rain.",
+      "soil_conditions": "Heavy clay soils or compacted soils that do not drain are extremely high risk.",
+      "leaf_wetness": "Fruit wetness is required for fruit rot, but root rot only requires wet soil."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 15,
+        "max": 35
+      },
+      "humidity": {
+        "min": 0,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 0
+    },
+    "weather_influence": {
+      "high_humidity": "Promotes the white mold on infected fruit.",
+      "rain": "Floods the soil, allowing zoospores to swim. Splashes spores onto fruit.",
+      "high_temperature": "Accelerates the death of the plant; wilting happens in hours under a hot sun.",
+      "low_temperature": "Slows disease.",
+      "wind": "No effect.",
+      "dry_conditions": "The ultimate defense. Phytophthora CANNOT move or infect without standing/saturated water."
+    },
+    "severity_levels": {
+      "low": "A few plants wilting in the lowest spot of the field. Isolate the area.",
+      "medium": "Wilting spreading down the row via irrigation water. Aggressive systemic fungicide needed.",
+      "high": "Widespread sudden wilt across the field. White mold on fruit. Major yield loss.",
+      "critical": "Field is wiped out following a hurricane or massive flood. Total crop loss."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "Rogue (pull up) and bag any wilting plants IMMEDIATELY. Do not throw them on the ground; remove them from the field to reduce spore load."
+      ],
+      "within_24_hours": [
+        "Stop irrigation to the affected zone to dry the soil out. Zoospores cannot swim in dry soil."
+      ],
+      "within_one_week": [
+        "Apply a systemic soil drench fungicide through the drip tape to protect the remaining healthy plants."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Mefenoxam (Ridomil Gold) (Highly effective systemic applied via drip irrigation, though resistance is emerging).",
+        "Oxathiapiprolin (Orondis) (Extremely effective modern chemistry).",
+        "Phosphites / Phosphorous Acid (Excellent preventative foliar spray or drench to boost plant immunity)."
+      ],
+      "biological": [
+        "Trichoderma or Bacillus soil inoculants can help suppress the pathogen in organic systems if applied before infection."
+      ],
+      "organic": [
+        "Copper sprays can protect fruit from splash, but will NOT cure crown/root rot.",
+        "Strictly reliant on extreme cultural management (raised beds, drainage)."
+      ],
+      "integrated_management": [
+        "Plant on high, dome-shaped raised beds covered in plastic mulch to ensure water instantly drains away from the crown of the pepper plant."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Power-wash tractors and boots after leaving an infected field. Do not move dirt to clean fields."
+      ],
+      "irrigation": [
+        "NEVER use surface/furrow irrigation if Phytophthora is present. Use drip irrigation only."
+      ],
+      "crop_rotation": [
+        "Rotate away from peppers, tomatoes, and cucurbits for at least 3 to 4 years. Plant corn or brassicas."
+      ],
+      "air_circulation": [
+        "Not applicable."
+      ],
+      "resistant_varieties": [
+        "Some varieties (e.g., 'Paladin', 'Aristotle') have strong tolerance to the crown rot phase, but their fruit can still rot."
+      ],
+      "seasonal_practices": [
+        "Always plant peppers on raised beds (at least 6-8 inches high) to keep the roots above the flood line."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Avoid excess nitrogen.",
+      "phosphorus": "Phosphite applications are critical for defense.",
+      "potassium": "Standard.",
+      "calcium": "High calcium levels in the soil can reduce zoospore motility.",
+      "magnesium": "Standard.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Heavy rain floods the field.",
+        "Zoospores swim to the pepper stem.",
+        "Black lesion forms at soil line.",
+        "Plant wilts entirely while still green, dying in 3 days.",
+        "Fruit turns white with mold."
+      ],
+      "treated": [
+        "Raised beds keep the crown dry during rain.",
+        "Systemic drip-fungicides protect the roots.",
+        "Plants survive and yield normally."
+      ]
+    },
+    "recovery_indicators": [
+      "Once a pepper plant wilts from Phytophthora crown rot, IT WILL NOT RECOVER. Treatment is entirely focused on saving the neighboring healthy plants."
+    ],
+    "recovery": {
+      "estimated_days": "N/A (Fatal)",
+      "success_rate": "Zero (for infected plant), High (for protecting neighbors)",
+      "depends_on": [
+        "Drying the Soil",
+        "Systemic Fungicides",
+        "Pulling Sick Plants"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Commonly 50-100% in flooded fields.",
+      "quality_loss": "Fruit is a total loss (rotted and covered in white mold).",
+      "financial_impact": "Devastating. Can force farmers to abandon certain fields for pepper/tomato production for over a decade due to long-lasting soil spores."
+    },
+    "monitoring": {
+      "inspection_frequency": "Daily following heavy rainstorms or irrigation leaks.",
+      "warning_signs": [
+        "Standing water in the field.",
+        "A single plant suddenly wilting while all others look fine."
+      ],
+      "recovery_signs": [
+        "Soil drying out completely."
+      ]
+    },
+    "faq": [
+      {
+        "question": "My pepper plant wilted overnight, but the leaves are still perfectly green. Does it need water?",
+        "answer": "NO! This is a classic sign of Phytophthora Crown Rot. The soil was likely too wet, rotting the base of the stem. Adding more water will only spread the disease to the next plant."
+      },
+      {
+        "question": "Can I spray something on the leaves to save the wilting plant?",
+        "answer": "Once the plant wilts, the main stem has been completely destroyed at the soil line. No spray can fix that. Pull the plant up to save the others."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "Phytophthora literally translates to 'Plant Destroyer'. It is an oomycete, meaning it is more closely related to brown algae/kelp than to actual mushrooms or true fungi. This is why it has swimming spores."
+      ],
+      "similar_diseases": [
+        "Bacterial Wilt",
+        "Fusarium/Verticillium Wilt",
+        "Southern Blight"
+      ],
+      "differential_diagnosis": [
+        "Fusarium wilt usually causes the plant to turn yellow on one side first. Phytophthora causes sudden wilt while the plant is totally green, accompanied by a distinct black, rotten ring at the soil line."
+      ]
+    },
+    "ai_context": {
+      "summary": "Phytophthora Blight is a fatal, soil-borne water mold causing sudden green wilt and black crown rot in peppers. Driven entirely by standing water and saturated soils.",
+      "key_points": [
+        "Causes sudden wilt while leaves remain green.",
+        "Black lesion at the soil line.",
+        "Requires standing water for spores to swim.",
+        "Infected plants cannot be cured; protect the neighbors."
+      ],
+      "high_priority_actions": [
+        "Demand user stops watering immediately.",
+        "Instruct user to pull and bag the wilting plant.",
+        "Advise applying Ridomil or Phosphites to healthy plants via drip."
+      ],
+      "weather_considerations": [
+        "Extreme Alert: Heavy, flooding rain causing standing water in the field."
+      ],
+      "common_mistakes": [
+        "Thinking the wilted plant needs MORE water.",
+        "Planting peppers on flat ground instead of raised beds.",
+        "Leaving the dead plant in the field."
+      ],
+      "follow_up_recommendations": [
+        "Ask if there is a black, mushy spot at the base of the stem near the dirt.",
+        "Suggest raised beds for next season."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user that a pepper plant wilting suddenly while the leaves are still green is the hallmark of {disease_name}. Emphasize that this is caused by TOO MUCH water, not a lack of it.",
+      "weather_analysis": "Note that the recent heavy rains or flooding created the perfect swimming pool for the {disease_type} spores. Warn them that the disease is actively moving through the wet soil.",
+      "treatment_plan": "Deliver the harsh truth: the wilted plant is dead and cannot be saved with {treatment.chemical}. Instruct them to pull the sick plant immediately, dry out the soil, and apply a systemic drench to protect the neighbors.",
+      "followup": "Ask the user to look right at the soil line of the wilted plant. Is the stem black, dark brown, or mushy at the base? (This confirms Crown Rot)."
+    },
+    "references": [
+      "Cornell University: Phytophthora Blight of Cucurbits and Peppers",
+      "Michigan State University Extension: Phytophthora capsici on Peppers"
+    ],
+    "model_mapping": {
+      "cnn_class": "Pepper___Phytophthora_Blight_Crown_Rot",
+      "aliases": [
+        "Pepper Phytophthora Blight (Crown Rot)",
+        "Pepper Phytophthora Blight Pepper"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Intermediate"
+    },
+    "disease_id": "PEPPER_003",
+    "disease_name": "Anthracnose_Pepper",
+    "common_name": "Anthracnose",
+    "scientific_name": "Colletotrichum scovillei, C. truncatum, C. gloeosporioides",
+    "crop": "Pepper",
+    "disease_type": "Fungal",
+    "pathogen_type": "Fungus",
+    "overview": {
+      "description": "Anthracnose is a devastating fungal fruit rot of peppers. It primarily attacks mature or ripening fruit, causing massive, sunken, circular lesions filled with pink/orange spore masses, rendering the fruit entirely unmarketable.",
+      "importance": "High. Because it strikes right at harvest time when the fruit is most valuable, Anthracnose can cause severe economic losses, destroying up to 100% of the marketable yield in warm, wet weather.",
+      "affected_parts": [
+        "Fruit (Primarily)",
+        "Leaves (Rarely)",
+        "Stems (Rarely)"
+      ],
+      "host_plants": [
+        "Bell Pepper",
+        "Hot Peppers",
+        "Tomato",
+        "Strawberry",
+        "Papaya"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Small, circular, slightly sunken, water-soaked spots appear on the fruit (most often as it begins to change color from green to red/yellow)."
+      ],
+      "moderate": [
+        "Spots rapidly expand into large (up to 1 inch), deeply sunken, circular bowl-shaped lesions.",
+        "The center of the lesion turns tan or black.",
+        "Concentric rings form within the sunken lesion."
+      ],
+      "severe": [
+        "In wet/humid weather, gelatinous masses of salmon, pink, or bright orange spores ooze from the concentric rings in the lesion.",
+        "Multiple lesions merge, rotting the entire pepper.",
+        "Secondary bacteria invade the lesions, turning the fruit into a smelly, mushy mess."
+      ],
+      "leaf": [
+        "Small, irregular gray-brown spots with dark margins (often asymptomatic or very minor compared to fruit)."
+      ],
+      "stem": [
+        "Rarely affected."
+      ],
+      "fruit": [
+        "Deeply sunken, circular, water-soaked lesions featuring concentric rings of pink/orange/salmon-colored spores."
+      ],
+      "flower": [
+        "Not directly affected."
+      ],
+      "root": []
+    },
+    "causes": {
+      "primary_cause": "Fungal spores splashing from crop debris, infected seeds, or weeds onto developing fruit.",
+      "pathogen": "Colletotrichum species",
+      "survival_mechanism": "Overwinters in infected plant debris left in the soil, on alternative weed hosts, or inside/on contaminated pepper seeds.",
+      "infection_process": "Spores land on the fruit. If the fruit remains wet for long periods, the spore germinates and uses a specialized 'peg' to physically punch through the tough skin of the pepper. Infection can happen on green fruit, but the fungus stays dormant until the fruit ripens, at which point the rot explodes."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Primary inoculum comes from seeds or soil debris.",
+        "Rain splashes spores onto young fruit (latent infection).",
+        "Fruit ripens, triggering the fungus to actively rot the tissue.",
+        "Lesions produce massive pink spore masses.",
+        "Rain splashes pink spores to healthy fruit, causing an epidemic."
+      ],
+      "spread_cycle": "Polycyclic. Spreads rapidly from fruit to fruit during late-summer rainstorms."
+    },
+    "transmission": {
+      "methods": [
+        "Rain splash",
+        "Overhead irrigation",
+        "Contaminated hands/tools during harvest"
+      ],
+      "vectors": [],
+      "common_sources": [
+        "Contaminated seed",
+        "Overripe rotting fruit left on the plant",
+        "Old crop residue"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "High",
+      "rainfall": "High",
+      "poor_airflow": "Medium",
+      "overhead_irrigation": "Extreme",
+      "delayed_harvest": "Extreme"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "20°C - 30°C (68°F - 86°F)",
+        "notes": "Prefers warm to hot weather. Temperatures around 80°F are ideal for explosive rot."
+      },
+      "humidity": {
+        "optimal_range": "90% - 100%",
+        "notes": "High humidity is required for the production of the pink/orange spore masses."
+      },
+      "rainfall": "Frequent rain is the main driver. Spores are sticky and require physical water splash to move from plant to plant.",
+      "wind": "Wind-driven rain spreads the disease across the field.",
+      "soil_conditions": "Not applicable.",
+      "leaf_wetness": "Requires long periods of fruit wetness for the spore to penetrate the tough pepper skin."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 15,
+        "max": 35
+      },
+      "humidity": {
+        "min": 85,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 8
+    },
+    "weather_influence": {
+      "high_humidity": "Triggers the fungus to ooze millions of pink spores out of the lesions.",
+      "rain": "Splashes the sticky spores to new fruit. Crucial for epidemic spread.",
+      "high_temperature": "Accelerates the rotting process. A healthy-looking pepper can rot in 2 days at 85°F.",
+      "low_temperature": "Slows disease progression.",
+      "wind": "Dries the canopy, reducing infection time.",
+      "dry_conditions": "Halts spread. Spores cannot germinate without liquid water."
+    },
+    "severity_levels": {
+      "low": "A few sunken spots on overripe fruit. Manageable with prompt harvesting.",
+      "medium": "Spots appearing on newly ripening fruit. Immediate fungicide application needed to save the rest of the crop.",
+      "high": "Widespread fruit rot. Pink spore masses clearly visible.",
+      "critical": "Complete loss of marketable fruit. Peppers rotting before reaching mature color."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "Physically remove all spotted and rotting fruit from the field immediately. Do not drop them on the ground; they will continue to produce spores."
+      ],
+      "within_24_hours": [
+        "If rain is forecasted, apply a protectant/systemic fungicide mix to shield the remaining healthy green fruit."
+      ],
+      "within_one_week": [
+        "Harvest all mature fruit promptly. The longer fruit sits on the plant, the more susceptible it is to Anthracnose."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Azoxystrobin, Pyraclostrobin (Strobilurins - Highly effective, but rotate to avoid resistance).",
+        "Chlorothalonil, Mancozeb (Excellent broad-spectrum protectants).",
+        "Difenoconazole, Tebuconazole (Triazoles - Good systemic control)."
+      ],
+      "biological": [
+        "Bacillus subtilis can offer mild preventative suppression under low pressure."
+      ],
+      "organic": [
+        "Copper sprays (Marginal effectiveness against severe Anthracnose).",
+        "Strict sanitation and prompt harvesting."
+      ],
+      "integrated_management": [
+        "Apply preventative fungicides (Chlorothalonil or Strobilurins) starting at the first fruit set, well before symptoms appear on ripe fruit."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Remove and destroy all rotting fruit. Plow under crop debris immediately after the final harvest."
+      ],
+      "irrigation": [
+        "Use drip irrigation. Overhead watering guarantees the spread of Anthracnose."
+      ],
+      "crop_rotation": [
+        "Rotate away from Solanaceous crops (peppers, tomatoes, eggplants) and strawberries for 2-3 years."
+      ],
+      "air_circulation": [
+        "Space plants properly and control weeds to allow fruit to dry rapidly after rain."
+      ],
+      "resistant_varieties": [
+        "No highly resistant bell pepper varieties exist, though some hot peppers (like Habanero) show tolerance."
+      ],
+      "seasonal_practices": [
+        "Use certified, pathogen-free seed, or treat seeds with hot water prior to planting."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Avoid excess nitrogen, which creates a dense, humid canopy that delays fruit drying.",
+      "phosphorus": "Standard.",
+      "potassium": "Adequate potassium improves fruit skin thickness, making penetration harder for the fungus.",
+      "calcium": "Strong cell walls from adequate calcium help delay rot.",
+      "magnesium": "Standard.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Latent infection occurs on green fruit.",
+        "Fruit begins to turn red/yellow.",
+        "Sunken circular lesions erupt rapidly.",
+        "Pink spores ooze out, splashing to green fruit.",
+        "Entire crop rots on the plant."
+      ],
+      "treated": [
+        "Preventative sprays shield green fruit from initial infection.",
+        "Prompt harvesting removes mature fruit before rot sets in.",
+        "Fruit reaches the market clean and firm."
+      ]
+    },
+    "recovery_indicators": [
+      "Remaining green fruit ripens to full color without developing sunken spots.",
+      "No pink/orange spore masses are found in the field."
+    ],
+    "recovery": {
+      "estimated_days": "N/A (Preventative Only)",
+      "success_rate": "High (if sprayed early), Low (once erupting)",
+      "depends_on": [
+        "Fungicide Timing",
+        "Removing Rotten Fruit",
+        "Harvest Promptness"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Easily 30-100% in warm, wet harvest seasons.",
+      "quality_loss": "A single Anthracnose lesion makes the entire pepper unmarketable for both fresh and processing markets.",
+      "financial_impact": "Devastating late-season loss, destroying the value of the crop after all input costs have been spent."
+    },
+    "monitoring": {
+      "inspection_frequency": "Weekly as fruit begins to size up. Daily once fruit begins to change color to red/yellow.",
+      "warning_signs": [
+        "Frequent rain showers during the harvest period.",
+        "Leaving overripe fruit on the plant."
+      ],
+      "recovery_signs": [
+        "Return of dry weather."
+      ]
+    },
+    "faq": [
+      {
+        "question": "Can I just cut the bad spot out of the pepper?",
+        "answer": "You can, but Anthracnose penetrates deep into the flesh, and secondary bacteria often follow it, making the inside mushy and foul-tasting. It's usually best to discard the pepper."
+      },
+      {
+        "question": "Why do the spots only show up when the peppers turn red?",
+        "answer": "The fungus likely infected the pepper when it was green, but it 'sleeps' (latent infection) because green peppers have chemical defenses. When the pepper ripens, the defenses drop, sugars increase, and the fungus wakes up to rot the fruit."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "The pink/salmon-colored oozing masses in the lesions are actually millions of spores suspended in a gelatinous matrix. This gel protects them from drying out, but requires physical water splash to dissolve and spread them."
+      ],
+      "similar_diseases": [
+        "Blossom End Rot (Abiotic)",
+        "Sunscald"
+      ],
+      "differential_diagnosis": [
+        "Blossom End Rot is ALWAYS at the very bottom tip of the pepper, is leathery/black, and lacks pink spores. Anthracnose can happen anywhere on the fruit, is sunken/circular, and has concentric rings of pink/orange spores. Sunscald is a white, papery blister on the sun-exposed side."
+      ]
+    },
+    "ai_context": {
+      "summary": "Anthracnose is a highly destructive fungal fruit rot of peppers, causing deeply sunken, circular lesions with pink/orange spore masses, primarily erupting as the fruit ripens.",
+      "key_points": [
+        "Targets ripening/mature fruit.",
+        "Causes deeply sunken circular spots.",
+        "Produces distinctive pink/salmon/orange spores.",
+        "Must be prevented early; cannot be cured once spots appear."
+      ],
+      "high_priority_actions": [
+        "Demand user physically removes all rotting fruit from the field.",
+        "Advise immediate application of Azoxystrobin or Chlorothalonil if rain is forecasted.",
+        "Instruct user to harvest promptly."
+      ],
+      "weather_considerations": [
+        "Extreme Alert: Frequent rain showers and warm temps (20-30°C) during the ripening/harvest window."
+      ],
+      "common_mistakes": [
+        "Dropping rotten peppers on the ground (leaves spores in the field).",
+        "Waiting until fruit is red to start spraying fungicides.",
+        "Overhead watering during harvest."
+      ],
+      "follow_up_recommendations": [
+        "Ask if the sunken spots have pink, salmon, or orange powder inside them.",
+        "Remind user to rotate crops next year."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user that deeply sunken, circular spots on ripening peppers are a classic sign of {disease_name}. Emphasize that the {symptoms.fruit} (specifically the pink/orange spores) confirm it is a fungus, not a watering issue.",
+      "weather_analysis": "Note that the warm, rainy weather ({rainfall_data}) has triggered the fungus to 'wake up' and rot the ripening fruit. Warn them that rain will splash the sticky pink spores to healthy fruit.",
+      "treatment_plan": "Develop a salvage plan. Instruct them to physically remove all spotted fruit from the field immediately. Advise a protective spray of {treatment.chemical} to shield the remaining green fruit, and stress the importance of {prevention.farm_hygiene}.",
+      "followup": "Ask the user where the spots are located. Are they strictly on the very bottom tip of the pepper (likely Blossom End Rot), or are they on the sides of the pepper with circular, pinkish rings inside the crater (Anthracnose)?"
+    },
+    "references": [
+      "University of Florida IFAS: Anthracnose on Pepper",
+      "Ohio State University Extension: Pepper Anthracnose"
+    ],
+    "model_mapping": {
+      "cnn_class": "Pepper___Anthracnose",
+      "aliases": [
+        "Pepper Anthracnose",
+        "Pepper Anthracnose Pepper"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Beginner"
+    },
+    "disease_id": "PEPPER_004",
+    "disease_name": "Blossom_End_Rot_Pepper",
+    "common_name": "Blossom End Rot (BER)",
+    "scientific_name": "Abiotic (Physiological Disorder)",
+    "crop": "Pepper",
+    "disease_type": "Physiological",
+    "pathogen_type": "Fungus",
+    "overview": {
+      "description": "Blossom End Rot is NOT a disease caused by a fungus or bacteria. It is a physiological disorder caused by a localized lack of calcium in the rapidly expanding fruit. It creates large, flat, black, leathery patches at the bottom of the pepper.",
+      "importance": "High. It is the most common and frustrating issue for pepper and tomato growers. While it doesn't spread plant-to-plant, it can ruin a massive percentage of the first fruit harvest if watering is inconsistent.",
+      "affected_parts": [
+        "Fruit (Specifically the blossom end / bottom tip)"
+      ],
+      "host_plants": [
+        "Bell Pepper",
+        "Tomato",
+        "Eggplant",
+        "Squash",
+        "Watermelon"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "A small, light brown, water-soaked spot appears precisely at the blossom end (the bottom tip) of the developing green pepper."
+      ],
+      "moderate": [
+        "The spot rapidly expands, darkens, and sinks inward.",
+        "The tissue becomes dry, flat, leathery, and dark brown or black."
+      ],
+      "severe": [
+        "The leathery black patch covers the entire bottom third or half of the pepper.",
+        "Secondary fungi (like Alternaria) may grow on the dead black tissue, making it look fuzzy and black, confusing growers into thinking it's a fungal disease."
+      ],
+      "leaf": [
+        "Leaves appear perfectly healthy. There are no spots or wilting. This is a key diagnostic feature."
+      ],
+      "stem": [
+        "Stems remain perfectly healthy."
+      ],
+      "fruit": [
+        "Large, flat, leathery, dark brown/black patch STRICTLY at the bottom tip (blossom end) of the pepper."
+      ],
+      "flower": [
+        "Not affected."
+      ],
+      "root": [
+        "Roots may have suffered drought stress, but show no signs of rot or disease."
+      ]
+    },
+    "causes": {
+      "primary_cause": "A localized deficiency of calcium in the fruit tissue during its rapid expansion phase.",
+      "pathogen": "None.",
+      "survival_mechanism": "Not applicable.",
+      "infection_process": "Calcium is a sluggish nutrient. It only moves through the plant via the flow of water (transpiration). If the soil dries out, water stops flowing, and calcium stops moving. The rapidly growing tip of the fruit runs out of calcium to build cell walls, and the cells collapse and die, turning black."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Plant experiences rapid growth.",
+        "A period of drought stress occurs, stopping water/calcium flow.",
+        "Fruit tip cells collapse due to lack of calcium.",
+        "Watering resumes, but the dead tissue at the bottom of the fruit is permanent."
+      ],
+      "spread_cycle": "Does not spread from plant to plant. It only 'spreads' if the entire field experiences the same watering fluctuations."
+    },
+    "transmission": {
+      "methods": [
+        "Not contagious. Triggered entirely by environmental stress."
+      ],
+      "vectors": [
+        "None"
+      ],
+      "common_sources": [
+        "Inconsistent irrigation practices"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "Low (increases transpiration stress)",
+      "rainfall": "Fluctuating (Drought followed by heavy rain)",
+      "poor_airflow": "Low",
+      "inconsistent_watering": "Extreme",
+      "root_damage": "High",
+      "excessive_nitrogen": "High"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "Hot weather",
+        "notes": "Hot, dry, windy weather increases the plant's water demand, exacerbating the calcium shortage."
+      },
+      "humidity": {
+        "optimal_range": "Variable",
+        "notes": "Low humidity drives rapid transpiration, pulling water to the leaves instead of the fruit."
+      },
+      "rainfall": "A dry spell followed by a sudden, massive deluge of rain is the classic trigger for BER.",
+      "wind": "High winds dry out the soil and increase plant water demand.",
+      "soil_conditions": "Sandy soils that dry out quickly, or soils with a very low or very high pH (which locks up calcium).",
+      "leaf_wetness": "Not applicable."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 20,
+        "max": 40
+      },
+      "humidity": {
+        "min": 0,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 0
+    },
+    "weather_influence": {
+      "high_humidity": "Reduces transpiration stress.",
+      "rain": "Heavy rain after a drought causes rapid fruit swelling, outpacing calcium delivery and causing cell collapse.",
+      "high_temperature": "Massively increases water demand. If soil is dry, BER will trigger.",
+      "low_temperature": "Reduces risk.",
+      "wind": "Dries soil rapidly, increasing risk.",
+      "dry_conditions": "The primary trigger. Letting the soil dry out while peppers are forming guarantees Blossom End Rot."
+    },
+    "severity_levels": {
+      "low": "A few early peppers show black bottoms. Usually corrects itself as the root system grows deeper.",
+      "medium": "Many peppers on the first flush have BER. Irrigation adjustments are urgently needed.",
+      "high": "Nearly all fruit in the field is ruined due to chronic drought stress.",
+      "critical": "Complete crop loss due to total irrigation failure or severe root pruning during cultivation."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "Pick off and discard all peppers showing black bottoms. They will not recover, and removing them allows the plant to redirect calcium and energy to new, healthy peppers."
+      ],
+      "within_24_hours": [
+        "Deeply and thoroughly water the plants. Install a drip irrigation system with a timer to ensure consistent daily soil moisture."
+      ],
+      "within_one_week": [
+        "Apply an organic mulch (straw, leaves, woodchips) around the base of the plants to prevent the soil from drying out in the sun."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "FUNGICIDES DO NOT WORK. Do not spray copper or chemical fungicides; they will do absolutely nothing.",
+        "Foliar calcium sprays (Calcium Chloride) can offer a quick, minor fix, but are far less effective than fixing the watering schedule."
+      ],
+      "biological": [
+        "None applicable."
+      ],
+      "organic": [
+        "Mulching to retain soil moisture.",
+        "Adding crushed eggshells or gypsum to the soil (Note: This takes months to break down and will not fix the current crop's issue)."
+      ],
+      "integrated_management": [
+        "Maintain absolute consistency in soil moisture. Do not let the plants completely dry out and wilt before watering them heavily."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Not applicable."
+      ],
+      "irrigation": [
+        "CRITICAL: Use drip irrigation on a consistent schedule. The soil should feel like a wrung-out sponge—moist, but not flooded, at all times."
+      ],
+      "crop_rotation": [
+        "Not applicable."
+      ],
+      "air_circulation": [
+        "Not applicable."
+      ],
+      "resistant_varieties": [
+        "Elongated peppers (like Banana or Anaheim) are more susceptible to BER than round/blocky bell peppers."
+      ],
+      "seasonal_practices": [
+        "Avoid hoeing or deep cultivation near the base of the pepper plants, as slicing the shallow feeder roots stops water uptake and triggers BER immediately."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "CRITICAL: Do not over-fertilize with Nitrogen. Massive leafy growth pulls all the water/calcium to the leaves, stealing it from the fruit and causing BER.",
+      "phosphorus": "Standard.",
+      "potassium": "Excessive potassium or magnesium in the soil can chemically compete with calcium, locking it out of the plant.",
+      "calcium": "Ensure soil pH is between 6.0 and 6.8. If soil is calcium deficient, add lime or gypsum BEFORE the season starts.",
+      "magnesium": "Excess magnesium blocks calcium uptake.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Soil dries out during a hot week.",
+        "Calcium stops flowing to the fruit tip.",
+        "Cells collapse, turning black and leathery.",
+        "Fruit is ruined and often invaded by secondary black mold."
+      ],
+      "treated": [
+        "Consistent drip irrigation is established.",
+        "Mulch is applied to hold moisture.",
+        "New peppers form perfectly with clean, green bottoms."
+      ]
+    },
+    "recovery_indicators": [
+      "The next flush of newly formed baby peppers remains completely green and firm at the bottom tip.",
+      "Plants are no longer visibly wilting during the afternoon heat."
+    ],
+    "recovery": {
+      "estimated_days": "7-14 (for new healthy fruit to form)",
+      "success_rate": "High",
+      "depends_on": [
+        "Consistent Irrigation",
+        "Mulching",
+        "Removing Damaged Fruit"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Commonly 10-30% of the early harvest. Can be higher if watering is neglected.",
+      "quality_loss": "Affected fruit is completely unmarketable and usually inedible.",
+      "financial_impact": "Loss of the lucrative early-season fresh market sales."
+    },
+    "monitoring": {
+      "inspection_frequency": "Check the soil moisture daily. Check the bottom tips of the first flush of green peppers weekly.",
+      "warning_signs": [
+        "Allowing pepper plants to severely wilt from lack of water.",
+        "A massive application of nitrogen fertilizer.",
+        "Hoeing weeds too close to the stem."
+      ],
+      "recovery_signs": [
+        "Consistently moist soil under a layer of mulch."
+      ]
+    },
+    "faq": [
+      {
+        "question": "Will spraying a fungicide stop the black spots on the bottom of my peppers?",
+        "answer": "NO. Blossom End Rot is not a fungus. It is a calcium deficiency caused by uneven watering. Spraying chemicals is a complete waste of money. You just need to water more consistently."
+      },
+      {
+        "question": "I added Tums (calcium) and eggshells to the soil, but I'm still getting Blossom End Rot. Why?",
+        "answer": "There is usually plenty of calcium already in your soil! The problem is the plant can't drink it because the soil got too dry. Even if you add calcium, if there isn't consistent water to carry it up into the plant, the peppers will still rot."
+      },
+      {
+        "question": "Can I cut the black bottom off and eat the rest of the pepper?",
+        "answer": "Yes. Since it is not a bacterial or fungal infection, the rest of the pepper is perfectly safe to eat. Just slice off the leathery black part."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "Leaves transpire (sweat) much faster than fruit. When water is scarce, the plant acts defensively and routes all available water and calcium to the leaves to keep the plant alive, sacrificing the fruit in the process."
+      ],
+      "similar_diseases": [
+        "Anthracnose",
+        "Sunscald"
+      ],
+      "differential_diagnosis": [
+        "Anthracnose spots are sunken, circular, have pink/orange spores, and can happen ANYWHERE on the pepper. Sunscald is white and papery on the SUN-FACING side. Blossom End Rot is ALWAYS black, leathery, and EXACTLY on the bottom tip."
+      ]
+    },
+    "ai_context": {
+      "summary": "Blossom End Rot is an abiotic physiological disorder causing black, leathery patches at the bottom tip of peppers. It is caused by calcium deficiency driven entirely by inconsistent watering.",
+      "key_points": [
+        "Not a fungus or bacteria; fungicides do nothing.",
+        "Caused by uneven watering (dry spells).",
+        "Leaves appear perfectly healthy.",
+        "Requires consistent irrigation and mulching to fix."
+      ],
+      "high_priority_actions": [
+        "Demand user checks soil moisture and establishes a consistent watering routine.",
+        "Instruct user to stop using fungicides for this issue.",
+        "Advise picking off affected fruit immediately."
+      ],
+      "weather_considerations": [
+        "Alert: Hot, dry, windy weather that dries out soil rapidly will trigger BER on developing fruit."
+      ],
+      "common_mistakes": [
+        "Spraying expensive fungicides to cure an abiotic watering issue.",
+        "Over-fertilizing with Nitrogen (which steals calcium from the fruit).",
+        "Hoeing too deep and cutting the pepper roots."
+      ],
+      "follow_up_recommendations": [
+        "Ask if the black spot is strictly on the bottom tip.",
+        "Suggest applying a thick layer of straw mulch to hold soil moisture."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user that the black, leathery bottoms on their peppers are called {disease_name}. Emphasize heavily that this is NOT a disease, but a physiological disorder caused by {causes.primary_cause} due to uneven watering.",
+      "weather_analysis": "Note that the recent hot, dry weather ({temperature_data}) caused the soil to dry out rapidly, cutting off the flow of water and calcium to the fruit. Emphasize that consistent watering is the only cure.",
+      "treatment_plan": "Inform the user that {treatment.chemical} is completely useless. Instruct them to pick off the ruined peppers, apply a thick layer of mulch, and establish a strict, consistent watering schedule to save the next batch of fruit.",
+      "followup": "Ask the user about their watering habits. Do they let the soil dry out completely until the plants wilt before watering them again? (This is the exact trigger for BER)."
+    },
+    "references": [
+      "Michigan State University Extension: Blossom End Rot",
+      "University of California IPM: Peppers - Blossom End Rot"
+    ],
+    "model_mapping": {
+      "cnn_class": "Pepper___Blossom_End_Rot_BER",
+      "aliases": [
+        "Pepper Blossom End Rot (BER)",
+        "Pepper Blossom End Rot Pepper"
+      ]
+    }
+  }
+]

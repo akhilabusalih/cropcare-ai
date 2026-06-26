@@ -1,0 +1,2665 @@
+[
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Intermediate"
+    },
+    "disease_id": "TOMATO_001",
+    "disease_name": "Bacterial_Spot_Tomato",
+    "common_name": "Bacterial Spot",
+    "scientific_name": "Xanthomonas perforans, X. vesicatoria",
+    "crop": "Tomato",
+    "disease_type": "Bacterial",
+    "pathogen_type": "Bacterium",
+    "overview": {
+      "description": "Bacterial Spot is a highly destructive foliar and fruit disease driven by wind and rain. It causes dark angular spots on leaves, leading to severe yellowing and defoliation, while destroying the marketability of the fruit with raised scabs.",
+      "importance": "Critical. Heavy defoliation early in the season completely halts fruit development and exposes existing fruit to severe sunscald.",
+      "affected_parts": [
+        "Leaves",
+        "Fruit",
+        "Stems",
+        "Pedicels"
+      ],
+      "host_plants": [
+        "Tomato",
+        "Pepper"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Small, yellow-green, water-soaked spots appear on the lower leaves.",
+        "Spots turn dark brown or black, becoming slightly raised and angular."
+      ],
+      "moderate": [
+        "Spots multiply rapidly, often surrounded by a narrow yellow halo.",
+        "Leaves turn completely yellow and drop from the plant.",
+        "Small, blister-like raised spots appear on green fruit."
+      ],
+      "severe": [
+        "Massive, rapid defoliation of the lower and middle canopy.",
+        "Exposed fruit suffers severe white sunscald.",
+        "Fruit spots become large, brown, scabby, and cratered."
+      ],
+      "leaf": [
+        "Small, dark brown/black angular spots with yellow halos; severe yellowing and dropping."
+      ],
+      "stem": [
+        "Narrow, elongated, dark brown cankers."
+      ],
+      "fruit": [
+        "Raised, brown, corky, scab-like lesions that ruin the appearance but don't rot the flesh."
+      ],
+      "flower": [
+        "Blossoms drop prematurely (blossom drop)."
+      ],
+      "root": []
+    },
+    "causes": {
+      "primary_cause": "Bacteria splashing from infected soil/debris or contaminated seeds.",
+      "pathogen": "Xanthomonas spp.",
+      "survival_mechanism": "Survives in infected crop debris in the soil, on volunteer plants, and inside contaminated seeds.",
+      "infection_process": "During rain, bacteria splash from the soil onto the lower leaves. They enter through natural openings (stomata) or tiny wounds."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Primary infection from seed or soil debris during spring rains.",
+        "Bacteria multiply inside leaf spots.",
+        "Secondary spread: Every rainstorm splashes bacteria to new leaves."
+      ],
+      "spread_cycle": "Explosively polycyclic during warm, rainy weather."
+    },
+    "transmission": {
+      "methods": [
+        "Rain splash",
+        "Wind-driven rain",
+        "Contaminated equipment"
+      ],
+      "vectors": [],
+      "common_sources": [
+        "Contaminated seed",
+        "Infected crop residue"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "High",
+      "rainfall": "Extreme",
+      "poor_airflow": "Medium",
+      "overhead_irrigation": "Extreme",
+      "contaminated_seed": "Extreme"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "24°C - 30°C (75°F - 86°F)",
+        "notes": "Hot, humid weather accelerates bacterial division."
+      },
+      "humidity": {
+        "optimal_range": "85% - 100%",
+        "notes": "Moisture is required for the bacteria to ooze and spread."
+      },
+      "rainfall": "The ultimate driver. Driving rain forces bacteria into leaf pores.",
+      "wind": "Blows rain across the field and creates micro-wounds.",
+      "soil_conditions": "Not applicable.",
+      "leaf_wetness": "Requires wet foliage to spread."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 20,
+        "max": 35
+      },
+      "humidity": {
+        "min": 85,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 2
+    },
+    "weather_influence": {
+      "high_humidity": "Keeps leaves wet longer.",
+      "rain": "Storms guarantee an outbreak if the pathogen is present.",
+      "high_temperature": "Speeds up leaf yellowing and defoliation.",
+      "low_temperature": "Slows the disease.",
+      "wind": "Pushes bacteria through stomata.",
+      "dry_conditions": "Halts the spread."
+    },
+    "severity_levels": {
+      "low": "Few dark spots on lower leaves. Manageable with preventative copper.",
+      "medium": "Spots moving to middle canopy. Immediate tank-mix spraying required.",
+      "high": "Significant defoliation. Fruit showing scabs.",
+      "critical": "Near-total defoliation. Fruit suffering massive sunscald."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "If rain is forecasted, apply a Copper + Mancozeb tank mix immediately."
+      ],
+      "within_24_hours": [
+        "Cease all overhead irrigation immediately."
+      ],
+      "within_one_week": [
+        "Do not enter the field to tie, weed, or harvest when the plants are wet."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Copper Hydroxide + Mancozeb (Tank mixing breaks widespread copper resistance).",
+        "Actigard (Acibenzolar-S-methyl) (Systemic Acquired Resistance inducer)."
+      ],
+      "biological": [
+        "Bacillus subtilis offers very low control under epidemic conditions."
+      ],
+      "organic": [
+        "Organic Copper formulations."
+      ],
+      "integrated_management": [
+        "Use certified disease-free seed and apply preventative Copper/Mancozeb before rainstorms."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Deep plow crop residue immediately after harvest."
+      ],
+      "irrigation": [
+        "Use drip irrigation."
+      ],
+      "crop_rotation": [
+        "Rotate out of peppers and tomatoes for 1-2 full years."
+      ],
+      "air_circulation": [
+        "Stake and tie tomatoes to keep them upright."
+      ],
+      "resistant_varieties": [
+        "Plant resistant varieties if available in your region."
+      ],
+      "seasonal_practices": [
+        "Hot water treat seeds prior to planting."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Avoid excessive nitrogen, which pushes soft, highly susceptible leafy growth.",
+      "phosphorus": "Standard.",
+      "potassium": "Standard.",
+      "calcium": "Standard.",
+      "magnesium": "Standard.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Rain splashes bacteria.",
+        "Leaves get spotted, turn yellow, drop.",
+        "Plant defoliates; fruit gets sunscald and scabs."
+      ],
+      "treated": [
+        "Actigard + Copper shields foliage.",
+        "Leaves remain attached, protecting clean fruit from the sun."
+      ]
+    },
+    "recovery_indicators": [
+      "No new dark spots on upper leaves.",
+      "Lower leaves stop yellowing.",
+      "Fruit develops clean skin without scabs."
+    ],
+    "recovery": {
+      "estimated_days": "N/A (Preventative Only)",
+      "success_rate": "Medium",
+      "depends_on": [
+        "Tank-Mix Sprays",
+        "Dry Weather"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Up to 50% due to fruit scabs and sunscald.",
+      "quality_loss": "Scabbed fruit is completely rejected from the fresh market.",
+      "financial_impact": "Severe revenue loss."
+    },
+    "monitoring": {
+      "inspection_frequency": "Twice weekly. Check the lowest, oldest leaves first.",
+      "warning_signs": [
+        "Frequent heavy thunderstorms.",
+        "Working in the field while plants are wet."
+      ],
+      "recovery_signs": [
+        "A shift to hot, dry weather."
+      ]
+    },
+    "faq": [
+      {
+        "question": "Can I eat a tomato with Bacterial Spot?",
+        "answer": "Yes, the bacteria do not harm humans. Just peel the scabs off."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "The bacteria actually have a whip-like tail (flagellum) allowing them to swim short distances in the water film on a leaf."
+      ],
+      "similar_diseases": [
+        "Septoria Leaf Spot",
+        "Target Spot"
+      ],
+      "differential_diagnosis": [
+        "Septoria has a tan/gray center with black pimples. Bacterial Spot lesions are small, dark all the way through, and don't have a gray center."
+      ],
+      "long_term_management": [
+        "Hot water seed treatment and strict crop rotation."
+      ]
+    },
+    "ai_context": {
+      "summary": "Bacterial Spot causes angular dark leaf spots, yellow halos, defoliation, and fruit scabs. Highly driven by rain; requires Copper mixed with Mancozeb to overcome resistance.",
+      "key_points": [
+        "Rain-driven.",
+        "Causes fruit scabs and sunscald via defoliation.",
+        "Copper resistance is extremely common.",
+        "Mix Copper with Mancozeb."
+      ],
+      "high_priority_actions": [
+        "Demand user stops overhead watering.",
+        "Recommend Copper + Mancozeb tank mix."
+      ],
+      "weather_considerations": [
+        "Extreme Alert: Rainstorms with temps >24°C."
+      ],
+      "common_mistakes": [
+        "Spraying Copper alone.",
+        "Handling wet plants."
+      ],
+      "follow_up_recommendations": [
+        "Ask if the spots have tan centers (Septoria) or are solid black (Bacterial)."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user that the small dark spots causing their tomato leaves to turn yellow are {disease_name}. Warn them that the biggest threat is sunscald once the leaves fall.",
+      "weather_analysis": "The driving rains ({rainfall_data}) caused the bacteria to splash. Emphasize that {disease_name} will explode if wet weather continues.",
+      "treatment_plan": "Inform them that {treatment.chemical} is absolutely necessary because the bacteria are likely resistant to plain Copper. Emphasize stopping {risk_factors.overhead_irrigation}.",
+      "followup": "Ask the user to check the green tomatoes. Do they have raised, corky, brown scabs on them? (Confirms Bacterial Spot)."
+    },
+    "references": [
+      "University of Florida IFAS: Bacterial Spot of Tomato"
+    ],
+    "model_mapping": {
+      "cnn_class": "Tomato___Bacterial_Spot",
+      "aliases": [
+        "Tomato Bacterial Spot",
+        "Tomato Bacterial Spot Tomato"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Beginner"
+    },
+    "disease_id": "TOMATO_002",
+    "disease_name": "Early_Blight_Tomato",
+    "common_name": "Early Blight",
+    "scientific_name": "Alternaria linariae (formerly A. tomatophila), A. solani",
+    "crop": "Tomato",
+    "disease_type": "Fungal",
+    "pathogen_type": "Fungus",
+    "overview": {
+      "description": "Early Blight is a very common fungal disease identified by distinct 'bullseye' or target-board rings within the leaf spots. It attacks older leaves first and progresses upward, leading to severe defoliation.",
+      "importance": "High. It destroys photosynthetic leaf area, leading to significantly reduced fruit size, sunscald, and early plant death.",
+      "affected_parts": [
+        "Leaves",
+        "Stems",
+        "Fruit"
+      ],
+      "host_plants": [
+        "Tomato",
+        "Potato",
+        "Eggplant"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Small, dark brown to black spots appear on the older, lower leaves."
+      ],
+      "moderate": [
+        "Spots enlarge up to 1/2 inch and develop distinct concentric rings (target board).",
+        "A yellow halo often surrounds the dark lesions."
+      ],
+      "severe": [
+        "Leaves turn completely yellow, wither, and die, hanging from the stem.",
+        "Dark, sunken, leathery lesions with concentric rings appear on the stem end of the fruit.",
+        "Stems develop dark, sunken cankers."
+      ],
+      "leaf": [
+        "Dark brown spots with concentric 'bullseye' rings and yellow halos. Starts on bottom leaves."
+      ],
+      "stem": [
+        "Dark, sunken, elongated cankers."
+      ],
+      "fruit": [
+        "Sunken, dark, leathery lesions with rings, almost always starting at the top (stem end) of the tomato."
+      ],
+      "flower": [
+        "Can occasionally drop."
+      ],
+      "root": []
+    },
+    "causes": {
+      "primary_cause": "Fungal spores splashing from infected crop residue in the soil onto lower leaves.",
+      "pathogen": "Alternaria spp.",
+      "survival_mechanism": "Overwinters in infected plant debris left in the soil.",
+      "infection_process": "Spores are splashed by rain onto lower leaves. They germinate in free moisture. Infection is highly accelerated if the plant is stressed or bearing a heavy fruit load."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Overwinters in crop debris.",
+        "Rain splashes spores onto lower leaves.",
+        "Lesions form and produce secondary spores.",
+        "Wind blows spores upward."
+      ],
+      "spread_cycle": "Polycyclic. Multiple cycles occur throughout the summer."
+    },
+    "transmission": {
+      "methods": [
+        "Wind",
+        "Rain splash",
+        "Overhead irrigation"
+      ],
+      "vectors": [],
+      "common_sources": [
+        "Soil-borne crop debris"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "Medium",
+      "rainfall": "Medium",
+      "poor_airflow": "Medium",
+      "plant_stress": "Extreme",
+      "heavy_fruit_load": "High"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "24°C - 29°C (75°F - 84°F)",
+        "notes": "Prefers warm to hot weather."
+      },
+      "humidity": {
+        "optimal_range": "80% - 100%",
+        "notes": "High humidity or dew is required for spore germination."
+      },
+      "rainfall": "Alternating dry weather (spreads spores) and wet weather (germinates spores) is perfect.",
+      "wind": "Spreads spores from leaf to leaf.",
+      "soil_conditions": "Nitrogen-deficient soils stress plants, triggering outbreaks.",
+      "leaf_wetness": "Requires only a few hours of dew to germinate."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 10,
+        "max": 35
+      },
+      "humidity": {
+        "min": 80,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 4
+    },
+    "weather_influence": {
+      "high_humidity": "Rapid spore germination.",
+      "rain": "Splashes primary spores from the soil.",
+      "high_temperature": "Accelerates the disease.",
+      "low_temperature": "Slows progression.",
+      "wind": "Spreads dry spores.",
+      "dry_conditions": "Stresses the plant, making it vulnerable when dew returns."
+    },
+    "severity_levels": {
+      "low": "Scattered spots on lower leaves. Normal in most gardens.",
+      "medium": "Spots climbing. Leaves turning yellow. Initiate fungicide.",
+      "high": "Upper canopy infected; lower leaves dead.",
+      "critical": "Severe defoliation. Fruit sunburning and rotting at the stem."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "Apply a protectant/systemic fungicide immediately to shield the upper canopy."
+      ],
+      "within_24_hours": [
+        "Evaluate nitrogen status. Feed the plant to help it fight off the fungus."
+      ],
+      "within_one_week": [
+        "Mulch the base of the plant to prevent rain from splashing soil onto the leaves."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Chlorothalonil, Mancozeb (Excellent protectants).",
+        "Azoxystrobin, Pyraclostrobin (Strobilurins - Excellent control, but rotate to prevent resistance)."
+      ],
+      "biological": [
+        "Bacillus subtilis offers mild preventative suppression."
+      ],
+      "organic": [
+        "Copper formulations.",
+        "High soil fertility and aggressive mulching."
+      ],
+      "integrated_management": [
+        "Combine crop rotation, proper feeding, mulching, and preventative fungicide sprays."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Remove all tomato debris at the end of the season."
+      ],
+      "irrigation": [
+        "Avoid overhead irrigation late in the day."
+      ],
+      "crop_rotation": [
+        "Rotate away from tomatoes for 2-3 years."
+      ],
+      "air_circulation": [
+        "Maintain proper spacing and prune bottom leaves (bottom-pruning)."
+      ],
+      "resistant_varieties": [
+        "Plant tolerant varieties (e.g., 'Mountain Magic', 'Defiant')."
+      ],
+      "seasonal_practices": [
+        "Mulch heavily immediately after planting."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "CRITICAL. Maintain adequate N throughout the fruiting phase.",
+      "phosphorus": "Standard.",
+      "potassium": "Standard.",
+      "calcium": "Standard.",
+      "magnesium": "Standard.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Lower leaves develop target spots.",
+        "Disease climbs the plant as it bears heavy fruit.",
+        "Canopy turns yellow and dies.",
+        "Fruit sunscalds and develops stem-end rot."
+      ],
+      "treated": [
+        "Fungicides protect the upper canopy.",
+        "Plants remain green through harvest.",
+        "Maximum yield achieved."
+      ]
+    },
+    "recovery_indicators": [
+      "Lesions stop expanding and dry out.",
+      "Upper canopy remains green."
+    ],
+    "recovery": {
+      "estimated_days": "10-14",
+      "success_rate": "High",
+      "depends_on": [
+        "Fungicide Timing",
+        "Nitrogen Levels",
+        "Mulching"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Commonly 20-40% due to loss of foliage and sunscald.",
+      "quality_loss": "Stem-end rot ruins the fruit.",
+      "financial_impact": "Moderate to High."
+    },
+    "monitoring": {
+      "inspection_frequency": "Weekly starting at first fruit set.",
+      "warning_signs": [
+        "Alternating hot, dry weather and heavy morning dew.",
+        "Plants looking yellow from nitrogen stress."
+      ],
+      "recovery_signs": [
+        "Return of consistently dry weather."
+      ]
+    },
+    "faq": [
+      {
+        "question": "Why does it always start at the bottom of the plant?",
+        "answer": "The spores live in the dirt. When it rains, the dirt splashes up and hits the lowest leaves first."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "Early Blight is highly opportunistic. A young, healthy tomato plant with no fruit can fight it off easily. Once the plant uses all its energy to grow heavy tomatoes, its immune system drops, and the fungus strikes."
+      ],
+      "similar_diseases": [
+        "Late Blight",
+        "Target Spot",
+        "Septoria"
+      ],
+      "differential_diagnosis": [
+        "Late blight lacks target rings and kills in days. Septoria has tiny spots with gray centers. Early Blight has large spots with distinct concentric rings."
+      ],
+      "long_term_management": [
+        "Crop rotation and heavy mulching."
+      ]
+    },
+    "ai_context": {
+      "summary": "Early Blight causes distinct 'bullseye' concentric rings on lower tomato leaves and stem-end rot on fruit. It is an opportunistic fungus that attacks stressed plants carrying heavy fruit loads.",
+      "key_points": [
+        "Bullseye concentric rings.",
+        "Splashes up from the soil.",
+        "Attacks stressed/hungry plants.",
+        "Mulching the soil blocks the splash."
+      ],
+      "high_priority_actions": [
+        "Advise checking for bullseye rings.",
+        "Recommend heavy mulching.",
+        "Suggest applying fertilizer to boost immunity."
+      ],
+      "weather_considerations": [
+        "Alert: Warm temps with heavy morning dews."
+      ],
+      "common_mistakes": [
+        "Leaving bare dirt under the plants.",
+        "Under-fertilizing during heavy fruit set."
+      ],
+      "follow_up_recommendations": [
+        "Ask if the spots have rings like a target board.",
+        "Remind user to prune the lowest branches off."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain that the dark spots with 'bullseye' rings on the lower leaves are {disease_name}. Note that this fungus lives in the dirt and splashed up during the rain.",
+      "weather_analysis": "The alternating wet mornings and warm afternoons ({temperature_data}) have allowed {disease_name} to spread. Warn that stressed plants will succumb quickly.",
+      "treatment_plan": "Develop a three-part plan: Apply {treatment.chemical}, apply mulch to the dirt to stop the splashing, and feed the plant {nutrient_management.nitrogen} to boost its immunity.",
+      "followup": "Ask the user to look closely at the brown spots. Do they see concentric rings inside the spot, like a target board?"
+    },
+    "references": [
+      "Cornell University: Early Blight of Tomato"
+    ],
+    "model_mapping": {
+      "cnn_class": "Tomato___Early_Blight",
+      "aliases": [
+        "Tomato Early Blight",
+        "Tomato Early Blight Tomato"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Advanced"
+    },
+    "disease_id": "TOMATO_003",
+    "disease_name": "Late_Blight_Tomato",
+    "common_name": "Late Blight",
+    "scientific_name": "Phytophthora infestans",
+    "crop": "Tomato",
+    "disease_type": "Fungal",
+    "pathogen_type": "Oomycete",
+    "overview": {
+      "description": "Late blight is a catastrophic, fast-spreading oomycete disease. It causes rapid browning and wilting of leaves, and turns fruit into a foul, rotting mess. It can destroy an entire field within days under favorable cool, wet weather.",
+      "importance": "Critical. The pathogen responsible for the Irish Potato Famine. Requires immediate, extreme action as it poses a regional threat via windborne spores.",
+      "affected_parts": [
+        "Leaves",
+        "Stems",
+        "Fruit"
+      ],
+      "host_plants": [
+        "Tomato",
+        "Potato",
+        "Nightshade weeds"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Irregular, pale green, water-soaked spots on leaves.",
+        "Spots quickly enlarge and turn dark brown to purplish-black.",
+        "A white, fuzzy mold (sporulation) appears on the leaf undersides in high humidity."
+      ],
+      "moderate": [
+        "Lesions spread to stems, turning them dark brown or black.",
+        "Leaves shrivel and die, appearing blighted or 'frost-damaged'.",
+        "Firm, greasy, olive-brown spots appear on green fruit."
+      ],
+      "severe": [
+        "Complete defoliation and collapse of the plant.",
+        "Entire fruits become brown, leathery, and succumb to secondary soft rots.",
+        "Rapid field-wide spread causing 100% crop loss in a week."
+      ],
+      "leaf": [
+        "Large, dark brown necrotic spots with pale green halos; white sporulation on undersides."
+      ],
+      "stem": [
+        "Dark brown to black elongated lesions that can girdle the stem."
+      ],
+      "fruit": [
+        "Large, irregularly shaped, firm, dark brown, greasy-looking patches."
+      ],
+      "flower": [
+        "Die off as the stem collapses."
+      ],
+      "root": []
+    },
+    "causes": {
+      "primary_cause": "Infection by windborne sporangia under cool, wet conditions.",
+      "pathogen": "Phytophthora infestans",
+      "survival_mechanism": "Cannot survive in dead plant tissue. Overwinters ONLY in living infected tissue (usually potato tubers in cull piles or soil).",
+      "infection_process": "Sporangia land, release swimming zoospores in free moisture, and penetrate the epidermis within hours."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Inoculum arrives via wind from overwintering sources.",
+        "Germination and infection (1-3 days).",
+        "Lesion appearance and massive sporulation.",
+        "Wind and rain spread to new fields."
+      ],
+      "spread_cycle": "Extremely rapid polycyclic disease (cycle takes 3-4 days)."
+    },
+    "transmission": {
+      "methods": [
+        "Wind (can travel up to 40 miles)",
+        "Rain splash"
+      ],
+      "vectors": [],
+      "common_sources": [
+        "Overwintering potato cull piles",
+        "Infected commercial transplants"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "Extreme",
+      "rainfall": "Extreme",
+      "poor_airflow": "Medium",
+      "regional_outbreaks": "Extreme"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "15°C - 21°C (60°F - 70°F)",
+        "notes": "Cool temperatures encourage zoospore production."
+      },
+      "humidity": {
+        "optimal_range": "90% - 100%",
+        "notes": "Required for sporulation on leaf undersides."
+      },
+      "rainfall": "Heavy, frequent rainfall or continuous drizzle drives epidemics.",
+      "wind": "Primary mechanism for regional spread.",
+      "soil_conditions": "Not applicable to tomato foliar spread.",
+      "leaf_wetness": "Requires 10-12 hours of continuous leaf wetness."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 10,
+        "max": 27
+      },
+      "humidity": {
+        "min": 90,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 10
+    },
+    "weather_influence": {
+      "high_humidity": "Triggers massive spore production.",
+      "rain": "Splashes spores throughout the canopy.",
+      "high_temperature": "Hot, dry days halt disease progression.",
+      "low_temperature": "Cool weather combined with dew/rain causes explosive outbreaks.",
+      "wind": "Regional spread.",
+      "dry_conditions": "Stops spore production entirely."
+    },
+    "severity_levels": {
+      "low": "Initial arrival. Isolated leaf spots. Requires immediate aggressive fungicide.",
+      "medium": "Hotspots showing stem lesions. Roguing (removal) necessary.",
+      "high": "Total crop loss imminent without extreme intervention.",
+      "critical": "Field appears burned. Salvage is impossible; destroy crop."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "If a few plants are infected, bag them, pull them up, and destroy them. Do not compost.",
+        "Apply a strong protectant fungicide immediately to the rest of the field."
+      ],
+      "within_24_hours": [
+        "Notify local agricultural extension offices; late blight is tracked regionally."
+      ],
+      "within_one_week": [
+        "Maintain a tight 5-7 day fungicide spray schedule during cool, wet weather."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Chlorothalonil, Mancozeb (Broad-spectrum protectants).",
+        "Cymoxanil, Dimethomorph, Propamocarb (Translaminar curatives).",
+        "Mefenoxam (Ridomil) (Many strains are now highly resistant)."
+      ],
+      "biological": [
+        "Not recommended as primary defense under high pressure."
+      ],
+      "organic": [
+        "Copper fungicides (must be applied strictly preventatively)."
+      ],
+      "integrated_management": [
+        "Monitor regional blight trackers and apply preventative sprays prior to storm fronts."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Destroy all volunteer potatoes and tomato plants.",
+        "Never leave potato cull piles exposed."
+      ],
+      "irrigation": [
+        "Use drip irrigation exclusively."
+      ],
+      "crop_rotation": [
+        "Does not survive in soil, but helps break volunteer plant cycles."
+      ],
+      "air_circulation": [
+        "Trellis tomatoes and prune bottom leaves for rapid drying."
+      ],
+      "resistant_varieties": [
+        "Plant resistant varieties such as 'Mountain Magic' or 'Defiant PhR'."
+      ],
+      "seasonal_practices": [
+        "Monitor 'Blightcast' networks."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Avoid excessive nitrogen; creates dense canopies that dry slowly.",
+      "phosphorus": "Standard.",
+      "potassium": "Standard.",
+      "calcium": "Standard.",
+      "magnesium": "Standard.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Pale green spots appear.",
+        "Spots turn brown, white mold appears, stems blacken.",
+        "Complete plant collapse in 7 days."
+      ],
+      "treated": [
+        "Curative sprays halt spread.",
+        "Existing lesions dry up.",
+        "New growth remains healthy."
+      ]
+    },
+    "recovery_indicators": [
+      "Lesions turn fully dry and brittle.",
+      "No white sporulation on undersides of leaves during humid mornings."
+    ],
+    "recovery": {
+      "estimated_days": "7-10 (to halt spread)",
+      "success_rate": "Low once established, High if prevented",
+      "depends_on": [
+        "Aggressive Fungicides",
+        "Dry Weather"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "100% loss common.",
+      "quality_loss": "Fruit is entirely unmarketable.",
+      "financial_impact": "Devastating complete loss of revenue."
+    },
+    "monitoring": {
+      "inspection_frequency": "Daily during cool, wet weather.",
+      "warning_signs": [
+        "Reports of late blight in neighboring counties.",
+        "Prolonged rain with temperatures in the 60s (°F)."
+      ],
+      "recovery_signs": [
+        "Return of hot, sunny, dry weather."
+      ]
+    },
+    "faq": [
+      {
+        "question": "Can I compost blighted tomato plants?",
+        "answer": "Safer to bag and trash them. P. infestans dies without living tissue, but home composts rarely get hot enough to guarantee destruction quickly."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "Phytophthora means 'plant destroyer'. It caused the Irish Potato Famine."
+      ],
+      "similar_diseases": [
+        "Early Blight",
+        "Septoria Leaf Spot"
+      ],
+      "differential_diagnosis": [
+        "Unlike Early Blight, Late Blight lesions are large, cross leaf veins, lack concentric rings, and have white mold on the underside."
+      ],
+      "long_term_management": [
+        "Shifting entirely to resistant varieties in chronic wet regions."
+      ]
+    },
+    "ai_context": {
+      "summary": "Late blight is a fast-moving, catastrophic oomycete disease triggered by cool, wet weather, destroying tomato foliage and fruit within days.",
+      "key_points": [
+        "Spreads via wind and water.",
+        "Survives in potato cull piles.",
+        "Requires aggressive preventative action.",
+        "White fuzz on leaf undersides."
+      ],
+      "high_priority_actions": [
+        "Alert user immediately.",
+        "Advise roguing initial infected plants.",
+        "Recommend immediate application of chlorothalonil or copper."
+      ],
+      "weather_considerations": [
+        "Extreme Alert: 3+ days of rain with temps between 15-21°C."
+      ],
+      "common_mistakes": [
+        "Confusing it with Early Blight.",
+        "Waiting to spray until the whole field shows symptoms (too late)."
+      ],
+      "follow_up_recommendations": [
+        "Suggest resistant seeds for the next planting season."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Warn the user that {disease_name} is a catastrophic, fast-moving pathogen. The water-soaked spots with white fuzz indicate the crop is in extreme danger.",
+      "weather_analysis": "The cool, wet weather ({temperature_data}) is driving the explosive spread of {disease_name}. Action must be taken today.",
+      "treatment_plan": "Develop a triage plan. Immediately rogue (bag and destroy) infected plants and apply {treatment.chemical} to the rest. This disease cannot be cured once severe.",
+      "followup": "Ask the user to check the undersides of the dying leaves. Is there a fluffy, white mold growing there? (Confirms Late Blight)."
+    },
+    "references": [
+      "Cornell University: USABlight Disease Tracker"
+    ],
+    "model_mapping": {
+      "cnn_class": "Tomato___Late_Blight",
+      "aliases": [
+        "Tomato Late Blight",
+        "Tomato Late Blight Tomato"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Intermediate"
+    },
+    "disease_id": "TOMATO_004",
+    "disease_name": "Leaf_Mold_Tomato",
+    "common_name": "Leaf Mold",
+    "scientific_name": "Passalora fulva (formerly Fulvia fulva)",
+    "crop": "Tomato",
+    "disease_type": "Fungal",
+    "pathogen_type": "Fungus",
+    "overview": {
+      "description": "Leaf Mold is primarily a disease of tomatoes grown in high tunnels or greenhouses, though it can occur in the field during exceptionally humid periods. It causes yellow spots on the upper leaf and a distinct olive-green fuzz on the underside.",
+      "importance": "High in protected culture. Extensive defoliation reduces fruit size and delays ripening, though it rarely kills the plant or rots the fruit directly.",
+      "affected_parts": [
+        "Leaves (Primarily older foliage)"
+      ],
+      "host_plants": [
+        "Tomato"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Pale green or yellowish diffuse spots appear on the UPPER surfaces of older, lower leaves.",
+        "Spots lack distinct margins."
+      ],
+      "moderate": [
+        "The undersides of the yellow spots become covered with a velvety, olive-green to purplish-brown fungal growth.",
+        "Yellow spots on top turn brown and necrotic as the tissue dies."
+      ],
+      "severe": [
+        "Infected leaves curl, wither, and drop prematurely.",
+        "The disease progresses rapidly up the canopy, causing massive defoliation.",
+        "Fruit fails to size up due to loss of photosynthesis."
+      ],
+      "leaf": [
+        "Pale yellow spots on top; velvety olive-green/brown mold strictly on the bottom."
+      ],
+      "stem": [
+        "Rarely affected."
+      ],
+      "fruit": [
+        "Usually unaffected, though a black, leathery rot at the stem end can occur in extremely rare, severe cases."
+      ],
+      "flower": [
+        "Can occasionally infect blossoms causing drop."
+      ],
+      "root": []
+    },
+    "causes": {
+      "primary_cause": "Fungal spores germinating on leaves in extremely high humidity environments (like greenhouses).",
+      "pathogen": "Passalora fulva",
+      "survival_mechanism": "Survives in infected crop debris, as sclerotia in the soil, and on greenhouse structures (walls, benches, stakes) for many months.",
+      "infection_process": "Spores land on the leaf. Unlike many fungi, P. fulva does NOT require liquid water to germinate—it only requires relative humidity above 85%. It enters through natural leaf pores (stomata) on the underside of the leaf."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Spores blow onto lower leaves.",
+        "High humidity allows germination without liquid water.",
+        "Velvety mold forms on undersides.",
+        "Millions of spores blow to upper canopy."
+      ],
+      "spread_cycle": "Rapidly polycyclic within a closed, humid environment."
+    },
+    "transmission": {
+      "methods": [
+        "Wind (air currents in greenhouses)",
+        "Workers' clothing/hands"
+      ],
+      "vectors": [],
+      "common_sources": [
+        "Spores resting on greenhouse plastic/structures from the previous crop"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "Extreme",
+      "rainfall": "Low (Not required)",
+      "poor_airflow": "Extreme",
+      "high_tunnel_growing": "Extreme"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "22°C - 24°C (71°F - 75°F)",
+        "notes": "Optimal, but can infect anywhere from 10°C to 32°C."
+      },
+      "humidity": {
+        "optimal_range": "85% - 100%",
+        "notes": "The absolute defining driver of the disease."
+      },
+      "rainfall": "Not required. High tunnels blocking rain actually create the perfect high-humidity incubator for it.",
+      "wind": "Lack of wind in tunnels allows humidity to spike.",
+      "soil_conditions": "Not applicable.",
+      "leaf_wetness": "NOT REQUIRED. Free moisture actually inhibits spore germination slightly."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 10,
+        "max": 32
+      },
+      "humidity": {
+        "min": 85,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 0
+    },
+    "weather_influence": {
+      "high_humidity": "The sole trigger for the disease.",
+      "rain": "Only relevant if it raises ambient humidity.",
+      "high_temperature": "Above 85°F slows the fungus.",
+      "low_temperature": "Slows the fungus.",
+      "wind": "Ventilation (wind) cures the disease by dropping humidity.",
+      "dry_conditions": "Stops the disease entirely. Cannot germinate below 85% RH."
+    },
+    "severity_levels": {
+      "low": "Faint yellow spots on lowest leaves. Time to aggressively vent the greenhouse.",
+      "medium": "Olive fuzz visible underneath. Defoliation beginning. Fungicide required.",
+      "high": "Disease reaching upper canopy. Significant leaf drop.",
+      "critical": "Complete defoliation inside the tunnel. Fruit production stops."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "ROLL UP THE SIDES of the high tunnel or greenhouse to maximize airflow and drop the humidity below 85%."
+      ],
+      "within_24_hours": [
+        "Prune the lower leaves of the tomato plants (bottom-pruning) to improve air circulation at the soil level."
+      ],
+      "within_one_week": [
+        "Apply a targeted fungicide to protect the upper canopy."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Difenoconazole, Tebuconazole (Triazoles).",
+        "Chlorothalonil (Protectant).",
+        "Azoxystrobin (Strobilurin)."
+      ],
+      "biological": [
+        "Bacillus subtilis applied early can suppress low-pressure infections."
+      ],
+      "organic": [
+        "Copper sprays.",
+        "Massive ventilation (Cultural control is the best organic control)."
+      ],
+      "integrated_management": [
+        "Rely heavily on greenhouse climate control, bottom-pruning, and resistant varieties."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Sanitize the entire greenhouse structure (walls, wires, posts) with a commercial greenhouse disinfectant between crops."
+      ],
+      "irrigation": [
+        "Use drip irrigation. Do not wet the foliage or the greenhouse floor unnecessarily."
+      ],
+      "crop_rotation": [
+        "Not applicable in fixed greenhouses, hence sanitation is key."
+      ],
+      "air_circulation": [
+        "CRITICAL. Install horizontal airflow fans. Space plants adequately."
+      ],
+      "resistant_varieties": [
+        "Highly recommended. Many greenhouse tomato varieties have strong resistance genes to specific races of Leaf Mold."
+      ],
+      "seasonal_practices": [
+        "Heat the greenhouse slightly at night while venting to drive out humid air."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Avoid excess.",
+      "phosphorus": "Standard.",
+      "potassium": "Standard.",
+      "calcium": "Standard.",
+      "magnesium": "Standard.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Humidity spikes in tunnel.",
+        "Lower leaves get yellow spots, then olive mold.",
+        "Mold spreads upward.",
+        "Leaves die; plant starves; yield plummets."
+      ],
+      "treated": [
+        "Ventilation drops humidity.",
+        "Fungicide stops spore production.",
+        "Plants retain canopy and yield normally."
+      ]
+    },
+    "recovery_indicators": [
+      "The velvety olive mold dries up and flakes off.",
+      "New leaves remain green without pale yellow spots."
+    ],
+    "recovery": {
+      "estimated_days": "7-10 (with proper ventilation)",
+      "success_rate": "High",
+      "depends_on": [
+        "Reducing Humidity",
+        "Fungicide",
+        "Pruning"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Up to 30% due to loss of leaf area.",
+      "quality_loss": "Smaller fruit.",
+      "financial_impact": "Moderate loss of premium greenhouse tomato yields."
+    },
+    "monitoring": {
+      "inspection_frequency": "Weekly. Check the undersides of the lowest leaves in the most poorly ventilated corners of the greenhouse.",
+      "warning_signs": [
+        "Condensation dripping from the roof of the greenhouse.",
+        "Overcrowded, unpruned plants."
+      ],
+      "recovery_signs": [
+        "Dry air and crisp leaf lesions."
+      ]
+    },
+    "faq": [
+      {
+        "question": "Is this the same as Late Blight?",
+        "answer": "No. Late Blight has WHITE fuzz on the bottom, kills the plant in days, and rots the fruit. Leaf Mold has OLIVE-GREEN fuzz, grows slower, and rarely touches the fruit."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "Because it doesn't need liquid water to germinate, Leaf Mold is one of the very few diseases that can thrive in a completely drip-irrigated greenhouse where the leaves never actually get wet."
+      ],
+      "similar_diseases": [
+        "Powdery Mildew",
+        "Late Blight"
+      ],
+      "differential_diagnosis": [
+        "Powdery mildew is white and on TOP of the leaf. Late Blight is white fuzz on the bottom with large dark water-soaked spots. Leaf mold is olive-green/brown fuzz on the bottom beneath a pale yellow spot."
+      ],
+      "long_term_management": [
+        "Automated climate control systems to manage dew points in greenhouses."
+      ]
+    },
+    "ai_context": {
+      "summary": "Leaf Mold is a fungal disease of greenhouse/high-tunnel tomatoes causing pale yellow leaf spots and velvety olive-green mold on the undersides. Driven strictly by high humidity (>85%), not rain.",
+      "key_points": [
+        "Primarily a greenhouse/high tunnel disease.",
+        "Requires high humidity, NOT liquid water.",
+        "Olive-green fuzz on leaf undersides.",
+        "Ventilation is the primary cure."
+      ],
+      "high_priority_actions": [
+        "Demand user rolls up the sides of the high tunnel to vent humidity.",
+        "Suggest pruning lower leaves (bottom-pruning) to improve airflow.",
+        "Advise fungicide if defoliation is beginning."
+      ],
+      "weather_considerations": [
+        "Alert: Cloudy, humid weather where greenhouse ventilation is poor."
+      ],
+      "common_mistakes": [
+        "Keeping the greenhouse closed tight to trap heat, accidentally trapping 100% humidity.",
+        "Confusing it with Late Blight."
+      ],
+      "follow_up_recommendations": [
+        "Ask if the fuzz on the bottom of the leaf is white (Late Blight) or olive-green (Leaf Mold)."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user that {disease_name} is specifically caused by the stagnant, humid air inside their greenhouse/high tunnel. The {symptoms.leaf} (olive-green fuzz) is the definitive sign.",
+      "weather_analysis": "Note that because the relative humidity in their growing space has stayed above {humidity_data}, the fungus germinated without any actual rain. Warn them that stagnant air is the enemy.",
+      "treatment_plan": "Develop a cultural action plan first: immediately open all vents and roll up the sides of the tunnel. Instruct them to prune the bottom leaves off the plants to increase airflow, followed by {treatment.chemical} to protect the upper canopy.",
+      "followup": "Ask the user to turn the leaf over. Is the fuzzy mold olive-green to brownish? (This confirms Leaf Mold and rules out the deadly Late Blight, which has white mold)."
+    },
+    "references": [
+      "Cornell University: Leaf Mold of Tomato",
+      "UMass Extension: Tomato Leaf Mold"
+    ],
+    "model_mapping": {
+      "cnn_class": "Tomato___Leaf_Mold",
+      "aliases": [
+        "Tomato Leaf Mold",
+        "Tomato Leaf Mold Tomato"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Beginner"
+    },
+    "disease_id": "TOMATO_005",
+    "disease_name": "Septoria_Leaf_Spot",
+    "common_name": "Septoria Leaf Spot",
+    "scientific_name": "Septoria lycopersici",
+    "crop": "Tomato",
+    "disease_type": "Fungal",
+    "pathogen_type": "Fungus",
+    "overview": {
+      "description": "Septoria Leaf Spot is a highly destructive foliar disease that works its way from the bottom of the tomato plant upward. It causes hundreds of tiny, circular spots with gray centers, eventually killing the leaves and severely defoliating the plant.",
+      "importance": "High. While it rarely infects the fruit directly, the massive loss of foliage causes extreme sunscald, halts fruit sizing, and ruins the harvest.",
+      "affected_parts": [
+        "Leaves (Starts bottom, moves up)",
+        "Stems",
+        "Petioles"
+      ],
+      "host_plants": [
+        "Tomato",
+        "Nightshade weeds"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Numerous tiny (1/16 to 1/8 inch), circular water-soaked spots appear on the lowest, oldest leaves."
+      ],
+      "moderate": [
+        "Spots develop a distinct dark brown margin with a tan or light gray center.",
+        "Tiny black specks (pycnidia - fungal fruiting bodies) appear in the gray center of the spots (visible with a hand lens).",
+        "The tissue surrounding the spots turns bright yellow."
+      ],
+      "severe": [
+        "Leaves become heavily spotted, turn completely yellow, brown, and wither, but often remain attached to the stem.",
+        "The disease progresses rapidly up the plant, leaving the lower half completely bare.",
+        "Fruit is exposed to direct sun, causing severe, white, blistered sunscald."
+      ],
+      "leaf": [
+        "Hundreds of tiny circular spots with gray centers and black pimples inside; severe yellowing."
+      ],
+      "stem": [
+        "Small lesions can form on stems and petioles, but leaves are the main target."
+      ],
+      "fruit": [
+        "Very rarely infected directly. Suffers sunscald due to leaf loss."
+      ],
+      "flower": [
+        "Can cause blossom drop if the pedicel (stem) is infected."
+      ],
+      "root": []
+    },
+    "causes": {
+      "primary_cause": "Fungal spores splashing from the soil (infected crop debris) onto the lowest leaves during rain.",
+      "pathogen": "Septoria lycopersici",
+      "survival_mechanism": "Overwinters on infected tomato debris left in the soil or on perennial solanaceous weeds (like horsenettle).",
+      "infection_process": "Spores (conidia) ooze from the black pimples (pycnidia) in long, sticky tendrils. They require splashing water to move. Once on a leaf, they require long periods of wetness/humidity to germinate."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Overwintering in soil debris.",
+        "Spring/Summer rain splashes spores to bottom leaves.",
+        "Lesions form and produce new pycnidia in 7-14 days.",
+        "Subsequent rains splash sticky spores higher and higher up the plant."
+      ],
+      "spread_cycle": "Polycyclic. Very rapid spread during periods of frequent rain and heavy dew."
+    },
+    "transmission": {
+      "methods": [
+        "Rain splash (The primary method)",
+        "Overhead irrigation",
+        "Hands/clothing brushing wet plants"
+      ],
+      "vectors": [
+        "Flea beetles (minor)"
+      ],
+      "common_sources": [
+        "Bare soil containing last year's tomato debris"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "High",
+      "rainfall": "Extreme",
+      "poor_airflow": "Medium",
+      "bare_soil": "Extreme (Lack of mulch)",
+      "overhead_irrigation": "Extreme"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "20°C - 25°C (68°F - 77°F)",
+        "notes": "Prefers moderate summer temperatures. Extreme heat (>90°F) slows it down."
+      },
+      "humidity": {
+        "optimal_range": "85% - 100%",
+        "notes": "High humidity is required for the spores to ooze out of the pycnidia."
+      },
+      "rainfall": "Absolutely critical. The spores are sticky and CANNOT blow in the wind. They MUST be splashed by water droplets.",
+      "wind": "Dries the canopy, reducing infection. Wind-driven rain helps spread splash.",
+      "soil_conditions": "Not applicable, though splashing soil is the source.",
+      "leaf_wetness": "Requires long periods (48 hours ideal) of high humidity or wetness for severe infection."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 10,
+        "max": 32
+      },
+      "humidity": {
+        "min": 85,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 12
+    },
+    "weather_influence": {
+      "high_humidity": "Allows spores to ooze.",
+      "rain": "Splashes spores UP the plant. The primary driver.",
+      "high_temperature": "Slows disease.",
+      "low_temperature": "Slows disease.",
+      "wind": "Reduces disease by drying leaves.",
+      "dry_conditions": "Stops the disease dead in its tracks. Spores cannot move without water."
+    },
+    "severity_levels": {
+      "low": "Spots on the bottom leaves touching the dirt. Time to mulch and bottom-prune.",
+      "medium": "Spots moving to middle leaves; bottom leaves yellowing. Fungicide required immediately.",
+      "high": "Lower half of plant defoliated. Sunscald risk high.",
+      "critical": "Only top tufts of leaves remain. Plant is effectively ruined."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "Apply a thick layer of mulch (straw, woodchips, plastic) under the plants IMMEDIATELY to put a physical barrier between the soil spores and the leaves."
+      ],
+      "within_24_hours": [
+        "Prune off the infected yellowing bottom leaves and dispose of them in the trash. Do not compost them.",
+        "Apply a protectant fungicide to the remaining healthy green leaves."
+      ],
+      "within_one_week": [
+        "Stop all overhead watering. Switch to drip irrigation or water carefully at the base of the plant."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Chlorothalonil, Mancozeb (Excellent preventative protectants).",
+        "Azoxystrobin, Pyraclostrobin (Strobilurins - Good systemic control).",
+        "Difenoconazole (Excellent systemic curative)."
+      ],
+      "biological": [
+        "Bacillus subtilis offers mild preventative suppression."
+      ],
+      "organic": [
+        "Copper fungicides (Must be applied preventatively before rain).",
+        "Aggressive bottom-pruning and mulching."
+      ],
+      "integrated_management": [
+        "A combination of heavy mulching at planting, bottom-pruning as the plant grows, and preventative Copper/Chlorothalonil during rainy weeks."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Remove all tomato stakes, cages, and vines at the end of the season. Disinfect cages."
+      ],
+      "irrigation": [
+        "NEVER use overhead sprinklers. Keep the leaves dry."
+      ],
+      "crop_rotation": [
+        "Rotate away from tomatoes/nightshades for 2-3 years."
+      ],
+      "air_circulation": [
+        "Space plants well and prune them to 1 or 2 main leaders to improve airflow."
+      ],
+      "resistant_varieties": [
+        "Some newer varieties (like 'Iron Lady' or 'Stellar') have genetic resistance to Septoria."
+      ],
+      "seasonal_practices": [
+        "Mulch immediately after planting. Do not wait for the plants to get big."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Maintain plant vigor to help it outgrow the disease.",
+      "phosphorus": "Standard.",
+      "potassium": "Standard.",
+      "calcium": "Standard.",
+      "magnesium": "Standard.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Rain splashes spores from dirt to bottom leaves.",
+        "Leaves get 100s of tiny spots, turn yellow, die.",
+        "Next rain splashes spores higher up.",
+        "Plant defoliates from bottom up; fruit sunscalds."
+      ],
+      "treated": [
+        "Mulch blocks splash; lower leaves pruned.",
+        "Fungicide shields upper canopy.",
+        "Plant remains green and shades fruit perfectly."
+      ]
+    },
+    "recovery_indicators": [
+      "No new tiny circular spots appear on the upper canopy.",
+      "Defoliation stops moving upward."
+    ],
+    "recovery": {
+      "estimated_days": "10-14",
+      "success_rate": "High",
+      "depends_on": [
+        "Mulching",
+        "Pruning Bottom Leaves",
+        "Fungicides"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Moderate to High. Sunscald ruins the fruit, and loss of leaves stops fruit from sizing up.",
+      "quality_loss": "Sunscald causes white, blistered, rotting patches on the fruit.",
+      "financial_impact": "High loss of marketable yield in fresh-market tomatoes."
+    },
+    "monitoring": {
+      "inspection_frequency": "Weekly starting right after the first blossoms appear.",
+      "warning_signs": [
+        "Frequent rain showers.",
+        "Tomatoes planted in bare dirt without mulch."
+      ],
+      "recovery_signs": [
+        "Return of dry weather."
+      ]
+    },
+    "faq": [
+      {
+        "question": "Can I save the yellow leaves by spraying them?",
+        "answer": "No. Once a leaf turns yellow and is heavily spotted with Septoria, it is dead. You must cut it off and throw it away. Sprays only protect the healthy green leaves above it."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "Septoria spores are encased in a gelatinous matrix. Because of this sticky slime, wind literally cannot blow them off the leaf. They are 100% reliant on physical water splashing to move, which is why mulching the dirt is the ultimate cure."
+      ],
+      "similar_diseases": [
+        "Early Blight",
+        "Bacterial Spot"
+      ],
+      "differential_diagnosis": [
+        "Early Blight has large spots with target-board rings. Bacterial Spot has dark spots with no gray center. Septoria has tiny, circular spots with a distinct gray/tan center containing black pimples."
+      ]
+    },
+    "ai_context": {
+      "summary": "Septoria Leaf Spot is a highly common fungal disease of tomatoes causing tiny circular spots with gray centers. It splashes up from bare soil during rain, defoliating the plant from the bottom up.",
+      "key_points": [
+        "Tiny spots with gray/tan centers and black pimples.",
+        "Splashes up from bare dirt.",
+        "Defoliates from the bottom up, causing sunscald on fruit.",
+        "Mulching and bottom-pruning are highly effective cures."
+      ],
+      "high_priority_actions": [
+        "Demand user mulches the bare soil under the plant.",
+        "Advise pruning off the yellow, spotted bottom leaves.",
+        "Recommend Copper or Chlorothalonil to protect the upper canopy.",
+        "Instruct user to stop overhead watering."
+      ],
+      "weather_considerations": [
+        "Alert: Frequent rain showers driving water splash."
+      ],
+      "common_mistakes": [
+        "Leaving bare dirt under the tomatoes.",
+        "Watering the leaves with a sprinkler.",
+        "Leaving the dead yellow leaves attached to the plant."
+      ],
+      "follow_up_recommendations": [
+        "Ask if the tiny spots have a light gray/tan center.",
+        "Recommend resistant varieties like 'Iron Lady' for next year."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user that the tiny spots causing their lower tomato leaves to turn yellow are {disease_name}. Emphasize that the fungus lives in the dirt and uses {transmission.methods} to attack the plant.",
+      "weather_analysis": "Note that the recent {rainfall_data} provided the splash needed to move the spores up the plant. Warn them that every time it rains, the disease will climb higher.",
+      "treatment_plan": "Develop a strict cultural plan first: immediately apply a thick layer of mulch over the bare dirt, prune off the sick bottom leaves, and stop {risk_factors.overhead_irrigation}. Then, advise applying {treatment.chemical} to shield the healthy top leaves.",
+      "followup": "Ask the user to look very closely at the tiny spots. Is the center of the spot light gray or tan, and does it have tiny black specks inside it? (This confirms Septoria over Bacterial Spot)."
+    },
+    "references": [
+      "Missouri Botanical Garden: Septoria Leaf Spot of Tomato",
+      "Cornell University: Septoria Leaf Spot"
+    ],
+    "model_mapping": {
+      "cnn_class": "Tomato___Septoria_Leaf_Spot",
+      "aliases": [
+        "Tomato Septoria Leaf Spot"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Intermediate"
+    },
+    "disease_id": "TOMATO_006",
+    "disease_name": "Spider_Mites",
+    "common_name": "Two-Spotted Spider Mite",
+    "scientific_name": "Tetranychus urticae",
+    "crop": "Tomato",
+    "disease_type": "Pest",
+    "pathogen_type": "Mite",
+    "overview": {
+      "description": "The Two-Spotted Spider Mite is a devastating arachnid pest, not a disease. These microscopic mites congregate on the undersides of leaves, sucking out plant sap and chlorophyll. They thrive in extreme heat and dusty, drought-like conditions.",
+      "importance": "High. Severe infestations can completely drain a tomato plant of its chlorophyll in a matter of weeks, causing it to turn bronze/yellow, dry up, and die, while wrapping the plant in fine webbing.",
+      "affected_parts": [
+        "Leaves",
+        "Stems",
+        "Fruit (Calyx)"
+      ],
+      "host_plants": [
+        "Tomato",
+        "Eggplant",
+        "Cucumber",
+        "Melon",
+        "Bean",
+        "Many others"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Tiny, light-colored pinpricks (stippling) appear on the upper surface of the leaves.",
+        "Undersides of leaves may appear slightly dusty or gritty."
+      ],
+      "moderate": [
+        "Stippling merges, causing the leaves to take on a washed-out, bronze, yellowish, or grayish appearance.",
+        "Fine, silky webbing begins to form between leaves and stems.",
+        "If you tap the leaf over a white piece of paper, tiny specks (the mites) will drop and crawl around."
+      ],
+      "severe": [
+        "Leaves become completely dry, brittle, and drop off.",
+        "The entire top of the plant may become encased in thick, spider-like webbing.",
+        "Plant growth completely stops, fruit fails to mature, and the plant dies."
+      ],
+      "leaf": [
+        "White/yellow pinprick stippling, bronzing, and drying out. Fine webbing underneath."
+      ],
+      "stem": [
+        "Covered in fine webbing in severe cases."
+      ],
+      "fruit": [
+        "Not directly damaged, but fails to ripen and suffers sunscald due to defoliation."
+      ],
+      "flower": [
+        "May abort due to severe plant stress."
+      ],
+      "root": []
+    },
+    "causes": {
+      "primary_cause": "Infestation by microscopic arachnids (mites) that pierce plant cells and suck out the contents.",
+      "pathogen": "Tetranychus urticae",
+      "survival_mechanism": "Overwinters as adult females in crop debris, leaf litter, or on perennial weeds around the field.",
+      "infection_process": "Mites use needle-like mouthparts to pierce individual plant cells and suck out the chlorophyll. A single female can lay hundreds of eggs, and the lifecycle from egg to adult takes only 5-7 days in hot weather."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Adults emerge from overwintering sites in spring.",
+        "Mites climb onto lower leaves and begin feeding/laying eggs on the undersides.",
+        "Population explodes exponentially during hot, dry weather.",
+        "Mites use wind currents (ballooning) on their webbing to blow to new plants."
+      ],
+      "spread_cycle": "Explosive. Under hot/dry conditions, populations multiply massively every few days."
+    },
+    "transmission": {
+      "methods": [
+        "Wind ('ballooning' on webbing)",
+        "Walking plant to plant",
+        "Hitchhiking on workers' clothing"
+      ],
+      "vectors": [],
+      "common_sources": [
+        "Dusty, dry weeds bordering the field",
+        "Overwintering debris"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "Low (Dry air is extreme risk)",
+      "rainfall": "Low (Drought is extreme risk)",
+      "dusty_conditions": "Extreme",
+      "hot_weather": "Extreme",
+      "broad_spectrum_insecticides": "Extreme (Kills predatory bugs, causing mite flare-ups)"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "27°C - 35°C (80°F - 95°F)",
+        "notes": "Loves extreme heat. Life cycle is drastically shortened in hot weather, causing population explosions."
+      },
+      "humidity": {
+        "optimal_range": "20% - 40%",
+        "notes": "Thrives in very dry, arid air."
+      },
+      "rainfall": "LACK of rain is the trigger. Rain physically washes mites off the leaves and raises humidity, which kills them.",
+      "wind": "Helps them spread via webbing, and blows dust onto the plants (dust protects mites from predators).",
+      "soil_conditions": "Drought-stressed plants are far more nutritious to mites.",
+      "leaf_wetness": "Wet leaves actively suppress mite populations."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 15,
+        "max": 40
+      },
+      "humidity": {
+        "min": 0,
+        "max": 60
+      },
+      "leaf_wetness_hours_min": 0
+    },
+    "weather_influence": {
+      "high_humidity": "Severely inhibits mite reproduction and encourages fungal diseases that kill the mites.",
+      "rain": "A strong natural cure. Washes mites off and cleans dust off leaves.",
+      "high_temperature": "The absolute primary driver of spider mite epidemics.",
+      "low_temperature": "Slows their lifecycle drastically.",
+      "wind": "Spreads them.",
+      "dry_conditions": "Drought + Heat = Spider Mite explosion."
+    },
+    "severity_levels": {
+      "low": "Minor stippling on lower leaves. Treatable with insecticidal soap or water sprays.",
+      "medium": "Leaves turning bronze; faint webbing visible. Immediate miticide or oil spray needed.",
+      "high": "Heavy webbing. Leaves drying up. Plant is severely stressed.",
+      "critical": "Plant encased in webbing, completely brown and dying. Remove plant."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "Take a hose and forcefully spray the undersides of the leaves with water. This physically blasts the mites off the plant and destroys their webbing."
+      ],
+      "within_24_hours": [
+        "If infestation is severe, apply a targeted Miticide or Horticultural Oil to the UNDERSIDES of the leaves."
+      ],
+      "within_one_week": [
+        "Ensure the plants are well-watered. Drought stress makes the sap sweeter and more attractive to mites."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Abamectin (Agri-Mek), Bifenazate (Acramite) (Highly effective targeted miticides).",
+        "DO NOT USE Sevin (Bifenthrin) or Carbaryl. These kill the good predatory bugs and actually cause Spider Mites to reproduce faster (flare-ups)."
+      ],
+      "biological": [
+        "Release predatory mites (Phytoseiulus persimilis or Neoseiulus californicus) into the crop. They actively hunt and eat spider mites."
+      ],
+      "organic": [
+        "Horticultural Oils (Neem Oil, Canola Oil) or Insecticidal Soaps. These smother the mites. Must coat the undersides of the leaves.",
+        "High-pressure water sprays."
+      ],
+      "integrated_management": [
+        "Maintain heavy watering during droughts, suppress dust on farm roads, avoid broad-spectrum insecticides, and use horticultural oils at the first sign of stippling."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Control weeds around the perimeter of the garden/field, as mites build up there before moving to tomatoes."
+      ],
+      "irrigation": [
+        "Overhead irrigation or misting suppresses spider mites by increasing humidity."
+      ],
+      "crop_rotation": [
+        "Not highly effective as they blow in the wind."
+      ],
+      "air_circulation": [
+        "Not a major factor, though dense canopies hide the early symptoms."
+      ],
+      "resistant_varieties": [
+        "No true resistance exists."
+      ],
+      "seasonal_practices": [
+        "Water down dusty dirt roads near the crop. Dust on leaves protects mites from their natural insect predators."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Excessive nitrogen makes the plant sap more nutritious for the mites, increasing their reproduction rate.",
+      "phosphorus": "Standard.",
+      "potassium": "Standard.",
+      "calcium": "Standard.",
+      "magnesium": "Standard.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Hot/dry weather hits.",
+        "Mites multiply on leaf undersides, causing white pinpricks.",
+        "Leaves turn bronze and dry out.",
+        "Webbing covers the plant.",
+        "Plant is sucked dry and dies."
+      ],
+      "treated": [
+        "Water sprays and Oils smother the mites.",
+        "Stippling stops.",
+        "Plant pushes healthy new green growth."
+      ]
+    },
+    "recovery_indicators": [
+      "No new stippling (white pinpricks) appears on the newest leaves.",
+      "Webbing is gone.",
+      "Tapping a leaf over white paper yields no moving specks."
+    ],
+    "recovery": {
+      "estimated_days": "7-14",
+      "success_rate": "Medium (Mites require 2-3 repeat sprays to break the egg cycle)",
+      "depends_on": [
+        "Coverage on Leaf Undersides",
+        "Breaking the Heat Wave",
+        "Repeat Applications"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Can be 100% if the plant is killed during the fruiting phase.",
+      "quality_loss": "Sunscald on fruit due to leaf loss.",
+      "financial_impact": "High loss of yield in hot, drought-prone years or in greenhouse environments."
+    },
+    "monitoring": {
+      "inspection_frequency": "Twice weekly during hot, dry weather. Tap leaves over a white sheet of paper and look for crawling specks.",
+      "warning_signs": [
+        "Heat waves, drought, and dusty conditions.",
+        "Spraying broad-spectrum insecticides (like Sevin) for other bugs."
+      ],
+      "recovery_signs": [
+        "Return of rainy, humid weather."
+      ]
+    },
+    "faq": [
+      {
+        "question": "My tomato leaves are turning yellow and have tiny spider webs on them. Is it a fungus?",
+        "answer": "No, it is an infestation of Spider Mites. They are microscopic arachnids sucking the juice out of the plant. Fungicides will do absolutely nothing. You need an insecticidal soap or oil."
+      },
+      {
+        "question": "I sprayed pesticide, but the webbing got worse. Why?",
+        "answer": "Many common chemical bug sprays (like Sevin/Carbaryl) kill the good predatory bugs that eat spider mites, but don't kill the spider mites themselves. This causes a massive 'mite flare-up'. You must use a specific 'Miticide' or Neem oil."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "Spider mites are not insects; they are arachnids (related to spiders), which is why many standard insecticides do not kill them.",
+        "In extreme heat (95°F), a female spider mite can hatch, grow to adulthood, and lay 100 eggs in just 5 days."
+      ],
+      "similar_diseases": [
+        "Late Blight (has white fuzz, not silky webbing)",
+        "Magnesium deficiency (bronzing/yellowing)"
+      ],
+      "differential_diagnosis": [
+        "Fungal fuzz (Late Blight/Leaf Mold) looks like cotton or velvet and cannot be easily wiped away. Spider mite webbing looks like actual silk spider webs stretched between leaves. The white paper tap test instantly confirms mites."
+      ]
+    },
+    "ai_context": {
+      "summary": "Spider Mites are microscopic arachnids that suck sap from tomato leaves, causing white stippling, bronzing, and fine silky webbing. They thrive in extreme heat and drought.",
+      "key_points": [
+        "Not a fungus or bacteria; fungicides are useless.",
+        "Thrive in HOT, DRY, DUSTY weather.",
+        "Cause white pinprick stippling and silky webbing.",
+        "Standard insecticides often make them worse (flare-ups).",
+        "Requires horticultural oils, miticides, or hard water sprays."
+      ],
+      "high_priority_actions": [
+        "Instruct user to do the 'white paper tap test'.",
+        "Advise blasting the undersides of leaves with a hose.",
+        "Demand they stop using broad-spectrum insecticides.",
+        "Recommend Neem oil or Insecticidal soap."
+      ],
+      "weather_considerations": [
+        "Extreme Alert: Heat waves (>30°C) with prolonged drought/no rain."
+      ],
+      "common_mistakes": [
+        "Spraying fungicides.",
+        "Spraying Sevin/Bifenthrin (causes mite populations to explode).",
+        "Only spraying the top of the leaves (mites live on the bottom)."
+      ],
+      "follow_up_recommendations": [
+        "Ask if they see tiny silky spider webs stretching between the leaves.",
+        "Remind them to re-spray in 5 days to kill newly hatched eggs."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user that {disease_name} are actually microscopic arachnids, not a disease. The white pinpricks and silky webbing are caused by these pests sucking the sap out of the plant.",
+      "weather_analysis": "Note that the recent extreme heat and lack of rain ({temperature_data}) created the perfect dry, dusty incubator for {disease_name} to explode in population.",
+      "treatment_plan": "Create an eradication plan. Instruct the user to immediately blast the undersides of the leaves with a strong jet of water. Follow up with {treatment.organic} (like Neem oil or Insecticidal Soap), explicitly warning them NOT to use standard chemical bug sprays, which will make the mites worse.",
+      "followup": "Ask the user to hold a white piece of paper under a sick leaf and tap the leaf sharply. Do they see tiny specks the size of ground pepper crawling around on the paper? (This confirms Spider Mites)."
+    },
+    "references": [
+      "University of California Statewide IPM: Spider Mites",
+      "Colorado State University Extension: Spider Mites"
+    ],
+    "model_mapping": {
+      "cnn_class": "Tomato___Two_Spotted_Spider_Mite",
+      "aliases": [
+        "Tomato Two-Spotted Spider Mite",
+        "Tomato Spider Mites"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Intermediate"
+    },
+    "disease_id": "TOMATO_007",
+    "disease_name": "Target_Spot_Tomato",
+    "common_name": "Target Spot",
+    "scientific_name": "Corynespora cassiicola",
+    "crop": "Tomato",
+    "disease_type": "Fungal",
+    "pathogen_type": "Fungus",
+    "overview": {
+      "description": "Target Spot is a destructive fungal disease that mimics Early Blight but attacks both the leaves and the fruit aggressively. It causes rapidly expanding target-like lesions on foliage and deeply sunken, cracking craters on the fruit. It thrives in highly humid, shaded canopies.",
+      "importance": "High. It can cause severe defoliation, but its primary economic damage comes from ruining the fruit with deeply sunken, rotting craters.",
+      "affected_parts": [
+        "Leaves",
+        "Stems",
+        "Fruit"
+      ],
+      "host_plants": [
+        "Tomato",
+        "Cucumber",
+        "Papaya",
+        "Soybean",
+        "Cotton"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Small, pinpoint, water-soaked spots appear on older leaves.",
+        "Spots turn light brown, often with a yellow halo."
+      ],
+      "moderate": [
+        "Leaf spots enlarge, becoming irregular or circular, and develop distinct concentric rings (target pattern).",
+        "Small, slightly sunken brown spots appear on green or ripening fruit."
+      ],
+      "severe": [
+        "Leaf lesions merge, blighting entire leaves and causing them to drop.",
+        "Fruit spots expand massively into deep, sunken craters with dark brown/black centers and distinct concentric rings.",
+        "The fruit craters often crack open, inviting secondary rot."
+      ],
+      "leaf": [
+        "Brown lesions with concentric rings, very similar to Early Blight, but often smaller and more numerous."
+      ],
+      "stem": [
+        "Dark brown lesions that can girdle small stems."
+      ],
+      "fruit": [
+        "Deeply sunken, circular craters with concentric rings, often cracking. Occurs anywhere on the fruit (not just the stem end)."
+      ],
+      "flower": [
+        "Can occasionally blight blossoms."
+      ],
+      "root": []
+    },
+    "causes": {
+      "primary_cause": "Airborne spores splashing from infected crop debris or alternative weed hosts into the lower canopy.",
+      "pathogen": "Corynespora cassiicola",
+      "survival_mechanism": "Survives for years on infected crop debris in the soil, and on a massive range of alternative weed and crop hosts.",
+      "infection_process": "Spores require free moisture to germinate. They infect lower, shaded leaves where humidity is highest. The disease moves upward as the canopy grows denser and traps more humidity."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Spores splash from soil to lower leaves.",
+        "Lesions form and produce secondary spores.",
+        "High humidity and rain spread spores to the fruit and upper canopy.",
+        "Severely infected fruit drops or rots."
+      ],
+      "spread_cycle": "Polycyclic. Constant spread during warm, wet weather."
+    },
+    "transmission": {
+      "methods": [
+        "Rain splash",
+        "Wind-driven rain",
+        "Overhead irrigation"
+      ],
+      "vectors": [],
+      "common_sources": [
+        "Soil-borne crop debris",
+        "Nearby infected crops (like soybeans)"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "Extreme",
+      "rainfall": "High",
+      "poor_airflow": "Extreme (Dense canopies are a major trigger)",
+      "overhead_irrigation": "Extreme"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "20°C - 28°C (68°F - 82°F)",
+        "notes": "Prefers warm, tropical/subtropical climates."
+      },
+      "humidity": {
+        "optimal_range": "85% - 100%",
+        "notes": "High relative humidity within the plant canopy is the absolute most critical factor for spore production."
+      },
+      "rainfall": "Frequent rain showers drive the disease.",
+      "wind": "Not a major factor, though it helps spread spores slightly.",
+      "soil_conditions": "Not directly applicable.",
+      "leaf_wetness": "Requires 16 to 44 hours of continuous leaf wetness or near-100% humidity for severe infection."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 15,
+        "max": 32
+      },
+      "humidity": {
+        "min": 85,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 16
+    },
+    "weather_influence": {
+      "high_humidity": "The primary driver. A dense, unpruned tomato plant creates the perfect humid incubator for Target Spot.",
+      "rain": "Splashes spores onto fruit.",
+      "high_temperature": "Slows disease if accompanied by dry air.",
+      "low_temperature": "Slows disease.",
+      "wind": "Crucial for drying the canopy and stopping the disease.",
+      "dry_conditions": "Halts infection completely."
+    },
+    "severity_levels": {
+      "low": "Spots on lowest leaves in a dense canopy. Prune bottom leaves immediately.",
+      "medium": "Spots appearing on green fruit. Systemic fungicide required.",
+      "high": "Significant defoliation and deep craters forming on ripening fruit.",
+      "critical": "Crop ruined. Canopy blighted and all fruit heavily cratered."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "Aggressively prune the bottom 12-18 inches of leaves off the tomato plants (bottom-pruning) to open the canopy to wind and sunlight, drastically lowering humidity."
+      ],
+      "within_24_hours": [
+        "Apply a targeted systemic/protectant fungicide tank mix. Do not rely on protectants alone once fruit spots appear."
+      ],
+      "within_one_week": [
+        "Cease all overhead watering."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Azoxystrobin (Quadris) + Difenoconazole (Inspire) (Strobilurin/Triazole mix is highly effective).",
+        "Chlorothalonil, Mancozeb (Protectants).",
+        "Note: Resistance to some Strobilurins is developing in Target Spot populations; tank-mixing is mandatory."
+      ],
+      "biological": [
+        "Not highly effective."
+      ],
+      "organic": [
+        "Copper sprays (Moderate efficacy).",
+        "Extreme cultural management (pruning/staking)."
+      ],
+      "integrated_management": [
+        "The best control is structural: trellis the tomatoes high, space them widely, and prune aggressively to eliminate the humid microclimate the fungus needs."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Destroy crop residue."
+      ],
+      "irrigation": [
+        "Drip irrigation only."
+      ],
+      "crop_rotation": [
+        "Rotate away from tomatoes, peppers, and soybeans for 3 years."
+      ],
+      "air_circulation": [
+        "CRITICAL. Staking and aggressive suckering/pruning are the best preventative measures."
+      ],
+      "resistant_varieties": [
+        "Very few commercial varieties have strong resistance. Management relies on pruning and fungicides."
+      ],
+      "seasonal_practices": [
+        "Mulch to prevent soil splash."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Avoid excess nitrogen, which creates the massive, dense, humid canopy that Target Spot requires.",
+      "phosphorus": "Standard.",
+      "potassium": "Standard.",
+      "calcium": "Standard.",
+      "magnesium": "Standard.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Spores splash to lower canopy.",
+        "Dense leaves trap humidity, disease explodes.",
+        "Deep craters form on all fruit.",
+        "Crop is entirely unmarketable."
+      ],
+      "treated": [
+        "Canopy is pruned to allow wind flow.",
+        "Fungicides protect fruit.",
+        "Fruit ripens clean and blemish-free."
+      ]
+    },
+    "recovery_indicators": [
+      "Lesions on fruit stop expanding and dry out.",
+      "New foliage remains clean.",
+      "Canopy visibly dries out faster after rain."
+    ],
+    "recovery": {
+      "estimated_days": "10-14",
+      "success_rate": "Medium (Hard to cure once in the fruit)",
+      "depends_on": [
+        "Aggressive Canopy Pruning",
+        "Fungicides",
+        "Dry Weather"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Up to 50% due to unmarketable cratered fruit.",
+      "quality_loss": "Extreme. A single crater ruins the fruit.",
+      "financial_impact": "High loss of fresh market revenue."
+    },
+    "monitoring": {
+      "inspection_frequency": "Weekly. Check the innermost, most shaded parts of the plant canopy.",
+      "warning_signs": [
+        "Over-fertilized, incredibly bushy tomato plants.",
+        "Prolonged warm, humid, rainy periods."
+      ],
+      "recovery_signs": [
+        "Return of dry, breezy weather."
+      ]
+    },
+    "faq": [
+      {
+        "question": "Is this Early Blight? It has the target rings on the leaves.",
+        "answer": "Target Spot and Early Blight look identical on leaves. The difference is the fruit. Early Blight almost always attacks the TOP (stem end) of the fruit. Target Spot attacks the SIDES and BOTTOM of the fruit, causing deep, cracking craters."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "Target Spot has one of the widest host ranges of any fungal pathogen, infecting over 500 different species of plants, making crop rotation very difficult if weeds aren't controlled."
+      ],
+      "similar_diseases": [
+        "Early Blight",
+        "Bacterial Spot (on fruit)"
+      ],
+      "differential_diagnosis": [
+        "Bacterial Spot causes raised, corky scabs on fruit. Target spot causes deeply sunken craters with rings. Early Blight causes leathery rot strictly at the stem end of the fruit; Target Spot craters appear anywhere on the fruit body."
+      ]
+    },
+    "ai_context": {
+      "summary": "Target Spot is a fungal disease similar to Early Blight but causes much more severe, deeply sunken craters on the fruit itself. It is driven by extremely dense, humid plant canopies.",
+      "key_points": [
+        "Causes leaf spots with concentric rings.",
+        "Causes deep, sunken craters on fruit (not just at the stem end).",
+        "Driven by high humidity inside a dense canopy.",
+        "Aggressive pruning/trellising is the primary cure."
+      ],
+      "high_priority_actions": [
+        "Demand user prunes the bottom leaves off the plant to increase airflow.",
+        "Advise applying a systemic/protectant tank mix to save uninfected fruit.",
+        "Instruct user to stop overhead watering."
+      ],
+      "weather_considerations": [
+        "Alert: Warm, rainy weather combined with high humidity (85%+)."
+      ],
+      "common_mistakes": [
+        "Letting tomato plants turn into a massive, unpruned jungle (traps humidity).",
+        "Confusing it with Early Blight and missing the fruit threat."
+      ],
+      "follow_up_recommendations": [
+        "Ask if the lesions on the fruit are deeply sunken craters on the sides/bottom (Target Spot), or just leathery rot at the top stem (Early Blight)."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user that the spots with concentric rings on the leaves, combined with the deeply sunken craters on the sides of the fruit, point directly to {disease_name}.",
+      "weather_analysis": "Note that {disease_name} requires extremely high humidity. While the recent {rainfall_data} contributed, the real problem is likely a dense, overgrown plant canopy trapping stagnant, wet air.",
+      "treatment_plan": "Develop a structural action plan first: Instruct the user to aggressively prune the bottom leaves and suckers off the plant to open it up to wind and sun. Follow this physical fix with {treatment.chemical} to protect the remaining clean fruit.",
+      "followup": "Ask the user where the spots on the tomatoes are located. Are they deeply sunken craters on the sides and bottom of the fruit (Target Spot), or is the rot only at the very top where the stem attaches (Early Blight)?"
+    },
+    "references": [
+      "University of Florida IFAS: Target Spot of Tomato"
+    ],
+    "model_mapping": {
+      "cnn_class": "Tomato___Target_Spot",
+      "aliases": [
+        "Tomato Target Spot",
+        "Tomato Target Spot Tomato"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Advanced"
+    },
+    "disease_id": "TOMATO_008",
+    "disease_name": "Tomato_Yellow_Leaf_Curl_Virus",
+    "common_name": "Tomato Yellow Leaf Curl Virus (TYLCV)",
+    "scientific_name": "Tomato yellow leaf curl virus (Begomovirus)",
+    "crop": "Tomato",
+    "disease_type": "Fungal",
+    "pathogen_type": "Virus",
+    "overview": {
+      "description": "Tomato Yellow Leaf Curl Virus (TYLCV) is one of the most devastating viral diseases of tomatoes globally. It causes severe stunting, leaf curling, and yellowing, and completely halts fruit production. It is spread exclusively by the Silverleaf Whitefly.",
+      "importance": "Critical. If a plant is infected early in the season, it will yield absolutely no fruit. There is no chemical cure for the virus; management relies entirely on killing the insect vector or planting resistant genetics.",
+      "affected_parts": [
+        "Leaves",
+        "Stems",
+        "Fruit (Production stops)"
+      ],
+      "host_plants": [
+        "Tomato",
+        "Pepper",
+        "Tobacco",
+        "Various weeds"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Newest leaves at the top of the plant become distinctly cupped, curled upwards, or wrinkled.",
+        "The margins (edges) of the new leaves turn light green or bright yellow."
+      ],
+      "moderate": [
+        "Plant growth is severely stunted. The internodes (stem between leaves) become very short, creating a bushy, 'bonsai' appearance at the top of the plant.",
+        "Leaves are drastically reduced in size, yellow at the edges, and curled tightly upward."
+      ],
+      "severe": [
+        "Flowers drop off (abscise) before setting fruit.",
+        "The plant produces virtually no new tomatoes.",
+        "Fruit already on the plant when infected may ripen normally, but no new fruit will ever form."
+      ],
+      "leaf": [
+        "Curled upwards (cupped), drastically undersized, with bright yellow margins. No necrotic (dead brown) spots."
+      ],
+      "stem": [
+        "Stunted, shortened internodes (bushy top)."
+      ],
+      "fruit": [
+        "Fruit production completely stops. Existing fruit is unaffected."
+      ],
+      "flower": [
+        "Severe blossom drop."
+      ],
+      "root": []
+    },
+    "causes": {
+      "primary_cause": "Injection of the virus into the plant's phloem by feeding Whiteflies.",
+      "pathogen": "Tomato yellow leaf curl virus (TYLCV)",
+      "survival_mechanism": "Survives in alternative weed hosts (e.g., nightshades, jimsonweed) and inside the bodies of the Whitefly vector.",
+      "infection_process": "A Whitefly feeds on an infected plant, acquiring the virus. When it flies to a healthy tomato and feeds on the sap, it injects the virus. The virus systematically infects the entire plant within 1-2 weeks."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Whitefly acquires virus from a weed or infected crop.",
+        "Whitefly feeds on healthy tomato.",
+        "Incubation (10-21 days before symptoms show).",
+        "Plant stops growing; new whiteflies feed on it and spread the virus further."
+      ],
+      "spread_cycle": "Vector-driven. Spreads as fast as the whitefly population multiplies and moves."
+    },
+    "transmission": {
+      "methods": [
+        "Insect vector feeding exclusively"
+      ],
+      "vectors": [
+        "Silverleaf Whitefly (Bemisia tabaci)"
+      ],
+      "common_sources": [
+        "Infected transplants from nurseries",
+        "Weed reservoirs"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "Low",
+      "rainfall": "Low",
+      "whitefly_presence": "Extreme",
+      "susceptible_variety": "Extreme"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "25°C - 35°C (77°F - 95°F)",
+        "notes": "Hot weather causes Whitefly populations to explode."
+      },
+      "humidity": {
+        "optimal_range": "Variable",
+        "notes": "Not a direct factor."
+      },
+      "rainfall": "Heavy rain actually suppresses Whitefly populations by washing them off plants.",
+      "wind": "Blows Whiteflies from neighboring infected fields (like harvested cotton or melon fields).",
+      "soil_conditions": "Not applicable.",
+      "leaf_wetness": "Not applicable."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 15,
+        "max": 40
+      },
+      "humidity": {
+        "min": 0,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 0
+    },
+    "weather_influence": {
+      "high_humidity": "No direct effect on virus.",
+      "rain": "Decreases risk by killing Whiteflies.",
+      "high_temperature": "Massively increases risk by accelerating Whitefly breeding.",
+      "low_temperature": "Slows insect vectors.",
+      "wind": "Carries infected Whiteflies miles away.",
+      "dry_conditions": "Favorable for Whiteflies."
+    },
+    "severity_levels": {
+      "low": "N/A. Once a plant has TYLCV, it is a total loss.",
+      "medium": "N/A.",
+      "high": "N/A.",
+      "critical": "Plant is stunted, curled, and sterile. Must be removed."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "If a plant shows classic severe curling and yellow margins, PULL IT UP immediately, bag it, and destroy it. It will never produce tomatoes again and is acting as a virus factory for the rest of your garden/field."
+      ],
+      "within_24_hours": [
+        "Inspect the undersides of healthy tomato leaves for tiny, snow-white flying insects (Whiteflies) or their flat, scale-like nymphs."
+      ],
+      "within_one_week": [
+        "Apply targeted insecticides to control the Whitefly population on remaining healthy plants."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "There is NO chemical cure for a virus.",
+        "Insecticides: Imidacloprid, Dinotefuran (Systemic neonicotinoids applied at planting are highly effective at killing Whiteflies before they transmit the virus).",
+        "Insect growth regulators (Pyriproxyfen) to stop Whitefly nymphs."
+      ],
+      "biological": [
+        "Release predatory wasps (Eretmocerus spp.) in greenhouses to control Whiteflies."
+      ],
+      "organic": [
+        "Horticultural oils and insecticidal soaps to smother Whiteflies.",
+        "Reflective silver mulch to confuse and repel flying Whiteflies."
+      ],
+      "integrated_management": [
+        "The only sustainable defense in high-pressure areas is planting TYLCV-resistant tomato varieties."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Eradicate all weeds in and around the field, as they harbor the virus.",
+        "Ensure greenhouse vents have ultra-fine insect netting to keep Whiteflies out."
+      ],
+      "irrigation": [
+        "Not applicable."
+      ],
+      "crop_rotation": [
+        "Not highly effective, as the insects fly."
+      ],
+      "air_circulation": [
+        "Not applicable."
+      ],
+      "resistant_varieties": [
+        "CRITICAL. In hot southern climates, you MUST plant TYLCV-resistant varieties (e.g., 'Tycoon', 'Security', 'Sanibel')."
+      ],
+      "seasonal_practices": [
+        "Use UV-reflective silver plastic mulch. The reflection blinds the Whiteflies, preventing them from landing on young transplants."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Avoid excess nitrogen, which makes the plant highly attractive to sap-sucking Whiteflies.",
+      "phosphorus": "Standard.",
+      "potassium": "Standard.",
+      "calcium": "Standard.",
+      "magnesium": "Standard.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Whitefly bites young plant.",
+        "Top leaves curl and turn yellow.",
+        "Plant permanently stops growing.",
+        "Zero tomatoes are harvested.",
+        "Whiteflies spread virus to entire field."
+      ],
+      "treated": [
+        "Resistant varieties are planted.",
+        "Whiteflies feed, but virus cannot replicate.",
+        "Plant grows normally and yields a massive crop."
+      ]
+    },
+    "recovery_indicators": [
+      "Once infected, the plant WILL NEVER RECOVER. Success is measured by preventing the infection of neighboring healthy plants."
+    ],
+    "recovery": {
+      "estimated_days": "N/A (Incurable)",
+      "success_rate": "Zero (for infected plant)",
+      "depends_on": [
+        "Vector Control",
+        "Plant Removal",
+        "Resistant Genetics"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "100% on infected plants. Can destroy an entire field if infected early.",
+      "quality_loss": "N/A (No fruit is produced).",
+      "financial_impact": "Total crop failure in regions with high Whitefly pressure."
+    },
+    "monitoring": {
+      "inspection_frequency": "Check daily for Whiteflies by gently shaking the plants and watching for tiny white specs flying up.",
+      "warning_signs": [
+        "Hot, dry weather causing Whitefly populations to explode.",
+        "Neighboring farms harvesting crops (which flushes Whiteflies into the air)."
+      ],
+      "recovery_signs": [
+        "N/A"
+      ]
+    },
+    "faq": [
+      {
+        "question": "Can I spray a fungicide to fix the curled leaves?",
+        "answer": "No. Fungicides kill fungi. This is a Virus. There is no chemical in the world that cures a plant virus. You must pull the sick plant out to save the others."
+      },
+      {
+        "question": "Is this Herbicide damage? My neighbor sprayed weedkiller.",
+        "answer": "Herbicide drift (like 2,4-D) causes severe leaf twisting and curling, but it usually pulls the leaves DOWNWARD, making them look stretched and leathery. TYLCV causes the leaves to curl UPWARD (cupped) with distinct bright yellow edges."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "The Tomato Yellow Leaf Curl Virus is technically not in the plant's cells, it lives in the phloem (the plant's circulatory system). When the Whitefly sucks the sap, it sucks up the virus, which then passes through the insect's gut into its salivary glands, ready to be injected into the next plant."
+      ],
+      "similar_diseases": [
+        "Herbicide Drift (2,4-D or Dicamba)",
+        "Physiological Leaf Roll",
+        "Broad Mite damage"
+      ],
+      "differential_diagnosis": [
+        "Physiological Leaf Roll causes the lower, older leaves to roll inward like a cigar due to heat/water stress, but they stay green and the plant keeps producing. TYLCV attacks the NEW top leaves, turns the edges yellow, and permanently stops fruit production."
+      ]
+    },
+    "ai_context": {
+      "summary": "Tomato Yellow Leaf Curl Virus (TYLCV) is an incurable virus spread exclusively by Whiteflies. It causes severe upward leaf cupping, yellow margins, and completely halts fruit production.",
+      "key_points": [
+        "Incurable. Infected plants must be destroyed.",
+        "Spread ONLY by Silverleaf Whiteflies.",
+        "Causes upward cupping and yellow edges on new leaves.",
+        "Stops fruit production permanently.",
+        "Requires resistant varieties in hot climates."
+      ],
+      "high_priority_actions": [
+        "Demand user pulls up and destroys the infected plant immediately.",
+        "Instruct user to shake plants to check for flying Whiteflies.",
+        "Advise treating remaining healthy plants with an insecticide."
+      ],
+      "weather_considerations": [
+        "Alert: Hot weather (>25°C) causes Whitefly populations to explode."
+      ],
+      "common_mistakes": [
+        "Leaving the stunted plant in the garden hoping it will recover.",
+        "Spraying fungicides.",
+        "Confusing it with simple heat-stress leaf roll."
+      ],
+      "follow_up_recommendations": [
+        "Ask if the leaves are curling UPWARD (cupped) with yellow edges, or rolling inward like a cigar (Heat stress).",
+        "Strongly suggest planting TYLCV-resistant varieties next year."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user that severe stunting, upward-cupped leaves, and yellow margins are the hallmark of {disease_name}. Emphasize that this is an incurable virus spread entirely by {transmission.vectors}.",
+      "weather_analysis": "Note that the hot weather ({temperature_data}) caused a population explosion of Whiteflies, the insects that inject this virus. Warn them that the bugs will spread it to every plant.",
+      "treatment_plan": "Deliver the harsh truth: the infected plant is permanently sterile and cannot be cured. Instruct the user to pull and destroy the sick plant immediately. Then, advise applying {treatment.chemical} (insecticides) to kill the Whiteflies and protect the remaining healthy tomatoes.",
+      "followup": "Ask the user to gently shake a healthy tomato plant nearby. Do they see tiny, snow-white insects flying up into the air? (This confirms the presence of the Whitefly vector)."
+    },
+    "references": [
+      "University of Florida IFAS: Tomato Yellow Leaf Curl Virus",
+      "Texas A&M Extension: TYLCV"
+    ],
+    "model_mapping": {
+      "cnn_class": "Tomato___Tomato_Yellow_Leaf_Curl_Virus_TYLCV",
+      "aliases": [
+        "Tomato Tomato Yellow Leaf Curl Virus (TYLCV)",
+        "Tomato Tomato Yellow Leaf Curl Virus"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Advanced"
+    },
+    "disease_id": "TOMATO_009",
+    "disease_name": "Tomato_Mosaic_Virus",
+    "common_name": "Tomato Mosaic Virus (ToMV)",
+    "scientific_name": "Tomato mosaic virus (Tobamovirus)",
+    "crop": "Tomato",
+    "disease_type": "Fungal",
+    "pathogen_type": "Virus",
+    "overview": {
+      "description": "Tomato Mosaic Virus (ToMV) is a highly contagious, incredibly stable virus. Unlike TYLCV which requires an insect to spread, ToMV spreads through mechanical contact—simply touching a sick plant and then a healthy one. It causes mottled leaves, stunted growth, and internal browning of the fruit.",
+      "importance": "High. The virus is nearly indestructible in the environment. It can survive on unwashed tools, greenhouse benches, and clothing for months or years. Infected plants produce poor, unmarketable fruit.",
+      "affected_parts": [
+        "Leaves",
+        "Fruit",
+        "Stems"
+      ],
+      "host_plants": [
+        "Tomato",
+        "Pepper",
+        "Eggplant",
+        "Tobacco"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Leaves develop a 'mosaic' or mottled pattern of alternating light green, dark green, and yellow patches.",
+        "New leaves may emerge narrow, stringy, or distorted (fern-leaf appearance)."
+      ],
+      "moderate": [
+        "Plant growth is noticeably stunted.",
+        "Foliage appears yellowish overall, with raised dark green blisters in the mosaic pattern.",
+        "Fruit setting is reduced."
+      ],
+      "severe": [
+        "Fruit that does develop often shows uneven ripening, yellow rings, or sunken brown necrotic spots.",
+        "If you cut the fruit open, the internal walls (septa) are often brown and necrotic ('internal browning').",
+        "In cool weather, dark necrotic streaks may appear on the main stems."
+      ],
+      "leaf": [
+        "Mottled light/dark green mosaic pattern. Distorted, fern-like, stringy appearance."
+      ],
+      "stem": [
+        "Dark necrotic streaks (mostly in cool temperatures)."
+      ],
+      "fruit": [
+        "Uneven ripening, yellow rings, and internal browning (making it unmarketable)."
+      ],
+      "flower": [
+        "Poor blossom development."
+      ],
+      "root": []
+    },
+    "causes": {
+      "primary_cause": "Mechanical transmission of virus particles via hands, tools, or contaminated seeds.",
+      "pathogen": "Tomato mosaic virus (ToMV)",
+      "survival_mechanism": "EXTREMELY STABLE. Can survive in dry dead plant tissue for decades, on tools, in the soil on root debris, and on the surface of seeds.",
+      "infection_process": "Microscopic wounds caused by handling, tying, or pruning the plant allow the virus particles from contaminated hands/tools to enter the plant's cells. The virus hijacks the cellular machinery to replicate, spreading systemically."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Virus introduced via contaminated seed or unwashed hands/tools.",
+        "Virus enters through microscopic wounds during pruning/handling.",
+        "Systemic infection within days.",
+        "Worker touches infected plant, then touches healthy plants down the row, spreading the virus exponentially."
+      ],
+      "spread_cycle": "Mechanically polycyclic. Spreads exactly down the line of human or equipment movement in the field/greenhouse."
+    },
+    "transmission": {
+      "methods": [
+        "Mechanical (pruning, tying, touching)",
+        "Contaminated seeds",
+        "Soil-borne root debris"
+      ],
+      "vectors": [
+        "None (Insects do NOT spread ToMV)"
+      ],
+      "common_sources": [
+        "Unsanitized pruning shears",
+        "Workers handling tobacco products (Tobacco Mosaic Virus is closely related)",
+        "Uncertified saved seeds"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "Low",
+      "rainfall": "Low",
+      "poor_hygiene": "Extreme (Unwashed hands/tools)",
+      "saving_seeds": "Extreme",
+      "greenhouse_growing": "High (Due to constant handling)"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "Variable",
+        "notes": "Symptoms are most severe in moderate weather (20-25°C). Extreme heat can sometimes mask the leaf symptoms, but fruit damage continues."
+      },
+      "humidity": {
+        "optimal_range": "Variable",
+        "notes": "Not a factor."
+      },
+      "rainfall": "Not a factor.",
+      "wind": "Not a factor.",
+      "soil_conditions": "Virus survives in undecomposed root debris in the soil.",
+      "leaf_wetness": "Not applicable."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 10,
+        "max": 35
+      },
+      "humidity": {
+        "min": 0,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 0
+    },
+    "weather_influence": {
+      "high_humidity": "No effect.",
+      "rain": "No effect.",
+      "high_temperature": "Masks the mosaic pattern on leaves, making the plant look temporarily healthy, but the fruit will still suffer internal browning.",
+      "low_temperature": "Causes severe dark streaking on stems and severe stunting.",
+      "wind": "No effect.",
+      "dry_conditions": "No effect."
+    },
+    "severity_levels": {
+      "low": "N/A. Once a plant is infected, the entire plant is ruined.",
+      "medium": "N/A.",
+      "high": "N/A.",
+      "critical": "Plant is stunted, leaves are mottled, fruit is internally brown. Must be destroyed."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "If a plant shows classic mosaic mottling and stringy leaves, PULL IT UP carefully without letting it brush against other plants. Bag it and trash it."
+      ],
+      "within_24_hours": [
+        "Soak all pruning shears, stakes, and cages in a 20% bleach solution or commercial virucide (e.g., Virkon) for at least 10 minutes. Wash your hands thoroughly with soap and water."
+      ],
+      "within_one_week": [
+        "Do not smoke or use tobacco products near the tomato plants, and wash hands after smoking. Tobacco Mosaic Virus (TMV) is nearly identical and will infect tomatoes just as easily."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "There is NO chemical cure for a virus.",
+        "Fungicides and insecticides are 100% useless against ToMV."
+      ],
+      "biological": [
+        "None."
+      ],
+      "organic": [
+        "Extreme sanitation.",
+        "Planting resistant varieties."
+      ],
+      "integrated_management": [
+        "The only defense is prevention: Buy certified disease-free seeds, wash hands constantly, dip tools in bleach between every plant, and plant resistant varieties."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "CRITICAL. Disinfect everything. The virus can survive on a dry, unwashed pruning shear for years.",
+        "Wash hands with abrasive soap or milk (milk proteins deactivate the virus on hands)."
+      ],
+      "irrigation": [
+        "Not applicable."
+      ],
+      "crop_rotation": [
+        "Rotate away from tomatoes/peppers for at least 2 years to allow root debris in the soil to decompose completely."
+      ],
+      "air_circulation": [
+        "Not applicable."
+      ],
+      "resistant_varieties": [
+        "Highly recommended. Look for seeds with 'ToMV' or 'TMV' resistance codes (e.g., Tm-2^2 gene). Most modern commercial hybrids are highly resistant. Heirlooms are extremely susceptible."
+      ],
+      "seasonal_practices": [
+        "If saving seeds, extract them using acid or fermentation methods, and treat with a 10% bleach solution or trisodium phosphate (TSP) to destroy virus particles on the seed coat."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Standard.",
+      "phosphorus": "Standard.",
+      "potassium": "Standard.",
+      "calcium": "Standard.",
+      "magnesium": "Standard.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Worker prunes infected plant, then prunes 50 healthy plants.",
+        "All 50 plants develop mottled, stringy leaves.",
+        "Growth stunts.",
+        "Fruit ripens unevenly with brown internal tissue.",
+        "Crop is unsellable."
+      ],
+      "treated": [
+        "Resistant varieties are planted.",
+        "Tools are bleached.",
+        "Plants grow vigorously and yield perfectly clean fruit."
+      ]
+    },
+    "recovery_indicators": [
+      "Once infected, the plant WILL NEVER RECOVER. Success is measured by strict hygiene that prevents the infection from spreading down the row."
+    ],
+    "recovery": {
+      "estimated_days": "N/A (Incurable)",
+      "success_rate": "Zero (for infected plant)",
+      "depends_on": [
+        "Plant Removal",
+        "Bleaching Tools",
+        "Resistant Genetics"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "High. Reduces fruit number and size significantly.",
+      "quality_loss": "Extreme. Internal browning and uneven ripening make the fruit completely unmarketable for fresh or processing markets.",
+      "financial_impact": "Severe revenue loss, particularly in greenhouse operations where handling is frequent."
+    },
+    "monitoring": {
+      "inspection_frequency": "Watch constantly for strange, mottled, light/dark green leaf patterns, especially a few weeks after a major pruning or tying event.",
+      "warning_signs": [
+        "Saving seeds from sick heirloom tomatoes.",
+        "Workers smoking tobacco and handling plants without washing hands."
+      ],
+      "recovery_signs": [
+        "N/A"
+      ]
+    },
+    "faq": [
+      {
+        "question": "Can bugs spread the Mosaic Virus?",
+        "answer": "No. Unlike Tomato Yellow Leaf Curl Virus (spread by whiteflies), ToMV is NOT spread by aphids, whiteflies, or other insects. It is spread almost entirely by human hands and pruning tools."
+      },
+      {
+        "question": "Can I just cut the mottled leaves off?",
+        "answer": "No. The virus is systemic; it is in the sap flowing through every part of the plant, including the roots and fruit. Cutting leaves off won't cure it, and the pruners you use will now infect the next plant you cut."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "Tobamoviruses are some of the toughest viruses on Earth. Tobacco Mosaic Virus (a close relative) was recovered from a completely dry tobacco leaf that had been sitting in a museum jar for over 50 years, and it was STILL capable of infecting a plant."
+      ],
+      "similar_diseases": [
+        "Herbicide Drift",
+        "Cucumber Mosaic Virus",
+        "Potyviruses"
+      ],
+      "differential_diagnosis": [
+        "Herbicide drift causes twisting and 'fern-like' leaves, but usually lacks the distinct alternating light/dark green 'mosaic' pattern. ToMV specifically causes internal browning of the fruit, whereas herbicide damage usually just stunts the fruit."
+      ]
+    },
+    "ai_context": {
+      "summary": "Tomato Mosaic Virus (ToMV) is a highly stable, incurable virus spread entirely by mechanical contact (hands/tools). Causes mottled 'mosaic' leaves and internal browning of fruit. Heirlooms are highly susceptible.",
+      "key_points": [
+        "Incurable. Infected plants must be destroyed.",
+        "Spread by HANDS and TOOLS, not insects.",
+        "Survives for years on unwashed pruners.",
+        "Causes mottled leaves and internal fruit browning.",
+        "Smokers must wash hands (TMV cross-infection)."
+      ],
+      "high_priority_actions": [
+        "Demand user pulls up and bags the infected plant immediately.",
+        "Instruct user to soak all pruners/stakes in a 20% bleach solution.",
+        "Advise user to stop touching healthy plants immediately."
+      ],
+      "weather_considerations": [
+        "Alert: None. Weather does not drive this disease; human handling does."
+      ],
+      "common_mistakes": [
+        "Thinking bugs spread it and spraying insecticides.",
+        "Cutting off sick leaves with unwashed pruners and moving to the next plant.",
+        "Saving seeds from a sick heirloom plant."
+      ],
+      "follow_up_recommendations": [
+        "Ask if they recently pruned or tied the tomatoes.",
+        "Strongly suggest planting ToMV-resistant hybrids next year."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user that the strange, mottled light-and-dark green pattern on the leaves is {disease_name}. Emphasize heavily that this incurable virus is spread mechanically by {causes.infection_process}, not by bugs or rain.",
+      "weather_analysis": "Inform the user that {disease_name} is not driven by the weather. It is a highly stable virus that was likely introduced by contaminated seeds, unwashed hands, or dirty pruning shears.",
+      "treatment_plan": "Deliver the hard truth: the infected plant cannot be saved with {treatment.chemical}. Instruct the user to pull and trash the sick plant immediately. Create a strict hygiene plan: they MUST soak all pruners and cages in bleach before touching another healthy tomato.",
+      "followup": "Ask the user if they cut open one of the ripe tomatoes from the sick plant. Is the tissue inside brown and hard? (This internal browning confirms ToMV)."
+    },
+    "references": [
+      "University of Minnesota Extension: Tomato Mosaic Virus and Tobacco Mosaic Virus",
+      "Penn State Extension: Tomato Mosaic Virus"
+    ],
+    "model_mapping": {
+      "cnn_class": "Tomato___Tomato_Mosaic_Virus_ToMV",
+      "aliases": [
+        "Tomato Tomato Mosaic Virus (ToMV)",
+        "Tomato Tomato Mosaic Virus"
+      ]
+    }
+  }
+]

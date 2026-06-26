@@ -1,13 +1,20 @@
 from typing import Dict, Any
+from src.utils.logger import get_logger
+
+logger = get_logger("environmental_risk", "environmental_risk.log")
 
 class EnvironmentalRiskAgent:
     def assess_risk(self, disease_class: str, weather_data: Dict[str, Any]) -> Dict[str, Any]:
         """
         Deterministically calculates environmental disease risk based on weather data.
         """
-        if "error" in weather_data:
+        if weather_data.get("status") in ["unavailable", "timeout"] or "error" in weather_data:
+            logger.info("Weather service unavailable. Skipping risk assessment.")
             return {
-                "error": "Cannot assess environmental risk without valid weather data."
+                "status": "skipped",
+                "reason": "Weather service unavailable",
+                "risk_level": None,
+                "spread_probability": None
             }
 
         w = weather_data.get("weather", {})
@@ -84,7 +91,7 @@ class EnvironmentalRiskAgent:
         if not reasons:
             reasons.append("Current environmental conditions are relatively benign.")
 
-        return {
+        result = {
             "overall_risk": overall_risk,
             "fungal_risk": fungal_risk,
             "bacterial_risk": bacterial_risk,
@@ -92,3 +99,6 @@ class EnvironmentalRiskAgent:
             "spread_probability": spread_probability,
             "reasons": reasons
         }
+        
+        logger.info(f"Risk Assessment Complete: Overall={overall_risk}, Spread={spread_probability}%, Fungal={fungal_risk}, Bacterial={bacterial_risk}, Heat={heat_stress_risk}")
+        return result

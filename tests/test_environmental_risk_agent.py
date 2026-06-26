@@ -36,8 +36,11 @@ class TestEnvironmentalRiskAgent(unittest.TestCase):
         self.assertTrue(result["spread_probability"] < 50)
 
     def test_missing_weather_data(self):
-        result = self.agent.assess_risk("Tomato___Early_blight", {"error": "API down"})
-        self.assertIn("error", result)
+        result = self.agent.assess_risk("Tomato___Early_blight", {"status": "unavailable", "error": "API down"})
+        self.assertEqual(result["status"], "skipped")
+        self.assertIsNone(result["risk_level"])
+        self.assertIsNone(result["spread_probability"])
+        self.assertEqual(result["reason"], "Weather service unavailable")
 
 if __name__ == "__main__":
     unittest.main()

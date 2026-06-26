@@ -1,8 +1,29 @@
+# Python
 venv/
 __pycache__/
 *.pyc
+
+# IDE
 .vscode/
-graphify-out/
+
+# Environment
 .env
+
+# Training dataset
 data/train/
-temp_*
+
+# Runtime temporary files
+temp/*
+!temp/cache/.gitkeep
+!temp/uploads/.gitkeep
+!temp/processed/.gitkeep
+
+# Runtime logs
+logs/
+
+# Runtime generated data
+data/feedback/
+data/history/
+
+# Graph outputs
+graphify-out/

@@ -2,7 +2,11 @@ import os
 import sys
 import argparse
 import csv
+import logging
 from glob import glob
+
+logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+logger = logging.getLogger(__name__)
 
 # Add project root to sys.path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
@@ -26,7 +30,7 @@ def evaluate_dataset(dataset_dir, prefix, output_dir="reports"):
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
-    print(f"Initializing DiseaseDetectionAgent...")
+    logger.info("Initializing DiseaseDetectionAgent...")
     # Initialize the agent
     agent = DiseaseDetectionAgent()
     target_names = list(agent.class_names)
@@ -35,7 +39,7 @@ def evaluate_dataset(dataset_dir, prefix, output_dir="reports"):
     y_pred = []
     misclassified = []
     
-    print(f"Evaluating images in {dataset_dir}...")
+    logger.info(f"Evaluating images in {dataset_dir}...")
     
     # Iterate through all class subdirectories
     for class_name in os.listdir(dataset_dir):
@@ -44,7 +48,7 @@ def evaluate_dataset(dataset_dir, prefix, output_dir="reports"):
             continue
             
         if class_name not in target_names:
-            print(f"Warning: Directory '{class_name}' is not in known class names. Skipping.")
+            logger.warning(f"Directory '{class_name}' is not in known class names. Skipping.")
             continue
             
         true_label_idx = target_names.index(class_name)
@@ -80,14 +84,14 @@ def evaluate_dataset(dataset_dir, prefix, output_dir="reports"):
                     })
                     
             except Exception as e:
-                print(f"Error predicting {img_path}: {e}")
+                logger.error(f"Error predicting {img_path}: {e}")
 
     if not y_true:
-        print("No valid images found for evaluation.")
+        logger.warning("No valid images found for evaluation.")
         return
 
     # 1. Metrics Calculation
-    print("Calculating metrics...")
+    logger.info("Calculating metrics...")
     basic_metrics = calculate_basic_metrics(y_true, y_pred)
     class_report_str = generate_classification_report(y_true, y_pred, target_names)
     cm = generate_confusion_matrix(y_true, y_pred, labels=list(range(len(target_names))))
@@ -95,7 +99,7 @@ def evaluate_dataset(dataset_dir, prefix, output_dir="reports"):
     top_confused = get_top_confused_pairs(y_true, y_pred, target_names)
     
     # 2. Saving Reports
-    print(f"Saving reports to {output_dir}...")
+    logger.info(f"Saving reports to {output_dir}...")
     
     save_json_metrics(basic_metrics, os.path.join(output_dir, f"{prefix}_metrics.json"))
     save_classification_report(class_report_str, os.path.join(output_dir, f"{prefix}_classification_report.txt"))
@@ -117,7 +121,7 @@ def evaluate_dataset(dataset_dir, prefix, output_dir="reports"):
         top_confused_pairs=top_confused
     )
     
-    print(f"Evaluation complete for {prefix}. Reports saved.")
+    logger.info(f"Evaluation complete for {prefix}. Reports saved.")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Evaluate the Disease Detection Agent")

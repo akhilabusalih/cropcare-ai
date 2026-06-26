@@ -1,0 +1,908 @@
+[
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Beginner"
+    },
+    "disease_id": "SQUASH_001",
+    "disease_name": "Powdery_Mildew_Squash",
+    "common_name": "Powdery Mildew",
+    "scientific_name": "Podosphaera xanthii, Erysiphe cichoracearum",
+    "crop": "Squash",
+    "disease_type": "Fungal",
+    "pathogen_type": "Fungus",
+    "overview": {
+      "description": "Powdery Mildew is the most universally common disease of squash and pumpkins. It forms a distinct, white, talcum-powder-like coating on the leaves and stems. Uniquely, it thrives in high humidity but is actively harmed by direct rain or leaf wetness.",
+      "importance": "High. While it rarely kills the plant outright, the white fungal mat blocks photosynthesis, causing premature leaf death. This leads to stunted, low-quality fruit, poor yields, and exposes the squash to severe sunscald.",
+      "affected_parts": [
+        "Leaves",
+        "Stems",
+        "Petioles"
+      ],
+      "host_plants": [
+        "Summer Squash",
+        "Winter Squash",
+        "Pumpkin",
+        "Cucumber",
+        "Melon"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Small, pale yellow spots appear on the older, lower leaves.",
+        "Faint, white, powdery spots begin to form, usually starting on the undersides of the leaves or on the shaded lower stems."
+      ],
+      "moderate": [
+        "The white powdery spots rapidly expand and merge, covering both the upper and lower surfaces of the leaves.",
+        "The fungus spreads along the stems and leaf petioles."
+      ],
+      "severe": [
+        "Heavily infected leaves turn yellow, then brown, and become dry and brittle (papery).",
+        "Extensive defoliation occurs, leaving the fruit entirely exposed to the sun.",
+        "Fruit does not get covered in powder, but fails to size up, lacks flavor, and suffers severe sunscald."
+      ],
+      "leaf": [
+        "Covered in a distinct, dusty white powder on BOTH the top and bottom surfaces. Eventually turns yellow and crispy."
+      ],
+      "stem": [
+        "White, powdery fungal growth clearly visible on green stems and petioles."
+      ],
+      "fruit": [
+        "Not directly infected, but suffers from sunscald (white, bleached, sunken patches on the rind) due to leaf loss."
+      ],
+      "flower": [
+        "Can occasionally show minor powdery growth, but rarely the main issue."
+      ],
+      "root": []
+    },
+    "causes": {
+      "primary_cause": "Windborne fungal spores (conidia) landing on foliage during humid, but dry-weather conditions.",
+      "pathogen": "Podosphaera xanthii (most common in hot weather) and Erysiphe cichoracearum (cooler weather).",
+      "survival_mechanism": "Does not overwinter well in cold soil/debris. Mostly survives year-round on living cucurbits or weeds in warmer southern climates or greenhouses, blowing progressively northward each season.",
+      "infection_process": "Spores land on a dry leaf. High relative humidity in the canopy allows the spore to germinate and penetrate the leaf surface. It grows superficially, sending root-like structures (haustoria) into the epidermal cells to steal nutrients."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Wind blows spores into the field from southern regions or nearby weeds.",
+        "Spores infect shaded, lower leaves where humidity is highest.",
+        "Incubation takes only 3 to 7 days.",
+        "The white powder (millions of new conidia) blows to the upper canopy and neighboring plants."
+      ],
+      "spread_cycle": "Extremely fast polycyclic disease. A new generation of spores can be produced every 5 days under ideal conditions."
+    },
+    "transmission": {
+      "methods": [
+        "Wind (can carry dry spores for miles)"
+      ],
+      "vectors": [],
+      "common_sources": [
+        "Neighboring infected cucurbit fields",
+        "Weed hosts"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "High",
+      "rainfall": "Low",
+      "poor_airflow": "Extreme",
+      "overhead_irrigation": "Low",
+      "dense_canopy": "Extreme"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "20°C - 27°C (68°F - 80°F)",
+        "notes": "Optimal for rapid spore production. Heat waves over 38°C (100°F) temporarily halt the fungus."
+      },
+      "humidity": {
+        "optimal_range": "50% - 90%",
+        "notes": "Requires high humidity for spore germination, which easily builds up in the dense, shaded canopy of squash plants."
+      },
+      "rainfall": "Heavy rain actually WASHES the spores off the leaves and physically bursts them. Frequent rain suppresses this disease.",
+      "wind": "Light breezes are perfect for blowing the dry spores from leaf to leaf.",
+      "soil_conditions": "Not directly applicable.",
+      "leaf_wetness": "Requires NO free moisture. Wet leaves actively inhibit Powdery Mildew."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 15,
+        "max": 32
+      },
+      "humidity": {
+        "min": 50,
+        "max": 95
+      },
+      "leaf_wetness_hours_min": 0
+    },
+    "weather_influence": {
+      "high_humidity": "The primary driver. Humid, overcast days with no rain are the most dangerous.",
+      "rain": "A strong natural deterrent. Frequent downpours wash the fungus away.",
+      "high_temperature": "Slows the disease if above 90°F, but the shaded lower canopy usually remains cool enough for the fungus to survive.",
+      "low_temperature": "Slows the spread significantly.",
+      "wind": "Spreads the disease rapidly across the field.",
+      "dry_conditions": "Perfect for the pathogen, provided the plant canopy traps enough ambient humidity."
+    },
+    "severity_levels": {
+      "low": "Faint white spots on the oldest, lowest leaves. Ideal time to begin organic/protectant sprays.",
+      "medium": "White powder spreading to the upper leaf surfaces. Immediate systemic or eradicant spray needed.",
+      "high": "Leaves turning yellow; heavy powder on stems. Canopy is dying back.",
+      "critical": "Complete foliage collapse. Fruit exposed, sunburning, and failing to mature."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "If you see white powder, begin a fungicide program immediately. Scout the shaded lower leaves to catch it early."
+      ],
+      "within_24_hours": [
+        "Ensure spray equipment is calibrated for high pressure/volume to blow the fungicide deep into the dense squash canopy to cover the undersides of the leaves."
+      ],
+      "within_one_week": [
+        "Rotate fungicide classes. Powdery mildew develops chemical resistance faster than almost any other plant pathogen."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Myclobutanil, Tebuconazole (Systemics with excellent curative action).",
+        "Azoxystrobin (Strobilurins - highly effective but resistance is widespread in some regions).",
+        "Chlorothalonil (Excellent broad-spectrum protectant, but no curative action)."
+      ],
+      "biological": [
+        "Bacillus subtilis (Serenade) or Streptomyces lydicus applied preventatively can offer moderate suppression."
+      ],
+      "organic": [
+        "Potassium Bicarbonate (MilStop) (Alters leaf pH, exploding the fungal spores on contact. Excellent organic knockdown).",
+        "Horticultural Oils (Neem, Jojoba) (Smothers the fungus. Do NOT spray oils in temperatures over 85°F to avoid burning leaves).",
+        "Wettable Sulfur (Highly effective, but squash plants are sensitive to sulfur; use low rates)."
+      ],
+      "integrated_management": [
+        "Rely on genetically resistant/tolerant squash varieties, paired with early detection and Potassium Bicarbonate for rapid knockdown of initial spots."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Remove heavily infected old leaves if growing on a small scale, though wind will bring new spores regardless."
+      ],
+      "irrigation": [
+        "Overhead irrigation actually reduces Powdery Mildew, but it is NOT recommended because it will trigger much worse diseases (like Downy Mildew or Gummy Stem Blight). Stick to drip irrigation."
+      ],
+      "crop_rotation": [
+        "Not highly effective since spores blow in from miles away."
+      ],
+      "air_circulation": [
+        "Space plants widely to reduce the dense, humid microclimate in the canopy."
+      ],
+      "resistant_varieties": [
+        "CRITICAL. Always purchase squash and pumpkin seeds labeled with PMT (Powdery Mildew Tolerant) or PMR (Powdery Mildew Resistant)."
+      ],
+      "seasonal_practices": [
+        "Plant early to harvest the main crop before the disease pressure peaks in late summer."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Avoid excessive nitrogen. Lush, rapid, tender leaf growth is highly susceptible to infection.",
+      "phosphorus": "Standard.",
+      "potassium": "Standard.",
+      "calcium": "Standard.",
+      "magnesium": "Standard.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Lower leaves get white spots.",
+        "Entire plant gets covered in white powder.",
+        "Leaves turn yellow and dry up (crispy).",
+        "Sunlight burns the exposed fruit.",
+        "Plant dies weeks before the first frost."
+      ],
+      "treated": [
+        "Resistant varieties slow the infection.",
+        "Potassium Bicarbonate/Fungicides dry up existing spots.",
+        "Canopy remains green until harvest, yielding large, flavorful squash."
+      ]
+    },
+    "recovery_indicators": [
+      "The white powdery spots turn dull gray or brown and dry out.",
+      "New leaves emerge bright green and remain free of white powder.",
+      "The plant maintains enough green leaves to shade the fruit."
+    ],
+    "recovery": {
+      "estimated_days": "7-10 (for knockdown of active powder)",
+      "success_rate": "High",
+      "depends_on": [
+        "Spray Coverage",
+        "Early Detection",
+        "Fungicide Efficacy"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Moderate to High. Reduces number of fruit set, fruit size, and sugar content (flavor).",
+      "quality_loss": "Severe sunscald on fruit causes immediate fresh-market rejection and poor storage life for winter squash.",
+      "financial_impact": "Loss of late-season harvests and high costs associated with intensive weekly spray programs."
+    },
+    "monitoring": {
+      "inspection_frequency": "Twice weekly starting in mid-summer. Flip the lowest, oldest leaves over and inspect the undersides.",
+      "warning_signs": [
+        "Overcast, humid, but dry weather in July/August.",
+        "Dense, overcrowded plant spacing."
+      ],
+      "recovery_signs": [
+        "Fungal colonies turning dry and flaking off."
+      ]
+    },
+    "faq": [
+      {
+        "question": "Can I eat a squash if the leaves of the plant are covered in white powder?",
+        "answer": "Yes. Powdery Mildew only infects the leaves and stems, not the fruit. The squash is perfectly safe to eat, though it may not be as sweet as one grown on a healthy plant."
+      },
+      {
+        "question": "Will spraying milk really cure powdery mildew?",
+        "answer": "A 10% to 30% milk-to-water solution has been shown in some studies to suppress powdery mildew when sprayed in bright sunlight, due to proteins in the milk producing free radicals. However, Potassium Bicarbonate or Neem oil are generally much more reliable organic options."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "Powdery mildew spores are unique because they contain a massive vacuole filled with water. This built-in water bottle allows them to germinate on perfectly dry leaves, unlike almost all other fungi that require rain or dew."
+      ],
+      "similar_diseases": [
+        "Downy Mildew"
+      ],
+      "differential_diagnosis": [
+        "Downy Mildew requires rain, causes angular yellow spots on TOP of the leaf, and dark purplish/gray fuzz ONLY on the bottom. Powdery Mildew loves dry leaves and forms white talcum powder on BOTH sides of the leaf."
+      ]
+    },
+    "ai_context": {
+      "summary": "Powdery Mildew is a dry-weather fungus causing a white, dusty coating on squash leaves. It thrives in high humidity but is actively harmed by rain or wet foliage.",
+      "key_points": [
+        "White powder on both leaf surfaces.",
+        "Requires humidity, but NO liquid water.",
+        "Causes early defoliation and sunscalded fruit.",
+        "Potassium bicarbonate offers excellent organic knockdown."
+      ],
+      "high_priority_actions": [
+        "Demand user checks the undersides of lower leaves.",
+        "Advise Potassium Bicarbonate or a systemic fungicide to eradicate active colonies.",
+        "Warn against using heavy oils in hot weather (burns leaves)."
+      ],
+      "weather_considerations": [
+        "Alert: Periods of high humidity (>70%) with overcast skies and NO rain."
+      ],
+      "common_mistakes": [
+        "Waiting until the top leaves are white to start spraying (it's too late).",
+        "Confusing it with Downy Mildew.",
+        "Over-fertilizing with nitrogen."
+      ],
+      "follow_up_recommendations": [
+        "Ask if the powder is on BOTH the top and bottom of the leaf.",
+        "Recommend planting PMR (Powdery Mildew Resistant) varieties next season."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user that the white, dusty coating on their squash leaves is {disease_name}. Emphasize that it is unique because it thrives in humidity but hates {environmental_conditions.rainfall}.",
+      "weather_analysis": "The current humid but dry weather ({humidity_data} humidity, no rain) is the exact trigger for {disease_name}. Warn the user that it will spread rapidly across the dense canopy.",
+      "treatment_plan": "Develop a rapid eradication plan. Suggest an organic knockdown like {treatment.organic} (Potassium Bicarbonate) or {treatment.chemical} to dry up the fungus, and advise them to ensure excellent spray coverage on the undersides of the leaves.",
+      "followup": "Ask the user to check the oldest, lowest leaves hiding under the main canopy. Is the white powder thickest down there in the shade? (This helps confirm the diagnosis and teaches them where to scout)."
+    },
+    "references": [
+      "Cornell University: Powdery Mildew of Cucurbits",
+      "University of California Statewide IPM: Cucurbit Powdery Mildew"
+    ],
+    "model_mapping": {
+      "cnn_class": "Squash___Powdery_Mildew",
+      "aliases": [
+        "Squash Powdery Mildew",
+        "Squash Powdery Mildew Squash"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Intermediate"
+    },
+    "disease_id": "SQUASH_002",
+    "disease_name": "Downy_Mildew_Squash",
+    "common_name": "Downy Mildew",
+    "scientific_name": "Pseudoperonospora cubensis",
+    "crop": "Squash",
+    "disease_type": "Fungal",
+    "pathogen_type": "Oomycete",
+    "overview": {
+      "description": "Downy Mildew is an aggressively destructive, fast-moving water mold. Unlike Powdery Mildew, it is driven strictly by rain and prolonged leaf wetness. It rapidly blights foliage, making leaves look 'frosted' or burned, and can destroy a squash field in days.",
+      "importance": "Critical. It is often considered the most devastating foliar disease of cucurbits. If a heavy spore load arrives during a wet week, the entire canopy will collapse, halting all fruit production.",
+      "affected_parts": [
+        "Leaves"
+      ],
+      "host_plants": [
+        "Cucumber (Highly susceptible)",
+        "Melon",
+        "Squash",
+        "Pumpkin",
+        "Watermelon"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Small, pale green to yellow spots appear on the UPPER surface of the leaves.",
+        "The spots are strictly angular, restricted by the small veins of the leaf (creating a blocky, mosaic look)."
+      ],
+      "moderate": [
+        "The angular yellow spots turn brown/necrotic in the center.",
+        "During humid, wet mornings, a fine, dark, purplish, gray, or black fuzzy mold appears on the UNDERSIDE of the leaf directly beneath the yellow spots."
+      ],
+      "severe": [
+        "Angular spots merge rapidly. The leaf curls upwards, turns completely brown, and dies.",
+        "Leaves become dry and brittle, looking as though they were burned by fire or killed by frost.",
+        "Massive defoliation occurs, exposing fruit to sunscald and halting plant growth."
+      ],
+      "leaf": [
+        "Strictly angular yellow spots on top; purplish/gray fuzzy mold on the bottom. Rapid necrosis and upward curling."
+      ],
+      "stem": [
+        "Stems and petioles are typically uninfected, remaining green while the leaves die."
+      ],
+      "fruit": [
+        "Not directly infected, but fails to mature, lacks sugar, and suffers extreme sunscald due to total canopy loss."
+      ],
+      "flower": [
+        "Not affected."
+      ],
+      "root": []
+    },
+    "causes": {
+      "primary_cause": "Swimming zoospores infecting wet leaves after sporangia blow in from distant infected fields.",
+      "pathogen": "Pseudoperonospora cubensis",
+      "survival_mechanism": "Does NOT overwinter in cold climates or dead debris. It requires living cucurbit tissue to survive. It overwinters in frost-free southern regions or greenhouses and blows progressively northward every summer.",
+      "infection_process": "Windblown sporangia land on squash leaves. If the leaf is wet (dew or rain) for at least 2 to 6 hours, the sporangium releases swimming zoospores that enter the leaf's stomata on the underside. The pathogen then rapidly kills the leaf tissue from the inside out."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Storm fronts blow sporangia northward into the field.",
+        "Sporangia land on wet leaves, release zoospores, and infect.",
+        "Incubation (4-12 days).",
+        "Purplish mold forms on leaf undersides, releasing millions of new sporangia into the wind."
+      ],
+      "spread_cycle": "Explosively polycyclic. Disease progresses across entire agricultural regions in weeks, driven by regional storm systems."
+    },
+    "transmission": {
+      "methods": [
+        "Wind (can transport sporangia hundreds of miles in storms)",
+        "Rain splash"
+      ],
+      "vectors": [],
+      "common_sources": [
+        "Storm fronts blowing up from southern regions",
+        "Neighboring infected cucurbit fields"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "Extreme",
+      "rainfall": "Extreme",
+      "poor_airflow": "Medium",
+      "overhead_irrigation": "Extreme",
+      "morning_dew": "Extreme"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "15°C - 20°C (59°F - 68°F)",
+        "notes": "Prefers cool to moderate temperatures, though it will still infect up to 25°C (77°F)."
+      },
+      "humidity": {
+        "optimal_range": "90% - 100%",
+        "notes": "Near 100% relative humidity at night is required for the dark purplish mold to form and release spores."
+      },
+      "rainfall": "The absolute trigger. Driving rains bring the spores, and the resulting leaf wetness allows infection.",
+      "wind": "The primary vector. It carries spores on a continental scale.",
+      "soil_conditions": "Not applicable.",
+      "leaf_wetness": "Critical. Requires 2 to 6 hours of continuous liquid water on the leaf surface."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 10,
+        "max": 28
+      },
+      "humidity": {
+        "min": 90,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 2
+    },
+    "weather_influence": {
+      "high_humidity": "Guarantees heavy nighttime spore production on the undersides of the leaves.",
+      "rain": "The delivery mechanism and the trigger for zoospore swimming. Prolonged rain ensures an epidemic.",
+      "high_temperature": "Temperatures consistently above 35°C (95°F) can severely inhibit or kill the pathogen.",
+      "low_temperature": "Cool nights (15°C) combined with heavy dew are perfect for infection.",
+      "wind": "Disperses spores locally and continentally.",
+      "dry_conditions": "The ultimate cure. Downy mildew CANNOT infect without free moisture on the leaf."
+    },
+    "severity_levels": {
+      "low": "A few angular yellow spots. Often mistaken for nutrient deficiency. Time to start targeted Oomycete sprays.",
+      "medium": "Spots turning brown; purplish fuzz visible on undersides. Field is actively spreading.",
+      "high": "Leaves curling and dying en masse. Significant photosynthetic loss.",
+      "critical": "Total leaf necrosis. Field looks burned. Harvest is ruined."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "Check regional 'Cucurbit Downy Mildew Forecasting' websites to see if the disease has been reported in your county. If yes, and rain is coming, apply a targeted protectant IMMEDIATELY."
+      ],
+      "within_24_hours": [
+        "If angular spots and dark underside fuzz are found, switch from standard broad-spectrum fungicides to specific oomycete-targeted curatives."
+      ],
+      "within_one_week": [
+        "Cease all overhead watering immediately. Keep the foliage as dry as possible."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Chlorothalonil or Mancozeb (Excellent protectants, MUST be applied before infection).",
+        "Oxathiapiprolin (Orondis), Cymoxanil (Curzate), or Propamocarb (Highly specific, extremely effective Oomycete curatives).",
+        "Note: Many standard fungal sprays (like Myclobutanil) DO NOT WORK against this water mold."
+      ],
+      "biological": [
+        "Not effective against epidemic Downy Mildew."
+      ],
+      "organic": [
+        "Copper formulations applied strictly preventatively BEFORE rain.",
+        "Planting resistant varieties."
+      ],
+      "integrated_management": [
+        "Track regional disease movement. Apply preventative Chlorothalonil early, and switch to targeted oomycete curatives the moment the disease is confirmed in your area."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "Plow under infected debris, although the primary threat next year will blow in on the wind, not come from the soil."
+      ],
+      "irrigation": [
+        "CRITICAL: Use drip irrigation. Never water from above, as wet leaves are the primary requirement for infection."
+      ],
+      "crop_rotation": [
+        "Not highly effective, as spores blow in from the south every year."
+      ],
+      "air_circulation": [
+        "Increase plant spacing to ensure the morning dew dries rapidly."
+      ],
+      "resistant_varieties": [
+        "Selecting Downy Mildew resistant/tolerant squash varieties is highly recommended, though resistance can be broken by new strains."
+      ],
+      "seasonal_practices": [
+        "Monitor weather systems moving up from the south, as they carry the spores."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Standard.",
+      "phosphorus": "Foliar Phosphites (Phosphorous Acid) are highly effective at suppressing oomycetes like Downy Mildew by boosting plant defense and directly attacking the pathogen.",
+      "potassium": "Standard.",
+      "calcium": "Standard.",
+      "magnesium": "Sometimes Downy Mildew is mistaken for magnesium deficiency (which also causes yellowing between veins).",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Storm brings spores to wet leaves.",
+        "Angular yellow spots appear.",
+        "Spots turn brown, leaves curl upward and die.",
+        "Entire plant defoliates in 1-2 weeks.",
+        "Fruit sunscalds and rots."
+      ],
+      "treated": [
+        "Protectants/Phosphites block zoospore entry.",
+        "Existing spots dry out without producing purplish mold.",
+        "Canopy remains intact, protecting and maturing the fruit."
+      ]
+    },
+    "recovery_indicators": [
+      "The dark, purplish fuzz on the undersides of the leaves disappears or dries up.",
+      "Angular spots turn dry and brown but do not expand or spread to new, higher leaves.",
+      "New growth remains bright green."
+    ],
+    "recovery": {
+      "estimated_days": "7-10 (to halt active sporulation)",
+      "success_rate": "Medium (requires highly specific Oomycete fungicides)",
+      "depends_on": [
+        "Fungicide Selection",
+        "Halting Overhead Irrigation",
+        "Return of Dry Weather"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "Up to 100% if the canopy collapses before the fruit matures.",
+      "quality_loss": "Severe sunscald ruins the fruit for market. Winter squash fails to store properly.",
+      "financial_impact": "Devastating. Can wipe out entire regional harvests during exceptionally wet, cool summers."
+    },
+    "monitoring": {
+      "inspection_frequency": "Daily during wet, rainy weather in mid-to-late summer. Look at the UNDERSIDE of the leaves.",
+      "warning_signs": [
+        "Cool, wet, cloudy weather with heavy morning dews.",
+        "Reports of Downy Mildew in neighboring counties."
+      ],
+      "recovery_signs": [
+        "A strong heat wave (above 95°F) with dry, windy conditions."
+      ]
+    },
+    "faq": [
+      {
+        "question": "Is Downy Mildew the same as Powdery Mildew?",
+        "answer": "No! They are completely different. Powdery Mildew is a dry-weather fungus causing white powder on BOTH sides of the leaf. Downy Mildew is a wet-weather water mold causing yellow angular spots on TOP and dark purplish fuzz strictly on the BOTTOM."
+      },
+      {
+        "question": "I sprayed my normal powdery mildew fungicide, but the plant is still dying. Why?",
+        "answer": "Downy mildew is an Oomycete (water mold), not a true fungus. Many standard fungicides do absolutely nothing to it. You must use a specific Oomycete spray (like Orondis, Curzate, or Phosphites) or preventative Copper/Chlorothalonil."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "Because the pathogen cannot survive winter without a living host, university extension networks track the disease like a weather system, watching it blow from Florida up the East Coast every summer."
+      ],
+      "similar_diseases": [
+        "Powdery Mildew",
+        "Angular Leaf Spot (Bacterial)",
+        "Magnesium Deficiency"
+      ],
+      "differential_diagnosis": [
+        "Angular Leaf Spot (bacteria) causes similar angular lesions, but the spots dry out and fall out (shot-hole) and lack the dark purplish fuzz underneath. Magnesium deficiency lacks both the necrotic (dead brown) tissue and the underside fuzz."
+      ]
+    },
+    "ai_context": {
+      "summary": "Downy Mildew is a catastrophic water mold of squash causing angular yellow spots and dark purplish underside fuzz. Driven entirely by rain and leaf wetness; requires specific Oomycete treatments.",
+      "key_points": [
+        "Driven by rain, dew, and cool/moderate temps.",
+        "Causes strictly angular yellow spots (vein-limited).",
+        "Dark purplish fuzz only on leaf undersides.",
+        "Standard fungicides often fail; requires Oomycete-specific chemicals."
+      ],
+      "high_priority_actions": [
+        "Demand user stops overhead watering immediately.",
+        "Instruct user to check the UNDERSIDES of the angular yellow spots.",
+        "Advise switching to specific Oomycete curatives or Phosphites."
+      ],
+      "weather_considerations": [
+        "Extreme Alert: Cool fronts bringing rain and long periods of heavy dew/fog (leaf wetness)."
+      ],
+      "common_mistakes": [
+        "Using standard Powdery Mildew sprays to treat Downy Mildew.",
+        "Using overhead sprinklers.",
+        "Ignoring regional tracking alerts."
+      ],
+      "follow_up_recommendations": [
+        "Ask if the yellow spots are strictly 'blocky' or angular, blocked by the leaf veins.",
+        "Check if local extension offices have reported Downy Mildew in the area."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Warn the user that the angular yellow spots on their squash leaves indicate {disease_name}, an incredibly fast-moving water mold. Emphasize that unlike Powdery Mildew, this pathogen requires {environmental_conditions.rainfall} to survive.",
+      "weather_analysis": "Note that the recent heavy rains and extended leaf wetness ({leaf_wetness_hours_min} hours+) have triggered the swimming spores of {disease_name}. Warn them that without intervention, the canopy will collapse rapidly.",
+      "treatment_plan": "Create an emergency plan. Tell the user that standard fungicides will likely fail. They MUST use targeted {treatment.chemical} (like Phosphites or Oomycete-specific curatives) and immediately halt all {risk_factors.overhead_irrigation}.",
+      "followup": "Ask the user to turn the leaf over and look directly underneath the angular yellow spots. Do they see a fine, dark, purplish, gray, or black fuzzy mold growing there? (This is the definitive proof of Downy Mildew)."
+    },
+    "references": [
+      "North Carolina State University: Cucurbit Downy Mildew",
+      "Cornell University: Downy Mildew of Cucurbits"
+    ],
+    "model_mapping": {
+      "cnn_class": "Squash___Downy_Mildew",
+      "aliases": [
+        "Squash Downy Mildew",
+        "Squash Downy Mildew Squash"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "review_status": "Reviewed",
+      "last_scientific_review": "2026-06-26",
+      "content_quality": "High",
+      "difficulty_level": "Advanced"
+    },
+    "disease_id": "SQUASH_003",
+    "disease_name": "Gummy_Stem_Blight",
+    "common_name": "Gummy Stem Blight (and Black Rot)",
+    "scientific_name": "Didymella bryoniae (Anamorph: Phoma cucurbitacearum)",
+    "crop": "Squash",
+    "disease_type": "Fungal",
+    "pathogen_type": "Fungus",
+    "overview": {
+      "description": "Gummy Stem Blight is a highly destructive fungal disease that attacks all above-ground parts of the squash plant. On leaves and stems, it is known as Gummy Stem Blight, causing splitting, oozing cankers. On the fruit, it is known as Black Rot, causing massive post-harvest decay.",
+      "importance": "High. It can kill vines by girdling the main stem at the soil line, and it causes severe economic losses by rotting winter squash and pumpkins while they are in winter storage.",
+      "affected_parts": [
+        "Stems (Crown)",
+        "Leaves",
+        "Fruit"
+      ],
+      "host_plants": [
+        "Squash",
+        "Pumpkin",
+        "Watermelon",
+        "Cucumber",
+        "Melon"
+      ]
+    },
+    "symptoms": {
+      "early": [
+        "Leaves develop circular, dark brown spots, often starting at the leaf margins, usually surrounded by a yellow halo.",
+        "Water-soaked, brownish-green lesions appear on the main stem, often near the soil line or at branch joints."
+      ],
+      "moderate": [
+        "Stem lesions expand, split open, and ooze a characteristic sticky, reddish-brown or amber-colored gum (Gummosis).",
+        "Tiny black pimples (pycnidia) appear inside the leaf spots and on the dead, white, woody tissue of the stem cankers."
+      ],
+      "severe": [
+        "Stem cankers girdle the main vine, causing the entire plant to wilt and die suddenly.",
+        "Fruit Phase (Black Rot): Water-soaked spots appear on the squash rind, turning into deeply sunken, black, leathery craters. The inside of the squash turns into a black, rotted mush."
+      ],
+      "leaf": [
+        "Dark brown, circular lesions, often cracking in the center. May start at the leaf edges where moisture collects."
+      ],
+      "stem": [
+        "Splitting, longitudinal cankers oozing dark amber/reddish-brown gum. Later turns white with black pimples."
+      ],
+      "fruit": [
+        "'Black Rot'—Sunken, dark black, leathery lesions on the rind, leading to massive internal rotting, especially in storage."
+      ],
+      "flower": [
+        "Can occasionally infect the blossom end of the fruit."
+      ],
+      "root": [
+        "Not affected, strictly above ground."
+      ]
+    },
+    "causes": {
+      "primary_cause": "Fungal spores splashing from crop debris or infected seeds onto wet foliage and stems.",
+      "pathogen": "Didymella bryoniae",
+      "survival_mechanism": "Overwinters successfully in infected plant debris (vines/leaves) left in the soil, and frequently survives directly on or inside contaminated seeds.",
+      "infection_process": "Moisture is essential. Spores splash onto leaves or stems. Wounds (like pruning cuts, insect damage, or powdery mildew damage) provide extremely easy entry points. The fungus rapidly colonizes the tissue, causing the stem to bleed gum in defense."
+    },
+    "infection_cycle": {
+      "stages": [
+        "Primary infection from seed or soil-borne debris during spring rains.",
+        "Lesions form on leaves and stems, producing pycnidia.",
+        "Rain splashes millions of secondary spores (conidia) to new tissue.",
+        "As fruit matures, spores wash onto the rind, remaining latent until harvest/storage."
+      ],
+      "spread_cycle": "Polycyclic. Constant secondary spread occurs as long as conditions remain wet and humid."
+    },
+    "transmission": {
+      "methods": [
+        "Rain splash",
+        "Wind-driven rain",
+        "Contaminated seed",
+        "Contaminated pruning tools"
+      ],
+      "vectors": [
+        "Cucumber beetles (can create wounds that allow entry)"
+      ],
+      "common_sources": [
+        "Infected crop residue",
+        "Uncertified seed"
+      ]
+    },
+    "risk_factors": {
+      "humidity": "Extreme",
+      "rainfall": "High",
+      "poor_airflow": "High",
+      "contaminated_seed": "Extreme",
+      "wounding": "High"
+    },
+    "environmental_conditions": {
+      "temperature": {
+        "optimal_range": "20°C - 25°C (68°F - 77°F)",
+        "notes": "Prefers moderate to warm temperatures. Heat waves above 30°C (86°F) slow the disease."
+      },
+      "humidity": {
+        "optimal_range": "85% - 100%",
+        "notes": "High humidity is absolutely necessary for the stem cankers to ooze gum and for the black pimples (pycnidia) to exude spores."
+      },
+      "rainfall": "Frequent rain is the primary dispersal method. Splashing water moves the sticky spores from the stem up to the leaves and fruit.",
+      "wind": "Not a primary vector, but wind-driven rain is highly dangerous.",
+      "soil_conditions": "Not applicable to infection, but poor drainage increases canopy humidity.",
+      "leaf_wetness": "Requires 1 to 10 hours of continuous free moisture to infect leaves; stem infection requires longer wet periods."
+    },
+    "weather_thresholds": {
+      "temperature": {
+        "min": 15,
+        "max": 30
+      },
+      "humidity": {
+        "min": 85,
+        "max": 100
+      },
+      "leaf_wetness_hours_min": 2
+    },
+    "weather_influence": {
+      "high_humidity": "Facilitates the oozing of the reddish-brown gum and spore production.",
+      "rain": "The main mechanism for spreading the disease across the plant and field.",
+      "high_temperature": "Slows disease progression.",
+      "low_temperature": "Fungus grows slowly below 60°F.",
+      "wind": "Dries the canopy, reducing infection events.",
+      "dry_conditions": "Effectively halts the spread of the disease."
+    },
+    "severity_levels": {
+      "low": "A few marginal leaf spots. Good time to begin preventative spray program.",
+      "medium": "Stem lesions appearing at the soil line, beginning to ooze amber gum. Action required to prevent girdling.",
+      "high": "Vines wilting due to stem girdling. High risk of fruit infection.",
+      "critical": "Massive vine collapse. Severe post-harvest 'Black Rot' ruining winter squash in storage."
+    },
+    "severity_score": {
+      "low": 1,
+      "medium": 2,
+      "high": 3,
+      "critical": 4
+    },
+    "immediate_actions": {
+      "today": [
+        "If amber gum is oozing from splitting stems, apply a strong protectant/systemic fungicide tank mix immediately to halt spread to the fruit."
+      ],
+      "within_24_hours": [
+        "Cease overhead irrigation and any pruning/handling of wet plants to prevent spreading the sticky spores."
+      ],
+      "within_one_week": [
+        "If harvesting winter squash, be extremely careful not to wound the rind. Cure the squash properly in a warm, dry area to heal micro-wounds before long-term storage."
+      ]
+    },
+    "treatment": {
+      "chemical": [
+        "Chlorothalonil, Mancozeb (Excellent preventative protectants; MUST be used early).",
+        "Tebuconazole, Difenoconazole (Triazoles provide good systemic control).",
+        "Azoxystrobin (Strobilurins - Note: Resistance to strobilurins is now extremely widespread in Didymella populations. Do not rely on them alone)."
+      ],
+      "biological": [
+        "Bacillus subtilis offers very limited suppression."
+      ],
+      "organic": [
+        "Copper formulations (Moderate efficacy).",
+        "Strict crop rotation and seed sanitation."
+      ],
+      "integrated_management": [
+        "Combine 2-3 year crop rotation, certified clean seed, and a strict 7-14 day protectant spray schedule during wet weather."
+      ]
+    },
+    "prevention": {
+      "farm_hygiene": [
+        "CRITICAL: Deep plow all squash and pumpkin vines immediately after harvest. The fungus survives easily on debris left on the surface."
+      ],
+      "irrigation": [
+        "Use drip irrigation. Overhead sprinklers act like rainstorms, splashing spores everywhere."
+      ],
+      "crop_rotation": [
+        "Rotate away from ALL cucurbits (squash, melons, cucumbers, pumpkins) for at least 2 to 3 full years."
+      ],
+      "air_circulation": [
+        "Manage weeds and space plants to ensure rapid drying of the lower stems."
+      ],
+      "resistant_varieties": [
+        "No highly resistant squash varieties are currently available. Management relies on cultural practices and fungicides."
+      ],
+      "seasonal_practices": [
+        "Hot water treat seeds prior to planting if you suspect they carry the fungus. Cure winter squash properly (80-85°F for 10 days) before moving them to cool storage to prevent Black Rot."
+      ]
+    },
+    "nutrient_management": {
+      "nitrogen": "Avoid excess. Lush growth creates a humid canopy and delays fruit maturity.",
+      "phosphorus": "Standard.",
+      "potassium": "Standard.",
+      "calcium": "Ensure adequate calcium to build strong fruit rinds, which resist post-harvest rotting.",
+      "magnesium": "Standard.",
+      "micronutrients": []
+    },
+    "disease_progression": {
+      "untreated": [
+        "Rain splashes spores to stems.",
+        "Stems crack, ooze amber gum, and girdle the vine.",
+        "Vine wilts and dies.",
+        "Spores wash onto fruit, causing deep black rotting craters in storage."
+      ],
+      "treated": [
+        "Crop rotation eliminates soil spores.",
+        "Protectant sprays keep stems healthy.",
+        "Vines survive, and properly cured fruit stores all winter without rotting."
+      ]
+    },
+    "recovery_indicators": [
+      "Oozing from stem cankers stops; cankers dry out and turn hard.",
+      "Leaf spots stop expanding.",
+      "Vines remain turgid (no wilting) during the heat of the day."
+    ],
+    "recovery": {
+      "estimated_days": "14",
+      "success_rate": "Medium (Stem cankers are hard to cure once severe)",
+      "depends_on": [
+        "Fungicide Resistance Check",
+        "Dry Weather",
+        "Protecting the Fruit"
+      ]
+    },
+    "economic_impact": {
+      "yield_loss": "High. Girdled vines produce no fruit.",
+      "quality_loss": "Extreme in winter squash/pumpkins. 'Black Rot' can destroy 50%+ of stored fruit months after harvest.",
+      "financial_impact": "Loss of field yield and devastating loss of stored winter inventory."
+    },
+    "monitoring": {
+      "inspection_frequency": "Weekly, especially after prolonged rain. Inspect the main stem exactly where it meets the soil.",
+      "warning_signs": [
+        "Frequent heavy rains and high humidity.",
+        "Squash planted in a field that had pumpkins or melons last year.",
+        "Splitting stems."
+      ],
+      "recovery_signs": [
+        "A shift to hot, dry weather."
+      ]
+    },
+    "faq": [
+      {
+        "question": "My squash vine split near the dirt and is oozing brown, sticky jelly. Is this a borer bug?",
+        "answer": "Squash Vine Borers leave a hole with sawdust-like frass (bug poop) around it. If it is just a crack oozing clear/amber/brown sticky gum without sawdust, it is Gummy Stem Blight (a fungus)."
+      },
+      {
+        "question": "Why did my butternut squash turn black and rot in my pantry in December?",
+        "answer": "This is the 'Black Rot' phase of Gummy Stem Blight. The fungus got on the squash in the field during a rainstorm, but 'slept' until winter. To prevent this, always 'cure' winter squash in a warm room for 10 days after picking to heal the skin before storing them in the cold."
+      }
+    ],
+    "educational_information": {
+      "interesting_facts": [
+        "The fungus has two different names because it produces two different types of spores. 'Didymella bryoniae' produces the sexual ascospores that blow in the wind, while 'Phoma cucurbitacearum' produces the asexual conidia that splash in the rain."
+      ],
+      "similar_diseases": [
+        "Squash Vine Borer (insect)",
+        "Fusarium Crown Rot"
+      ],
+      "differential_diagnosis": [
+        "Squash Vine Borer causes yellow/brown 'sawdust' frass to push out of a hole in the stem. Gummy Stem Blight causes pure amber/brown gummy sap without sawdust. Fusarium Crown Rot causes the lower stem to turn mushy and rot, but it doesn't usually ooze the distinct amber gum or have black pimples on it."
+      ]
+    },
+    "ai_context": {
+      "summary": "Gummy Stem Blight is a destructive fungus of squash causing amber oozing stem cankers, wilting vines, and severe post-harvest Black Rot on fruit. Seed-borne and soil-borne.",
+      "key_points": [
+        "Causes stems to split and ooze amber/reddish-brown gum.",
+        "Causes Black Rot on stored winter squash.",
+        "Requires rain to spread.",
+        "Widespread resistance to Strobilurin fungicides."
+      ],
+      "high_priority_actions": [
+        "Advise checking oozing stems for 'sawdust' to rule out Vine Borers.",
+        "Recommend a 3-year crop rotation.",
+        "Instruct user to properly cure winter squash to prevent post-harvest Black Rot."
+      ],
+      "weather_considerations": [
+        "Alert: Extended periods of rain and high humidity (85%+) with temps 20-25°C."
+      ],
+      "common_mistakes": [
+        "Using Strobilurin fungicides (like Azoxystrobin) alone when resistance is present.",
+        "Storing winter squash immediately in the cold without 'curing' it first.",
+        "Planting squash in last year's pumpkin patch."
+      ],
+      "follow_up_recommendations": [
+        "Ask if the oozing stem has sawdust around it (Borer) or just sticky gum (Blight).",
+        "Remind the user to deep-plow the vines at the end of the season."
+      ]
+    },
+    "prompt_templates": {
+      "summary": "Explain to the user that the sticky amber/brown sap oozing from the splitting stems is {disease_name}. Clarify that this is a fungal infection, and not the same thing as the Squash Vine Borer insect.",
+      "weather_analysis": "Note that the recent heavy rains and {humidity_data} humidity provided the perfect splashing mechanism for {disease_name}. Warn them that the spores will wash onto the developing fruit.",
+      "treatment_plan": "Develop a multi-stage plan. Advise applying {treatment.chemical} (avoiding Strobilurins if resistance is suspected) to protect the healthy vines. Crucially, emphasize {prevention.seasonal_practices} (properly curing the squash) to prevent the devastating 'Black Rot' phase from ruining the harvest in winter storage.",
+      "followup": "Ask the user to look closely at the oozing crack on the stem. Is there any yellow/brown sawdust-like material around the hole, or is it just pure, sticky amber gum? (This completely separates the fungal blight from the Borer insect)."
+    },
+    "references": [
+      "University of Florida IFAS: Gummy Stem Blight",
+      "Cornell University: Gummy Stem Blight and Black Rot of Cucurbits"
+    ],
+    "model_mapping": {
+      "cnn_class": "Squash___Gummy_Stem_Blight_and_Black_Rot",
+      "aliases": [
+        "Squash Gummy Stem Blight (and Black Rot)",
+        "Squash Gummy Stem Blight"
+      ]
+    }
+  }
+]

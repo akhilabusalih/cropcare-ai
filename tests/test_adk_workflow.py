@@ -16,12 +16,18 @@ class TestADKCoordinatorAgent(unittest.TestCase):
     @patch('agents.adk_workflow.adk_coordinator.ADK_AVAILABLE', True)
     @patch('agents.adk_workflow.adk_coordinator.detect_disease_tool')
     @patch('agents.adk_workflow.adk_coordinator.analyze_severity_tool')
-    @patch('agents.adk_workflow.adk_coordinator.generate_advice_tool')
+    @patch('google.adk.runners.Runner.run')
     @patch('agents.coordinator_agent.coordinator_agent.os.path.exists', return_value=True)
-    def test_full_adk_success(self, mock_exists, mock_advice, mock_severity, mock_disease, mock_env):
+    def test_full_adk_success(self, mock_exists, mock_runner_run, mock_severity, mock_disease, mock_env):
         mock_disease.return_value = {"disease": "Tomato___Late_blight", "confidence": 95.0}
         mock_severity.return_value = {"severity": "High"}
-        mock_advice.return_value = {"treatment": ["Test Treatment"]}
+        
+        class MockEvent:
+            def __init__(self):
+                self.content = None
+                self.output = '{"treatment": ["Test Treatment"]}'
+                
+        mock_runner_run.return_value = [MockEvent()]
 
         result = self.agent.process_image("dummy.jpg")
 
@@ -44,7 +50,7 @@ class TestADKCoordinatorAgent(unittest.TestCase):
         
         self.assertTrue(mock_legacy.called)
         self.assertEqual(result["workflow_engine"], "legacy_coordinator")
-        self.assertIn("ADK Workflow unavailable", result["warnings"][0])
+        self.assertIn("ADK Workflow initialization failed (Missing GEMINI_API_KEY)", result["warnings"][0])
 
 if __name__ == "__main__":
     unittest.main()
