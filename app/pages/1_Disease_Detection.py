@@ -267,6 +267,43 @@ if uploaded_file:
             st.session_state["uploaded_img_path"]  = temp_img_path
             log_prediction_history(response["prediction"], uploaded_file.name)
             
+            # Set up chatbot context
+            prediction_data = response.get("prediction", {})
+            weather_data = response.get("environment", {}).get("weather", {})
+            kb_context = response.get("knowledge", {}).get("context") or {}
+            
+            # Format a clean compact knowledge summary
+            kb_summary = {}
+            if kb_context:
+                overview = kb_context.get("overview", {})
+                overview_desc = overview.get("description", "") if isinstance(overview, dict) else str(overview)
+                kb_summary = {
+                    "overview": overview_desc,
+                    "symptoms": kb_context.get("symptoms", {}),
+                    "treatment": kb_context.get("treatment", {}),
+                    "prevention": kb_context.get("prevention", {}),
+                    "immediate_actions": kb_context.get("immediate_actions", {}),
+                    "weather_influence": kb_context.get("weather_influence", {})
+                }
+            
+            # Check versioning to see if we should clear chat history
+            old_context = st.session_state.get("chat_context", {})
+            old_run_id = old_context.get("run_id")
+            
+            st.session_state["chat_context"] = {
+                "run_id": run_id,
+                "crop": prediction_data.get("crop", "Unknown"),
+                "disease": prediction_data.get("disease", "Unknown"),
+                "disease_id": kb_context.get("disease_id", "Unknown") if kb_context else "Unknown",
+                "severity": response.get("environment", {}).get("severity", {}).get("severity", "Unknown"),
+                "weather": weather_data.get("weather", {}) if weather_data else {},
+                "knowledge_summary": kb_summary
+            }
+            
+            # If the diagnosis run_id changed, reset chat messages
+            if old_run_id != run_id:
+                st.session_state["chat_messages"] = []
+            
             # Save raw JSON response
             resp_filename = f"{run_id}_response.json"
             resp_path = os.path.join(RESPONSES_DIR, resp_filename)
@@ -494,6 +531,20 @@ if severity_res and severity_res.get("details"):
         st.markdown(severity_res.get("details", ""))
         st.caption(f"Assessment method: {severity_res.get('assessment_method','—')}")
 
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# 🌿 ASK CROPGUARDIAN AI CHATBOT REDIRECTION
+# ═══════════════════════════════════════════════════════════════════════════════
+st.markdown("")
+st.divider()
+ask_chat_col1, ask_chat_col2 = st.columns([3, 1], gap="medium")
+with ask_chat_col1:
+    st.markdown("### 🌿 Have follow-up questions about this diagnosis?")
+    st.markdown("Ask the CropGuardian AI chatbot about chemical dosages, weather precautions, or organic treatments.")
+with ask_chat_col2:
+    st.markdown("<br>", unsafe_allow_html=True)
+    if st.button("🌿 Ask CropGuardian AI", type="primary", use_container_width=True, key="ask_cg_ai_btn"):
+        st.switch_page("pages/5_CropGuardian_AI_Assistant.py")
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # FEEDBACK — Expander
