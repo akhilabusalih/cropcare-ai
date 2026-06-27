@@ -9,13 +9,22 @@ class TestWeatherAgent(unittest.TestCase):
 
     @patch('agents.weather_agent.weather_agent.requests.get')
     def test_get_weather_with_location_string(self, mock_get):
-        # Mock geocoding response
+        # Mock geocoding response (Nominatim format)
         mock_geo_resp = MagicMock()
-        mock_geo_resp.json.return_value = {
-            "results": [
-                {"latitude": 9.68, "longitude": 76.34, "name": "Cherthala", "admin1": "Kerala", "country": "India"}
-            ]
-        }
+        mock_geo_resp.json.return_value = [
+            {
+                "lat": "9.68",
+                "lon": "76.34",
+                "name": "Cherthala",
+                "place_rank": 16,
+                "address": {
+                    "town": "Cherthala",
+                    "state": "Kerala",
+                    "country": "India",
+                    "country_code": "in"
+                }
+            }
+        ]
         
         # Mock weather response
         mock_weather_resp = MagicMock()

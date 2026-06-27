@@ -258,9 +258,9 @@ if uploaded_file:
                     temp_img_path, location_input, lat, lon
                 )
 
-        if response["status"] == "error":
+        if response.get("diagnostics", {}).get("status") == "error":
             st.error("The analysis pipeline encountered a critical error.")
-            for w in response.get("warnings", []):
+            for w in response.get("diagnostics", {}).get("warnings", []):
                 st.error(f"  ↳ {w}")
         else:
             st.session_state["pipeline_response"]  = response

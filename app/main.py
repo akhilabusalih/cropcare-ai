@@ -1,14 +1,21 @@
 import os
 import sys
+
+# Add project root and app directory to sys.path so imports resolve correctly
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
+app_dir = os.path.abspath(os.path.dirname(__file__))
+if app_dir not in sys.path:
+    sys.path.insert(0, app_dir)
+
 import uuid
 import streamlit as st
 from dotenv import load_dotenv
 from src.utils.logger import log_environment_snapshot, log_config_snapshot, cleanup_temp_files
 from src.services.knowledge_base.kb_manager import KnowledgeBaseManager
 
-# Make app/ importable so ui_components resolves correctly
 load_dotenv()
-sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
 from ui_components import inject_css, render_section_label
 
 st.set_page_config(
